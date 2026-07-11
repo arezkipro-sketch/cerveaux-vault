@@ -364,6 +364,10 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[shopify-liquid-performance]] — diagnostic de perf Shopify Liquid : optimisations natives Shopify, 3 facteurs d'impact, méthode RUM gap analysis, 13 causes (TTFB/FCP/LCP), INP/JS, workflow troubleshooting. *(2 src)*
 - [[navboost]] — Google behavior-signal ranking layer; CTR/pogo-sticking/dwell time; NavDemotion; content+UX adaptation. *(1 src)*
 - [[website-redesign]] — strategic redesign; visual refresh vs complete; 8-step process; audit + 301 redirects. *(1 src)*
+- [[anchor-text]] — texte cliquable d'un lien ; 4 types d'ancres (exacte/partielle/marque/générique) et leur signal/risque SEO. *(1 src)*
+- [[duplicate-content]] — même contenu accessible via plusieurs URLs ; dilution de PageRank, résolu par canonical/hreflang/robots. *(1 src)*
+- [[google-algorithmic-filters]] — mises à jour algo Google (Panda, Penguin, EMD…) pénalisant spam/contenu faible, distinctes des actions manuelles. *(1 src)*
+- [[hreflang]] — attribut signalant langue/pays cible d'une page ; évite que les versions linguistiques soient traitées comme doublons. *(1 src)*
 
 ### SEO — Strategy & Content
 - [[what-is-seo]] — SEO fundamentals hub: 4 pillars (keyword/on-page/off-page/technical); vs SEM. *(1 src)*
@@ -400,6 +404,11 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[302-redirect]] — temporary redirect; vs 301 permanent; keeps original ranking. *(1 src)*
 - [[mobile-seo]] — rank/read well on mobile; responsive design; mobile-first indexing. *(1 src)*
 - [[sem]] — search engine marketing = paid ads + organic SEO; keyword/intent driven. *(1 src)*
+- [[longue-traine]] — mots-clés 3+ mots, faible volume individuel, 70%+ du trafic total ; meilleure conversion (intention précise). *(1 src)*
+- [[strategie-concurrentielle-seo]] — se positionner sur le nom d'un concurrent ("avis"/"alternative") pour intercepter ses prospects hésitants. *(1 src)*
+- [[google-discover]] — flux de contenu personnalisé (Chrome mobile/app Google), sans requête ; 5 leviers d'activation via angles chauds + titres. *(1 src)*
+- [[ga4-setup-harnais-chien]] — cas réel d'installation GA4/GSC sur une boutique Shopify (harnais-chien-expert.fr) ; socle mesure + indexation. *(3 src)*
+- [[workflow-creation-blog]] — processus complet de création d'article de blog SEO, de la recherche mot-clé à la publication ; validé sur harnais-chien-expert.fr. *(6 src)*
 
 ### AI & Machine Learning (fundamentals)
 - [[artificial-intelligence]] — machine imitating human intelligence; umbrella over ML/DL/NLP/vision; data-quality bound. *(1 src)*
@@ -533,6 +542,13 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[audrey-tips]] — blog/consulting webmarketing FR (audreytips.com); fiche produit SEO sous angle Google + moteurs IA (chunking, JSON-LD). *(1 src)*
 - [[david-bardy]] — consultant SEO/SEA FR (410-gone.fr); méthode triptyque + Top 3 en 5 étapes. *(1 src)*
 - [[410-gone]] — agence SEO/SEA FR (410-gone.fr); nom inspiré du code HTTP 410; guide méthode Top 3. *(1 src)*
+- [[createur2site]] — Stan De Jesus Oliveira, consultant SEO indépendant + site de ressources ; Activateur France Num. *(1 src)*
+- [[julien-ctr]] — @CTRBooster75, consultant SEO FR ; spécialiste CTR, Google Discover, frameworks SEO complets. *(1 src)*
+- [[julien-gourdon]] — consultant SEO/auteur FR (julien-gourdon.fr) ; topical authority et stratégie de contenu. *(1 src)*
+- [[minddex]] — plateforme SaaS FR de mesure/optimisation de la visibilité dans les réponses des IA génératives ; fondée par [[thibaut-fitoussi]]. *(1 src)*
+- [[olivier-andrieu]] — expert SEO francophone de référence, fondateur d'Abondance.com, auteur de *Réussir son référencement web*. *(1 src)*
+- [[seoquantum]] — Bruno Fontanet, outil FR d'analyse sémantique SEO + blog de ressources netlinking. *(1 src)*
+- [[thibaut-fitoussi]] — entrepreneur français IA/marketing digital, co-fondateur et CEO de [[minddex]]. *(1 src)*
 
 ---
 

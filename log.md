@@ -975,3 +975,17 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - `wiki/overview.md` n'existait pas alors que `index.md` le référence comme point d'entrée principal depuis le bootstrap (2026-06-14).
 - Page créée : thèse du vault, domaines couverts, stats, guide de navigation.
 ---
+
+## [2026-07-11] maint | Maintenance hebdo automatisée
+- **Liens cassés trouvés** :
+  - ~100 wikilinks dans `wiki/` pointent vers des cibles sans fichier `.md` correspondant dans `wiki/` (ex : `academie-3-emotions-achat`, `alexgroberman-62pct-beyond-top10`, `jotaro-seo-301-redirects`, `semrush-ai-referral-traffic`, `copy-posse-ai-for-writers-2026`, `shopify`, `copywriting`, `ecommerce`, `technical-seo`, `local-seo`…). Beaucoup sont des citations précises (stats, claims) attribuées à des sources jamais ingérées comme pages `wiki/sources/` — **non corrigés automatiquement** : créer ~100 stubs à l'aveugle risquerait de légitimer des citations non vérifiées, et satisfaire la règle des 3 backlinks/stub pour chacun dépasse le cadre d'une passe de maintenance automatisée. **À trancher par l'utilisateur** : soit ingérer les sources manquantes, soit corriger les citations dans les pages concernées.
+  - ~140 liens `[[raw/assets/...]]` sont cassés car le dossier `raw/` n'existe plus sur disque : les fichiers sources ont été réorganisés dans l'arborescence par domaine (`01 - SEO/`, `02 - GEO et IA/`, `07 - Méthode e-com Meta/`, `08 - Création de site web/`, etc. — cf. log 2026-06-28 et suivants, "Raw file déplacé"). Ce n'est pas une perte de données : le contenu existe toujours, sous un chemin différent. **Non corrigé** : `raw/` est une couche jamais éditée par règle CLAUDE.md, et la correction en masse de ~140 chemins dans des pages existantes dépasse le "trivial et sûr" — à faire en session dédiée avec vérification page par page.
+- **Pages orphelines repérées et corrigées** (aucun backlink entrant depuis une autre page du graphe wiki) :
+  - [[ga4-setup-harnais-chien]] → lien ajouté depuis [[google-analytics-4]] (exemple concret d'installation).
+  - [[workflow-creation-blog]] → lien ajouté depuis [[maillage-interne]] (application concrète de la règle des 2-3 liens internes).
+  - [[la-meute]] → lien ajouté depuis [[dropshipping-halal]] (organisme source de l'ebook Bay' Salam) ; la page apparaissait déjà dans `index.md` mais sans lien entrant depuis le graphe wiki lui-même.
+- **Entrées `index.md` ajoutées** (fichiers présents sur disque mais absents du catalogue) :
+  - Concepts (9) : [[anchor-text]], [[duplicate-content]], [[google-algorithmic-filters]], [[hreflang]], [[longue-traine]], [[strategie-concurrentielle-seo]], [[google-discover]], [[ga4-setup-harnais-chien]], [[workflow-creation-blog]].
+  - Entités (7) : [[createur2site]], [[julien-ctr]], [[julien-gourdon]], [[minddex]], [[olivier-andrieu]], [[seoquantum]], [[thibaut-fitoussi]].
+- **Non traité, à surveiller** : le volume de citations non sourcées (~100 liens) suggère soit des ingestions incomplètes, soit des synthèses ayant anticipé du contenu pas encore ingéré — recommandé de traiter au prochain `ingest` ou `synthesis`.
+---

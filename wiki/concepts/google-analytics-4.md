@@ -20,6 +20,7 @@ updated: 2026-06-18
 ## Relations
 - The measurement layer for SEO + content performance; pairs with [[google-search-console]] (search side); feeds [[seo-audit]].
 - Engagement metrics (time/pageviews) support testing in [[copywriting-tools]], conversion tracking in [[sales-funnel]].
+- Real-world setup example: [[ga4-setup-harnais-chien]] (installation via canal Google & YouTube Shopify, socle mesure + indexation).
 
 ## Tensions / open questions
 - Pageviews vs sessions/users/engaged-sessions distinctions not deep-dived.

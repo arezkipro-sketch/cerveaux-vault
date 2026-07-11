@@ -74,6 +74,7 @@ Cette règle crée une chaîne de maillage qui fait circuler l'autorité entre t
 - Guides [[google-bots]] to crawl priority pages first.
 - Solution to [[keyword-cannibalization]]: clear linking hierarchy disambiguates which page targets which keyword.
 - Must be maintained after [[301-redirect]] migrations to avoid broken internal link chains.
+- Applied end-to-end in [[workflow-creation-blog]] (règle des 2-3 liens internes par article, dont 1 vers un autre article de blog).
 
 ## Tensions / open questions
 - **Contradiction de sources** : JotaroSeo recommande **1-2 liens internes maximum** par article (pour ne pas diluer la valeur) → [[jotaro-seo-content-strategy]] ; Sédestral recommande **2-3 liens internes minimum** par article → [[sedestral-blog-article-seo-2026]]. Règle probable : 2-3 liens pour les longs formats (>1 500 mots), 1-2 pour les courts.
