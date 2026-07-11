@@ -1,0 +1,6 @@
+.DS_Store
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Binaires volumineux : le contenu extrait vit dans wiki/sources/, le PDF brut reste local uniquement
+raw/*.pdf
