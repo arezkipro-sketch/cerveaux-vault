@@ -2,9 +2,9 @@
 title: "Qu'est-ce que l'optimisation hors page ? Guide de la stratégie de référencement hors page"
 source: "https://fr.semrush.com/blog/guide-seo-off-page/"
 author:
-  - "[[Carlos Silva]]"
-  - "[[Zach Paruch]]"
-  - "[[Rachel Handley]]"
+  - "Carlos Silva"
+  - "Zach Paruch"
+  - "Rachel Handley"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

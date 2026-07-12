@@ -2,8 +2,8 @@
 title: "Nous avons testé l'optimisation de la diffusion des requêtes (voici ce que nous avons appris)"
 source: "https://fr.semrush.com/blog/query-fan-out-experiment/"
 author:
-  - "[[Zach Paruch]]"
-  - "[[Tushar Pol]]"
+  - "Zach Paruch"
+  - "Tushar Pol"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

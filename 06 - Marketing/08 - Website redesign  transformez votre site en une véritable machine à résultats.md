@@ -2,8 +2,8 @@
 title: "Website redesign : transformez votre site en une véritable machine à résultats"
 source: "https://neilpatel.com/fr/blog/website-redesign/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-09-05
 created: 2026-06-18

@@ -2,10 +2,10 @@
 title: "Groupes de sujets pour le référencement : définition et comment les créer"
 source: "https://fr.semrush.com/blog/creation-contenu-avec-topic-clusters/"
 author:
-  - "[[Aida Knezevic]]"
-  - "[[Rachel Handley]]"
-  - "[[Shannon Willoby]]"
-  - "[[Simon Fogg]]"
+  - "Aida Knezevic"
+  - "Rachel Handley"
+  - "Shannon Willoby"
+  - "Simon Fogg"
 published: 2025-05-13
 created: 2026-06-15
 description: "Les groupes de sujets SEO sont des groupes de pages Web utilisés pour établir l'autorité autour d'un sujet particulier."

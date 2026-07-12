@@ -2,7 +2,7 @@
 title: "Mots-clés organiques : Qu'est-ce que c'est et comment les trouver"
 source: "https://fr.semrush.com/blog/mots-cles-organiques/"
 author:
-  - "[[Michelle Ofiwe]]"
+  - "Michelle Ofiwe"
 published: 2024-08-02
 created: 2026-06-15
 description: "Les mots-clés organiques sont des mots-clés qui envoient du trafic gratuit vers ton site web. Apprends à les trouver."

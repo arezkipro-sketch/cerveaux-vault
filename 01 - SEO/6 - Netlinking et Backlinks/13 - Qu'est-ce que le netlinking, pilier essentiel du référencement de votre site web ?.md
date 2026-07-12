@@ -2,8 +2,8 @@
 title: "Qu'est-ce que le netlinking, pilier essentiel du référencement de votre site web ?"
 source: "https://www.francenum.gouv.fr/guides-et-conseils/communication-et-publicite/referencement/quest-ce-que-le-netlinking-pilier"
 author:
-  - "[[createur2site.fr]]"
-  - "[[Stan De Jesus Oliveira]]"
+  - "[[createur2site]]"
+  - "[[createur2site]]"
 published: 2025-01-13
 created: 2026-06-20
 description: "Plus de sites web en lien avec votre activité font des liens vers votre site internet mieux celui-ci sera référencé sur les moteurs de recherche. Découvrez dans cette fiche pratique comment utiliser la technique du netlinking (ou tissage de liens) pour améliorer votre visibilité en ligne. Une fiche pratique rédigée par createur2site.fr, consultant SEO expert et Activateur France Num."

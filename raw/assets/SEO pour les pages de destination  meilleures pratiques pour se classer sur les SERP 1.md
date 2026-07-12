@@ -2,10 +2,10 @@
 title: "SEO pour les pages de destination : meilleures pratiques pour se classer sur les SERP"
 source: "https://fr.semrush.com/blog/seo-landing-pages/"
 author:
-  - "[[Ravi Pandya]]"
-  - "[[Zach Paruch]]"
+  - "Ravi Pandya"
+  - "Zach Paruch"
   - "[[Christine Skopec]]"
-  - "[[Simon Fogg]]"
+  - "Simon Fogg"
 published: 2025-05-13
 created: 2026-06-15
 description: "Le référencement des pages de destination est le processus d'optimisation de vos pages de destination pour les utilisateurs et les moteurs de recherche."

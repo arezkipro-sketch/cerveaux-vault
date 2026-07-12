@@ -2,7 +2,7 @@
 title: "Bay' Salam en e-commerce"
 source: "PDF / La Meute"
 author:
-  - "[[La Meute]]"
+  - "[[la-meute]]"
 published: null
 created: 2026-06-20
 description: "Guide pratique sur le contrat Bay' Salam appliqué au dropshipping : pourquoi le dropshipping classique est haram et comment le rendre licite via le contrat Salam."

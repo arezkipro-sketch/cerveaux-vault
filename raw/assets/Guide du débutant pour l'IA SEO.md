@@ -2,9 +2,9 @@
 title: "Guide du débutant pour l'IA SEO"
 source: "https://fr.semrush.com/blog/ai-seo/"
 author:
-  - "[[Ankit Vora]]"
-  - "[[Sydney Go]]"
-  - "[[Bartłomiej Barcik]]"
+  - "Ankit Vora"
+  - "Sydney Go"
+  - "Bartłomiej Barcik"
 published: 2025-05-13
 created: 2026-06-15
 description: "Apprenez les bases de l'IA SEO, avec les principaux cas d'utilisation et des conseils pour ceux qui ne connaissent pas encore ces outils."

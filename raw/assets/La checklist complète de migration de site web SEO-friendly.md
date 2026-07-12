@@ -2,9 +2,9 @@
 title: "La checklist complète de migration de site web [SEO-friendly]"
 source: "https://fr.semrush.com/blog/checklist-semrush-migration-de-site/"
 author:
-  - "[[Rachel Handley]]"
+  - "Rachel Handley"
   - "[[Christine Skopec]]"
-  - "[[Connor Lahey]]"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Suivez notre checklist de migration de site web pour réduire le risque que des modifications majeures du site web nuisent à votre SEO."

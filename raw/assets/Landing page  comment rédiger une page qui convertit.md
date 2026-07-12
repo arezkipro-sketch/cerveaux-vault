@@ -2,7 +2,7 @@
 title: "Landing page : comment rédiger une page qui convertit"
 source: "https://www.academiecopywriting.fr/blog/landing-page-convertir"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-22
 created: 2026-06-16
 description: "Découvrez comment créer une landing page persuasive qui attire vos prospects et les convertit en clients."

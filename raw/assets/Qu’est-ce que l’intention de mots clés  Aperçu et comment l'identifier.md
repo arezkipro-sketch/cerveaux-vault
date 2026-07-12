@@ -2,10 +2,10 @@
 title: "Qu’est-ce que l’intention de mots clés ? Aperçu et comment l'identifier"
 source: "https://fr.semrush.com/blog/keyword-intent/"
 author:
-  - "[[Aleksandra Beka Jovicic]]"
+  - "Aleksandra Beka Jovicic"
   - "[[Christine Skopec]]"
-  - "[[Simon Fogg]]"
-  - "[[Selina Scheumann]]"
+  - "Simon Fogg"
+  - "Selina Scheumann"
 published: 2025-05-13
 created: 2026-06-15
 description: "L'intention de recherche (ou intention de mot-clé) correspond à ce que les internautes souhaitent obtenir après avoir effectué une recherche spécifique."

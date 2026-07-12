@@ -2,8 +2,8 @@
 title: "Search Everywhere Optimization : Le nouveau SEO"
 source: "https://neilpatel.com/fr/blog/serach-everywhere-optimization/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-12-12
 created: 2026-06-18

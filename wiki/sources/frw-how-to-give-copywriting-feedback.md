@@ -5,7 +5,7 @@ slug: frw-how-to-give-copywriting-feedback
 raw: "[[raw/assets/How to Give Copywriting Feedback.md]]"
 source_url: "https://filthyrichwriter.com/how-to-give-copywriting-feedback/"
 source_type: article
-author: "[[filthy-rich-writer]]"
+author: "[[nicki-krawczyk]]"
 date_published: 2022-11-07
 date_ingested: 2026-06-16
 tags: [copywriting, client-management, freelance-copywriting, filthy-rich-writer]
@@ -29,7 +29,7 @@ status: active
 - "Show them the what not the how" — same principle as pitching: tell clients what you can do, not how *(article)*
 
 ## Entities & concepts touched
-- [[filthy-rich-writer]], [[nicki-krawczyk]], [[copywriting]], [[freelance-copywriting]]
+- [[nicki-krawczyk]], [[nicki-krawczyk]], [[copywriting]], [[freelance-copywriting]]
 
 ## Connections
 - Adds client management dimension to [[freelance-copywriting]].

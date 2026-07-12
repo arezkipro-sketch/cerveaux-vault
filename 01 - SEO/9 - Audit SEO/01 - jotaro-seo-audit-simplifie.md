@@ -2,7 +2,7 @@
 title: "Jotaroo SEO (@JotaroSeo) sur X"
 source: "https://x.com/JotaroSeo/status/2057867668015731083?s=20"
 author:
-  - "[[Jotaroo SEO]]"
+  - "[[jotaro-seo]]"
 published: 2026-05-22
 created: 2026-06-27
 description: "Ma manière simpliste de faire audit :📁 Audit SEO ┃ ┣ 📁 Zones chaudes ┃ ┣ 📄 H1 (unique, propre, mot-clé) ┃ ┣ 📄 H2 / H3 (structure cohérente) ┃ ┣ 📄 Pas de H2/H3 dans le footer ┃ ┣ 📄 Balise title (< 60 caractères) ┃ ┣ 📄 Meta-description (120-155 car.) ┃"

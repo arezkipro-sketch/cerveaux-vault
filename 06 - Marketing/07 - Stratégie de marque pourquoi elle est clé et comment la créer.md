@@ -2,8 +2,8 @@
 title: "Stratégie de marque: pourquoi elle est clé et comment la créer"
 source: "https://neilpatel.com/fr/blog/strategie-de-marque/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-07-22
 created: 2026-06-18

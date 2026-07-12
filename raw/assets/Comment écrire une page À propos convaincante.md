@@ -2,7 +2,7 @@
 title: "Comment écrire une page À propos convaincante"
 source: "https://www.academiecopywriting.fr/blog/ecrire-page-a-propos"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-22
 created: 2026-06-16
 description: "Découvrez comment rédiger une page À propos efficace qui inspire confiance, attire vos clients et renforce votre marque."

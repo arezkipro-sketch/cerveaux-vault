@@ -2,9 +2,9 @@
 title: "Checklist SEO hors page : nos 8 meilleurs conseils"
 source: "https://fr.semrush.com/blog/off-page-seo-checklist/"
 author:
-  - "[[Cecilia Meis]]"
+  - "Cecilia Meis"
   - "[[Christine Skopec]]"
-  - "[[Connor Lahey]]"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Utilisez cette checklist SEO hors page pour accroître la crédibilité, l'autorité et la visibilité de votre site dans les résultats de recherche."

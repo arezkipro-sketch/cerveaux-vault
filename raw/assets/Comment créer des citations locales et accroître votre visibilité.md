@@ -2,7 +2,7 @@
 title: "Comment créer des citations locales et accroître votre visibilité"
 source: "https://fr.semrush.com/blog/how-to-build-local-citations/"
 author:
-  - "[[Alex Lindley]]"
+  - "Alex Lindley"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

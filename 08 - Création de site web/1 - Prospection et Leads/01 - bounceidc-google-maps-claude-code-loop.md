@@ -2,7 +2,7 @@
 title: "Google Maps + Claude Code = $2,000 website deals. The complete loop."
 source: "https://x.com/bounceidc/status/2072654466403438983?s=12"
 author:
-  - "[[@bounceidc]]"
+  - "[[bounceidc]]"
 published: 2026-07-02
 created: 2026-07-10
 description: "Everyone is teaching you how to build a $10,000-looking website with AI. Almost nobody is teaching you the part that pays: who buys it, how ..."

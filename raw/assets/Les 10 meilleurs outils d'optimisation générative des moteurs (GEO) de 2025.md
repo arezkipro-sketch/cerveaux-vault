@@ -2,7 +2,7 @@
 title: "Les 10 meilleurs outils d'optimisation générative des moteurs (GEO) de 2025"
 source: "https://fr.semrush.com/blog/best-generative-engine-optimization-tools/"
 author:
-  - "[[Margarita Loktionova]]"
+  - "Margarita Loktionova"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez ces outils GEO triés sur le volet qui vous aident à surveiller les mentions de LLM, à analyser la concurrence et à renforcer votre présence dans les moteurs de recherche IA."

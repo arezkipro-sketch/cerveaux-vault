@@ -2,7 +2,7 @@
 title: "Mise à Jour ! Des Infos Alimentées par l'IA pour Transformer la Recherche de Mots Clés"
 source: "https://fr.semrush.com/blog/mises-a-jour-recherche-mots-cles/"
 author:
-  - "[[Brenna Kelly]]"
+  - "Brenna Kelly"
 published: 2024-05-23
 created: 2026-06-15
 description: "Explore la boîte à outils Recherche de mots clés améliorée de Semrush avec de nouvelles fonctionnalités alimentées par l‘IA comme la Difficulté relative des mots clés et l‘Autorité thématique pour un SEO plus intelligent."

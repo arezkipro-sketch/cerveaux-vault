@@ -2,9 +2,9 @@
 title: "What is Topical Authority? (+ How to Build It)"
 source: "https://www.semrush.com/blog/topical-authority/"
 author:
-  - "[[Sydney Go]]"
-  - "[[Chris Shirlow]]"
-  - "[[Simon Fogg]]"
+  - "Sydney Go"
+  - "Chris Shirlow"
+  - "Simon Fogg"
 published: 2023-09-14
 created: 2026-06-20
 description: "Topical authority is a site’s expertise on a subject earned through quality content. Here’s how to improve it."

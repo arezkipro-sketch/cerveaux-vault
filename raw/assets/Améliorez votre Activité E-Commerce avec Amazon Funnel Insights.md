@@ -2,7 +2,7 @@
 title: "Améliorez votre Activité E-Commerce avec Amazon Funnel Insights"
 source: "https://fr.semrush.com/blog/entonnoir-amazon-etude/"
 author:
-  - "[[Shannon O‘Shea]]"
+  - "Shannon O‘Shea"
 published: 2023-08-08
 created: 2026-06-15
 description: "Améliorez votre activité sur Amazon grâce à des informations sur le comportement des clients, notamment leurs habitudes de navigation, leurs achats et abandons de panier. Lisez l‘étude ici."

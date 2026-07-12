@@ -2,8 +2,8 @@
 title: "SEO Copywriting : optimiser le contenu et générer des conversions"
 source: "https://neilpatel.com/fr/blog/seo-copywitring-strategies/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2026-01-14
 created: 2026-06-18

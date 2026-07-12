@@ -2,9 +2,9 @@
 title: "Le guide complet du référencement mobile : 9 conseils et bonnes pratiques"
 source: "https://fr.semrush.com/blog/mobile-seo/"
 author:
-  - "[[Zach Paruch]]"
+  - "Zach Paruch"
   - "[[Christine Skopec]]"
-  - "[[Connor Lahey]]"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Le référencement mobile (SEO mobile) est le processus d'optimisation de votre site pour qu'il se classe mieux dans les résultats de recherche sur les appareils mobiles."

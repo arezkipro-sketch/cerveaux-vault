@@ -2,7 +2,7 @@
 title: "Debugging common causes for slow loading in Shopify Liquid storefronts"
 source: "https://performance.shopify.com/blogs/blog/debugging-common-causes-for-slow-loading-in-shopify-liquid-storefronts"
 author:
-  - "[[Sia Karamalegos]]"
+  - "Sia Karamalegos"
 published: 2024-01-11
 created: 2026-06-20
 description: "Have you ever been confronted with the daunting task of figuring out what exactly is causing a page to load slowly? Each page can suffer from hundreds of potential issues when it comes to page loading speed. Maybe you’ve experienced this first-hand with an endlessly long Lighthouse audit. No one wants to try optimizing"

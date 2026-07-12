@@ -2,7 +2,7 @@
 title: "Améliorer ses textes de vente avec ChatGPT"
 source: "https://www.academiecopywriting.fr/blog/chatgpt-textes-de-vente"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-18
 created: 2026-06-16
 description: "Découvrez comment utiliser ChatGPT pour améliorer vos textes de vente et booster votre copywriting."

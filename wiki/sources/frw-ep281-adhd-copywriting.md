@@ -29,8 +29,8 @@ status: active
 - "Cool thing about copywriting is you could switch up your arrangement just however it suits you." — Caleb *(episode)*
 
 ## Entities & concepts touched
-- [[nicki-krawczyk]], [[filthy-rich-writer]], [[copywriting]], [[freelance-copywriting]]
+- [[nicki-krawczyk]], [[nicki-krawczyk]], [[copywriting]], [[freelance-copywriting]]
 
 ## Connections
 - Adds tactical productivity angle to [[freelance-copywriting]]: systems over motivation.
-- Student success story pattern reinforces [[filthy-rich-writer]] / [[nicki-krawczyk]] entity pages.
+- Student success story pattern reinforces [[nicki-krawczyk]] / [[nicki-krawczyk]] entity pages.

@@ -2,7 +2,7 @@
 title: "Les 8 meilleurs outils SEO IA pour 2025 (testés par nos soins)"
 source: "https://fr.semrush.com/blog/best-ai-seo-tools/"
 author:
-  - "[[Margarita Loktionova]]"
+  - "Margarita Loktionova"
 published: 2025-05-13
 created: 2026-06-15
 description: "J'ai testé les meilleurs outils SEO basés sur l'IA et j'en ai sélectionné 8. Consultez ce guide pour découvrir leurs fonctionnalités et choisir l'option la mieux adaptée à vos besoins."

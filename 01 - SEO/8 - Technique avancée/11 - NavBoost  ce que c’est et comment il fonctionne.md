@@ -2,8 +2,8 @@
 title: "NavBoost : ce que c’est et comment il fonctionne"
 source: "https://neilpatel.com/fr/blog/navboost-ce-que-cest-et-comment/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-10-21
 created: 2026-06-18

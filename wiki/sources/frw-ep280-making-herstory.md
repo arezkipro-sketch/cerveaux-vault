@@ -30,8 +30,8 @@ status: active
 - Nicki still periodically takes on clients to stay sharp and bring fresh examples to students *(episode)*
 
 ## Entities & concepts touched
-- [[nicki-krawczyk]], [[filthy-rich-writer]], [[copywriting]], [[freelance-copywriting]]
+- [[nicki-krawczyk]], [[nicki-krawczyk]], [[copywriting]], [[freelance-copywriting]]
 
 ## Connections
-- Establishes founding context for [[filthy-rich-writer]] and [[nicki-krawczyk]] entity pages.
+- Establishes founding context for [[nicki-krawczyk]] and [[nicki-krawczyk]] entity pages.
 - Reinforces mindset theme: self-doubt as primary obstacle to [[freelance-copywriting]] career launch.

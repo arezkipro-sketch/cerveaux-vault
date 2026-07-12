@@ -2,8 +2,8 @@
 title: "Meilleurs moteurs de recherche IA [Testés et évalués]"
 source: "https://fr.semrush.com/blog/best-ai-search-engines/"
 author:
-  - "[[Tushar Pol]]"
-  - "[[Connor Lahey]]"
+  - "Tushar Pol"
+  - "Connor Lahey"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

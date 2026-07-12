@@ -2,8 +2,8 @@
 title: "Le Pouvoir du Prompt ChatGPT dans la Transformation Numérique"
 source: "https://neilpatel.com/fr/blog/le-pouvoir-du-prompt-chatgpt/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-09-30
 created: 2026-06-18

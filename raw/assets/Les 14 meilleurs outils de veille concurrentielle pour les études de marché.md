@@ -2,7 +2,7 @@
 title: "Les 14 meilleurs outils de veille concurrentielle pour les études de marché"
 source: "https://fr.semrush.com/blog/best-competitive-intelligence-tools/"
 author:
-  - "[[Natalia Zhukova]]"
+  - "Natalia Zhukova"
 published: 2025-05-13
 created: 2026-06-15
 description: "Analysez la concurrence et révélez les stratégies et tactiques de n'importe quel acteur du secteur. Découvrez les meilleurs outils de veille concurrentielle et d'étude de marché."

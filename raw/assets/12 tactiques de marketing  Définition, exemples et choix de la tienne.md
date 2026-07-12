@@ -2,7 +2,7 @@
 title: "12 tactiques de marketing : Définition, exemples et choix de la tienne"
 source: "https://fr.semrush.com/blog/les-bases-du-marketing/"
 author:
-  - "[[Semrush Team]]"
+  - "[[semrush]]"
 published: 2024-05-13
 created: 2026-06-16
 description: "Une stratégie réussie repose sur les bonnes tactiques de marketing. Inspire-toi des tiennes avec 12 exemples et trois étapes."

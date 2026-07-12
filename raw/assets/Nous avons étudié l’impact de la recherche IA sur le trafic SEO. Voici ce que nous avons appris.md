@@ -2,7 +2,7 @@
 title: "Nous avons étudié l’impact de la recherche IA sur le trafic SEO. Voici ce que nous avons appris."
 source: "https://fr.semrush.com/blog/ai-search-seo-traffic-study/"
 author:
-  - "[[Rachel Handley]]"
+  - "Rachel Handley"
 published: 2025-05-13
 created: 2026-06-15
 description: "Nos recherches montrent que les visiteurs de recherche IA pourraient dépasser les visiteurs de recherche traditionnels en 2028. Et bien plus encore."

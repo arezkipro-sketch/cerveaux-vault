@@ -2,7 +2,7 @@
 title: "Défis et solutions des agences communes : le point de vue d'un initié"
 source: "https://fr.semrush.com/blog/common-agency-challenges-solutions/"
 author:
-  - "[[Melissa Fach]]"
+  - "Melissa Fach"
 published: 2025-05-13
 created: 2026-06-15
 description: "Pour obtenir des informations et des solutions, nous avons contacté les propriétaires et les gestionnaires d’agences pour leur demander quel était leur plus grand défi et comment ils le relevaient. Vous trouverez une solution pour chacun ; il y a beaucoup à apprendre,"

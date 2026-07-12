@@ -2,9 +2,9 @@
 title: "Guide simple des mots-clés de départ (+5 façons de les trouver)"
 source: "https://fr.semrush.com/blog/seed-keywords/"
 author:
-  - "[[Sydney Go]]"
-  - "[[Chris Shirlow]]"
-  - "[[Boris Mustapic]]"
+  - "Sydney Go"
+  - "Chris Shirlow"
+  - "Boris Mustapic"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez ce que sont les mots-clés de base et pourquoi ils sont importants. De plus, découvrez cinq façons de trouver davantage de mots-clés de départ."

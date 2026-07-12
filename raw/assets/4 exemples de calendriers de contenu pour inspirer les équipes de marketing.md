@@ -2,8 +2,8 @@
 title: "4 exemples de calendriers de contenu pour inspirer les équipes de marketing"
 source: "https://fr.semrush.com/blog/exemples-de-calendrier-de-contenu/"
 author:
-  - "[[Rachel Handley]]"
-  - "[[Connor Lahey]]"
+  - "Rachel Handley"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Inspire-toi de nos exemples de calendrier de contenu. Ensuite, crée le tien à l‘aide de nos conseils et de nos modèles."

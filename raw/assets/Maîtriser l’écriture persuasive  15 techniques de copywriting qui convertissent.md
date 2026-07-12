@@ -2,7 +2,7 @@
 title: "Maîtriser l’écriture persuasive : 15 techniques de copywriting qui convertissent"
 source: "https://jeremy-allard.com/ecriture-persuasive/"
 author:
-  - "[[Jérémy]]"
+  - "Jérémy"
 published: 2012-02-22
 created: 2026-06-17
 description: "Découvrez 15 techniques d’écriture persuasive pour convaincre, influencer et vendre avec vos textes, même sans talent “inné”."

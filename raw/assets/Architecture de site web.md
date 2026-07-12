@@ -2,7 +2,7 @@
 title: "Architecture de site web"
 source: "https://fr.semrush.com/blog/category/seo/architecture-de-site-web/"
 author:
-  - "[[Olivier Amici]]"
+  - "Olivier Amici"
 published: 25 juillet 2022
 created: 2026-06-15
 description: "Blog about Architecture de site web."

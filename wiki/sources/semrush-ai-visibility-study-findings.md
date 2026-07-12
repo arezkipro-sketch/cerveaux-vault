@@ -2,7 +2,7 @@
 type: source
 title: "Community content surpasses brand marketing in AI citations (Semrush study)"
 slug: semrush-ai-visibility-study-findings
-raw: "[[raw/assets/Comment fonctionne réellement la recherche par IA  conclusions de notre étude sur la visibilité de l'IA.md]]"
+raw: "[[Comment fonctionne réellement la recherche par IA  conclusions de notre étude sur la visibilité de l’IA]]"
 source_url: "https://fr.semrush.com/blog/ai-search-visibility-study-findings/"
 source_type: article
 author: "[[semrush]]"

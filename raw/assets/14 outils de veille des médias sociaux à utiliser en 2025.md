@@ -2,9 +2,9 @@
 title: "14 outils de veille des médias sociaux à utiliser en 2025"
 source: "https://fr.semrush.com/blog/social-media-monitoring-tools/"
 author:
-  - "[[Claire Beveridge]]"
-  - "[[Martha Vassallo]]"
-  - "[[Connor Lahey]]"
+  - "Claire Beveridge"
+  - "Martha Vassallo"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Apprenez-en davantage sur la surveillance des médias sociaux et découvrez quelques outils qui peuvent vous y aider."

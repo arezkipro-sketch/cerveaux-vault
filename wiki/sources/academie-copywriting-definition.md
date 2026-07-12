@@ -2,7 +2,7 @@
 type: source
 title: "Copywriting : définition et exemples concrets"
 slug: academie-copywriting-definition
-raw: "[[Copywriting - definition et exemples concrets]]"
+raw: "Copywriting - definition et exemples concrets"
 source_url: https://www.academiecopywriting.fr/blog/copywriting-definition-exemples
 author: L'Académie™ (academiecopywriting.fr)
 date_published: 2025-08-08

@@ -2,8 +2,8 @@
 title: "Core Web Vitals : c’est quoi ? Boostez SEO et l’expérience UX"
 source: "https://neilpatel.com/fr/blog/core-web-vitals-cest-quoi-ameliorez-votre-seo-et-lexperience-utilisateur-avec-les-core-web-vitals/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-10-31
 created: 2026-06-18

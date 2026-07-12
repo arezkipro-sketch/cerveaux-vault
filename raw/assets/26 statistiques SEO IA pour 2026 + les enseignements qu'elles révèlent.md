@@ -2,7 +2,7 @@
 title: "26 statistiques SEO IA pour 2026 + les enseignements qu'elles révèlent"
 source: "https://fr.semrush.com/blog/ai-seo-statistics/"
 author:
-  - "[[Zach Paruch]]"
+  - "Zach Paruch"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

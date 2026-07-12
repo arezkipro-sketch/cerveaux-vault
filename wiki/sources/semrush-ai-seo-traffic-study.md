@@ -2,7 +2,7 @@
 type: source
 title: "AI search traffic surpassing traditional search by 2028 (Semrush study)"
 slug: semrush-ai-seo-traffic-study
-raw: "[[raw/assets/Nous avons étudié l'impact de la recherche IA sur le trafic SEO. Voici ce que nous avons appris.md]]"
+raw: "[[Nous avons étudié l’impact de la recherche IA sur le trafic SEO. Voici ce que nous avons appris]]"
 source_url: "https://fr.semrush.com/blog/ai-search-seo-traffic-study/"
 source_type: article
 author: "[[semrush]]"

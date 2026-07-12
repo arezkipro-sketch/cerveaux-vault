@@ -2,8 +2,8 @@
 title: "Que sont les publications de profil Google Business ?"
 source: "https://fr.semrush.com/blog/google-business-profile-posts/"
 author:
-  - "[[Sydney Go]]"
-  - "[[Bartłomiej Barcik]]"
+  - "Sydney Go"
+  - "Bartłomiej Barcik"
 published: 2025-05-13
 created: 2026-06-15
 description: "Apprenez à rédiger des publications pour votre profil Google Business afin d'obtenir une visibilité et un engagement maximum grâce à notre guide détaillé."

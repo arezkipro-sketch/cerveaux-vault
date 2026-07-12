@@ -2,7 +2,7 @@
 title: "5 biais cognitifs puissants en copywriting"
 source: "https://www.academiecopywriting.fr/blog/biais-cognitifs-copywriting"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-25
 created: 2026-06-17
 description: "Découvrez 5 biais cognitifs essentiels pour convaincre vos lecteurs et vendre plus efficacement grâce au copywriting."

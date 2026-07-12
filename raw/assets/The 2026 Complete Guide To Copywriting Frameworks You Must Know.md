@@ -2,7 +2,7 @@
 title: "The 2026 Complete Guide To Copywriting Frameworks You Must Know"
 source: "https://medium.com/@giovannaromano215/the-2026-complete-guide-to-copywriting-frameworks-you-must-know-5427815ceef5"
 author:
-  - "[[Giovanna romano]]"
+  - "Giovanna romano"
 published: 2026-02-23
 created: 2026-06-16
 description: "To take any copy to the next level and turn people’s objections into cash"

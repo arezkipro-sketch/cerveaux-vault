@@ -2,7 +2,7 @@
 title: "11 erreurs courantes en matière de liens internes et comment les corriger"
 source: "https://fr.semrush.com/blog/erreurs-de-liens-internes/"
 author:
-  - "[[Hava Salsi]]"
+  - "Hava Salsi"
 published: 2024-08-02
 created: 2026-06-15
 description: "Apprends à connaître les erreurs courantes en matière de liens internes. Et comment les trouver, les réparer et les prévenir."

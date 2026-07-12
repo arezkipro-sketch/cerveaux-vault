@@ -2,7 +2,7 @@
 title: "Comment obtenir des backlinks : 11 stratégies"
 source: "https://fr.semrush.com/blog/strategies-pour-obtenir-backlinks/"
 author:
-  - "[[Kelly Lyons]]"
+  - "Kelly Lyons"
 published: 2022-11-28
 created: 2026-06-20
 description: "Il existe de nombreuses façons d‘obtenir des backlinks : des RP numériques aux témoignages. Découvrez nos 11 stratégies éprouvées."

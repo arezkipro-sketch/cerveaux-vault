@@ -2,7 +2,7 @@
 title: "Copywriting Instagram : écrire des captions qui vendent"
 source: "https://www.academiecopywriting.fr/blog/copywriting-instagram-captions"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-06
 created: 2026-06-16
 description: "Découvrez comment écrire des captions Instagram percutantes avec le copywriting pour capter l’attention et générer des ventes."

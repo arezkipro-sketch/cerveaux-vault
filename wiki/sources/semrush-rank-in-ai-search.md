@@ -2,7 +2,7 @@
 type: source
 title: "6 tactiques d'experts pour se classer dans la recherche IA en 2025 (Semrush)"
 slug: semrush-rank-in-ai-search
-raw: "[[raw/assets/Comment se positionner en tête des résultats de recherche IA en 2025  6 tactiques d'experts du secteur.md]]"
+raw: "[[Comment se positionner en tête des résultats de recherche IA en 2025  6 tactiques d’experts du secteur]]"
 source_url: "https://fr.semrush.com/blog/how-to-rank-in-ai-search/"
 source_type: article
 author: "[[semrush]]"

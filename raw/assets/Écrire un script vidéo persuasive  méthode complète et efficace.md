@@ -2,7 +2,7 @@
 title: "Écrire un script vidéo persuasive : méthode complète et efficace"
 source: "https://www.academiecopywriting.fr/blog/script-video-persuasive"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-18
 created: 2026-06-16
 description: "Apprenez à écrire un script vidéo persuasif : structure complète (hook, identification, preuve, transition, CTA), exemples et conseils de rythme pour convertir."

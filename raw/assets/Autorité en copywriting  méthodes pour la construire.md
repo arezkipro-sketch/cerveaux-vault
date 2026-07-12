@@ -2,7 +2,7 @@
 title: "Autorité en copywriting : méthodes pour la construire"
 source: "https://www.academiecopywriting.fr/blog/autorite-copywriting"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-26
 created: 2026-06-16
 description: "L’autorité en copywriting vous aide à attirer de meilleurs clients et augmenter vos tarifs. Découvrez comment la construire (positionnement, preuves, contenu)."

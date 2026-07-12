@@ -2,7 +2,7 @@
 title: "Comment obtenir des informations concurrentielles sur les réseaux sociaux ?"
 source: "https://fr.semrush.com/blog/infos-gratuites-sur-concurrence-reseaux-sociaux/"
 author:
-  - "[[Vladyslav Opryshko]]"
+  - "Vladyslav Opryshko"
 published: 2025-05-13
 created: 2026-06-15
 description: "Apprenez comment obtenir des informations précieuses sur vos concurrents sur les réseaux sociaux."

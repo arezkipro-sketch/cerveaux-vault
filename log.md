@@ -450,7 +450,7 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 ## [2026-06-18] lint | Full-vault lint after bulk ingest
 - **Entity source_count reconciled** (were stale from deferred updates): [[semrush]] 14→72, [[academie-copywriting]] 45→50, [[alex-cattoni]] 3→12, [[jeremy-allard]] 4→6, [[nicki-krawczyk]] 1→11. [[theo-rossi]] left at 1 (named in 2 sources).
 - **Dangling wikilinks (TODO stubs, not errors)** — concepts referenced but no page yet: [[benefits-over-features]], [[direct-response-copywriting]], [[creative-brief]], [[fab-framework]], [[brand-identity]], [[email-marketing]] (alias of [[email-copywriting]]), [[geo]] (covered by [[aeo]] + [[semrush-geo-definition]]), [[ecommerce]], [[sales-page]] alias. Valid TODO markers per CLAUDE.md §8; create on next relevant ingest.
-- **False-positive "orphans"**: `[[raw/assets/*.md]]` links are `raw:` frontmatter pointers (resolve to raw files), not missing wiki pages — expected.
+- **False-positive "orphans"**: `raw/assets/*.md` links are `raw:` frontmatter pointers (resolve to raw files), not missing wiki pages — expected.
 - **Skip-list**: 61 raw files excluded = numbered duplicates (" 1"/" 2"), Obsidian category-index pages (Semrush blog category stubs), already-covered dups (EMD/HTTP/PBN/landing/llms.txt/keyword-research FR translations), and noise (Group Chat, Feedspot, jotaro x-thread raw copies, llm-wiki-idea).
 - **Known tensions already flagged inline**: SEO-copywriting boundary ([[copywriting-vs-redaction-web]]); single-CTA vs repeat-CTA ([[emotional-copywriting]] ↔ [[call-to-action]]); educator commercial bias noted across academie/Copy Posse/FRW pages.
 - Suggested next: create the TODO concept stubs above; triangulate academie (single-publisher) copywriting claims against EN sources; consider a [[geo]] concept consolidating AEO/GEO.
@@ -686,7 +686,7 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Pages created: [[410-gone-premier-google-top3]], [[david-bardy]], [[410-gone]], [[facteurs-de-classement]]
 - Pages updated: [[click-through-rate]] (2→3 src, CTR par position 2025 + IA Overview), [[e-e-a-t]] (5→6 src, montré-dans-la-page), [[off-page-seo]] (2→3 src, autorité interne + linkable assets)
 - Focus: triptyque pertinence→qualité→autorité ; méthode 5 étapes ; "respirer l'odeur de la SERP" (Laurent Bourelly) ; paliers top10→5→3→1 ; SEO vs SEA (Ads nourrit SEO)
-- Nouveau TODO link: [[laurent-bourelly]] (expert SEO cité, pas de page)
+- Nouveau TODO link: laurent-bourelly (expert SEO cité, pas de page)
 ---
 
 ## [2026-06-20] ingest | Qu'est-ce que le netlinking, pilier essentiel du référencement de votre site web ?
@@ -989,7 +989,7 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 ## [2026-07-11] maint | Maintenance hebdo automatisée
 - **Liens cassés trouvés** :
   - ~100 wikilinks dans `wiki/` pointent vers des cibles sans fichier `.md` correspondant dans `wiki/` (ex : `academie-3-emotions-achat`, `alexgroberman-62pct-beyond-top10`, `jotaro-seo-301-redirects`, `semrush-ai-referral-traffic`, `copy-posse-ai-for-writers-2026`, `shopify`, `copywriting`, `ecommerce`, `technical-seo`, `local-seo`…). Beaucoup sont des citations précises (stats, claims) attribuées à des sources jamais ingérées comme pages `wiki/sources/` — **non corrigés automatiquement** : créer ~100 stubs à l'aveugle risquerait de légitimer des citations non vérifiées, et satisfaire la règle des 3 backlinks/stub pour chacun dépasse le cadre d'une passe de maintenance automatisée. **À trancher par l'utilisateur** : soit ingérer les sources manquantes, soit corriger les citations dans les pages concernées.
-  - ~140 liens `[[raw/assets/...]]` sont cassés car le dossier `raw/` n'existe plus sur disque : les fichiers sources ont été réorganisés dans l'arborescence par domaine (`01 - SEO/`, `02 - GEO et IA/`, `07 - Méthode e-com Meta/`, `08 - Création de site web/`, etc. — cf. log 2026-06-28 et suivants, "Raw file déplacé"). Ce n'est pas une perte de données : le contenu existe toujours, sous un chemin différent. **Non corrigé** : `raw/` est une couche jamais éditée par règle CLAUDE.md, et la correction en masse de ~140 chemins dans des pages existantes dépasse le "trivial et sûr" — à faire en session dédiée avec vérification page par page.
+  - ~140 liens `raw/assets/...` sont cassés car le dossier `raw/` n'existe plus sur disque : les fichiers sources ont été réorganisés dans l'arborescence par domaine (`01 - SEO/`, `02 - GEO et IA/`, `07 - Méthode e-com Meta/`, `08 - Création de site web/`, etc. — cf. log 2026-06-28 et suivants, "Raw file déplacé"). Ce n'est pas une perte de données : le contenu existe toujours, sous un chemin différent. **Non corrigé** : `raw/` est une couche jamais éditée par règle CLAUDE.md, et la correction en masse de ~140 chemins dans des pages existantes dépasse le "trivial et sûr" — à faire en session dédiée avec vérification page par page.
 - **Pages orphelines repérées et corrigées** (aucun backlink entrant depuis une autre page du graphe wiki) :
   - [[ga4-setup-harnais-chien]] → lien ajouté depuis [[google-analytics-4]] (exemple concret d'installation).
   - [[workflow-creation-blog]] → lien ajouté depuis [[maillage-interne]] (application concrète de la règle des 2-3 liens internes).
@@ -1008,4 +1008,16 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Pages mises à jour: [[off-page-seo]] (source_count 4→5, section Parasite SEO ajoutée)
 - Nouveau concept: [[parasite-seo]] — utiliser DR90+ de X/LinkedIn/GitHub/YouTube pour ranker sur requêtes commerciales Google sans site web ; format post X (1re phrase = title SEO, gras = H2) ; indexation forcée 2-24h ; monétisation 60% codes promo / 30% referrals / 10% CPA ; scaling 500-5 000€/mois
 - Entité: [[nicholasdulait]] — @NicholasDulait, spécialiste parasite SEO affiliation sans site web
+---
+
+## [2026-07-12] maint | Nettoyage liens cassés (session dédiée)
+- Réaudit complet post-fusion : le chiffre initial de la routine automatisée (~240 liens) était partiellement obsolète (calculé avant la fusion du contenu local). Vrai chiffre recalculé : 163 liens réellement cassés, puis 57 restants après ce nettoyage.
+- **21 corrections de nommage** (alias/slug incohérents vers des pages déjà existantes) : ex. `Benjamin Thiers`→[[benjamin-thiers]], `Neil Patel`→[[neil-patel]], `Stan De Jesus Oliveira`→[[createur2site]], `L'académie`→[[academie-copywriting]], `copy-posse`→[[alex-cattoni]], `filthy-rich-writer`→[[nicki-krawczyk]], `Semrush Team`→[[semrush]], + 5 typos d'apostrophe dans des chemins `raw/assets/`.
+- **6 nouvelles fiches entités créées** (sources déjà ingérées, page manquante) : [[irentdumpsters]], [[jespernissenseo]], [[onelegchris]], [[awai]], [[france-num]], [[shopify]].
+- **~215 wikilinks débracketés** (bylines d'auteurs cités une seule fois dans un article — Aida Knezevic, Ajdin Perco, etc. — + artefacts de template `comp1.com`/`^`/liens vides) : texte conservé, juste retiré des `[[...]]` pour ne pas polluer le graphe de pages à sur-créer, conforme à la règle du vault.
+- **Non traité, laissé en l'état** :
+  - ~24 concepts très cités mais jamais rédigés (`sales-page` 19×, `image-seo`, `freelance-copywriting`, `technical-seo`, `pbn`, `cloaking`...) — nécessitent une vraie rédaction, hors périmètre de cette session.
+  - ~13 chemins `raw/assets/...` génuinement introuvables (pas de correspondance même approximative) — petit volume, à vérifier individuellement si besoin.
+  - `@alexgroberman` / `@bloggersarvesh` cassés uniquement à l'intérieur de `raw/assets/` (frontmatter) — non touché, conforme à la règle « raw/ jamais édité » ; les liens équivalents dans `wiki/` pointent déjà correctement vers [[alex-groberman]] / [[sarvesh-alventra]].
+- **Bug détecté et corrigé en cours de route** : un remplacement automatique trop large avait accidentellement corrompu la commande d'exemple dans `CLAUDE.md` (règle de maintenance) en confondant le caractère `^` isolé (item de nettoyage légitime) avec son occurrence dans une regex. Corrigé immédiatement, aucun autre cas détecté après vérification du diff complet.
 ---

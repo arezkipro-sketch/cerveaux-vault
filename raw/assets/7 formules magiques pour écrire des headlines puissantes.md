@@ -2,7 +2,7 @@
 title: "7 formules magiques pour écrire des headlines puissantes"
 source: "https://www.academiecopywriting.fr/blog/7-formules-magiques-headlines"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-03
 created: 2026-06-16
 description: "Headline copywriting : découvrez pourquoi un titre fait (ou casse) vos conversions, formules puissantes, exemples à adapter, checklist et méthode de test."

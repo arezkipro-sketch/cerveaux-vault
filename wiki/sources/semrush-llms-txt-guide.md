@@ -2,7 +2,7 @@
 type: source
 title: "Qu'est-ce que LLMs.txt et devriez-vous l'utiliser ? (Semrush)"
 slug: semrush-llms-txt-guide
-raw: "[[raw/assets/Qu'est-ce que LLMs.txt et devriez-vous l'utiliser.md]]"
+raw: "[[Qu’est-ce que LLMs.txt et devriez-vous l’utiliser]]"
 source_url: "https://fr.semrush.com/blog/llms-txt/"
 source_type: article
 author: "[[semrush]]"

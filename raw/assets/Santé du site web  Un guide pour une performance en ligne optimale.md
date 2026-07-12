@@ -2,7 +2,7 @@
 title: "Santé du site web : Un guide pour une performance en ligne optimale"
 source: "https://fr.semrush.com/blog/site-web-sante/"
 author:
-  - "[[Hava Salsi]]"
+  - "Hava Salsi"
 published: 2024-08-02
 created: 2026-06-15
 description: "Découvre comment l'optimisation de la santé du site Web améliore les performances globales, la vitesse, la sécurité et l'expérience utilisateur."

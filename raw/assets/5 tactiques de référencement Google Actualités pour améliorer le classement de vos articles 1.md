@@ -2,9 +2,9 @@
 title: "5 tactiques de référencement Google Actualités pour améliorer le classement de vos articles"
 source: "https://fr.semrush.com/blog/google-news-seo/"
 author:
-  - "[[Alex Lindley]]"
+  - "Alex Lindley"
   - "[[Christine Skopec]]"
-  - "[[Connor Lahey]]"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez les tactiques de référencement Google Actualités pour figurer en tête des articles et des aperçus de l'IA et générer plus de trafic."

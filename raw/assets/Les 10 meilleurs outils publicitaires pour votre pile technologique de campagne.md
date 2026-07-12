@@ -2,7 +2,7 @@
 title: "Les 10 meilleurs outils publicitaires pour votre pile technologique de campagne"
 source: "https://fr.semrush.com/blog/advertising-tools/"
 author:
-  - "[[Luke Harsel]]"
+  - "Luke Harsel"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez les meilleurs outils publicitaires pour optimiser vos campagnes. Ce guide couvre tous les aspects, de l'étude d'audience à la gestion de campagnes en passant par la création de publicités."

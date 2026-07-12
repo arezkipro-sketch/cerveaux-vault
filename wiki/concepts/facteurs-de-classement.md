@@ -23,7 +23,7 @@ updated: 2026-06-19
 3. **Autorité** — tranche à pertinence/qualité égales. ≠ que des backlinks : liens entrants (qualité>quantité), mentions de marque, historique du domaine, réputation, **maillage interne intelligent**. Pèse d'autant plus que la requête est concurrentielle. → [[off-page-seo]], [[backlinks]], [[maillage-interne]].
 
 ## Méthode 5 étapes pour viser le Top 3
-1. **Gagner l'intention** — « respirer l'odeur de la SERP » ([[laurent-bourelly]]) : analyser mot-clé + synonymes + sous-intentions longue traîne + types de contenus + angle + axe de différenciation. Test du plan montré à un proche.
+1. **Gagner l'intention** — « respirer l'odeur de la SERP » (laurent-bourelly) : analyser mot-clé + synonymes + sous-intentions longue traîne + types de contenus + angle + axe de différenciation. Test du plan montré à un proche.
 2. **Contenu crédible** — E-E-A-T montré dans la page (vécu, précision, sources, transparence), pas une simple bio ; auto-scoring → [[e-e-a-t]].
 3. **On-page** — title/meta marketing, intention dans les 10 premières lignes, H2 = sous-questions SERP/PAA, formats extractibles, maillage, preuves → [[seo-copywriting]].
 4. **Technique & UX** — indexation propre, Core Web Vitals, mobile-first, images légères, 404/500 maîtrisés → [[core-web-vitals]], [[mobile-seo]], [[http-status-codes-seo]].

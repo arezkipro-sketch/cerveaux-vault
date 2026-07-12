@@ -37,4 +37,4 @@ updated: 2026-06-28
 ## Relations
 
 - Différent des créateurs SEO du vault ([[jotaro-seo]], [[julien-ctr]], [[julien-gourdon]]) — complémentaire : acquisition payante Meta vs acquisition organique SEO
-- La méthode RayEcom est compatible avec une boutique Shopify SEO-optimisée ([[03 - E-commerce Shopify/]])
+- La méthode RayEcom est compatible avec une boutique Shopify SEO-optimisée (03 - E-commerce Shopify/)

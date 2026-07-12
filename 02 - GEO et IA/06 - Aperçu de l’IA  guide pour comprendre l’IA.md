@@ -2,8 +2,8 @@
 title: "Aperçu de l’IA : guide pour comprendre l’IA"
 source: "https://neilpatel.com/fr/blog/questce-quun-apercu-de-iia/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-10-10
 created: 2026-06-18

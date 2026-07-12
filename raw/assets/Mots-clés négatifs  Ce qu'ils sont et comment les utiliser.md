@@ -2,10 +2,10 @@
 title: "Mots-clés négatifs : Ce qu'ils sont et comment les utiliser"
 source: "https://fr.semrush.com/blog/mots-cles-negatifs/"
 author:
-  - "[[Carlos Silva]]"
+  - "Carlos Silva"
   - "[[Christine Skopec]]"
-  - "[[Zach Paruch]]"
-  - "[[Rachel Handley]]"
+  - "Zach Paruch"
+  - "Rachel Handley"
 published: 2024-08-02
 created: 2026-06-15
 description: "Les mots-clés négatifs sont utilisés pour éviter que tes annonces PPC ne soient déclenchées par des termes qui ne sont pas pertinents."

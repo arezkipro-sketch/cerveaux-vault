@@ -2,7 +2,7 @@
 title: "L’ancrage mental pour augmenter la valeur perçue"
 source: "https://www.academiecopywriting.fr/blog/ancrage-mental-valeur-percue"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-18
 created: 2026-06-17
 description: "L’ancrage mental influence la perception d’une offre et de son prix. Découvrez comment l’utiliser en copywriting pour augmenter la valeur perçue et convertir."

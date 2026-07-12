@@ -2,7 +2,7 @@
 title: "How to Start Copywriting With Just 1 Hour a Day"
 source: "https://copyposse.com/blog/how-to-start-copywriting/"
 author:
-  - "[[Alexandria Wald]]"
+  - "Alexandria Wald"
 published: 2026-05-13
 created: 2026-06-15
 description: "Wondering how to start copywriting when life is already full. You don't need more time, you need a smarter system. Here's the 1 hour a day..."

@@ -2,7 +2,7 @@
 title: "Trello vs Notion vs Obsidian : quel outil choisir ?"
 source: "https://www.academiecopywriting.fr/blog/trello-notion-obsidian"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-22
 created: 2026-06-16
 description: "Comparatif Trello, Notion et Obsidian. Découvrez leurs avantages pour mieux organiser vos projets et choisir l’outil adapté."

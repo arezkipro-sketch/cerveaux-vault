@@ -2,7 +2,7 @@
 title: "Quand toutes les offres se ressemblent, la seule entreprise choisie est celle qui a une USP claire."
 source: "https://jeremy-allard.com/trouver-son-usp/"
 author:
-  - "[[Jérémy]]"
+  - "Jérémy"
 published: 2025-02-12
 created: 2026-06-17
 description: "Vous êtes bon, sérieux, fiable… mais personne ne vous choisit ? Découvrez une méthode concrète pour clarifier votre USP, trancher votre positionnement et devenir lisible en quelques phrases."

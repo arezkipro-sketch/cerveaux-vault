@@ -2,10 +2,10 @@
 title: "Les 11 meilleurs outils de recherche de mots clés (gratuits et payants)"
 source: "https://fr.semrush.com/blog/outils-de-recherche-mots-cles/"
 author:
-  - "[[Sean Collins]]"
-  - "[[Rob Woods]]"
-  - "[[Sydney Go]]"
-  - "[[Connor Lahey]]"
+  - "Sean Collins"
+  - "Rob Woods"
+  - "Sydney Go"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Voici 11 des meilleurs outils de recherche de mots clés. Trouvez l'outil de recherche de mots clés adapté aux besoins de votre entreprise."

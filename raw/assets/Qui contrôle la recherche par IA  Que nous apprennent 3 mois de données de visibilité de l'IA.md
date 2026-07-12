@@ -2,7 +2,7 @@
 title: "Qui contrôle la recherche par IA ? Que nous apprennent 3 mois de données de visibilité de l'IA ?"
 source: "https://fr.semrush.com/blog/ai-visibility-index-trend-update/"
 author:
-  - "[[Patrick Geaney]]"
+  - "Patrick Geaney"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez les principales tendances de l'indice de visibilité de l'IA après trois mois de suivi des marques et tactiques leaders en matière de recherche IA."

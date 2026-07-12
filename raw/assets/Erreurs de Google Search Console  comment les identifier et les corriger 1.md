@@ -2,8 +2,8 @@
 title: "Erreurs de Google Search Console : comment les identifier et les corriger"
 source: "https://fr.semrush.com/blog/google-search-console-errors/"
 author:
-  - "[[Rachel Baker]]"
-  - "[[Karla Margeson]]"
+  - "Rachel Baker"
+  - "Karla Margeson"
 published: 2025-05-13
 created: 2026-06-15
 description: "Un guide étape par étape pour identifier et corriger les erreurs courantes de Google Search Console, telles que les redirections et les erreurs 404."

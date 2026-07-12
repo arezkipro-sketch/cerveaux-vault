@@ -31,7 +31,7 @@ status: active
 - Companies that ditched copywriters for AI are experiencing "detrimental consequences" and old clients are returning — ABC News *(article body)*
 
 ## Entities & concepts touched
-- [[alex-cattoni]], [[copy-posse]], [[ai-for-writers]], [[copywriting]], [[freelance-copywriting]]
+- [[alex-cattoni]], [[alex-cattoni]], [[ai-for-writers]], [[copywriting]], [[freelance-copywriting]]
 
 ## Connections
 - Part 3 of Alex Cattoni's AI & Future of Writing series (Part 1: [[copy-posse-ai-for-writers-2026]], Part 2: [[awai-ai-wont-kill-writing-jobs]])

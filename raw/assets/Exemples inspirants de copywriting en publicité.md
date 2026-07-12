@@ -2,7 +2,7 @@
 title: "Exemples inspirants de copywriting en publicité"
 source: "https://www.academiecopywriting.fr/blog/exemples-copywriting-publicite"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-06
 created: 2026-06-16
 description: "Découvrez les meilleurs exemples de copywriting en publicité et inspirez-vous de stratégies qui captivent et convertissent."

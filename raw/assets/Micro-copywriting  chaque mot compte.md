@@ -2,7 +2,7 @@
 title: "Micro-copywriting : chaque mot compte"
 source: "https://www.academiecopywriting.fr/blog/micro-copywriting-mots"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-28
 created: 2026-06-17
 description: "Découvrez pourquoi chaque mot est décisif en micro-copywriting et comment optimiser vos textes pour booster vos conversions."

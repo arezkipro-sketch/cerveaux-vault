@@ -2,7 +2,7 @@
 title: "Storytelling : activer l’émotion pour convaincre"
 source: "https://www.academiecopywriting.fr/blog/storytelling-emotion-convaincre"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-29
 created: 2026-06-17
 description: "Découvrez comment utiliser le storytelling pour susciter l’émotion, captiver vos prospects et transformer vos textes en leviers de conversion."

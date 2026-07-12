@@ -2,7 +2,7 @@
 title: "AIDA, PAS, FAB : structures copywriting à maîtriser"
 source: "https://www.academiecopywriting.fr/blog/structures-copywriting-aida-pas-fab"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-18
 created: 2026-06-16
 description: "Découvrez les structures AIDA, PAS et FAB en copywriting et comment les utiliser pour mieux vendre."

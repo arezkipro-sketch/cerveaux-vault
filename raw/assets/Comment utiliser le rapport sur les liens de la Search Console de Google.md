@@ -2,7 +2,7 @@
 title: "Comment utiliser le rapport sur les liens de la Search Console de Google ?"
 source: "https://fr.semrush.com/blog/google-search-console-links/"
 author:
-  - "[[Ajdin Perco]]"
+  - "Ajdin Perco"
 published: 2024-08-02
 created: 2026-06-15
 description: "Apprends à analyser les backlinks et à identifier les opportunités à l'aide du rapport \"Liens\" dans Google Search Console."

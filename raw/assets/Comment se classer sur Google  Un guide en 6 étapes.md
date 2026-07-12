@@ -2,7 +2,7 @@
 title: "Comment se classer sur Google : Un guide en 6 étapes"
 source: "https://fr.semrush.com/blog/comment-marcher-sur-google/"
 author:
-  - "[[Dani Owens]]"
+  - "Dani Owens"
 published: 2024-05-13
 created: 2026-06-15
 description: "Consulte notre guide complet sur la façon de mieux se classer sur Google grâce à des techniques de référencement efficaces."

@@ -2,7 +2,7 @@
 title: "Effet miroir : comment mieux parler à votre audience"
 source: "https://www.academiecopywriting.fr/blog/effet-miroir-copywriting"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-18
 created: 2026-06-17
 description: "L’effet miroir est une technique de copywriting qui reprend les mots, émotions et histoires de votre audience. Découvrez la méthode pour l'utiliser facilement."

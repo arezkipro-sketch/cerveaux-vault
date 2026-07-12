@@ -2,9 +2,9 @@
 title: "6 façons de comparer les sites web (+ outils d'analyse concurrentielle à utiliser)"
 source: "https://fr.semrush.com/blog/compare-websites/"
 author:
-  - "[[Dana Nicole]]"
-  - "[[Martha Vassallo]]"
-  - "[[Bartłomiej Barcik]]"
+  - "Dana Nicole"
+  - "Martha Vassallo"
+  - "Bartłomiej Barcik"
 published: 2025-05-13
 created: 2026-06-15
 description: "Apprenez à comparer les sites web pour obtenir des informations clés, identifier les lacunes et trouver de nouvelles opportunités."

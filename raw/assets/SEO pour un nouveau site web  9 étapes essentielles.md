@@ -2,7 +2,7 @@
 title: "SEO pour un nouveau site web : 9 étapes essentielles"
 source: "https://fr.semrush.com/blog/conseils-seo/"
 author:
-  - "[[Erika Varangouli]]"
+  - "Erika Varangouli"
 published: 2025-05-13
 created: 2026-06-15
 description: "Vous construisez un nouveau site web et souhaitez qu'il soit bien classé sur Google ? Voici neuf étapes essentielles à suivre."

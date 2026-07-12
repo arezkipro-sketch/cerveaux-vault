@@ -2,7 +2,7 @@
 title: "Email Copywriter : Guide Complet 2026"
 source: "https://www.academiecopywriting.fr/blog/email-copywriter"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published:
 created: 2026-06-16
 description: "Email copywriter : missions, compétences, revenus et méthode pour maîtriser l'art des emails qui convertissent. Le guide pour se lancer."

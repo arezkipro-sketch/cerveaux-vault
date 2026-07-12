@@ -2,8 +2,8 @@
 title: "Qu'est-ce qu'une page de destination ? Exemples + Bonnes pratiques"
 source: "https://fr.semrush.com/blog/qu-est-ce-qu-une-page-de-destination/"
 author:
-  - "[[Rachel Handley]]"
-  - "[[Cecilia Meis]]"
+  - "Rachel Handley"
+  - "Cecilia Meis"
 published: 2025-05-13
 created: 2026-06-15
 description: "Vous souhaitez que les utilisateurs agissent ? Essayez une page de destination conçue pour les conversions."

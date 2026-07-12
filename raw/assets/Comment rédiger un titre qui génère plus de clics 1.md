@@ -2,7 +2,7 @@
 title: "Comment rédiger un titre qui génère plus de clics"
 source: "https://jeremy-allard.com/comment-rediger-un-titre-qui-genere-plus-de-clics/"
 author:
-  - "[[Jérémy]]"
+  - "Jérémy"
 published: 2025-02-12
 created: 2026-06-17
 description: "Les rédacteurs insistent sur l’importance des bons titres, car votre public ne lira votre texte que s’il clique d’abord sur le titre. Cependant, écrire un bon titre est délicat car : 1.) Il n’existe pas qu’une seule façon d’écrire un titre . Il existe de nombreux conseils pour rédiger des titres, comme l’utilisation de mots puissants, la ... Lire plus"

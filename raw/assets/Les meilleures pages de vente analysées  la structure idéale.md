@@ -2,7 +2,7 @@
 title: "Les meilleures pages de vente analysées : la structure idéale"
 source: "https://www.academiecopywriting.fr/blog/meilleures-pages-de-vente-analysees"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-03
 created: 2026-06-16
 description: "Analyse des meilleures pages de vente : structure, psychologie, design, exemples (Apple, ClickFunnels…) + checklist / méthode pour créer une page qui convertit."

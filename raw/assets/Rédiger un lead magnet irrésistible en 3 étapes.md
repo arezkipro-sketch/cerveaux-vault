@@ -2,7 +2,7 @@
 title: "Rédiger un lead magnet irrésistible en 3 étapes"
 source: "https://www.academiecopywriting.fr/blog/rediger-lead-magnet"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-22
 created: 2026-06-16
 description: "Apprenez à créer un lead magnet puissant en 3 étapes simples pour attirer vos prospects et développer votre activité."

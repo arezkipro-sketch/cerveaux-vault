@@ -2,7 +2,7 @@
 title: "Copywriting B2B vs B2C : quelles différences ?"
 source: "https://www.academiecopywriting.fr/blog/copywriting-b2b-vs-b2c"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-08
 created: 2026-06-16
 description: "Découvrez les différences entre le copywriting B2B et B2C, leurs stratégies et comment adapter vos textes pour vendre efficacement."

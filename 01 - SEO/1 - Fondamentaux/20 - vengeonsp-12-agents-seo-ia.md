@@ -2,7 +2,7 @@
 title: 12 agents - système SEO IA
 source: https://x.com/vengeonsp/article/2075499608495600054
 author:
-  - "[[Paul Vengeons (@VengeonsP)]]"
+  - "[[vengeonsp]]"
 published: 2026-07-10
 created: 2026-07-12
 description: Tout le monde *ESSAIE* de faire son SEO avec Claude et compagnie.Peu ont de vrais résultats.La différence entre ceux qui essaient et ceux qu...

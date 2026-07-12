@@ -2,8 +2,8 @@
 title: "Comment fonctionne réellement la recherche par IA : conclusions de notre étude sur la visibilité de l’IA"
 source: "https://fr.semrush.com/blog/ai-search-visibility-study-findings/"
 author:
-  - "[[Carlos Silva]]"
-  - "[[Alex Lindley]]"
+  - "Carlos Silva"
+  - "Alex Lindley"
 published: 2025-05-13
 created: 2026-06-15
 description: "L'étude des messages générés par l'IA révèle des règles surprenantes régissant la visibilité des marques. Découvrez pourquoi le contenu communautaire surpasse le marketing dans les LLM."

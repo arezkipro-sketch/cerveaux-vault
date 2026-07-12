@@ -2,8 +2,8 @@
 title: "Apprenez à booster vos vidéos avec l’algorithme YouTube"
 source: "https://neilpatel.com/fr/blog/algorithme-youtube/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-09-09
 created: 2026-06-18

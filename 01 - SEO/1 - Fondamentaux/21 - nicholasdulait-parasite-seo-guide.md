@@ -2,7 +2,7 @@
 title: "The guide to Rank #1 with Parasite SEO (Automated with Claude)"
 source: "https://x.com/nicholasdulait/article/2075482174824857704"
 author:
-  - "[[Nicholas Dulait (@NicholasDulait)]]"
+  - "[[nicholasdulait]]"
 published: 2026-07-10
 created: 2026-07-12
 description: "I'm about to share it all.No website needed, no waiting 6 months for SEO results to kick in.Here's how to do good parasite SEO, to rank..."

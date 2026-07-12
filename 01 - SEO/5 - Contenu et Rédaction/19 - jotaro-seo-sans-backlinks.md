@@ -2,7 +2,7 @@
 title: "Comment avoir de gros résultats en SEO sans backlinks ?"
 source: "https://x.com/JotaroSeo/article/2074157486710329829"
 author:
-  - "[[Jotaroo SEO (@JotaroSeo)]]"
+  - "[[jotaro-seo]]"
 published: 2026-07-06
 created: 2026-07-06
 description: "Les backlinks c'est important. Je ne vais pas te mentir là-dessus mdrrrr Mais dans ma pratique depuis 5 ans, j'ai généré des résultats signi..."

@@ -2,8 +2,8 @@
 title: "Qu'est-ce que le SEM ? Le guide définitif du marketing par moteur de recherche"
 source: "https://fr.semrush.com/blog/search-engine-marketing/"
 author:
-  - "[[Ankit Vora]]"
-  - "[[Shannon Willoby]]"
+  - "Ankit Vora"
+  - "Shannon Willoby"
 published: 2025-05-13
 created: 2026-06-15
 description: "Le marketing sur les moteurs de recherche est une pratique de marketing numérique utilisée pour augmenter la visibilité de ton site dans les moteurs de recherche."

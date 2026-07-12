@@ -2,7 +2,7 @@
 title: "Comment bien rédiger ses fiches produits pour le SEO ?"
 source: "https://www.noiise.com/ressources/content-marketing/conseils-pour-bien-rediger-ses-fiches-produits/"
 author:
-  - "[[François Besson]]"
+  - "François Besson"
 published: 2022-06-21
 created: 2026-06-19
 description: "Découvrez la définition de Comment bien rédiger ses fiches produits pour le SEO ? et tout ce qu'il y a à savoir sur ce terme grâce au lexique de l'agence NOIISE"

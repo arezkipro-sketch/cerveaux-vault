@@ -2,7 +2,7 @@
 title: "Rédaction SEO de fiches produits e-commerce - Benjamin Thiers, expert SEO"
 source: "https://www.benjaminthiers.net/boite-a-outils/referencement-e-commerce/redaction-fiches-produits/"
 author:
-  - "[[Benjamin Thiers]]"
+  - "[[benjamin-thiers]]"
 published: 2023-09-28
 created: 2026-06-19
 description: "Optimisez la rédaction de vos fiches e-commerce pour améliorer votre SEO, gagner en visibilité sur Google et renforcer votre UX."

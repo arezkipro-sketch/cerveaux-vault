@@ -2,8 +2,8 @@
 title: "Comment faire référencer votre entreprise locale sur Amazon Alexa"
 source: "https://fr.semrush.com/blog/amazon-alexa-business-listing/"
 author:
-  - "[[Alex Lindley]]"
-  - "[[Cecilia Meis]]"
+  - "Alex Lindley"
+  - "Cecilia Meis"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez comment faire apparaître votre entreprise dans les résultats de recherche Amazon Alexa pour accroître la visibilité de votre marque."

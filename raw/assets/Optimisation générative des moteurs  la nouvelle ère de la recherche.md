@@ -2,8 +2,8 @@
 title: "Optimisation générative des moteurs : la nouvelle ère de la recherche"
 source: "https://fr.semrush.com/blog/generative-engine-optimization/"
 author:
-  - "[[Tushar Pol]]"
-  - "[[Alex Lindley]]"
+  - "Tushar Pol"
+  - "Alex Lindley"
 published: 2025-05-13
 created: 2026-06-15
 description: "GEO est la pratique consistant à optimiser le contenu pour qu'il apparaisse dans les moteurs de recherche basés sur l'IA comme ChatGPT et Google."

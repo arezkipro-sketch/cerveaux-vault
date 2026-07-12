@@ -2,7 +2,7 @@
 title: "Comment capter l’attention dès la première ligne + exemples"
 source: "https://www.academiecopywriting.fr/blog/capter-attention-premiere-ligne"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-03
 created: 2026-06-16
 description: "Découvrez comment capter l’attention dès la première ligne : techniques de copywriting, structure d’intro, exemples de premières phrases et erreurs à éviter."

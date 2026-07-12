@@ -2,7 +2,7 @@
 title: "Canva, Figma, Photoshop : outils utiles au copywriter visuel"
 source: "https://www.academiecopywriting.fr/blog/outils-visuels-copywriter"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-11
 created: 2026-06-16
 description: "Canva, Figma ou Photoshop : quels outils pour un copywriter ? Découvrez quoi utiliser selon vos besoins (posts, landing pages, pubs), les avantages et limites."

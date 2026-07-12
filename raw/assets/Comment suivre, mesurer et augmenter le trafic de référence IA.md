@@ -2,7 +2,7 @@
 title: "Comment suivre, mesurer et augmenter le trafic de référence IA"
 source: "https://fr.semrush.com/blog/ai-referral-traffic/"
 author:
-  - "[[Carlos Silva]]"
+  - "Carlos Silva"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

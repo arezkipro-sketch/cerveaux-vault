@@ -2,9 +2,9 @@
 title: "Changement de nom de domaine & SEO : Conseils pour maintenir vos classements"
 source: "https://fr.semrush.com/blog/changer-le-nom-de-domaine-seo/"
 author:
-  - "[[Rachel Baker]]"
+  - "Rachel Baker"
   - "[[Christine Skopec]]"
-  - "[[Boris Mustapic]]"
+  - "Boris Mustapic"
 published: 2025-05-13
 created: 2026-06-15
 description: "Apprenez comment changer votre nom de domaine sans chuter dans les classements de la recherche organique."

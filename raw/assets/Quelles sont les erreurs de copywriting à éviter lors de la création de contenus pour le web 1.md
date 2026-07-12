@@ -2,7 +2,7 @@
 title: "Quelles sont les erreurs de copywriting à éviter lors de la création de contenus pour le web ?"
 source: "https://jeremy-allard.com/quelles-sont-les-erreurs-de-copywriting-a-eviter-lors-de-la-creation-de-contenus-pour-le-web/"
 author:
-  - "[[Jérémy]]"
+  - "Jérémy"
 published: 2024-09-22
 created: 2026-06-17
 description: "Lorsqu’il s’agit de créer du contenu sur le web, chaque mot compte. Imaginez passer des heures à peaufiner votre texte, seulement pour réaliser qu’il n’atteint pas son objectif. Cela arrive plus souvent qu’on ne le pense ! Dans l’univers numérique actuel, captiver votre audience est essentiel, et éviter certaines erreurs peut faire toute la différence. ... Lire plus"

@@ -2,8 +2,8 @@
 title: "Comment créer une newsletter ? Guide pratique"
 source: "https://neilpatel.com/fr/blog/comment-creer-une-newsletter-guide-pratique/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-09-30
 created: 2026-06-18

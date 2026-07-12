@@ -2,7 +2,7 @@
 title: "Le biais de confirmation : pourquoi il renforce la vente"
 source: "https://www.academiecopywriting.fr/blog/biais-confirmation-vente"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-22
 created: 2026-06-17
 description: "Découvrez comment utiliser le biais de confirmation pour renforcer vos ventes et convaincre plus efficacement vos prospects."

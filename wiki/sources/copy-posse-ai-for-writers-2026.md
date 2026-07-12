@@ -32,7 +32,7 @@ status: active
 - Personal incident: a marketer used AI to generate an image of a woman that looked like Alex to promote his tool without consent — ethical red flag story *(article)*
 
 ## Entities & concepts touched
-- [[alex-cattoni]], [[copy-posse]], [[ai-for-writers]], [[copywriting]], [[e-e-a-t]]
+- [[alex-cattoni]], [[alex-cattoni]], [[ai-for-writers]], [[copywriting]], [[e-e-a-t]]
 
 ## Connections
 - Part 1 of Alex Cattoni's 3-part AI & Writing series. Part 2: [[awai-ai-wont-kill-writing-jobs]], Part 3: [[copy-posse-can-ai-replace-writers]].

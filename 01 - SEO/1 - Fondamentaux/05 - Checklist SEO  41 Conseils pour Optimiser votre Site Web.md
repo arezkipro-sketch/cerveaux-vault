@@ -2,7 +2,7 @@
 title: "Checklist SEO : 41 Conseils pour Optimiser votre Site Web"
 source: "https://fr.semrush.com/blog/checklist-seo-bonnes-pratiques/"
 author:
-  - "[[Olivier Amici]]"
+  - "Olivier Amici"
 published: 2022-08-01
 created: 2026-06-19
 description: "Notre checklist SEO gratuite est un guide étape par étape qui peut vous aider à optimiser votre site et à améliorer vos classements."

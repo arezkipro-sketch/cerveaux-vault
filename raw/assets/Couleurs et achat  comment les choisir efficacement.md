@@ -2,7 +2,7 @@
 title: "Couleurs et achat : comment les choisir efficacement"
 source: "https://www.academiecopywriting.fr/blog/couleurs-influencent-achat"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-28
 created: 2026-06-17
 description: "Découvrez comment les couleurs influencent les décisions d’achat et apprenez à les utiliser pour booster vos conversions en copywriting."

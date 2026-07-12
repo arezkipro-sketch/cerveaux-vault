@@ -2,8 +2,8 @@
 title: "Comment se positionner sur les mots-clés « près de moi » dans la recherche locale ?"
 source: "https://fr.semrush.com/blog/near-me-keywords/"
 author:
-  - "[[Joshua Saxon]]"
-  - "[[Alejandro López de Haro]]"
+  - "Joshua Saxon"
+  - "Alejandro López de Haro"
 published: 2025-05-13
 created: 2026-06-15
 description: "Augmentez votre visibilité locale et attirez les clients de proximité prêts à acheter."

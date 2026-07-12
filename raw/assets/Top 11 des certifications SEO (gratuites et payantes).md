@@ -2,7 +2,7 @@
 title: "Top 11 des certifications SEO (gratuites et payantes)"
 source: "https://fr.semrush.com/blog/certification-seo/"
 author:
-  - "[[Vlado Pavlik]]"
+  - "Vlado Pavlik"
 published: 2025-05-13
 created: 2026-06-15
 description: "Lisez notre liste des meilleures certifications et cours de référencement que vous pouvez suivre pour améliorer vos connaissances en référencement."

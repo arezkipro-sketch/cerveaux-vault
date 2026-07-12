@@ -2,7 +2,7 @@
 title: "Comment savoir si une idée est bonne quand vous êtes votre propre frein"
 source: "https://jeremy-allard.com/bonne-idee/"
 author:
-  - "[[Jérémy]]"
+  - "Jérémy"
 published: 2026-01-26
 created: 2026-06-17
 description: "Trop d’idées business mais impossible de décider ? Méthode concrète pour éliminer les fausses bonnes idées et valider une idée rentable."

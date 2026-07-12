@@ -2,9 +2,9 @@
 title: "Référencement traditionnel vs référencement IA : ce que vous devez vraiment savoir"
 source: "https://fr.semrush.com/blog/traditional-seo-vs-ai-seo/"
 author:
-  - "[[Ana Camarena]]"
+  - "Ana Camarena"
   - "[[Christine Skopec]]"
-  - "[[Carlos Silva]]"
+  - "Carlos Silva"
 published: 2025-05-13
 created: 2026-06-15
 description: "Le référencement traditionnel optimise les performances pour les moteurs de recherche comme Google. Le référencement naturel basé sur l'IA optimise pour les plateformes d'IA et les fonctionnalités de recherche."

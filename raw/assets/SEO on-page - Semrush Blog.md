@@ -2,8 +2,8 @@
 title: "SEO on-page - Semrush Blog"
 source: "https://fr.semrush.com/blog/category/seo/seo-on-page/"
 author:
-  - "[[Semrush Team]]"
-  - "[[Connor Lahey]]"
+  - "[[semrush]]"
+  - "Connor Lahey"
 published: 22 août 2023
 created: 2026-06-15
 description: "Blog about SEO on-page."

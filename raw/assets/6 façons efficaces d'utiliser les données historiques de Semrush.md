@@ -2,7 +2,7 @@
 title: "6 façons efficaces d'utiliser les données historiques de Semrush"
 source: "https://fr.semrush.com/blog/semrush-historical-data/"
 author:
-  - "[[Brenna Kelly]]"
+  - "Brenna Kelly"
 published: 2025-05-13
 created: 2026-06-15
 description: "Analysez vos concurrents et les tendances des mots clés depuis 2012 grâce aux données historiques de Semrush."

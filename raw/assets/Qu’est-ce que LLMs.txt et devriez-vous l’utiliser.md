@@ -2,9 +2,9 @@
 title: "Qu’est-ce que LLMs.txt et devriez-vous l’utiliser ?"
 source: "https://fr.semrush.com/blog/llms-txt/"
 author:
-  - "[[Tushar Pol]]"
+  - "Tushar Pol"
   - "[[Christine Skopec]]"
-  - "[[Connor Lahey]]"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Un fichier llms.txt est conçu pour aider les grands modèles de langage (LLM) à mieux comprendre le contenu de votre site."

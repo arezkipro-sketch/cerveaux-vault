@@ -2,7 +2,7 @@
 title: "10 outils gratuits pour booster ton copywriting"
 source: "https://www.academiecopywriting.fr/blog/outils-gratuits-copywriting"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-18
 created: 2026-06-16
 description: "Découvrez 10 outils gratuits pour améliorer vos textes de copywriting et gagner en efficacité dès aujourd’hui."

@@ -2,7 +2,7 @@
 title: "Les 10 méthodes pour obtenir des backlinks naturellement"
 source: "https://deux.io/les-10-methodes-pour-obtenir-des-backlinks-naturellement/"
 author:
-  - "[[Alexandre Flament]]"
+  - "Alexandre Flament"
 published: 2024-09-19
 created: 2026-06-20
 description: "Découvrez 10 méthodes simples et efficaces pour obtenir des backlinks naturellement et améliorer votre SEO."

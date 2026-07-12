@@ -2,7 +2,7 @@
 title: "Sources de trafic Google Analytics : Un guide approfondi"
 source: "https://fr.semrush.com/blog/sources-de-trafic-ga4/"
 author:
-  - "[[Zack Duncan]]"
+  - "Zack Duncan"
   - "[[Christine Skopec]]"
 published: 2024-08-02
 created: 2026-06-15

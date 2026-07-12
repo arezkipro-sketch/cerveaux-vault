@@ -2,7 +2,7 @@
 title: "Déclencher l’urgence en copywriting sans agressivité"
 source: "https://www.academiecopywriting.fr/blog/urgence-copywriting-sans-agressivite"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-25
 created: 2026-06-17
 description: "Découvrez comment créer un sentiment d’urgence en copywriting sans paraître agressif ni pousser à l’achat de manière intrusive."

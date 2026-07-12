@@ -2,7 +2,7 @@
 title: "Les 15 meilleurs outils de gestion de la réputation en ligne pour 2025"
 source: "https://fr.semrush.com/blog/online-reputation-management-tools/"
 author:
-  - "[[Boris Mustapic]]"
+  - "Boris Mustapic"
 published: 2025-05-13
 created: 2026-06-15
 description: "Consultez notre liste des meilleurs logiciels de gestion de la réputation en ligne pour vous aider à améliorer la réputation de votre marque."

@@ -2,7 +2,7 @@
 title: "Différence entre copywriting et rédaction web"
 source: "https://www.academiecopywriting.fr/blog/difference-copywriting-redaction-web"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-08
 created: 2026-06-16
 description: "Découvrez les différences clés entre copywriting et rédaction web pour mieux choisir votre stratégie de contenu."

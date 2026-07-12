@@ -2,7 +2,7 @@
 title: "AEO vs SEO : Différences fondamentales et comment gagner en visibilité dans les deux domaines"
 source: "https://fr.semrush.com/blog/aeo-vs-seo/"
 author:
-  - "[[Margarita Loktionova]]"
+  - "Margarita Loktionova"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez les principales différences entre le SEO et l'AEO. Découvrez comment chacun fonctionne, où ils se recoupent et les stratégies pratiques pour gagner en visibilité dans les deux."

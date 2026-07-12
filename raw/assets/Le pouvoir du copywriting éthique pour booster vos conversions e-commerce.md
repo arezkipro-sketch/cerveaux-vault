@@ -2,7 +2,7 @@
 title: "Le pouvoir du copywriting éthique pour booster vos conversions e-commerce"
 source: "https://www.projectfork.net/copywriting-ethique-conversion/"
 author:
-  - "[[Yann BEREGAUD]]"
+  - "Yann BEREGAUD"
 published: 2026-02-28
 created: 2026-06-17
 description: "Découvrez comment le copywriting éthique booste le taux de conversion e-commerce en alliant persuasion et respect des clients."

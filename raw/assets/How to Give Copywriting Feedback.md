@@ -2,7 +2,7 @@
 title: "How to Give Copywriting Feedback"
 source: "https://filthyrichwriter.com/how-to-give-copywriting-feedback/"
 author:
-  - "[[Kate Sitarz]]"
+  - "Kate Sitarz"
 published: 2022-11-07
 created: 2026-06-15
 description: "Giving and receiving feedback is a skill. It can be hard to receive feedback on our copywriting. Here are tips for giving feedback."

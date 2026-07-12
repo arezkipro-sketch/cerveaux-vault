@@ -2,7 +2,7 @@
 title: "Comment connecter Google Search Console à Google Analytics 4"
 source: "https://fr.semrush.com/blog/comment-connecter-google-search-console-a-google-analytics/"
 author:
-  - "[[Zack Duncan]]"
+  - "Zack Duncan"
 published: 2025-05-13
 created: 2026-06-15
 description: "Apprends à connecter Google Search Console à GA4 pour analyser tes principales requêtes de recherche et pages d'atterrissage."

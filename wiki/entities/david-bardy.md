@@ -21,7 +21,7 @@ updated: 2026-06-19
 
 ## Relations
 - Voisin thématique de [[benjamin-thiers]], [[noiise]], [[audrey-tips]] (praticiens SEO FR).
-- Cite [[laurent-bourelly]] (« respirer l'odeur de la SERP ») *(TODO)*.
+- Cite laurent-bourelly (« respirer l'odeur de la SERP ») *(TODO)*.
 - Contribue à [[facteurs-de-classement]], [[e-e-a-t]], [[click-through-rate]], [[backlinks]].
 
 ## Tensions / open questions

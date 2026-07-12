@@ -2,8 +2,8 @@
 title: "Omnichannel: définition, différences et comment l’appliquer"
 source: "https://neilpatel.com/fr/blog/omnichannel/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-07-23
 created: 2026-06-18

@@ -2,7 +2,7 @@
 title: "Comment utiliser la preuve sociale dans ses textes"
 source: "https://www.academiecopywriting.fr/blog/utiliser-preuve-sociale-textes"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-22
 created: 2026-06-17
 description: "Apprenez à intégrer la preuve sociale dans vos textes pour inspirer confiance, convaincre vos prospects et booster vos ventes."

@@ -2,10 +2,10 @@
 title: "Comment soumettre un plan du site à Google (en 3 étapes simples)"
 source: "https://fr.semrush.com/blog/soumettre-sitemap-google/"
 author:
-  - "[[Tan Siew Ann]]"
-  - "[[Vlado Pavlik]]"
-  - "[[Cecilia Meis]]"
-  - "[[Simon Fogg]]"
+  - "Tan Siew Ann"
+  - "Vlado Pavlik"
+  - "Cecilia Meis"
+  - "Simon Fogg"
 published: 2025-05-13
 created: 2026-06-15
 description: "Pour soumettre votre plan du site à Google, ajoutez son URL au rapport « Sitemaps » de Google Search Console."

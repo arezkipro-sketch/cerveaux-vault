@@ -2,7 +2,7 @@
 title: "13 bonnes pratiques pour optimiser la visibilité et les performances des publicités display"
 source: "https://fr.semrush.com/blog/display-ads-best-practices/"
 author:
-  - "[[Semrush Team]]"
+  - "[[semrush]]"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez grâce à ce guide complet des stratégies éprouvées pour créer des publicités display qui génèrent un maximum de résultats."

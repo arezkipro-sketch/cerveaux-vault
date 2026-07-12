@@ -2,7 +2,7 @@
 title: "Fiche produit SEO : Comment optimiser pour Google et l'IA"
 source: "https://audreytips.com/fiche-produit-seo/"
 author:
-  - "[[Audrey Tips]]"
+  - "[[audrey-tips]]"
 published: 2026-04-03
 created: 2026-06-19
 description: "Comment optimiser une fiche produit SEO pour Google et les moteurs IA ? Structurez vos pages pour capter l’intention et générer des ventes."

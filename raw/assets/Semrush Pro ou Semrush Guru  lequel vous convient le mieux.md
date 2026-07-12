@@ -2,7 +2,7 @@
 title: "Semrush Pro ou Semrush Guru : lequel vous convient le mieux ?"
 source: "https://fr.semrush.com/blog/semrush-pro-vs-semrush-guru/"
 author:
-  - "[[Brenna Kelly]]"
+  - "Brenna Kelly"
 published: 2025-05-13
 created: 2026-06-15
 description: "Comparez les abonnements Semrush Guru et Semrush Pro pour identifier les principales différences et choisir celui qui correspond le mieux à vos besoins."

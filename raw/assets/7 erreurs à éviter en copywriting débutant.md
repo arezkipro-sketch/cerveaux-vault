@@ -2,7 +2,7 @@
 title: "7 erreurs à éviter en copywriting débutant"
 source: "https://www.academiecopywriting.fr/blog/erreurs-copywriting-debutant"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-08
 created: 2026-06-16
 description: "Évitez ces 7 erreurs courantes en copywriting et progressez plus vite dans votre formation."

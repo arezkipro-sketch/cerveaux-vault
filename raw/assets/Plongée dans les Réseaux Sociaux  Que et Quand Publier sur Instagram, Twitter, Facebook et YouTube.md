@@ -2,7 +2,7 @@
 title: "Plongée dans les Réseaux Sociaux : Que et Quand Publier sur Instagram, Twitter, Facebook et YouTube"
 source: "https://fr.semrush.com/blog/etude-reseaux-sociaux-2023/"
 author:
-  - "[[Fabien Rothey]]"
+  - "Fabien Rothey"
 published: 2023-08-09
 created: 2026-06-15
 description: "Semrush a analysé un an du contenu des plus grandes entreprises tech sur les réseaux sociaux. Découvrez comment le type de contenu et le timing ont un impact sur l‘engagement."

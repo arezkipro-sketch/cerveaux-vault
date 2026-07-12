@@ -2,7 +2,7 @@
 title: "Méthode FAB : présenter les bénéfices d’une offre"
 source: "https://www.academiecopywriting.fr/blog/methode-fab-benefices-offre"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-13
 created: 2026-06-16
 description: "Découvrez la méthode FAB (Features, Advantages, Benefits) pour convaincre vos prospects en mettant en avant les vrais bénéfices de votre offre."

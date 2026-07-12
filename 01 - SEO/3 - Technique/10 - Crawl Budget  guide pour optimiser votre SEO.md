@@ -2,8 +2,8 @@
 title: "Crawl Budget : guide pour optimiser votre SEO"
 source: "https://neilpatel.com/fr/blog/crawl-budget-le-guide/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-10-30
 created: 2026-06-18

@@ -2,7 +2,7 @@
 title: "Comment trouver les mots-clés des questions (et les cibler efficacement)"
 source: "https://fr.semrush.com/blog/question-keywords/"
 author:
-  - "[[Rachel Handley]]"
+  - "Rachel Handley"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

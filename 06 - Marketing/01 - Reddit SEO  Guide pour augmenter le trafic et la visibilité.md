@@ -2,8 +2,8 @@
 title: "Reddit SEO : Guide pour augmenter le trafic et la visibilité"
 source: "https://neilpatel.com/fr/blog/reddit-seo/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-09-05
 created: 2026-06-18

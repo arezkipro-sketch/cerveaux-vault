@@ -2,7 +2,7 @@
 title: "Les pages vues dans Google Analytics 4 : Le guide complet du débutant"
 source: "https://fr.semrush.com/blog/pages-vues/"
 author:
-  - "[[Aida Knezevic]]"
+  - "Aida Knezevic"
 published: 2024-08-02
 created: 2026-06-15
 description: "Apprends où trouver les pages vues dans Google Analytics 4. Découvre comment utiliser ces données pour améliorer le trafic sur le site web."

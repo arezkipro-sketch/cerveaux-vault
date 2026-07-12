@@ -2,7 +2,7 @@
 title: "10 expressions de copywriting à bannir dès maintenant"
 source: "https://www.academiecopywriting.fr/blog/expressions-copywriting-a-bannir"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-06
 created: 2026-06-16
 description: "Découvrez 10 expressions à éviter absolument en copywriting pour rendre vos textes plus percutants et crédibles."

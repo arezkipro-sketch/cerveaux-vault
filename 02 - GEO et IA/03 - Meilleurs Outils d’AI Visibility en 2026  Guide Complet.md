@@ -2,8 +2,8 @@
 title: "Meilleurs Outils d’AI Visibility en 2026 : Guide Complet"
 source: "https://neilpatel.com/fr/blog/al-visibility-en/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-11-28
 created: 2026-06-18

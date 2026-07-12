@@ -2,7 +2,7 @@
 title: "Copywriting visuel : impact des images et mises en page"
 source: "https://www.academiecopywriting.fr/blog/copywriting-visuel-images-mise-en-page"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-29
 created: 2026-06-17
 description: "Découvrez comment le copywriting visuel, combinant images et mise en page, renforce vos textes et capte l’attention des lecteurs."

@@ -30,7 +30,7 @@ status: active
 - Decision fatigue from long lists makes creative work harder *(episode)*
 
 ## Entities & concepts touched
-- [[nicki-krawczyk]], [[filthy-rich-writer]], [[copywriting]], [[ai-for-writers]]
+- [[nicki-krawczyk]], [[nicki-krawczyk]], [[copywriting]], [[ai-for-writers]]
 
 ## Connections
 - AI-as-organizer framing aligns with but extends [[ai-for-writers]]: not just for writing tasks but for managing creative chaos.

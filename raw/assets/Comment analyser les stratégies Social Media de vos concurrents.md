@@ -2,9 +2,9 @@
 title: "Comment analyser les stratégies Social Media de vos concurrents"
 source: "https://fr.semrush.com/blog/analyser-strategies-social-media-concurrents/"
 author:
-  - "[[Claire Beveridge]]"
-  - "[[Chris Shirlow]]"
-  - "[[Bartłomiej Barcik]]"
+  - "Claire Beveridge"
+  - "Chris Shirlow"
+  - "Bartłomiej Barcik"
 published: 2025-05-13
 created: 2026-06-15
 description: "Dans ce guide, retrouvez toutes les étapes de la mise en place d’une analyse concurrentielle des réseaux sociaux grâce au Social Media Tracker de Semrush."

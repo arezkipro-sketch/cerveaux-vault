@@ -2,7 +2,7 @@
 title: "Dépenses publicitaires des concurrents : comment découvrir le budget de votre rival"
 source: "https://fr.semrush.com/blog/competitor-ad-spend/"
 author:
-  - "[[Grace Brennan]]"
+  - "Grace Brennan"
 published: 2025-05-14
 created: 2026-06-15
 description: "Vous êtes-vous déjà demandé combien vos concurrents dépensent en publicité ? Ces informations peuvent optimiser votre stratégie budgétaire et vous permettre de garder une longueur d'avance en matière de marketing."

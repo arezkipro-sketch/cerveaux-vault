@@ -2,9 +2,9 @@
 title: "Feuille de route SEO : Comment en créer une + Modèle gratuit"
 source: "https://fr.semrush.com/blog/seo-roadmap/"
 author:
-  - "[[Asif Ali]]"
-  - "[[Michelle Lowery]]"
-  - "[[Boris Mustapic]]"
+  - "Asif Ali"
+  - "Michelle Lowery"
+  - "Boris Mustapic"
 published: 2025-05-13
 created: 2026-06-15
 description: "Un document de feuille de route SEO décrit les étapes à suivre pour améliorer les performances de votre site dans les résultats de recherche. Apprenez comment en créer un."

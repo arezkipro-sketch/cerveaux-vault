@@ -2,7 +2,7 @@
 title: "Les 5 types de copywriting à connaître absolument"
 source: "https://www.academiecopywriting.fr/blog/5-types-copywriting"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-08
 created: 2026-06-16
 description: "Découvrez les 5 types de copywriting essentiels, leurs différences et comment les utiliser pour booster vos ventes et votre communication."

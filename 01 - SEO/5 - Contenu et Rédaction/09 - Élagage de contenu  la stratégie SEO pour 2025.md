@@ -2,8 +2,8 @@
 title: "Élagage de contenu : la stratégie SEO pour 2025"
 source: "https://neilpatel.com/fr/blog/ce-quest-content-pruning/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-10-22
 created: 2026-06-18

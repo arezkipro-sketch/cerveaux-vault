@@ -2,7 +2,7 @@
 title: "Frustration et désir : comprendre le moteur d’achat"
 source: "https://www.academiecopywriting.fr/blog/frustration-desir-decision-achat"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-26
 created: 2026-06-16
 description: "Frustration et désir expliquent la plupart des achats. Découvrez comment ces 2 forces déclenchent la décision, comment les utiliser en copywriting + exemples."

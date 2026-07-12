@@ -2,7 +2,7 @@
 title: "Les 3 émotions qui déclenchent le plus d’achats"
 source: "https://www.academiecopywriting.fr/blog/emotions-declenchent-achats"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-22
 created: 2026-06-17
 description: "Découvrez les trois émotions principales qui influencent les décisions d’achat et comment les utiliser dans vos ventes."

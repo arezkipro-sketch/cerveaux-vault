@@ -2,7 +2,7 @@
 title: "Comment écrire un bon hook d’accroche ?"
 source: "https://www.academiecopywriting.fr/blog/comment-ecrire-un-bon-hook-accroche"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-08
 created: 2026-06-16
 description: "Apprenez à écrire un hook d’accroche puissant pour capter l’attention dès les premières secondes et maximiser l’impact de vos textes."

@@ -2,7 +2,7 @@
 title: "Vendre un ebook : le guide complet 2026"
 source: "https://www.academiecopywriting.fr/blog/vendre-un-ebook"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published:
 created: 2026-06-16
 description: "Vendre un ebook en 2026 : choix de plateforme, prix, page de vente et stratégies pour générer des revenus récurrents. Guide actionnable."

@@ -29,7 +29,7 @@ status: active
 - Deadlines move you from "thinking about writing" to "sitting at your desk writing" *(article)*
 
 ## Entities & concepts touched
-- [[nicki-krawczyk]], [[filthy-rich-writer]], [[copywriting]], [[freelance-copywriting]]
+- [[nicki-krawczyk]], [[nicki-krawczyk]], [[copywriting]], [[freelance-copywriting]]
 
 ## Connections
 - Mindset theme connects to [[frw-ep280-making-herstory]]: internal voice as biggest obstacle.

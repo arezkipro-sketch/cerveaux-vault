@@ -2,7 +2,7 @@
 title: "Neurosciences & vente : le lien insoupçonné"
 source: "https://www.academiecopywriting.fr/blog/neurosciences-vente"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-22
 created: 2026-06-17
 description: "Découvrez comment les neurosciences révèlent les mécanismes cachés qui influencent la décision d’achat et boostent vos ventes."

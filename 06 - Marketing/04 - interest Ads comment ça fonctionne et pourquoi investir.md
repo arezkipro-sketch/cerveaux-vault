@@ -2,8 +2,8 @@
 title: "interest Ads: comment ça fonctionne et pourquoi investir"
 source: "https://neilpatel.com/fr/blog/pinterest-ads-comment/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2025-12-10
 created: 2026-06-18

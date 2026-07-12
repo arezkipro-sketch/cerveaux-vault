@@ -2,7 +2,7 @@
 title: "Copywriting émotionnel : mode d’emploi complet"
 source: "https://www.academiecopywriting.fr/blog/copywriting-emotionnel-mode-emploi"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-03
 created: 2026-06-16
 description: "Copywriting émotionnel : définition, leviers, structures, techniques de langage, erreurs à éviter et modèles prêts à l’emploi pour emails et pages de vente."

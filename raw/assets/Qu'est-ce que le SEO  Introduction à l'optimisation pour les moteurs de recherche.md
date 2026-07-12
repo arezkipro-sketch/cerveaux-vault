@@ -2,10 +2,10 @@
 title: "Qu'est-ce que le SEO ? Introduction à l'optimisation pour les moteurs de recherche"
 source: "https://fr.semrush.com/blog/qu-est-ce-que-le-seo/"
 author:
-  - "[[Rachel Handley]]"
+  - "Rachel Handley"
   - "[[Christine Skopec]]"
-  - "[[Connor Lahey]]"
-  - "[[Selina Scheumann]]"
+  - "Connor Lahey"
+  - "Selina Scheumann"
 published: 2025-05-13
 created: 2026-06-15
 description: "Le SEO (optimisation pour les moteurs de recherche) est un effort visant à obtenir une plus grande visibilité gratuite dans les moteurs de recherche comme Google."

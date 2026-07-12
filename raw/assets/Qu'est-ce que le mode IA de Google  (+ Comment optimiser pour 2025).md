@@ -2,9 +2,9 @@
 title: "Qu'est-ce que le mode IA de Google ? (+ Comment optimiser pour 2025)"
 source: "https://fr.semrush.com/blog/google-ai-mode/"
 author:
-  - "[[Alex Lindley]]"
-  - "[[Cecilia Meis]]"
-  - "[[Connor Lahey]]"
+  - "Alex Lindley"
+  - "Cecilia Meis"
+  - "Connor Lahey"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez ce qu'est le mode IA de Google, comment il modifie le référencement naturel et les étapes clés à suivre pour que votre contenu y soit mis en avant."

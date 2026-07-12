@@ -2,7 +2,7 @@
 title: "Autorité thématique : Le guide ultime pour acquérir votre topical authority en 2026"
 source: "https://julien-gourdon.fr/article/autorite-thematique"
 author:
-  - "[[Julien Gourdon]]"
+  - "[[julien-gourdon]]"
 published: 2025-11-15
 created: 2026-06-20
 description: "Construisez une autorité durable avec une méthode concrète pour structurer vos sujets, renforcer vos signaux et dominer votre niche."

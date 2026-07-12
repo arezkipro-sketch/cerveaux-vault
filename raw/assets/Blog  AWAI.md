@@ -2,7 +2,7 @@
 title: "Blog :: AWAI"
 source: "https://www.awai.com/blog/"
 author:
-  - "[[Rebecca Matter]]"
+  - "Rebecca Matter"
 published:
 created: 2026-06-15
 description: "On the AWAI Blogs Page, you’ll find your favorite AWAI writers publishing today’s hottest copywriting tips, links to engaging articles and a forum where you can get involved by posting your own comments …"

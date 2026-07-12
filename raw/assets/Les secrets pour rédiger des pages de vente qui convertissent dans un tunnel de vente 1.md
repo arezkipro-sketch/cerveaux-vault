@@ -2,7 +2,7 @@
 title: "Les secrets pour rédiger des pages de vente qui convertissent dans un tunnel de vente"
 source: "https://jeremy-allard.com/les-secrets-pour-rediger-des-pages-de-vente-qui-convertissent-dans-notre-tunnel/"
 author:
-  - "[[Jérémy]]"
+  - "Jérémy"
 published: 2024-10-02
 created: 2026-06-17
 description: "Dans l’univers du marketing digital, réussir à capter l’attention de vos clients potentiels est essentiel. Mais comment transformer cette attention en action concrète ? Pour cela, il est crucial de décoder le comportement des consommateurs et de maîtriser les leviers psychologiques qui les poussent à l’achat. Cet article vous dévoilera des stratégies incontournables pour rédiger ... Lire plus"

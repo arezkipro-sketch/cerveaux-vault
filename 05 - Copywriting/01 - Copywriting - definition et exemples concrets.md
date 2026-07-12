@@ -2,7 +2,7 @@
 title: "Copywriting : définition et exemples concrets"
 source: "https://www.academiecopywriting.fr/blog/copywriting-definition-exemples"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-08
 created: 2026-06-16
 description: "Comprenez facilement ce qu’est le copywriting avec une définition claire et des exemples concrets pour mieux vendre."

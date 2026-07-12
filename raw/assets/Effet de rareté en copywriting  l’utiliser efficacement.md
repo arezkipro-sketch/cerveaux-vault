@@ -2,7 +2,7 @@
 title: "Effet de rareté en copywriting : l’utiliser efficacement"
 source: "https://www.academiecopywriting.fr/blog/effet-rarete-copywriting"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-25
 created: 2026-06-17
 description: "Découvrez comment exploiter l’effet de rareté en copywriting pour augmenter vos conversions sans tomber dans la manipulation."

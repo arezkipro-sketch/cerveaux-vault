@@ -559,6 +559,12 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[olivier-andrieu]] — expert SEO francophone de référence, fondateur d'Abondance.com, auteur de *Réussir son référencement web*. *(1 src)*
 - [[seoquantum]] — Bruno Fontanet, outil FR d'analyse sémantique SEO + blog de ressources netlinking. *(1 src)*
 - [[thibaut-fitoussi]] — entrepreneur français IA/marketing digital, co-fondateur et CEO de [[minddex]]. *(1 src)*
+- [[irentdumpsters]] — créateur de contenu X ; relais de la guidance officielle Google sur AI Overviews. *(1 src)*
+- [[jespernissenseo]] — @JespernissenSEO, analyste SEO ; statistiques de trafic référé par les IA. *(1 src)*
+- [[onelegchris]] — @OneLegchris, praticien local SEO ; stratégies GBP multi-fiches. *(1 src)*
+- [[awai]] — American Writers & Artists Institute, institut de formation copywriting freelance. *(1 src)*
+- [[france-num]] — dispositif public FR d'accompagnement numérique TPE/PME ; guides SEO grand public. *(2 src)*
+- [[shopify]] — plateforme e-commerce SaaS (Liquid) ; plateforme du store de l'utilisateur. *(3 src)*
 
 ---
 

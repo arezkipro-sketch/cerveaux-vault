@@ -2,10 +2,10 @@
 title: "Questions fréquentes : Qu’est-ce que c’est et comment l’optimiser ?"
 source: "https://fr.semrush.com/blog/people-also-ask/"
 author:
-  - "[[Sydney Go]]"
+  - "Sydney Go"
   - "[[Christine Skopec]]"
-  - "[[Simon Fogg]]"
-  - "[[Selina Scheumann]]"
+  - "Simon Fogg"
+  - "Selina Scheumann"
 published: 2025-05-13
 created: 2026-06-15
 description: "La section « Autres questions posées » (PAA) est une fonctionnalité de recherche Google qui affiche des questions liées à la requête de l'utilisateur."

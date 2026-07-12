@@ -2,7 +2,7 @@
 title: "Comment être premier sur Google : méthode SEO pour viser le Top 3"
 source: "https://www.410-gone.fr/blog/comment-etre-premier-sur-google.html"
 author:
-  - "[[David Bardy]]"
+  - "[[david-bardy]]"
 published: 2025-12-23
 created: 2026-06-19
 description: "Comprenez ce que signifie vraiment “être premier” sur Google (Ads, local, organique) et appliquez une méthode SEO claire pour atteindre la 1ère page : intention, contenu, on-page, technique et autorité + checklists."

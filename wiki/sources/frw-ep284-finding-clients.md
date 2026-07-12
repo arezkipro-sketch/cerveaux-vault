@@ -30,7 +30,7 @@ status: active
 - CCA has taught 12,000+ students *(episode intro)*
 
 ## Entities & concepts touched
-- [[nicki-krawczyk]], [[filthy-rich-writer]], [[freelance-copywriting]]
+- [[nicki-krawczyk]], [[nicki-krawczyk]], [[freelance-copywriting]]
 
 ## Connections
 - Extends [[freelance-copywriting]] from solo operation to agency/collective business model.

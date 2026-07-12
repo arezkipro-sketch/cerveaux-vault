@@ -2,7 +2,7 @@
 title: "22 Meilleurs outils de création de contenu pour les créateurs"
 source: "https://fr.semrush.com/blog/outils-creation-de-contenu/"
 author:
-  - "[[Rachel Handley]]"
+  - "Rachel Handley"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

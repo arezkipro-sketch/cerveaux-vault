@@ -2,7 +2,7 @@
 title: "Structurer un texte de vente en 5 étapes simples"
 source: "https://www.academiecopywriting.fr/blog/structurer-texte-vente"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-10-06
 created: 2026-06-16
 description: "Découvrez 5 étapes simples et efficaces pour structurer un texte de vente percutant et convaincre vos prospects."

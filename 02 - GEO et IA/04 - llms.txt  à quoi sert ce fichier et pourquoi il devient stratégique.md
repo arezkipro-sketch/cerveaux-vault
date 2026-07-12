@@ -2,8 +2,8 @@
 title: "llms.txt : à quoi sert ce fichier et pourquoi il devient stratégique"
 source: "https://neilpatel.com/fr/blog/llms-txt-a-quoisert-ce-fichier/"
 author:
-  - "[[Neil Patel]]"
-  - "[[NP Digital]]"
+  - "[[neil-patel]]"
+  - "[[np-digital]]"
   - "[[Ubersuggest]]"
 published: 2026-01-15
 created: 2026-06-18

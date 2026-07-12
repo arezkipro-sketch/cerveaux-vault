@@ -2,10 +2,10 @@
 title: "Comment trouver et vérifier les backlinks (pour n'importe quel site web)"
 source: "https://fr.semrush.com/blog/trouver-des-liens/"
 author:
-  - "[[Tushar Pol]]"
+  - "Tushar Pol"
   - "[[Christine Skopec]]"
-  - "[[Zach Paruch]]"
-  - "[[Connor Lahey]]"
+  - "Zach Paruch"
+  - "Connor Lahey"
 published: 2024-08-02
 created: 2026-06-15
 description: "Trouve des backlinks précieux pour n'importe quel site web et apprends à améliorer tes efforts de création de liens pour booster ton référencement."

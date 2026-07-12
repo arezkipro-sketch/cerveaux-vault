@@ -2,7 +2,7 @@
 title: "Les CTA les plus efficaces en 2025"
 source: "https://www.academiecopywriting.fr/blog/cta-efficaces-2025"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-22
 created: 2026-06-16
 description: "Découvrez les call-to-action les plus efficaces en 2025 pour booster vos conversions et transformer vos visiteurs en clients."

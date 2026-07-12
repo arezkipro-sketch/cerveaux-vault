@@ -2,7 +2,7 @@
 title: "Comment se positionner en tête des résultats de recherche IA en 2025 : 6 tactiques d’experts du secteur"
 source: "https://fr.semrush.com/blog/how-to-rank-in-ai-search/"
 author:
-  - "[[Margarita Loktionova]]"
+  - "Margarita Loktionova"
 published: 2025-05-13
 created: 2026-06-15
 description: "Le trafic généré par la recherche IA devrait dépasser celui de la recherche traditionnelle d'ici 2028. Découvrez 5 tactiques éprouvées pour améliorer votre présence en IA."

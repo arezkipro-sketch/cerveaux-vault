@@ -31,8 +31,8 @@ status: active
 - Student: £600 client turned into £6,000 client by offering full marketing funnel *(article)*
 
 ## Entities & concepts touched
-- [[alex-cattoni]], [[copy-posse]], [[freelance-copywriting]], [[copywriting]]
+- [[alex-cattoni]], [[alex-cattoni]], [[freelance-copywriting]], [[copywriting]]
 
 ## Connections
 - Complements [[frw-land-clients-35-tips]]: that article covers 35 methods; this one gives the daily schedule to execute them.
-- Reinforces [[copy-posse]] as structured education platform with real student outcomes.
+- Reinforces [[alex-cattoni]] as structured education platform with real student outcomes.

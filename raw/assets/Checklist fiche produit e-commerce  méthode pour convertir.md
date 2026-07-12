@@ -2,7 +2,7 @@
 title: "Checklist fiche produit e-commerce : méthode pour convertir"
 source: "https://www.academiecopywriting.fr/blog/checklist-fiche-produit"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-18
 created: 2026-06-16
 description: "Checklist fiche produit e-commerce : structure, bénéfices, preuves, objections, CTA + optimisation SEO. Méthode pour écrire fiches produits qui convertissent."

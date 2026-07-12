@@ -2,7 +2,7 @@
 title: "Écrire des emails qui vendent : méthode rapide"
 source: "https://www.academiecopywriting.fr/blog/ecrire-emails-qui-vendent"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-22
 created: 2026-06-16
 description: "Découvrez une méthode rapide et efficace pour écrire des emails qui captivent vos prospects et génèrent des ventes."

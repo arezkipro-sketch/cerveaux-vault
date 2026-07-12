@@ -2,7 +2,7 @@
 title: "Julien CTR (@CTRBooster75) sur X"
 source: "https://x.com/CTRBooster75/status/2064228300646437052"
 author:
-  - "[[Julien CTR]]"
+  - "[[julien-ctr]]"
 published: 2026-06-09
 created: 2026-06-27
 description: "📂 SEO┃┣ 📂 Idée┃ ┣ 📂 Niche┃ ┣ 📂 Intention De Recherche┃ ┣ 📂 Potentiel Business┃ ┣ 📂 Concurrence SERP┃ ┗ 📂 Opportunité Cachée┃┣ 📂 Validation┃ ┣ 📂 Volume Réel┃ ┣ 📂 Coût Du Lead┃ ┣ 📂 Valeur Du Client┃ ┣ 📂 Difficulté SEO┃ ┗ 📂 Vitesse"

@@ -2,7 +2,7 @@
 title: "7 prompts ChatGPT pour écrire une page de vente"
 source: "https://www.academiecopywriting.fr/blog/prompts-chatgpt-page-vente"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-09-15
 created: 2026-06-16
 description: "Découvrez 7 prompts ChatGPT efficaces pour rédiger une page de vente convaincante et booster vos conversions en copywriting."

@@ -2,7 +2,7 @@
 title: "Psychologie de l’attention : capter un lecteur en 3 secondes"
 source: "https://www.academiecopywriting.fr/blog/psychologie-attention-copywriting"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-25
 created: 2026-06-17
 description: "Découvrez comment capter l’attention d’un lecteur en 3 secondes grâce à la psychologie et aux techniques de copywriting."

@@ -2,7 +2,7 @@
 title: "Backlinks toxiques : définition et comment les identifier"
 source: "https://fr.semrush.com/blog/analyse-backlinks/"
 author:
-  - "[[Rachel Handley]]"
+  - "Rachel Handley"
 published: 2025-05-13
 created: 2026-06-15
 description: "Les backlinks toxiques sont des liens entrants qui nuisent à la visibilité de votre site dans les recherches ou qui ont le potentiel de le faire."

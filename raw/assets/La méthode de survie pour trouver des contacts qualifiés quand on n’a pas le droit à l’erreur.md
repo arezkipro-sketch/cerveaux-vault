@@ -2,7 +2,7 @@
 title: "La méthode de survie pour trouver des contacts qualifiés quand on n’a pas le droit à l’erreur"
 source: "https://jeremy-allard.com/contacts-qualifies/"
 author:
-  - "[[Jérémy]]"
+  - "Jérémy"
 published: 2026-01-14
 created: 2026-06-17
 description: "Trouver des contacts qualifiés quand on n’a pas le droit à l’erreur. Une méthode de survie concrète pour sécuriser vos leads et éviter les faux prospects."

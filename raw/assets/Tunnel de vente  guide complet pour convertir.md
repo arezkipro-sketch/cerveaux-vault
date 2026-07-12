@@ -2,7 +2,7 @@
 title: "Tunnel de vente : guide complet pour convertir"
 source: "https://www.academiecopywriting.fr/blog/tunnel-de-vente"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published:
 created: 2026-06-16
 description: "Tunnel de vente : découvrez les étapes clés pour transformer vos visiteurs en clients. Guide pratique avec exemples et conseils actionnables."

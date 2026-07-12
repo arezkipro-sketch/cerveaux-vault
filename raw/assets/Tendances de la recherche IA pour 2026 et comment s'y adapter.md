@@ -2,7 +2,7 @@
 title: "Tendances de la recherche IA pour 2026 et comment s'y adapter"
 source: "https://fr.semrush.com/blog/ai-search-trends/"
 author:
-  - "[[Zach Paruch]]"
+  - "Zach Paruch"
   - "[[Christine Skopec]]"
 published: 2025-05-13
 created: 2026-06-15

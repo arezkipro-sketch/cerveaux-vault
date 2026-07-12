@@ -2,9 +2,9 @@
 title: "12 outils essentiels pour optimiser les performances de votre site web"
 source: "https://fr.semrush.com/blog/website-performance-tools/"
 author:
-  - "[[Sydney Go]]"
-  - "[[Shannon Willoby]]"
-  - "[[Bartłomiej Barcik]]"
+  - "Sydney Go"
+  - "Shannon Willoby"
+  - "Bartłomiej Barcik"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez les meilleurs outils d'optimisation des performances web permettant aux propriétaires de sites d'améliorer la vitesse de leur site."

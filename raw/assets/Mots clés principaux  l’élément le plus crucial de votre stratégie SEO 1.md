@@ -2,7 +2,7 @@
 title: "Mots clés principaux : l’élément le plus crucial de votre stratégie SEO ?"
 source: "https://fr.semrush.com/blog/primary-keywords/"
 author:
-  - "[[Semrush Team]]"
+  - "[[semrush]]"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez l'importance des mots-clés principaux, comment trouver les meilleurs termes et comment optimiser votre contenu."

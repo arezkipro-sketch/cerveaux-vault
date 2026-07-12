@@ -2,7 +2,7 @@
 title: "Apprendre le copywriting sans expérience en 2025"
 source: "https://www.academiecopywriting.fr/blog/apprendre-copywriting-2025"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-08-08
 created: 2026-06-16
 description: "Découvrez comment apprendre le copywriting en partant de zéro en 2025 et décrocher vos premiers clients rapidement."

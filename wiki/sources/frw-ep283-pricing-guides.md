@@ -30,7 +30,7 @@ status: active
 - "You have more information about the project, how you work, and what you want to make than any guide ever could." — Nicki *(episode)*
 
 ## Entities & concepts touched
-- [[nicki-krawczyk]], [[filthy-rich-writer]], [[freelance-copywriting]]
+- [[nicki-krawczyk]], [[nicki-krawczyk]], [[freelance-copywriting]]
 
 ## Connections
 - Reinforces [[freelance-copywriting]]: pricing is contextual, not standardized.

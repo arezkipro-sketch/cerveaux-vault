@@ -2,7 +2,7 @@
 title: "Comment optimiser votre visibilité dans les réponses des IA génératives en 2026 ?"
 source: "https://minddex.ai/comment-optimiser-votre-visibilite-dans-les-reponses-des-ia-generatives-en-2026comment-optimiser-votre-visibilite-dans-les-reponses-des-ia-generatives-en-2026/"
 author:
-  - "[[thibaut fitoussi]]"
+  - "[[thibaut-fitoussi]]"
 published: 2026-02-25
 created: 2026-06-25
 description: "Le Generative Engine Optimization (GEO) est l'ensemble des techniques visant à optimiser la visibilité d'une marque dans les réponses générées […]"

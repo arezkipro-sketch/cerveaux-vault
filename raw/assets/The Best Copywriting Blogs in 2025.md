@@ -2,7 +2,7 @@
 title: "The Best Copywriting Blogs in 2025"
 source: "https://brandnewcopy.com/best-copywriting-blogs/"
 author:
-  - "[[Jamie Thomson]]"
+  - "Jamie Thomson"
 published: 2025-07-28
 created: 2026-06-16
 description: "I compiled this guide on the best copywriting blogs to shine a light on the copywriters who are worth listening to."

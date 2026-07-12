@@ -2,9 +2,9 @@
 title: "Les 12 meilleurs outils d'analyse des médias sociaux en 2025"
 source: "https://fr.semrush.com/blog/social-media-analytics-tools/"
 author:
-  - "[[Sydney Go]]"
-  - "[[Shannon Willoby]]"
-  - "[[Bartłomiej Barcik]]"
+  - "Sydney Go"
+  - "Shannon Willoby"
+  - "Bartłomiej Barcik"
 published: 2025-05-13
 created: 2026-06-15
 description: "Utilisez les outils d'analyse des médias sociaux pour suivre les indicateurs de performance et prendre des décisions basées sur les données."

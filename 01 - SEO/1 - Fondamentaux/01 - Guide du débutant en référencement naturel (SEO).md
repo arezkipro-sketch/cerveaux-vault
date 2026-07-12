@@ -2,8 +2,8 @@
 title: "Guide du débutant en référencement naturel (SEO)"
 source: "https://www.francenum.gouv.fr/guides-et-conseils/communication-et-publicite/referencement/guide-du-debutant-en-referencement"
 author:
-  - "[[Julien Karachehayas]]"
-  - "[[Direction générale des Entreprises]]"
+  - "Julien Karachehayas"
+  - "Direction générale des Entreprises"
 published: 2023-07-03
 created: 2026-06-19
 description: "Avoir un site internet pour une TPE PME est désormais indispensable... mais pas suffisant. Pour en tirer pleinement parti il est fondamental que votre site web soit aussi bien référencé par les moteurs de recherche. Le référencement naturel vous permet de vous démarquer dans les pages de résultats et de toucher vos clients et prospects. Ce dossier, rédigé par Rémi Brandini, Consultant Google, référencé Activateur France Num, vous explique ce qu'est le SEO et quelles sont les bonnes pratiques pour gagner en visibilité."

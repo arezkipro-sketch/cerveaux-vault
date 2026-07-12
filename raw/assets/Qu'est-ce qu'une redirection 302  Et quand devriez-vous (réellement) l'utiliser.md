@@ -2,7 +2,7 @@
 title: "Qu'est-ce qu'une redirection 302 ? Et quand devriez-vous (réellement) l'utiliser ?"
 source: "https://fr.semrush.com/blog/302-redirect/"
 author:
-  - "[[Semrush Team]]"
+  - "[[semrush]]"
 published: 2025-05-13
 created: 2026-06-15
 description: "Vous ne savez pas quand utiliser les redirections 302 ? Découvrez les meilleures pratiques et les erreurs courantes grâce à notre guide détaillé."

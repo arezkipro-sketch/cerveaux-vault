@@ -2,8 +2,8 @@
 title: "Comment optimiser son contenu pour les moteurs de recherche IA [Guide 2026]"
 source: "https://fr.semrush.com/blog/how-to-optimize-content-for-ai-search-engines/"
 author:
-  - "[[Alex Lindley]]"
-  - "[[Cecilia Meis]]"
+  - "Alex Lindley"
+  - "Cecilia Meis"
 published: 2025-05-13
 created: 2026-06-15
 description: "Découvrez comment être cité par les moteurs de recherche IA comme ChatGPT et Google en 7 étapes simples."

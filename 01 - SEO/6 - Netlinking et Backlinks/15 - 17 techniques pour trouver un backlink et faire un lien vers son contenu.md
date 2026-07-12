@@ -2,7 +2,7 @@
 title: "17 techniques pour trouver un backlink et faire un lien vers son contenu"
 source: "https://www.seoquantum.com/billet/obtenir-backlinks"
 author:
-  - "[[Bruno Fontanet]]"
+  - "Bruno Fontanet"
 published: 2021-11-04
 created: 2026-06-20
 description: "Obtenir des backlinks n'est pas évident si vous ne maitrisez pas le SEO. Voici mes 17 astuces pour trouver des liens de qualité !"

@@ -2,7 +2,7 @@
 title: "Adapter son calendrier éditorial pour vendre"
 source: "https://www.academiecopywriting.fr/blog/calendrier-editorial-vente"
 author:
-  - "[[L'académie]]"
+  - "[[academie-copywriting]]"
 published: 2001-11-18
 created: 2026-06-16
 description: "Un calendrier éditorial orienté vente transforme votre contenu en tunnel de conversion. Découvrez la méthode et des exemples de séquences pour vendre."
