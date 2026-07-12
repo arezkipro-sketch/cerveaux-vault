@@ -2,7 +2,7 @@
 
 Content catalog of the whole wiki. The LLM reads this first on every query and updates it on every ingest. Each entry: link + one-line summary (+ source count where useful).
 
-**Stats:** 241 sources · 458 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · last updated 2026-07-12
+**Stats:** 241 sources · 459 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · last updated 2026-07-12
 
 → Start at [[overview]] for the big picture. See `CLAUDE.md` for the rules, `log.md` for history.
 
@@ -18,6 +18,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[persuasive-writing]] — 15 techniques; persuasion = skill not gift; copywriting = its sales application. *(1 src)*
 - [[ai-vs-human-writing]] — AI exposes commodity vs strategic writing; demand rising; trust = moat. *(5 src)*
 - [[ma-vanity-naming-audit]] — correction SEO 164 fiches Shopify ma-vanity : seo.title/méta/couleurs/anglais + fusion Miroir Lumineux→LED (301). DoD 100%. *(2026-06-21)*
+- [[synthese-2026-w28]] — synthèse hebdo : Claude Code comme moteur d'automatisation SEO/web (12 agents, freelance sites, Parasite SEO) ; tension autorité propre vs empruntée. *(4 src, 2026-07-12)*
 
 ## 📄 Sources
 ### SEO — Livres & Références

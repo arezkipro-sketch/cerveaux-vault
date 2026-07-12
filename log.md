@@ -1021,3 +1021,10 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
   - `@alexgroberman` / `@bloggersarvesh` cassés uniquement à l'intérieur de `raw/assets/` (frontmatter) — non touché, conforme à la règle « raw/ jamais édité » ; les liens équivalents dans `wiki/` pointent déjà correctement vers [[alex-groberman]] / [[sarvesh-alventra]].
 - **Bug détecté et corrigé en cours de route** : un remplacement automatique trop large avait accidentellement corrompu la commande d'exemple dans `CLAUDE.md` (règle de maintenance) en confondant le caractère `^` isolé (item de nettoyage légitime) avec son occurrence dans une regex. Corrigé immédiatement, aucun autre cas détecté après vérification du diff complet.
 ---
+
+## [2026-07-12] synthesis | Synthèse semaine 2026-W28
+- Sources couvertes : [[jotaro-seo-sans-backlinks]], [[bounceidc-google-maps-claude-code-loop]], [[vengeonsp-12-agents-seo-ia]], [[nicholasdulait-parasite-seo-guide]]
+- Thèmes : Claude/Claude Code comme moteur d'automatisation transverse (agents SEO, build de sites freelance, production Parasite SEO) ; vitesse d'indexation comme levier différencié (GSC manuel vs outil tiers) ; pattern "construire/publier avant de vendre".
+- Tension repérée : autorité SEO propre et durable ([[jotaro-seo-sans-backlinks]], [[topical-authority]]) vs autorité empruntée à des plateformes tierces DR90+, rapide mais fragile ([[parasite-seo]]).
+- Questions ouvertes : robustesse du Parasite SEO face aux CGU/algos plateformes ; généralisabilité de l'indexation forcée à des sites établis ; domaine "Création de site web" encore mono-source.
+- Page créée : [[synthese-2026-w28]]. index.md mis à jour (459 pages).
