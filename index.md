@@ -2,7 +2,7 @@
 
 Content catalog of the whole wiki. The LLM reads this first on every query and updates it on every ingest. Each entry: link + one-line summary (+ source count where useful).
 
-**Stats:** 239 sources · 451 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · last updated 2026-07-07
+**Stats:** 241 sources · 458 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · last updated 2026-07-12
 
 → Start at [[overview]] for the big picture. See `CLAUDE.md` for the rules, `log.md` for history.
 
@@ -70,7 +70,13 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 
 **Black Hat / Advanced:**
 - [[jotaro-seo-black-hat-cloaking]] — black hat cloaking ID technique *(2023-11-13)*.
+
+### SEO — Agents IA (@VengeonsP)
+- [[vengeonsp-12-agents-seo-ia]] — 12 system prompts d'agents Claude spécialisés : stratégie ICE / KW research (ranking relatif) / GSC 6 analyses / concurrence / rédaction / on-page / maillage / backlinks / indexation / schema / marque / SEO local *(2026-07-10)*.
 - [[jotaro-seo-pbn]] — Private Blog Networks (PBN): structure, implementation, risks *(2023-12-30)*.
+
+### SEO — Parasite SEO (@NicholasDulait)
+- [[nicholasdulait-parasite-seo-guide]] — guide complet Parasite SEO : 5 phases (plateforme DR90+ / requêtes commerciales / format X / indexation forcée / monétisation) ; exemples terrain (Wise position 0 six mois) ; scaling 500-5 000€/mois *(2026-07-10)*.
 
 **Resources:**
 - [[jotaro-seo-learn-seo]] — where to learn SEO: books, YouTube channels, blogs *(2024-08-07)*.
@@ -371,7 +377,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[content-pruning]] — remove thin/duplicate/outdated content; concentrate authority; fix cannibalization; free crawl budget. *(1 src)*
 - [[landing-page-seo]] — landing page that ranks organically + converts; copy↔SEO bridge. *(1 src)*
 - [[fiche-produit-seo]] — page produit e-commerce qui ranke (longue traîne transactionnelle) + convertit; title/meta patterns, champ lexical, FAQ, chunking IA, gestion stock 301/410, variantes, industrialisation. *(4 src)*
-- [[keyword-research]] — 3-level hierarchy, 7 keyword sources (Google Suggest/PAA/related/forums/Reddit/avis clients + Semrush gap), règle "tout volume est bon", check format SERP avant rédaction. *(7 src)*
+- [[keyword-research]] — 3-level hierarchy, 8 keyword sources, règle "tout volume est bon", check SERP avant rédaction, ranking relatif (calibration par autorité thématique), structure content hub (1 pilier + 4-8 soutien). *(8 src)*
 - [[angle-produit-seo]] — 6 types d'angles à cartographier avant toute KW research (direct / occasion / destinataire / émotionnel / matériaux / comparatif) → des dizaines de pages depuis 1 produit. *(1 src)*
 - [[keyword-mapping]] — assign keyword groups to specific pages; 1 URL = 1 intent; feeds cocon sémantique. *(1 src)*
 - [[url-structure]] — SEO-friendly URLs: hyphens, short, descriptive; no query strings. *(1 src)*
@@ -383,18 +389,20 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[topic-clusters]] — pillar + cluster pages (hub-and-spoke); EN equivalent of cocon. *(1 src)*
 - [[site-migration]] — major site changes (incl. domain change); short-term dip/long-term gain; redirect-led. *(2 src)*
 - [[google-analytics-4]] — event-based analytics; pageviews; traffic sources/channels; trends. *(2 src)*
-- [[google-search-console]] — monitor search presence; crawl/index errors; free backlink (Links report)/perf data. *(2 src)*
+- [[google-search-console]] — monitor search presence; crawl/index errors; 6 analyses GSC structurées (striking distance / déclin / CTR outliers / fuites / intention cachée / cannibalisation). *(3 src)*
 - [[xml-sitemap]] — file listing pages for crawlers; submit via GSC for faster indexing. *(1 src)*
 - [[seo-roadmap]] — step-by-step SEO plan; tasks/timelines/owners; prioritise high-impact. *(1 src)*
 - [[site-health]] — composite score (security+usability+SEO); audit-measured. *(1 src)*
 - [[new-site-seo]] — make a new site SEO-friendly day one; 9 steps from domain up. *(1 src)*
-- [[maillage-interne]] — internal linking: anchor rules, bot navigation, authority flow, error fixes. *(6 src)*
+- [[maillage-interne]] — internal linking: anchor rules, authority pipeline, max 5 liens sortants/page, liste à-ne-pas-lier (/about /privacy), fuites d'autorité → money pages. *(9 src)*
+- [[agent-seo-ia]] — 12 agents Claude spécialisés : quarterback pattern (Agent 1 en premier), framework ICE (Impact/Confiance/Facilité), principe Levier > Création, anti-vanity metrics. *(1 src)*
 - [[topical-authority]] — autorité thématique : brevets algo (A(s,t)), Google Leaks (siteFocusScore/siteAuthority), multiplateforme, entités > mots-clés, 6-18 mois, cadence lancement/croissance/maturité, indexation manuelle GSC. *(7 src)*
 - [[article-structure]] — H1/H2/H3, PAS intro, format scannable (listes/tableaux), longueur 1 500-2 000 mots, Schema Article/FAQ. *(2 src)*
 - [[seo-audit]] — 3-type audit framework (interne/externe/technique) + checklist 41 points opérationnels. *(4 src)*
 - [[google-news-seo]] — Google Actualités: requirements, benefits, sitemap, 5 ranking tactics. *(2 src)*
 - [[black-hat-seo]] — techniques violating Google guidelines: PBN, cloaking ID. *(2 src)*
-- [[off-page-seo]] — outside-site ranking signals; on/off/technical triad; link building #1; autorité interne d'abord; linkable assets; chaîne sociale → trafic de marque → signaux comportementaux; 4 formats de contenu citable. *(4 src)*
+- [[off-page-seo]] — outside-site ranking signals; on/off/technical triad; link building #1; autorité interne d'abord; linkable assets; chaîne sociale → trafic de marque → signaux comportementaux; 4 formats de contenu citable; parasite SEO via plateformes DR90+. *(5 src)*
+- [[parasite-seo]] — utiliser l'autorité DR90+ de plateformes tierces (X/LinkedIn/GitHub/YouTube) pour ranker sur requêtes commerciales Google sans site web ; monétisation affiliation/referrals/CPA ; scaling 500-5 000€/mois. *(1 src)*
 - [[backlinks]] — links from other sites; analysis, quality, follow/nofollow, authority. *(2 src)*
 - [[toxic-backlinks]] — link-spam links that hurt rankings; 9 causes; nofollow/sponsored/ugc; disavow. *(1 src)*
 - [[302-redirect]] — temporary redirect; vs 301 permanent; keeps original ranking. *(1 src)*
@@ -533,6 +541,8 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[audrey-tips]] — blog/consulting webmarketing FR (audreytips.com); fiche produit SEO sous angle Google + moteurs IA (chunking, JSON-LD). *(1 src)*
 - [[david-bardy]] — consultant SEO/SEA FR (410-gone.fr); méthode triptyque + Top 3 en 5 étapes. *(1 src)*
 - [[410-gone]] — agence SEO/SEA FR (410-gone.fr); nom inspiré du code HTTP 410; guide méthode Top 3. *(1 src)*
+- [[nicholasdulait]] — @NicholasDulait ; entrepreneur digital ; spécialiste parasite SEO et affiliation sans site web ; exemples terrain X + Instagram. *(1 src)*
+- [[vengeonsp]] — @VengeonsP ; fondateur de ChatSEO.app ; auteur du système des 12 agents Claude spécialisés SEO. *(1 src)*
 
 ---
 

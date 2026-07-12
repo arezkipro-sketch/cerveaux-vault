@@ -3,10 +3,10 @@ type: concept
 title: "Off-Page SEO"
 slug: off-page-seo
 tags: [seo, off-page, backlinks, authority]
-sources: ["[[semrush-off-page-seo]]", "[[reddit-seo]]", "[[410-gone-premier-google-top3]]", "[[jotaro-seo-sans-backlinks]]"]
-source_count: 4
+sources: ["[[semrush-off-page-seo]]", "[[reddit-seo]]", "[[410-gone-premier-google-top3]]", "[[jotaro-seo-sans-backlinks]]", "[[nicholasdulait-parasite-seo-guide]]"]
+source_count: 5
 status: active
-updated: 2026-07-06
+updated: 2026-07-12
 ---
 
 # Off-Page SEO
@@ -39,16 +39,31 @@ Source : [[jotaro-seo-sans-backlinks]]
   
   Ces formats génèrent backlinks + trafic + notoriété + E-E-A-T simultanément.
 
+## Parasite SEO — ranker sur des plateformes tierces
+
+Source : [[nicholasdulait-parasite-seo-guide]]
+
+Variante off-page avancée : au lieu de construire l'autorité de son propre site, on publie du contenu sur des plateformes à DR90+ (X DR97, LinkedIn DR99, GitHub DR100, YouTube DR100) pour ranker directement sur Google via leur domaine. → [[parasite-seo]]
+
+**Différence clé avec le marketing 360 :** le marketing 360 utilise les réseaux sociaux pour générer du trafic de marque vers ton site. Le parasite SEO utilise les plateformes comme substituts à ton site — les pages sociales rankent à ta place sur les requêtes commerciales cibles.
+
+**Requêtes cibles idéales :** "code promo [marque]", "[produit] avis", "meilleur [produit niche]" — [[search-intent]] commerciale pure, conversion directe via affiliation.
+
+**Point d'entrée recommandé :** X (Twitter) Premium ($5/mois) + Instagram. Long post (pas article X, plus indexé) avec première phrase = title SEO, gras = H2, lien affilié au milieu du post.
+
 ## Relations
 - Operationalised through [[backlinks]] (link building); builds [[e-e-a-t]] trust; passes [[link-juice]].
-- [[reddit-seo]] = a community off-page tactic: expert contribution → natural backlinks + authority (no self-promo).
+- [[reddit-seo]] = a community off-page tactic: expert contribution → natural backlinks + authority (no self-promo). Reddit est aussi une plateforme de parasite SEO (DR91, deal Google).
+- [[parasite-seo]] — stratégie dérivée qui bypasse la construction de site et ranke directement via des domaines tiers.
 - Complements on-page ([[article-structure]], on-page SEO) and technical SEO; audited via [[seo-audit]].
 
 ## Tensions / open questions
 - "Authority Score" is a Semrush proprietary metric — directional, not a Google signal.
+- Parasite SEO : certaines tactiques de boost (likes/trafic achetés) sont dans une zone grise des CGU — risque de ban à évaluer au cas par cas.
 
 ## Sources
 - [[semrush-off-page-seo]] — definition, on/off/technical, tactics, authority data
 - [[reddit-seo]] — Reddit as a community off-page channel + brand-mention monitoring.
 - [[410-gone-premier-google-top3]] — autorité interne avant backlinks ; méthodes de netlinking propres (RP, guest, linkable assets) ; poids accru sur requêtes concurrentielles.
 - [[jotaro-seo-sans-backlinks]] — marketing 360 : chaîne sociale → trafic de marque → signaux comportementaux ; mentions sans lien ; 4 formats de contenu citable.
+- [[nicholasdulait-parasite-seo-guide]] — parasite SEO : plateformes DR90+, requêtes "code promo", format post X, indexation forcée, monétisation affiliation/referrals/CPA.

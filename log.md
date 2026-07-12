@@ -975,3 +975,23 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - `wiki/overview.md` n'existait pas alors que `index.md` le référence comme point d'entrée principal depuis le bootstrap (2026-06-14).
 - Page créée : thèse du vault, domaines couverts, stats, guide de navigation.
 ---
+
+## [2026-07-07] ingest | @VengeonsP — 12 agents : système SEO IA
+- Source type: article X/Twitter
+- Source URL: https://x.com/vengeonsp/article/2075499608495600054
+- Raw file déplacé: `01 - SEO/1 - Fondamentaux/20 - vengeonsp-12-agents-seo-ia.md`
+- Pages créées: [[vengeonsp-12-agents-seo-ia]], [[vengeonsp]], [[agent-seo-ia]]
+- Pages mises à jour: [[google-search-console]] (source_count 2→3, 6 analyses GSC), [[keyword-research]] (source_count 7→8, ranking relatif + content hubs), [[maillage-interne]] (source_count 8→9, max 5 liens + liste à-ne-pas-lier + fuites d'autorité)
+- Nouveau concept: [[agent-seo-ia]] — quarterback pattern, framework ICE (Impact/Confiance/Facilité), principe Levier > Création, taxonomie des 12 agents avec inputs/outputs
+- Thèse centrale: "la différence entre ceux qui essaient et ceux qui en tirent des € = le process que l'IA suit"
+---
+
+## [2026-07-12] ingest | @NicholasDulait — The guide to Rank #1 with Parasite SEO (Automated with Claude)
+- Source type: article X/Twitter
+- Source URL: https://x.com/nicholasdulait/article/2075482174824857704
+- Raw file déplacé: `01 - SEO/1 - Fondamentaux/21 - nicholasdulait-parasite-seo-guide.md`
+- Pages créées: [[nicholasdulait-parasite-seo-guide]], [[nicholasdulait]], [[parasite-seo]]
+- Pages mises à jour: [[off-page-seo]] (source_count 4→5, section Parasite SEO ajoutée)
+- Nouveau concept: [[parasite-seo]] — utiliser DR90+ de X/LinkedIn/GitHub/YouTube pour ranker sur requêtes commerciales Google sans site web ; format post X (1re phrase = title SEO, gras = H2) ; indexation forcée 2-24h ; monétisation 60% codes promo / 30% referrals / 10% CPA ; scaling 500-5 000€/mois
+- Entité: [[nicholasdulait]] — @NicholasDulait, spécialiste parasite SEO affiliation sans site web
+---
