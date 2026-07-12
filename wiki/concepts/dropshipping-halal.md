@@ -77,6 +77,9 @@ Le [[bay-salam]] est l'exception autorisée par le Prophète ﷺ qui transforme 
 | Images de femmes découvertes / poses attirantes | Interdit |
 | Musique dans les publicités ou le site | Interdit |
 
+## Relations
+- Source publiée par [[la-meute]], organisme de formation e-commerce/dropshipping halal.
+
 ## Sources
 - [[lameute-bay-salam-ecommerce]] — ebook La Meute : conditions Bay' Salam, exemples Shopify, clauses CGV, erreurs à éviter, marketing halal
 - [[guide-dropshipping-seo-halal]] — guide SEO halal : 8 conditions Bay' Salam (case de confirmation + max 3 fournisseurs), setup Shopify/SpeedFly, niche selection, Pinterest Organique
