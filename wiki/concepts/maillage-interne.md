@@ -3,10 +3,10 @@ type: concept
 title: "Maillage Interne (Internal Linking)"
 slug: maillage-interne
 tags: [seo, internal-linking, architecture, crawling]
-sources: ["[[jotaro-seo-google-bots]]", "[[jotaro-seo-content-strategy]]", "[[jotaro-seo-keyword-cannibalization]]", "[[jotaro-seo-4-months-textile]]", "[[jotaro-seo-301-redirects]]", "[[crawl-budget-guide]]", "[[semrush-seo-checklist-41]]", "[[jotaro-seo-strategie-ecommerce-2026]]"]
-source_count: 8
+sources: ["[[jotaro-seo-google-bots]]", "[[jotaro-seo-content-strategy]]", "[[jotaro-seo-keyword-cannibalization]]", "[[jotaro-seo-4-months-textile]]", "[[jotaro-seo-301-redirects]]", "[[crawl-budget-guide]]", "[[semrush-seo-checklist-41]]", "[[jotaro-seo-strategie-ecommerce-2026]]", "[[vengeonsp-12-agents-seo-ia]]"]
+source_count: 9
 status: active
-updated: 2026-06-18
+updated: 2026-07-07
 ---
 
 # Maillage Interne (Internal Linking)
@@ -68,6 +68,28 @@ Cette règle crée une chaîne de maillage qui fait circuler l'autorité entre t
 
 → [[jotaro-seo-strategie-ecommerce-2026]]
 
+## Règles opérationnelles complémentaires — [[vengeonsp-12-agents-seo-ia]]
+
+**Max 5 liens internes sortants par page.** Au-delà, le signal se dilue — chaque lien distribue une fraction de l'autorité de la page. 5 liens = signal fort. 20 liens = bruit.
+
+**Liste à-ne-pas-lier (pages qui ne méritent pas l'autorité) :**
+- /about
+- /privacy / /politique-de-confidentialité
+- /mentions-légales
+- /contact (sauf si c'est une page commerciale clé)
+
+Ces pages n'ont pas d'intention de recherche à renforcer et ne génèrent pas de revenus — ne pas leur transférer de [[link-juice]].
+
+**Fuites d'autorité à corriger en priorité :** pages à forte autorité (bonne position, trafic organique existant) qui ne lient PAS vers les money pages. Ce sont les fuites les plus coûteuses. Un article de blog qui rank bien et ne linke pas vers la page produit correspondante = fuite directe.
+
+**Pipeline complet :**
+```
+Article de blog (autorité élevée via trafic organique)
+  → Lien interne avec ancre descriptive
+    → Page produit / page collection (money page)
+      → Autorité transférée sans backlink externe
+```
+
 ## Relations
 - Foundation of [[cocon-semantique]]: pages filles link to page mère = concentrated authority.
 - Preserves [[link-juice]] within the site without depending on external backlinks.
@@ -86,3 +108,4 @@ Cette règle crée une chaîne de maillage qui fait circuler l'autorité entre t
 - [[jotaro-seo-4-months-textile]] — internal linking as audit checkpoint.
 - [[jotaro-seo-301-redirects]] — 301s repair broken internal link chains.
 - [[crawl-budget-guide]] — logical internal structure + sitemap so Googlebot doesn't waste crawl budget; "road network" metaphor.
+- [[vengeonsp-12-agents-seo-ia]] — max 5 liens sortants par page ; liste à-ne-pas-lier (/about /privacy) ; fuites d'autorité à corriger en priorité ; pipeline blog → money page.

@@ -3,10 +3,10 @@ type: concept
 title: "Keyword Research (Recherche de Mots-Clés)"
 slug: keyword-research
 tags: [seo, keyword-research, content-strategy, sem]
-sources: ["[[jotaro-seo-content-strategy]]", "[[jotaro-seo-semantic-opportunities]]", "[[jotaro-seo-6000-toys-case-study]]", "[[jotaro-seo-strategy-broke-abroad]]", "[[reddit-seo]]", "[[jotaro-seo-strategie-ecommerce-2026]]", "[[jotaro-seo-sans-backlinks]]"]
-source_count: 7
+sources: ["[[jotaro-seo-content-strategy]]", "[[jotaro-seo-semantic-opportunities]]", "[[jotaro-seo-6000-toys-case-study]]", "[[jotaro-seo-strategy-broke-abroad]]", "[[reddit-seo]]", "[[jotaro-seo-strategie-ecommerce-2026]]", "[[jotaro-seo-sans-backlinks]]", "[[vengeonsp-12-agents-seo-ia]]"]
+source_count: 8
 status: active
-updated: 2026-07-06
+updated: 2026-07-07
 ---
 
 # Keyword Research
@@ -68,6 +68,28 @@ Résultat : volume de recherche potentiel ×10 sans changer le produit.
 - **Tout volume est bon à prendre** : un mot-clé à 30 recherches/mois avec la bonne intention vaut 10× un mot-clé à 3 000 recherches mal ciblé. Ne pas éliminer les faibles volumes.
 - **Vérifier le format SERP avant de rédiger** : taper le mot-clé cible sur Google → si les top 10 sont des pages produit, créer une page produit (pas un article de blog). Si les top 10 sont des articles guides, créer un article. Respecter le format que Google veut — sinon, aucune chance de ranker quelle que soit la qualité du contenu. → [[search-intent]]
 
+### Ranking est relatif — calibration par autorité thématique réelle — [[vengeonsp-12-agents-seo-ia]]
+
+**Le ranking est relatif, pas absolu.** Un mot-clé KD-30 est impossible pour un site tout neuf et trivial pour un site établi. La difficulté n'a de sens qu'en fonction de l'autorité thématique actuelle du site sur ce sujet.
+
+**Conséquence opérationnelle :**
+- Ne jamais filtrer les mots-clés uniquement sur le KD général — filtrer sur ce que le site peut *réellement* gagner compte tenu de ses sujets déjà rankés
+- Calibrer chaque mot-clé : "gagnable en 3 mois" / "gagnable en 6-12 mois" / "jeu long terme"
+- Prioriser le **long-tail sous-servi** : requêtes à intention claire dont le top ranking actuel est faible (pages minces, périmées, hors sujet, E-E-A-T faible) → le levier le plus rapide pour un site en croissance
+
+### Structure en content hubs — [[vengeonsp-12-agents-seo-ia]]
+
+Ne jamais livrer une liste plate de mots-clés. Regrouper en **4-6 clusters thématiques**, chacun devenant un **content hub** :
+
+```
+1 article pilier (mot-clé principal du cluster)
+  └── 4-8 articles de soutien (sous-thématiques du cluster)
+```
+
+Chaque cluster peut potentiellement devenir une topical authority sur son sujet → voir [[topical-authority]] et [[cocon-semantique]].
+
+**Intentionnel par cluster :** chaque article du hub taggé par intention (Informationnel / Commercial / Transactionnel / Navigationnel) pour assurer une couverture complète du funnel.
+
 ## Relations
 - **1 keyword = 1 page** is the absolute rule → [[keyword-cannibalization]] when violated.
 - Level 3 keywords map to [[long-tail-keywords]] and become the pages filles of [[cocon-semantique]].
@@ -86,3 +108,4 @@ Résultat : volume de recherche potentiel ×10 sans changer le produit.
 - [[reddit-seo]] — Reddit subreddits as a real-language long-tail keyword/intent mine.
 - [[jotaro-seo-strategie-ecommerce-2026]] — stratégie sémantique ×10 ; partir du besoin, pas du produit.
 - [[jotaro-seo-sans-backlinks]] — avis clients comme 7e source ; règle "tout volume est bon" ; vérification format SERP avant rédaction.
+- [[vengeonsp-12-agents-seo-ia]] — "ranking est relatif" (calibration par autorité thématique) ; structure content hub (1 pilier + 4-8 soutien) ; calibration honnête gagnable en 3 mois / 6-12 mois / long terme.
