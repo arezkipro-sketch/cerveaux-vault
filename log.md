@@ -1028,3 +1028,16 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Tension repérée : autorité SEO propre et durable ([[jotaro-seo-sans-backlinks]], [[topical-authority]]) vs autorité empruntée à des plateformes tierces DR90+, rapide mais fragile ([[parasite-seo]]).
 - Questions ouvertes : robustesse du Parasite SEO face aux CGU/algos plateformes ; généralisabilité de l'indexation forcée à des sites établis ; domaine "Création de site web" encore mono-source.
 - Page créée : [[synthese-2026-w28]]. index.md mis à jour (459 pages).
+
+---
+
+## [2026-07-13] maint | Maintenance hebdo automatisée
+- **Liens cassés corrigés (14)** :
+  - `[[raw/assets/jotaro-seo-ia-x-seo]]` et `[[wiki/sources/jotaro-seo-ia-x-seo]]` (9 fichiers) + `[[raw/assets/tailwind-utility-reference]]` (2 fichiers, dont `index.md`) → redirigés vers `[[jotaro-seo-ia-x-seo]]` / `[[tailwind-utility-reference]]`, pages désormais existantes suite à des ingests postérieurs à la dernière passe de nettoyage raw/.
+  - 5 renommages vers une cible existante déjà présente dans le vault : `[[bullet-points-copywriting]]`→`[[bullet-points]]`, `[[checklist-fiche-produit]]`→`[[fiche-produit-seo]]`, `[[netlinking]]`→`[[backlinks]]`, `[[trello-notion-obsidian]]`→`[[productivity-tools]]`, alias inversé `[[confirmation bias|cognitive-biases]]`→`[[cognitive-biases|confirmation bias]]` (bug de pipe-alias dans `mirror-effect.md`).
+  - 1 débracketage : `[[source]]` (mot générique, pas une cible réelle) dans `minddex-geo-2026.md`.
+- **18 stubs créés** pour des concepts/entités explicitement marqués TODO dans le vault (`(create)`, `(TODO)`, `(when ingested)`) et cités par ≥1 source déjà ingérée : concepts [[sales-page]] (19 refs), [[freelance-copywriting]] (9), [[image-seo]] (6 — déjà référencé dans index.md), [[ai-for-writers]] (4), [[technical-seo]], [[ecommerce]], [[fab-framework]], [[direct-response-copywriting]], [[benefits-over-features]], [[cloaking]], [[pbn]], [[sxo]], [[meta-description]], [[collection-page-seo]], [[creative-brief]], [[gharar]] ; entités [[aliexpress]], [[chatseo-app]]. Chacun : frontmatter minimal + 1-2 lignes de contexte, aucun contenu existant modifié.
+- **Non touché (conforme à la règle « raw/ jamais édité »)** : ~200 liens `raw/assets/*.md` restants + 9 auto-références dans le champ frontmatter `raw:` (5 titres d'articles longs, 3 `-x-thread`, `llm-wiki-idea`) — pattern identique à celui documenté le 2026-07-11/12, aucune nouvelle occurrence.
+- **Pages orphelines** : 0 (vérifié après création des stubs — chaque nouvelle page reçoit au moins le backlink de sa source citante).
+- **index.md** : 0 fichier manquant après cette passe. Entrées ajoutées : 13 sources déjà présentes sur disque mais non cataloguées (AWAI, Copy Posse ×2, FRW ×7, `jotaro-seo-ia-x-seo`, `tailwind-utility-reference`), 15 concepts + 2 entités correspondant aux stubs créés ci-dessus. Stats mises à jour (241 sources · 479 pages · maj 2026-07-13).
+- Commit + push effectués.

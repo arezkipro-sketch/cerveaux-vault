@@ -56,7 +56,7 @@ Article pédagogique GEO accessible, organisé autour de 4 grandes questions (st
 
 ## Données uniques : schémas Schema.org avec JSON-LD
 
-L'article fournit des exemples JSON-LD complets → voir [[source]] pour le code ; priorité : `Product` > `FAQPage` > `HowTo`.
+L'article fournit des exemples JSON-LD complets → voir la source citée pour le code ; priorité : `Product` > `FAQPage` > `HowTo`.
 
 ## Plan d'action 7 étapes (timeline)
 

@@ -48,7 +48,7 @@ status: active
 - Practical implication: optimize for absorption, not just citation count.
 
 ## Connections / contradictions
-- Extends [[wiki/sources/jotaro-seo-ia-x-seo]]: factual density rule now quantified (stats +61.55 %, definitions +57.33 %).
+- Extends [[jotaro-seo-ia-x-seo]]: factual density rule now quantified (stats +61.55 %, definitions +57.33 %).
 - Extends [[article-structure]]: high heading count + paragraph density correlates with absorption.
 - Adds nuance to [[ai-seo]]: distinction between being selected vs. being influential — brands should optimize for the latter.
 - Contradicts Q&A formatting assumption: FAQ structure does NOT correlate with higher absorption (interesting tension with [[jotaro-seo-content-strategy]] which recommends FAQ sections for traditional SEO).

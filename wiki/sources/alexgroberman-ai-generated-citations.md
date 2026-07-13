@@ -30,7 +30,7 @@ status: active
 - Citation concentration is high but the long tail is large — small sites CAN earn citations → [[ai-seo]].
 
 ## Connections / contradictions
-- Extends [[ai-seo]]: unique, factual, precise content = citation driver. Confirms [[wiki/sources/jotaro-seo-ia-x-seo]] factual density principle.
+- Extends [[ai-seo]]: unique, factual, precise content = citation driver. Confirms [[jotaro-seo-ia-x-seo]] factual density principle.
 - Extends [[alexgroberman-citation-absorption]]: same conclusion from a different angle — generic content fails to influence AI outputs.
 - The "AI citing AI" loop is a new risk: AI-generated misinformation can self-amplify across platforms.
 

@@ -32,7 +32,7 @@ status: active
 ## Connections / contradictions
 - Operationalises the FAB section of [[copywriting-frameworks]]; the "3-5 strongest, benefit-first, back with numbers" rule directly matches [[product-bullet-points]].
 - "Sell what changes for them" = [[copywriting-psychology]] (emotion/benefit over feature).
-- Cross-refs (source's own links) → future [[bullet-points-copywriting]], [[social-proof]], [[sales-page-structure]].
+- Cross-refs (source's own links) → future [[bullet-points]], [[social-proof]], [[sales-page-structure]].
 
 ## Open questions
 - Optimal bullet/FAB count beyond the loose "3-5" — still unspecified (echoes open question on [[copywriting-frameworks]]).

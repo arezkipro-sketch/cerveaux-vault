@@ -23,7 +23,7 @@ status: active
 - [[academie-copywriting]]
 
 ## Connections / contradictions
-- Founds concept [[copywriting-tools]]; AnswerThePublic → [[keyword-research]] overlap; Headline Analyzer → [[headline]]; Canva → [[visual-copywriting]]; Notion vs Obsidian → [[trello-notion-obsidian]] (when ingested).
+- Founds concept [[copywriting-tools]]; AnswerThePublic → [[keyword-research]] overlap; Headline Analyzer → [[headline]]; Canva → [[visual-copywriting]]; Notion vs Obsidian → [[productivity-tools]] (when ingested).
 
 ## Open questions
 - Tool list dated; AI writing tools (ChatGPT) covered separately in [[ai-assisted-copywriting]].

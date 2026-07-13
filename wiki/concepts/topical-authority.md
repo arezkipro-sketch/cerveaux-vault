@@ -8,7 +8,7 @@ tags:
   - ai-seo
   - authority
 sources:
-  - "[[raw/assets/jotaro-seo-ia-x-seo]]"
+  - "[[jotaro-seo-ia-x-seo]]"
   - "[[alexgroberman-62pct-beyond-top10]]"
   - "[[content-pruning]]"
   - "[[semrush-topical-authority]]"
@@ -25,10 +25,10 @@ updated: 2026-07-06
 **Definition:** The degree to which a website is recognized — by Google, by other sites, and by AI models — as the go-to reference on a specific subject. Built by publishing comprehensive, consistent content that covers a topic from every angle, using domain-specific vocabulary throughout.
 
 ## What we know
-- A site with 10 articles on retrogaming has no topical authority. A site with 300 articles covering every sub-angle (history, consoles, emulators, ROM legality, buying guides, brand comparisons, configuration tutorials) builds authority that AI models recognize → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **Mechanism for AI models**: when an LLM processes thousands of queries on a subject and one site consistently appears in the relevant sources, that site becomes associated with the topic in the model's weights → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **Vocabulary signal**: content that doesn't use the exact domain terminology (e.g., an emulator article lacking "RetroArch", "Anbernic", "IPS resolution") is perceived as generic by both Google and LLMs → [[raw/assets/jotaro-seo-ia-x-seo]].
-- Optimal publishing cadence for authority building: 1 article per day → [[raw/assets/jotaro-seo-ia-x-seo]] *(unsourced beyond thread)*. Pour la cadence détaillée par stade → voir section "Cadence de publication" ci-dessous.
+- A site with 10 articles on retrogaming has no topical authority. A site with 300 articles covering every sub-angle (history, consoles, emulators, ROM legality, buying guides, brand comparisons, configuration tutorials) builds authority that AI models recognize → [[jotaro-seo-ia-x-seo]].
+- **Mechanism for AI models**: when an LLM processes thousands of queries on a subject and one site consistently appears in the relevant sources, that site becomes associated with the topic in the model's weights → [[jotaro-seo-ia-x-seo]].
+- **Vocabulary signal**: content that doesn't use the exact domain terminology (e.g., an emulator article lacking "RetroArch", "Anbernic", "IPS resolution") is perceived as generic by both Google and LLMs → [[jotaro-seo-ia-x-seo]].
+- Optimal publishing cadence for authority building: 1 article per day → [[jotaro-seo-ia-x-seo]] *(unsourced beyond thread)*. Pour la cadence détaillée par stade → voir section "Cadence de publication" ci-dessous.
 
 ## Preuves algorithmiques — la TA est mathématiquement mesurée
 
@@ -206,7 +206,7 @@ Previously an open question; now answered by Ahrefs data via [[alexgroberman-62p
 → Cette seule action peut faire la différence sur un site en phase de lancement où chaque page compte.
 
 ## Sources
-- [[raw/assets/jotaro-seo-ia-x-seo]] — defines the concept with a worked retrogaming example; frames it as the foundation of AI SEO.
+- [[jotaro-seo-ia-x-seo]] — defines the concept with a worked retrogaming example; frames it as the foundation of AI SEO.
 - [[alexgroberman-62pct-beyond-top10]] — Ahrefs 863K SERPs; quantifies 40-60 page depth; sub-query decomposition root cause.
 - [[content-pruning]] — concentrate authority by removing thin/duplicate pages (quality > quantity).
 - [[semrush-topical-authority]] — définition fondatrice, 3 bénéfices SEO, timeline Google (Panda→Core 2024), 4 étapes build, PKD%, AlsoAsked, score TA Low→High.

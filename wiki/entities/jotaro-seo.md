@@ -59,7 +59,7 @@ updated: 2026-07-06
 
 **Threads X — AI & Conversion :**
 - [[jotaro-seo-chatgpt-sales]] — ventes via ChatGPT
-- [[raw/assets/jotaro-seo-ia-x-seo]] — guide AI SEO complet
+- [[jotaro-seo-ia-x-seo]] — guide AI SEO complet
 
 **Threads X — Audit :**
 - [[jotaro-seo-audit-simplifie]] — checklist audit simplifié en 5 zones (Zones chaudes / Contenu / Collections / Fiches produit / Technique)

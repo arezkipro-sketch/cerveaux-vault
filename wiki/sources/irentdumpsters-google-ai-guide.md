@@ -30,7 +30,7 @@ status: active
 - Framing this as Google's own documentation — not personal opinion. Adds authority to all claims.
 
 ## Connections / contradictions
-- Reinforces [[wiki/sources/jotaro-seo-ia-x-seo]]: technical SEO foundation required for AI visibility.
+- Reinforces [[jotaro-seo-ia-x-seo]]: technical SEO foundation required for AI visibility.
 - "Scaled content abuse" = new Google language for the mass content warning in [[jotaro-seo-content-strategy]].
 - GBP in AI responses connects to [[google-business-profile]], [[bloggersarvesh-claude-local-seo]].
 - Stay indexed = alignment with [[crawl-budget]] (waste = risk of deindex).

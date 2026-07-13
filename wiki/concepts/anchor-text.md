@@ -44,7 +44,7 @@ Pour les backlinks **achetés sur plateforme** :
 ## Relations
 - S'applique aux [[backlinks]] entrants ; signal pour [[off-page-seo]]
 - Distinct de l'ancre des liens internes → [[maillage-interne]]
-- Fait partie de la stratégie [[netlinking]] globale
+- Fait partie de la stratégie [[backlinks|netlinking]] globale
 
 ## Sources
 - [[francenum-netlinking-guide]] — 4 types d'ancres, stratégie de diversification, exemples concrets (avocat fiscaliste), 8 techniques expert

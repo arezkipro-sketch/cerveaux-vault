@@ -8,7 +8,7 @@ tags:
   - technical-seo
   - crawling
 sources:
-  - "[[raw/assets/jotaro-seo-ia-x-seo]]"
+  - "[[jotaro-seo-ia-x-seo]]"
   - "[[semrush-llms-txt-guide]]"
   - "[[llms-txt]]"
 source_count: 3
@@ -21,11 +21,11 @@ updated: 2026-06-19
 **Definition:** A plain-text file placed at the root of a domain (`/llm.txt`) that communicates structured metadata to AI crawlers — equivalent to `robots.txt` but for LLMs rather than traditional search bots. Signals site identity, important pages, thematic positioning, and citation preferences.
 
 ## What we know
-- Placed at `[domain]/llm.txt` — AI crawlers read it during indexation → [[raw/assets/jotaro-seo-ia-x-seo]].
-- Recommended content: company description (one precise sentence), list of most important URLs, thematic positioning (subjects of authority), citation instructions, links to primary data sources → [[raw/assets/jotaro-seo-ia-x-seo]].
-- Implementation effort: ~30 minutes → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **Author's assessment**: "un peu bullshit" — direct citation impact not yet documented definitively, but adoption by advanced sites creates a structuring signal → [[raw/assets/jotaro-seo-ia-x-seo]].
-- Google has communicated about it; still early-adoption phase as of 2026-06-09 → [[raw/assets/jotaro-seo-ia-x-seo]].
+- Placed at `[domain]/llm.txt` — AI crawlers read it during indexation → [[jotaro-seo-ia-x-seo]].
+- Recommended content: company description (one precise sentence), list of most important URLs, thematic positioning (subjects of authority), citation instructions, links to primary data sources → [[jotaro-seo-ia-x-seo]].
+- Implementation effort: ~30 minutes → [[jotaro-seo-ia-x-seo]].
+- **Author's assessment**: "un peu bullshit" — direct citation impact not yet documented definitively, but adoption by advanced sites creates a structuring signal → [[jotaro-seo-ia-x-seo]].
+- Google has communicated about it; still early-adoption phase as of 2026-06-09 → [[jotaro-seo-ia-x-seo]].
 
 ## NP Digital perspective (the bullish camp)
 - Framed as **"piloting tool, not mass blocking"**: steer AI to strategic content; prioritize > exclude → [[llms-txt]].
@@ -60,11 +60,11 @@ updated: 2026-06-19
 ```
 
 ## Tensions / open questions
-- **Confidence split:** NP Digital ([[llms-txt]]) calls it a "strategic lever"; John Mueller (via [[semrush-llms-txt-guide]]) says "no AI system currently uses llms.txt"; Jotaro ([[raw/assets/jotaro-seo-ia-x-seo]]) calls it "un peu bullshit." Same file, opposite confidence → forward-bet, not proven.
+- **Confidence split:** NP Digital ([[llms-txt]]) calls it a "strategic lever"; John Mueller (via [[semrush-llms-txt-guide]]) says "no AI system currently uses llms.txt"; Jotaro ([[jotaro-seo-ia-x-seo]]) calls it "un peu bullshit." Same file, opposite confidence → forward-bet, not proven.
 - Does LLMs.txt actually improve citation rates? No controlled evidence.
 - Correct slug: **llms.txt** (plural) is the standard; this wiki page uses `llm-txt` as slug for historical continuity.
 
 ## Sources
-- [[raw/assets/jotaro-seo-ia-x-seo]] — introduces the concept, recommends implementation despite personal skepticism.
+- [[jotaro-seo-ia-x-seo]] — introduces the concept, recommends implementation despite personal skepticism.
 - [[semrush-llms-txt-guide]] — adoption data; John Mueller quote; brand examples; step-by-step implementation.
 - [[llms-txt]] — NP Digital "strategic lever" framing; piloting-not-blocking; when-to-use; content-structuring tips (dense context, entity mapping).

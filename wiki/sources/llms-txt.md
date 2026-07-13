@@ -37,7 +37,7 @@ status: active
 - [[llm-txt]], [[generative-engine-optimization]], [[aeo]], [[e-e-a-t]], [[navboost]], [[reddit-seo]], [[seo-copywriting]], [[robots-txt]]
 
 ## Connections / contradictions
-- **Tension:** NP Digital calls llms.txt a "strategic lever"; [[semrush-llms-txt-guide]] cites John Mueller "no AI system currently uses llms.txt" and [[raw/assets/jotaro-seo-ia-x-seo]] calls it "un peu bullshit." Same file, opposite confidence — treat as forward-bet, not proven.
+- **Tension:** NP Digital calls llms.txt a "strategic lever"; [[semrush-llms-txt-guide]] cites John Mueller "no AI system currently uses llms.txt" and [[jotaro-seo-ia-x-seo]] calls it "un peu bullshit." Same file, opposite confidence — treat as forward-bet, not proven.
 - Ties llms.txt to [[navboost]] (behavioral signals), [[reddit-seo]] (community sources), and SEO-copywriting structure.
 
 ## Open questions
