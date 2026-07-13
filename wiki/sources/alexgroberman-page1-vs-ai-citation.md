@@ -38,5 +38,5 @@ status: active
 
 ## Connections / contradictions
 - Quantitative companion to [[alexgroberman-62pct-beyond-top10]] (same phenomenon, different data source).
-- Reinforces [[wiki/sources/jotaro-seo-ia-x-seo]]: 13.7 % overlap between Google AI Mode and AI Overview citations.
+- Reinforces [[jotaro-seo-ia-x-seo]]: 13.7 % overlap between Google AI Mode and AI Overview citations.
 - Extends [[ai-seo]]: "2 layers" model maps to (1) classic [[seo-audit]] work, (2) [[e-e-a-t]] / factual density.

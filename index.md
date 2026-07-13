@@ -2,7 +2,7 @@
 
 Content catalog of the whole wiki. The LLM reads this first on every query and updates it on every ingest. Each entry: link + one-line summary (+ source count where useful).
 
-**Stats:** 241 sources · 458 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · last updated 2026-07-12
+**Stats:** 241 sources · 479 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · last updated 2026-07-13
 
 → Start at [[overview]] for the big picture. See `CLAUDE.md` for the rules, `log.md` for history.
 
@@ -18,6 +18,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[persuasive-writing]] — 15 techniques; persuasion = skill not gift; copywriting = its sales application. *(1 src)*
 - [[ai-vs-human-writing]] — AI exposes commodity vs strategic writing; demand rising; trust = moat. *(5 src)*
 - [[ma-vanity-naming-audit]] — correction SEO 164 fiches Shopify ma-vanity : seo.title/méta/couleurs/anglais + fusion Miroir Lumineux→LED (301). DoD 100%. *(2026-06-21)*
+- [[synthese-2026-w28]] — synthèse hebdo : Claude Code comme moteur d'automatisation SEO/web (12 agents, freelance sites, Parasite SEO) ; tension autorité propre vs empruntée. *(4 src, 2026-07-12)*
 
 ## 📄 Sources
 ### SEO — Livres & Références
@@ -27,7 +28,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[llm-wiki-pattern]] — the pattern for building an LLM-maintained personal knowledge base *(founding source; Karpathy gist)*.
 
 ### Frontend / CSS
-- [[raw/assets/tailwind-utility-reference]] — cheat-sheet of core Tailwind CSS utility classes.
+- [[tailwind-utility-reference]] — cheat-sheet of core Tailwind CSS utility classes.
 
 ### SEO — French-language (@CTRBooster75 threads)
 - [[julien-ctr-framework-seo-complet]] — taxonomie SEO complète 15 catégories : Idée→Validation→Architecture→Contenu→Technique→Discover→GEO→Automatisation→Machine SEO *(2026-06-09)*.
@@ -63,7 +64,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 
 **AI & Conversion:**
 - [[jotaro-seo-chatgpt-sales]] — getting sales via ChatGPT; E-E-A-T + informational SEO *(2025-08-29)*.
-- [[raw/assets/jotaro-seo-ia-x-seo]] — complete AI SEO guide: ChatGPT, Claude, Gemini citations (Ahrefs 1B+ data) *(2026-06-09)*.
+- [[jotaro-seo-ia-x-seo]] — complete AI SEO guide: ChatGPT, Claude, Gemini citations (Ahrefs 1B+ data) *(2026-06-09)*.
 
 **Articles longs (X/Notion) :**
 - [[jotaro-seo-sans-backlinks]] — méthode complète SEO sans backlinks : 6 angles produit avant KW research, cadence publication par stade, indexation manuelle GSC (10/jour → 24-72h), marketing 360 → trafic de marque → signaux comportementaux *(2026-07-06)*.
@@ -139,6 +140,17 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[academie-email-copywriter]] — email-copywriter role; skills; €30-70k; ROI $36/$1 *(L'Académie™, 2026)*.
 - [[copywriting-frameworks-2026]] — ~16 copywriting frameworks (FAB/AIDA/PAS/PASTOR/4C's) *(Giovanna Romano, 2026-02-23)*.
 - [[haddington-copywriting-psychology]] — emotional triggers, scarcity, social proof, ethics in persuasive copy *(2025-05-19)*.
+- [[awai-ai-wont-kill-writing-jobs]] — AI handles execution (research/drafts), humans keep strategy/judgment/big-idea *(AWAI, 2026-06-15)*.
+- [[copy-posse-ai-for-writers-2026]] — "AI is a tool, not a takeover"; rejects both pessimistic and optimistic extremes *(Alex Cattoni, 2026-04-15)*.
+- [[copy-posse-can-ai-replace-writers]] — 68% of small businesses use AI but 80% say it enhances not replaces; market splits top/bottom *(Alex Cattoni, 2026-04-29)*.
+- [[frw-start-copywriting-1-hour]] — 1h/day beginner path: study days (tutorial+practice) alternating with pure-writing days *(Alex Cattoni, 2026-05-13)*.
+- [[frw-first-client-panic]] — universal elation→panic pattern on first client "yes"; creative brief as roadmap *(Nicki Krawczyk, 2019-11-04)*.
+- [[frw-how-to-give-copywriting-feedback]] — feedback as a practiced skill; approach clients as partners *(Nicki Krawczyk, 2022-11-07)*.
+- [[frw-ep280-making-herstory]] — origin story of Nicki's copywriting course (CCA), launched 2012 *(2026-05-13)*.
+- [[frw-ep281-adhd-copywriting]] — ADHD hyperfocus as a research-phase advantage in copywriting *(2026-05-20)*.
+- [[frw-ep282-todo-list-trap]] — the trap of feeling obligated to do everything just because it's on the list *(2026-05-27)*.
+- [[frw-ep283-pricing-guides]] — copywriting isn't a commodity; price by scope/expertise/revisions, not templates *(2026-06-03)*.
+- [[frw-ep284-finding-clients]] — pitching is a strategic skill, not outsourceable to cheap VAs or AI *(2026-06-10)*.
 
 ### SEO — AI Citation Research (@alexgroberman)
 - [[alexgroberman-62pct-beyond-top10]] — Ahrefs 863K SERPs: 62 % of AI Overview citations outside top-10; Google Gemini 3 sub-query decomposition *(2026-06-10)*.
@@ -340,9 +352,11 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 ### Concepts
 - [[bay-salam]] — contrat islamique de vente à livraison différée : 5 conditions, clauses CGV, règle linguistique "le/la/les" vs "ce/cette/ces", exemples Shopify. *(1 src)*
 - [[dropshipping-halal]] — checklist de conformité Bay' Salam + marketing halal (interdits : fausse urgence, faux avis, images inappropriées). *(3 src)*
+- [[gharar]] *(stub)* — incertitude excessive interdite en fiqh islamique ; risque neutralisé par le contrat Bay' Salam. *(1 src)*
 
 ### Entités
 - [[la-meute]] — organisation FR e-commerce islamique, producteur de l'ebook Bay' Salam.
+- [[aliexpress]] *(stub)* — marketplace fournisseur principale en dropshipping halal ; critères de sourcing produit. *(1 src)*
 
 ---
 
@@ -374,6 +388,9 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[duplicate-content]] — même contenu accessible via plusieurs URLs ; dilution de PageRank, résolu par canonical/hreflang/robots. *(1 src)*
 - [[google-algorithmic-filters]] — mises à jour algo Google (Panda, Penguin, EMD…) pénalisant spam/contenu faible, distinctes des actions manuelles. *(1 src)*
 - [[hreflang]] — attribut signalant langue/pays cible d'une page ; évite que les versions linguistiques soient traitées comme doublons. *(1 src)*
+- [[meta-description]] *(stub)* — balise résumant la page dans les SERP ; impacte le CTR, pas le classement direct. *(0 src)*
+- [[technical-seo]] *(stub, hub)* — volet technique du SEO ; regroupe crawl-budget/http-status-codes-seo/xml-sitemap/core-web-vitals. *(1 src)*
+- [[collection-page-seo]] *(stub)* — optimisation SEO des pages de collection/catégorie e-commerce (pendant de fiche-produit-seo). *(1 src)*
 
 ### SEO — Strategy & Content
 - [[what-is-seo]] — SEO fundamentals hub: 4 pillars (keyword/on-page/off-page/technical); vs SEM. *(1 src)*
@@ -405,6 +422,8 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[seo-audit]] — 3-type audit framework (interne/externe/technique) + checklist 41 points opérationnels. *(4 src)*
 - [[google-news-seo]] — Google Actualités: requirements, benefits, sitemap, 5 ranking tactics. *(2 src)*
 - [[black-hat-seo]] — techniques violating Google guidelines: PBN, cloaking ID. *(2 src)*
+- [[cloaking]] *(stub)* — présenter un contenu différent aux moteurs vs aux humains ; risque de pénalité/désindexation. *(1 src)*
+- [[pbn]] *(stub)* — réseau de sites privés créé pour générer des backlinks artificiels. *(1 src)*
 - [[off-page-seo]] — outside-site ranking signals; on/off/technical triad; link building #1; autorité interne d'abord; linkable assets; chaîne sociale → trafic de marque → signaux comportementaux; 4 formats de contenu citable; parasite SEO via plateformes DR90+. *(5 src)*
 - [[parasite-seo]] — utiliser l'autorité DR90+ de plateformes tierces (X/LinkedIn/GitHub/YouTube) pour ranker sur requêtes commerciales Google sans site web ; monétisation affiliation/referrals/CPA ; scaling 500-5 000€/mois. *(1 src)*
 - [[backlinks]] — links from other sites; analysis, quality, follow/nofollow, authority. *(2 src)*
@@ -412,6 +431,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[302-redirect]] — temporary redirect; vs 301 permanent; keeps original ranking. *(1 src)*
 - [[mobile-seo]] — rank/read well on mobile; responsive design; mobile-first indexing. *(1 src)*
 - [[sem]] — search engine marketing = paid ads + organic SEO; keyword/intent driven. *(1 src)*
+- [[sxo]] *(stub)* — Search Experience Optimization ; fait correspondre format de page et intention réelle, pas juste les mots-clés. *(1 src)*
 - [[longue-traine]] — mots-clés 3+ mots, faible volume individuel, 70%+ du trafic total ; meilleure conversion (intention précise). *(1 src)*
 - [[strategie-concurrentielle-seo]] — se positionner sur le nom d'un concurrent ("avis"/"alternative") pour intercepter ses prospects hésitants. *(1 src)*
 - [[google-discover]] — flux de contenu personnalisé (Chrome mobile/app Google), sans requête ; 5 leviers d'activation via angles chauds + titres. *(1 src)*
@@ -491,6 +511,13 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[hook]] — opening line that makes the reader continue; 4 traits, 11 techniques, 3-second rule. *(3 src)*
 - [[call-to-action]] — verb command; soft vs direct by funnel stage; levers, placement, always test. *(2 src)*
 - [[ab-testing]] — compare variants on real users; the "always test" backstop for headlines/CTAs/layouts. *(1 src)*
+- [[sales-page]] *(stub, 19 refs)* — page dédiée à la conversion assemblant headline/CTA/social-proof/scarcity/storytelling. *(3 src)*
+- [[freelance-copywriting]] *(stub, 9 refs)* — pratique du copywriting en indépendant : démarrage, acquisition client, pricing. *(9 src)*
+- [[fab-framework]] *(stub)* — Feature→Advantage→Benefit ; pendant du principe benefits-over-features. *(2 src)*
+- [[ai-for-writers]] *(stub)* — l'IA générative accélère le freelance copywriting sans remplacer stratégie et jugement humain. *(4 src)*
+- [[direct-response-copywriting]] *(stub)* — style visant une action immédiate mesurable plutôt que la notoriété de marque. *(1 src)*
+- [[benefits-over-features]] *(stub)* — vendre ce que le produit fait pour le lecteur plutôt que ses caractéristiques. *(1 src)*
+- [[creative-brief]] *(stub)* — document de cadrage d'un projet de copywriting freelance avant rédaction. *(1 src)*
 
 ### Marketing & Tools
 - [[marketing-tactics]] — goal/strategy/tactic; tactics execute strategy; 12 examples. *(1 src)*
@@ -512,6 +539,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[amazon-funnel]] — marketplace buyer funnel; product page decisive (92.4% of conversions). *(1 src)*
 - [[idea-validation]] — pick/validate a business idea; kill false ideas; decide over deliberate. *(1 src)*
 - [[seo-certifications]] — course credentials proving SEO basics; 11 options. *(1 src)*
+- [[ecommerce]] *(stub, hub)* — point d'entrée générique du domaine e-commerce ; voir cro-ecom/creatif-ecom/amazon-funnel/dropshipping-halal. *(1 src)*
 
 ## 👤 Entities
 - [[boutique-vanity-persona]] — buyer persona for puwww1-vg store: femme 30-50, déclencheur voyage, motivation organisation/gain de temps. *(owner-provided)*
@@ -552,6 +580,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[410-gone]] — agence SEO/SEA FR (410-gone.fr); nom inspiré du code HTTP 410; guide méthode Top 3. *(1 src)*
 - [[nicholasdulait]] — @NicholasDulait ; entrepreneur digital ; spécialiste parasite SEO et affiliation sans site web ; exemples terrain X + Instagram. *(1 src)*
 - [[vengeonsp]] — @VengeonsP ; fondateur de ChatSEO.app ; auteur du système des 12 agents Claude spécialisés SEO. *(1 src)*
+- [[chatseo-app]] *(stub)* — outil de monitoring de visibilité IA créé par vengeonsp, recommandé dans le guide Parasite SEO. *(1 src)*
 - [[createur2site]] — Stan De Jesus Oliveira, consultant SEO indépendant + site de ressources ; Activateur France Num. *(1 src)*
 - [[julien-ctr]] — @CTRBooster75, consultant SEO FR ; spécialiste CTR, Google Discover, frameworks SEO complets. *(1 src)*
 - [[julien-gourdon]] — consultant SEO/auteur FR (julien-gourdon.fr) ; topical authority et stratégie de contenu. *(1 src)*

@@ -34,7 +34,7 @@ status: active
 - Google AI internally decomposes: "best CRM for small business" → sub-queries: "CRM onboarding comparison", "CRM pricing <10 people", "multi-state CRM compliance".
 
 ## Connections / contradictions
-- Reinforces [[wiki/sources/jotaro-seo-ia-x-seo]]: 28.3 % of top ChatGPT-cited pages have zero organic visibility. Same phenomenon from different data.
+- Reinforces [[jotaro-seo-ia-x-seo]]: 28.3 % of top ChatGPT-cited pages have zero organic visibility. Same phenomenon from different data.
 - Extends [[topical-authority]]: "covering all angles" is now measurably quantified — 40-60 sub-question pages.
 - Contradicts the assumption that classic SEO rank = AI visibility (same conclusion as [[alexgroberman-page1-vs-ai-citation]]).
 

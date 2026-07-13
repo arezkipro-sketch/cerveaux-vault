@@ -11,7 +11,7 @@ tags:
   - geo
   - french
 sources:
-  - "[[raw/assets/jotaro-seo-ia-x-seo]]"
+  - "[[jotaro-seo-ia-x-seo]]"
   - "[[alexgroberman-62pct-beyond-top10]]"
   - "[[alexgroberman-page1-vs-ai-citation]]"
   - "[[alexgroberman-citation-absorption]]"
@@ -35,20 +35,20 @@ updated: 2026-06-15
 **Definition:** The practice of optimizing web content to be cited, referenced, or recommended by AI systems (ChatGPT, Claude, Gemini, Google AI Overviews), as distinct from traditional Google ranking optimization. Also called GEO (Generative Engine Optimization).
 
 ## What we know
-- Google SEO and AI citation are two distinct games: only **13.7 % overlap** in sources cited by Google AI Mode vs. AI Overviews — winning one doesn't guarantee winning the other → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **28.3 % of pages most cited by ChatGPT have zero organic Google visibility** — AI citation and search ranking operate on different signals → [[raw/assets/jotaro-seo-ia-x-seo]].
-- AI crawlers (ChatGPT, etc.) visit dozens of pages per query but cite only ~50 % of them — being crawlable is necessary but insufficient → [[raw/assets/jotaro-seo-ia-x-seo]].
-- LLM trust signals overlap with Google's [[e-e-a-t]] but are applied directly to content (an LLM reads and evaluates your text, not just external signals) → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **Key AI trust signals**: frequency of cross-site citation, [[topical-authority]] depth, content structure (extractability), and multi-platform presence → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **67 % of top ChatGPT citations** are uncontrollable sources (Wikipedia 29.7 %, homepages 23.8 %, app stores 6.6 %) — actionable territory is the remaining ~33 % → [[raw/assets/jotaro-seo-ia-x-seo]].
+- Google SEO and AI citation are two distinct games: only **13.7 % overlap** in sources cited by Google AI Mode vs. AI Overviews — winning one doesn't guarantee winning the other → [[jotaro-seo-ia-x-seo]].
+- **28.3 % of pages most cited by ChatGPT have zero organic Google visibility** — AI citation and search ranking operate on different signals → [[jotaro-seo-ia-x-seo]].
+- AI crawlers (ChatGPT, etc.) visit dozens of pages per query but cite only ~50 % of them — being crawlable is necessary but insufficient → [[jotaro-seo-ia-x-seo]].
+- LLM trust signals overlap with Google's [[e-e-a-t]] but are applied directly to content (an LLM reads and evaluates your text, not just external signals) → [[jotaro-seo-ia-x-seo]].
+- **Key AI trust signals**: frequency of cross-site citation, [[topical-authority]] depth, content structure (extractability), and multi-platform presence → [[jotaro-seo-ia-x-seo]].
+- **67 % of top ChatGPT citations** are uncontrollable sources (Wikipedia 29.7 %, homepages 23.8 %, app stores 6.6 %) — actionable territory is the remaining ~33 % → [[jotaro-seo-ia-x-seo]].
 
 ## The 7 AI SEO levers (ranked by impact)
 1. **[[topical-authority]]** — consistent, comprehensive coverage of a subject domain.
-2. **"Best X" list content** — 43.8 % of all ChatGPT citations come from this format → [[raw/assets/jotaro-seo-ia-x-seo]].
+2. **"Best X" list content** — 43.8 % of all ChatGPT citations come from this format → [[jotaro-seo-ia-x-seo]].
 3. **Factual density** — precise, verifiable data points > well-written generalities; answer the question in the first 1–3 sentences under each heading.
-4. **YouTube presence** — highest correlation with AI brand visibility: **0.737** → [[raw/assets/jotaro-seo-ia-x-seo]].
+4. **YouTube presence** — highest correlation with AI brand visibility: **0.737** → [[jotaro-seo-ia-x-seo]].
 5. **[[llm-txt]]** — signal file at `/llm.txt` for AI crawlers.
-6. **Informational intent focus** — 99.9 % of AI Overviews trigger on informational queries; target content mix: 70 % informational / 20 % commercial-hybrid / 10 % transactional → [[raw/assets/jotaro-seo-ia-x-seo]].
+6. **Informational intent focus** — 99.9 % of AI Overviews trigger on informational queries; target content mix: 70 % informational / 20 % commercial-hybrid / 10 % transactional → [[jotaro-seo-ia-x-seo]].
 7. **[[e-e-a-t]]** — demonstrated expertise via real examples, named authors, cited sources, and clear positions on contested topics.
 
 ## Relations
@@ -131,7 +131,7 @@ High-absorption content types (lift vs. pages without): code +76.88 %, stats +61
 - FAQ format: improves traditional SEO (featured snippets, PAA) but does NOT correlate with higher AI absorption → [[citation-absorption]]. Which to prioritize?
 
 ## Sources
-- [[raw/assets/jotaro-seo-ia-x-seo]] — Ahrefs 1B+ data point study synthesis; 7 concrete strategies.
+- [[jotaro-seo-ia-x-seo]] — Ahrefs 1B+ data point study synthesis; 7 concrete strategies.
 - [[alexgroberman-62pct-beyond-top10]] — Ahrefs 863K SERPs; 62 % AIO citations outside top-10; sub-query decomposition.
 - [[alexgroberman-page1-vs-ai-citation]] — 55,393 searches; page-1 rank ≠ AI citation; 2-layer model.
 - [[alexgroberman-citation-absorption]] — citation selection vs. absorption; content type influence lifts.

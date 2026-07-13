@@ -8,7 +8,7 @@ tags:
   - google
   - ai-seo
 sources:
-  - "[[raw/assets/jotaro-seo-ia-x-seo]]"
+  - "[[jotaro-seo-ia-x-seo]]"
   - "[[irentdumpsters-google-ai-guide]]"
   - "[[alexgroberman-citation-absorption]]"
   - "[[search-everywhere-optimization]]"
@@ -25,11 +25,11 @@ updated: 2026-06-19
 **Definition:** Google's framework for evaluating content quality: Experience (first-hand knowledge), Expertise (subject-matter depth), Authority (recognized standing in the field), and Trust (accuracy, transparency, verifiability). Originally a Google quality signal; now also applied by LLMs when deciding what content to cite.
 
 ## What we know
-- Popularized by Google for evaluating page quality in organic ranking → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **LLM extension**: AI models apply the same underlying logic — they read content directly to assess whether the author genuinely knows the subject, rather than inferring it from external signals alone → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **Key difference from classic Google E-E-A-T**: Google can infer authority from backlinks and brand mentions; LLMs evaluate the content itself for signals of real expertise → [[raw/assets/jotaro-seo-ia-x-seo]].
-- Practical signals for AI E-E-A-T: real-practice examples (not generic), clear positions on contested topics, named author + author page, explicitly cited studies and data → [[raw/assets/jotaro-seo-ia-x-seo]].
-- Generic content that adds nothing new will be ignored; content demonstrating intimate domain knowledge (precise examples, nuances only a practitioner would know) is naturally favored → [[raw/assets/jotaro-seo-ia-x-seo]].
+- Popularized by Google for evaluating page quality in organic ranking → [[jotaro-seo-ia-x-seo]].
+- **LLM extension**: AI models apply the same underlying logic — they read content directly to assess whether the author genuinely knows the subject, rather than inferring it from external signals alone → [[jotaro-seo-ia-x-seo]].
+- **Key difference from classic Google E-E-A-T**: Google can infer authority from backlinks and brand mentions; LLMs evaluate the content itself for signals of real expertise → [[jotaro-seo-ia-x-seo]].
+- Practical signals for AI E-E-A-T: real-practice examples (not generic), clear positions on contested topics, named author + author page, explicitly cited studies and data → [[jotaro-seo-ia-x-seo]].
+- Generic content that adds nothing new will be ignored; content demonstrating intimate domain knowledge (precise examples, nuances only a practitioner would know) is naturally favored → [[jotaro-seo-ia-x-seo]].
 
 ## Google's official E-E-A-T for AI Overviews (via [[irentdumpsters-google-ai-guide]])
 - **"Write from experience"**: not generic "best of" lists. Personal/expert experience is what Google's AI favors → [[irentdumpsters-google-ai-guide]].
@@ -107,7 +107,7 @@ Content types correlated with higher AI citation influence — same properties t
 - At what content volume does site-wide scaling begin to trigger "scaled content abuse" signals?
 
 ## Sources
-- [[raw/assets/jotaro-seo-ia-x-seo]] — frames E-E-A-T as the underlying logic of LLM citation trust; practical application guidance.
+- [[jotaro-seo-ia-x-seo]] — frames E-E-A-T as the underlying logic of LLM citation trust; practical application guidance.
 - [[irentdumpsters-google-ai-guide]] — Google official: "write from experience"; scaled content abuse penalty.
 - [[alexgroberman-citation-absorption]] — quantifies absorption lift for each content type (code, stats, definitions, comparisons, how-to).
 - [[search-everywhere-optimization]] — E-E-A-T as the cross-platform constant of the "new SEO".

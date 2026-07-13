@@ -28,7 +28,7 @@ status: active
 
 ### AI Overviews reach
 - Google AI Overviews: **2 billion monthly users, 200+ countries** → [[ai-overviews]].
-- 99.9 % informational intent queries covered (consistent with [[wiki/sources/jotaro-seo-ia-x-seo]]).
+- 99.9 % informational intent queries covered (consistent with [[jotaro-seo-ia-x-seo]]).
 
 ### Zero-click problem
 - **~60 % of searches now produce zero clicks** (search intent satisfied directly in SERP/AI response without visiting a site) → [[ai-overviews]], [[ai-seo]].

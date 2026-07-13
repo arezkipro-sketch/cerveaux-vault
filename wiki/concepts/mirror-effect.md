@@ -22,7 +22,7 @@ updated: 2026-06-17
 
 ## Relations
 - The voice-of-customer research layer feeding [[hook]], [[headline]], [[frustration-desire]], [[call-to-action]].
-- Operationalises the "precise audience understanding" element of [[copywriting]]; pairs with [[confirmation bias|cognitive-biases]] (start from their beliefs).
+- Operationalises the "precise audience understanding" element of [[copywriting]]; pairs with [[cognitive-biases|confirmation bias]] (start from their beliefs).
 
 ## Tensions / open questions
 - No formal VoC-mining tooling beyond manual collection; line where mirroring feels manipulative.

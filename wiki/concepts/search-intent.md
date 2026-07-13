@@ -10,7 +10,7 @@ tags:
 sources:
   - "[[jotaro-seo-content-strategy]]"
   - "[[jotaro-seo-6000-toys-case-study]]"
-  - "[[raw/assets/jotaro-seo-ia-x-seo]]"
+  - "[[jotaro-seo-ia-x-seo]]"
   - "[[navboost]]"
   - "[[seo-copywriting]]"
   - "[[jotaro-seo-strategie-ecommerce-2026]]"
@@ -26,7 +26,7 @@ updated: 2026-06-18
 ## What we know
 
 ### Intent types (3-type vs 4-type model)
-- **Informational**: user wants to learn or understand. SERP shows articles, guides, definitions. Queries: "comment", "pourquoi", "qu'est-ce que", "meilleur" (informational "best"). Drives 99.9 % of AI Overviews → [[raw/assets/jotaro-seo-ia-x-seo]].
+- **Informational**: user wants to learn or understand. SERP shows articles, guides, definitions. Queries: "comment", "pourquoi", "qu'est-ce que", "meilleur" (informational "best"). Drives 99.9 % of AI Overviews → [[jotaro-seo-ia-x-seo]].
 - **Transactional/Commercial**: user wants to buy or compare. SERP shows product pages, e-commerce collections, comparison tables. Amazon in TOP 3 = strong transactional signal → [[jotaro-seo-6000-toys-case-study]].
 - **Navigational**: user wants a specific site (less relevant for content strategy).
 - **4-type refinement** ([[seo-copywriting]]): splits the middle into **commercial** (compare before deciding — "meilleurs outils X", "X course") vs **transactional** (ready to act — "acheter X", "X prix/service"). Align message + structure + CTA with the dominant intent.
@@ -64,7 +64,7 @@ Pour les mots-clés transactionnels e-commerce, la SERP tranche. Regarder les 10
 → [[jotaro-seo-strategie-ecommerce-2026]]
 
 ### Content mix targets
-- For AI visibility: 70 % informational, 20 % commercial-hybrid, 10 % transactional → [[raw/assets/jotaro-seo-ia-x-seo]].
+- For AI visibility: 70 % informational, 20 % commercial-hybrid, 10 % transactional → [[jotaro-seo-ia-x-seo]].
 - For classic SEO: prioritize informational long-tail for blog, commercial for collection/product pages.
 
 ## Relations
@@ -79,6 +79,6 @@ Pour les mots-clés transactionnels e-commerce, la SERP tranche. Regarder les 10
 ## Sources
 - [[jotaro-seo-content-strategy]] — SERP format matching; dominant intent analysis methodology.
 - [[jotaro-seo-6000-toys-case-study]] — Amazon in SERP as transactional intent signal.
-- [[raw/assets/jotaro-seo-ia-x-seo]] — 99.9 % AI Overviews on informational queries; recommended content mix.
+- [[jotaro-seo-ia-x-seo]] — 99.9 % AI Overviews on informational queries; recommended content mix.
 - [[navboost]] — query types (info/nav/transactional) and how behavior validates each.
 - [[seo-copywriting]] — 4-intent model (commercial split from transactional); align message/structure/CTA.

@@ -27,7 +27,7 @@ status: active
 
 ## Notable claims (with locations)
 - "The more your authority increases, the more [AI] recommends you" — *(tweet 3/end)*.
-- Thread is a shorter, earlier version of the AI SEO guide in [[wiki/sources/jotaro-seo-ia-x-seo]].
+- Thread is a shorter, earlier version of the AI SEO guide in [[jotaro-seo-ia-x-seo]].
 
 ## Concepts introduced or updated
 - [[e-e-a-t]] — (update) defines the 4 criteria; links E-E-A-T to AI acquisition.
@@ -35,7 +35,7 @@ status: active
 - [[topical-authority]] — (update) "informational SEO" strategy = the operational form of topical authority building.
 
 ## Connections / contradictions
-- Earlier, shorter version of [[wiki/sources/jotaro-seo-ia-x-seo]] — same thesis, less data.
+- Earlier, shorter version of [[jotaro-seo-ia-x-seo]] — same thesis, less data.
 - Reinforces [[jotaro-seo-content-strategy]]: same 1 article/day cadence recommendation.
 
 ## Open questions

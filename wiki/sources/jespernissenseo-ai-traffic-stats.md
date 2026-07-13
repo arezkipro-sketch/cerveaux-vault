@@ -30,6 +30,6 @@ status: active
 - Volume gap vs. conversion advantage: fewer AI visits but each one warmer/higher-intent.
 
 ## Connections / contradictions
-- Validates [[wiki/sources/jotaro-seo-ia-x-seo]] ChatGPT focus (10M+ monthly active users claim; 78 % traffic share confirms dominance).
+- Validates [[jotaro-seo-ia-x-seo]] ChatGPT focus (10M+ monthly active users claim; 78 % traffic share confirms dominance).
 - Pairs with [[alexgroberman-citation-absorption]]: ChatGPT = highest influence score + highest traffic share = most valuable single platform to optimize for.
 - Reinforces [[ai-seo]] as a long-play investment (0.33 % now, 2× YoY growth).

@@ -24,7 +24,7 @@ status: active
 - [[semrush]]
 
 ## Connections / contradictions
-- Founds concept [[amazon-funnel]]; the marketplace counterpart of [[sales-funnel]]; product-page primacy reinforces [[product-bullet-points]] + [[checklist-fiche-produit|product-page CRO]].
+- Founds concept [[amazon-funnel]]; the marketplace counterpart of [[sales-funnel]]; product-page primacy reinforces [[product-bullet-points]] + [[fiche-produit-seo|product-page CRO]].
 - Marketplace SEO ties to [[ecommerce]] product listings.
 
 ## Open questions

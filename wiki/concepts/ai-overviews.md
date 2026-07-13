@@ -9,7 +9,7 @@ tags:
   - serp
   - ai-seo
 sources:
-  - "[[raw/assets/jotaro-seo-ia-x-seo]]"
+  - "[[jotaro-seo-ia-x-seo]]"
   - "[[alexgroberman-62pct-beyond-top10]]"
   - "[[alexgroberman-page1-vs-ai-citation]]"
   - "[[irentdumpsters-google-ai-guide]]"
@@ -26,10 +26,10 @@ updated: 2026-06-18
 **Definition:** Google's AI-generated answer blocks that appear at the top of search results pages, synthesizing information from multiple sources. They reduce user clicks to organic results and operate on a different citation logic than classic Google ranking.
 
 ## What we know
-- AI Overviews now reduce clicks to the #1 organic result by **58 %** (was 34.5 % ten months earlier) — trend is accelerating → [[raw/assets/jotaro-seo-ia-x-seo]].
-- **99.9 % of AI Overviews trigger on informational queries**; only 3.2 % on transactional queries → [[raw/assets/jotaro-seo-ia-x-seo]].
-- Google AI Mode and AI Overviews agree on what to say **86 % of the time**, but cite different sources — only **13.7 % overlap** in cited pages → [[raw/assets/jotaro-seo-ia-x-seo]].
-- Optimizing for classic Google ranking does not guarantee AI Overview inclusion, and vice versa → [[raw/assets/jotaro-seo-ia-x-seo]].
+- AI Overviews now reduce clicks to the #1 organic result by **58 %** (was 34.5 % ten months earlier) — trend is accelerating → [[jotaro-seo-ia-x-seo]].
+- **99.9 % of AI Overviews trigger on informational queries**; only 3.2 % on transactional queries → [[jotaro-seo-ia-x-seo]].
+- Google AI Mode and AI Overviews agree on what to say **86 % of the time**, but cite different sources — only **13.7 % overlap** in cited pages → [[jotaro-seo-ia-x-seo]].
+- Optimizing for classic Google ranking does not guarantee AI Overview inclusion, and vice versa → [[jotaro-seo-ia-x-seo]].
 
 ## Ahrefs study: Who actually gets cited in AI Overviews?
 
@@ -73,7 +73,7 @@ Google AI internally decomposes queries into sub-queries, then sources each sub-
 - Gemini 3 sub-query decomposition: does this apply equally across all query types or only certain verticals?
 
 ## Sources
-- [[raw/assets/jotaro-seo-ia-x-seo]] — click-reduction stats and informational query share.
+- [[jotaro-seo-ia-x-seo]] — click-reduction stats and informational query share.
 - [[alexgroberman-62pct-beyond-top10]] — Ahrefs 863K SERPs; 62 %/38 % split; sub-query decomposition.
 - [[alexgroberman-page1-vs-ai-citation]] — 55,393 searches; 30 % AIO domains not in first-page organic.
 - [[irentdumpsters-google-ai-guide]] — Google official AIO guidance; GBP in AIO responses.
