@@ -6,8 +6,8 @@ tags: [seo, blog, copywriting, workflow, shopify, images, schema-org]
 sources: ["[[sedestral-blog-article-seo-2026]]", "[[semrush-seo-checklist-41]]", "[[francenum-guide-debutant-seo]]", "[[natural-net-geo-guide-2026]]", "[[minddex-geo-2026]]", "[[jotaro-seo-sans-backlinks]]"]
 source_count: 6
 status: active
-updated: 2026-07-12
-version: 20, ajout carte produit visuelle obligatoire juste après "À retenir" (point de contact précoce, avant que le lecteur décroche) sur tous les articles
+updated: 2026-07-13
+version: 22, phrase de transition + zone isolée par <hr> avant/après la carte produit (entre "À retenir" et .blog-product-card-v2), en plus du template premium (.blog-product-card-v2 / .bpc-*) ajouté en v21 — voir section "Carte produit". Appliqué rétroactivement aux 20 articles publiés le 2026-07-13.
 ---
 
 # Workflow de création d'article de blog SEO
@@ -501,27 +501,50 @@ Règles :
 
 #### Carte produit — HTML à insérer juste après "À retenir" (obligatoire, tous les articles)
 
-> **Ajouté le 2026-07-12** : la plupart des lecteurs ne descendent jamais jusqu'au CTA de conclusion. Un point de contact produit visuel et cliquable dès le haut de l'article, juste après "À retenir", capte le lecteur pendant qu'il est encore engagé. Ne remplace pas le lien produit/collection dans le corps ni le CTA final : s'ajoute en plus, en tout premier.
+> **Ajouté le 2026-07-12, redesign premium le 2026-07-12** : la plupart des lecteurs ne descendent jamais jusqu'au CTA de conclusion. Un point de contact produit visuel et cliquable dès le haut de l'article, juste après "À retenir", capte le lecteur pendant qu'il est encore engagé. Ne remplace pas le lien produit/collection dans le corps ni le CTA final : s'ajoute en plus, en tout premier. Design éditorial premium (pas publicitaire) : carte horizontale desktop / empilée mobile, badge de sélection, bénéfices à coches, avis Judge.me réels si disponibles.
 
 ```html
-<div class="blog-product-card">
-<a href="/products/[handle]" class="blog-product-card__link">
-<img src="[URL CDN de l'image produit]" alt="[Nom du produit]" class="blog-product-card__img" loading="lazy">
-<div class="blog-product-card__body">
-<p class="blog-product-card__eyebrow">Notre sélection</p>
-<p class="blog-product-card__title">[Nom du produit]</p>
-<p class="blog-product-card__price">[Prix] €</p>
-<span class="blog-product-card__cta">Voir le produit</span>
-</div>
+<hr>
+<p>[1 phrase de transition entre "À retenir" et la carte : annonce l'arrivée d'une recommandation produit, en lien avec le sujet de l'article.]</p>
+
+<div class="blog-product-card-v2">
+<a href="/products/[handle]" class="bpc-img-wrap">
+<img src="[URL CDN de l'image produit]" alt="[Nom du produit]" class="bpc-img" loading="lazy">
+<img src="https://cdn.shopify.com/s/files/1/0992/8553/3046/files/hce-badge-selection-seal.png?v=1783849715" alt="Sélection Harnais Chien Expert" class="bpc-badge" loading="lazy">
 </a>
+<div class="bpc-content">
+<span class="bpc-pill">★ Recommandé dans ce guide</span>
+<a href="/products/[handle]" class="bpc-title-link"><p class="bpc-title">[Nom du produit]</p></a>
+<p class="bpc-context">[1 phrase : pourquoi CE produit aide pour CE sujet précis, jamais générique.]</p>
+<ul class="bpc-benefits">
+<li><span class="bpc-check">✓</span>[Bénéfice réel 1]</li>
+<li><span class="bpc-check">✓</span>[Bénéfice réel 2]</li>
+<li><span class="bpc-check">✓</span>[Bénéfice réel 3]</li>
+</ul>
+<p class="bpc-rating"><span class="bpc-stars">★★★★★</span>[note]/5 • [nombre] avis</p>
+<hr class="bpc-divider">
+<div class="bpc-footer">
+<span class="bpc-price">[prix] €<span class="bpc-price-compare">[prix barré] €</span></span>
+<a href="/products/[handle]" class="bpc-cta">Voir le produit →</a>
 </div>
+</div>
+</div>
+<p class="blog-product-caption"><span class="bpc-info-icon">i</span>Produit recommandé par l'équipe Harnais Chien Expert.</p>
+<p class="blog-product-card__more"><a href="/collections/[handle-collection]">Voir toute la sélection [nom collection] →</a></p>
+<hr>
 ```
 
 Règles :
-- **Toujours un produit réel et vérifié** (prix + image récupérés via l'API au moment de la rédaction), jamais un produit générique ou inventé — même piège que l'épisode "harnais voiture" (février 2026) à ne pas reproduire
-- **Choisir le produit le plus pertinent par rapport au sujet précis de l'article**, pas juste le best-seller du site par défaut
-- CSS déjà déployé dans `assets/wild-one-skin.css` (classes `.blog-product-card*`), respecte la charte DA Outdoor Naturel (fond blanc, radius 4px, sans bordure, CTA en brun `--color-accent-primary`)
+- **Toujours un produit réel et vérifié** (prix, compare_at_price, image, note/nombre d'avis Judge.me récupérés via l'API au moment de la rédaction), jamais un produit générique ou inventé — même piège que l'épisode "harnais voiture" (février 2026) à ne pas reproduire
+- **Choisir le produit le plus pertinent par rapport au sujet précis de l'article** (pas juste le best-seller par défaut) : comparer plusieurs candidats de la collection concernée si le premier réflexe n'est pas évident — ex. article train : la sécurité anti-fugue en gare bondée prime sur la simple poignée
+- **Phrase de transition avant la carte** : **corrigé le 2026-07-13** — un `<p>` d'une ligne juste après le `</div>` de `.blog-a-retenir` et avant `.blog-product-card-v2`, qui annonce l'arrivée de la recommandation (ex. "Pour traverser sereinement les zones de foule, voici le harnais que nous recommandons :"). Sans cette phrase, la carte arrive de façon trop brute après le bloc "À retenir". Complémentaire du `bpc-context` (qui reste à l'intérieur de la carte) : la phrase externe fait la transition, `bpc-context` détaille le pourquoi du produit.
+- **Zone isolée par des `<hr>`** : **ajouté le 2026-07-13** — un `<hr>` juste avant la phrase de transition et un `<hr>` juste après `.blog-product-card__more`, pour isoler visuellement toute la zone de recommandation (transition + carte + légende + lien collection) du reste de l'article. Utilise le séparateur déjà stylé nativement sur le site (`.article-template .rte hr` dans `wild-one-skin.css` : trait fin gris `#e8e8e8`, marge 32px), pas de classe custom à ajouter.
+- **`bpc-context`** : phrase à l'intérieur de la carte qui explique pourquoi ce produit aide pour ce sujet précis (complète la phrase de transition externe, ne la remplace pas).
+- **`bpc-price-compare`** : uniquement si le produit a un vrai `compare_at_price` non nul. Ne jamais afficher un prix barré inventé — certains produits n'en ont pas, dans ce cas omettre le `<span class="bpc-price-compare">`.
+- **`bpc-rating`** : uniquement avec de vraies données Judge.me (metafields `reviews.rating` / `reviews.rating_count`). Jamais de note ou d'avis inventés.
+- CSS déjà déployé dans `assets/wild-one-skin.css` (classes `.blog-product-card-v2`, `.bpc-*`), respecte la charte DA Outdoor Naturel (fond beige chaud, accents cuivre/brun, CTA vert foncé `--color-accent-secondary`, coins arrondis, ombre légère)
 - Insertion juste après le `</div>` de fermeture de `.blog-a-retenir`, avant le paragraphe de transition vers le sommaire
+- Badge `hce-badge-selection-seal.png` : identique sur toutes les cartes, ne pas régénérer
 
 3 points max, 1 ligne chacun. Différent de "Réponse rapide" : cette section répond à la question du titre, "À retenir" donne les faits bruts à mémoriser (chiffres, règles, distinctions clés).
 
