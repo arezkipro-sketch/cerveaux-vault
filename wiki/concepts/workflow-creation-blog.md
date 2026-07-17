@@ -6,8 +6,8 @@ tags: [seo, blog, copywriting, workflow, shopify, images, schema-org]
 sources: ["[[sedestral-blog-article-seo-2026]]", "[[semrush-seo-checklist-41]]", "[[francenum-guide-debutant-seo]]", "[[natural-net-geo-guide-2026]]", "[[minddex-geo-2026]]", "[[jotaro-seo-sans-backlinks]]"]
 source_count: 6
 status: active
-updated: 2026-07-13
-version: 22, phrase de transition + zone isolée par <hr> avant/après la carte produit (entre "À retenir" et .blog-product-card-v2), en plus du template premium (.blog-product-card-v2 / .bpc-*) ajouté en v21 — voir section "Carte produit". Appliqué rétroactivement aux 20 articles publiés le 2026-07-13.
+updated: 2026-07-17
+version: 23, règle "stat citable IA" ajoutée : chiffre explicite dans le texte, source nommée et phrase autonome quand possible.
 ---
 
 # Workflow de création d'article de blog SEO
@@ -847,7 +847,7 @@ Format : `<h2 id="ancre">🎯 Comment choisir un harnais pour chien ?</h2>`
 - `<strong>` pour les points essentiels (tous les 50-100 mots)
 - Densité mot-clé principal : 1-2 %
 - **1 lien externe** vers source fiable (vétérinaire, institution, étude) → signal E-E-A-T
-- **1 statistique sourcée minimum** — format exact à respecter : *"Selon [organisme], [chiffre/fait]."* Exemple : *"Selon la Société Centrale Canine, 63 % des chiens tirent excessivement en laisse avant 18 mois."* → les LLM privilégient le contenu factuel vérifiable et le citent plus facilement
+- **1 statistique sourcée minimum, formulée comme contenu chiffré citable** — format exact à respecter : *"Selon [organisme], [chiffre/fait contextualisé]."* Quand c'est possible, intégrer le chiffre directement dans une phrase autonome du corps de l'article, pas seulement dans une source ou une note. Exemple : *"Selon la Société Centrale Canine, 63 % des chiens tirent excessivement en laisse avant 18 mois."* Objectif : produire une phrase factuelle que ChatGPT, Perplexity ou Google AI Overviews peuvent reprendre telle quelle comme preuve sourcée.
 - **2-3 liens internes** : 1 vers le blog précédent uniquement + 1 vers une page commerciale/collection dans le corps du texte + 1 CTA en conclusion vers la même collection (le CTA ne passe pas de jus supplémentaire mais sert la conversion — Google consolide les signaux d'une même URL). **Mécanisme du jus SEO : un article de blog qui génère du trafic et linke vers une page collection rend cette collection plus forte sans y toucher directement** — c'est pourquoi le lien vers la collection doit être dans le corps (pas seulement en conclusion). Ancre = toujours le sujet de la page de destination, jamais "cliquez ici" ni "en savoir plus". → [[jotaro-seo-sans-backlinks]]
 - **Cible du lien commercial : jamais `/collections/all`** (collection auto Shopify, sans H1/description SEO, se canonicalise sur elle-même → dilue le jus). Toujours pointer vers la collection SEO dédiée : `/collections/tous-les-harnais-chien` pour le générique, ou la collection précise du sujet (anti-traction, chiot, husky…). Vérifier aussi que la cible correspond au **sujet** de l'article (session 2026-07-07 : un article anti-fugue pointait à tort vers `/collections/harnais-anti-traction-chien` → re-ciblé vers `/collections/harnais-anti-fugue-chien`).
 - **Ajouter 1 lien vers une fiche PRODUIT best-seller** en plus du lien collection (Jotaro étape 3.5 : pousser le jus vers les *money pages*, pas seulement les collections). Levier sous-exploité : sur les 15 articles du store, 1 seul pointait vers un produit. Ancre = nom/mot-clé du produit.
@@ -1276,7 +1276,7 @@ Remplir le metafield `seo.howto` :
 - [ ] **Section "Ressources"** en bas — min. 2 articles liés + 1 collection
 - [ ] Intro PAS + mot-clé dans les 100 premiers mots
 - [ ] Longueur ≥ concurrent #1 SERP + 15-20 % (vérifier via analyse SERP étape 1b)
-- [ ] **1 stat sourcée** — format : *"Selon [organisme], [chiffre]."*
+- [ ] **1 stat sourcée et citable par IA** — format : *"Selon [organisme], [chiffre/fait contextualisé]."* Le chiffre doit apparaître dans le texte quand c'est possible, avec une source nommée et une phrase autonome.
 - [ ] 1 lien externe vers source fiable + `rel="noopener noreferrer"` + `target="_blank"`
 - [ ] 2-3 liens internes en **chemins relatifs** (1 blog précédent + 1 collection dans le corps + 1 CTA en conclusion) — jamais d'URL absolue `https://mondomaine.fr/...` vers son propre store
 - [ ] **Section FAQ en fin d'article** (minimum 3 Q&R, 60-100 mots/réponse)
