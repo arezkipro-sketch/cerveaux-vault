@@ -1050,3 +1050,12 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Nouveau concept: [[multi-model-ai-workflow]] — spécialisation par outil IA + couche mémoire partagée (Unibase Memory) ; lien avec le vault Cerveaux comme mémoire structurée complémentaire
 - Insight clé: "Tu es l'API entre tes propres AIs" — la solution est une infrastructure mémoire externe cross-tools
 ---
+
+## [2026-07-17] ingest | @Raytar — Stop Being the Loop. Here's How to Make Claude Work While You Sleep.
+- Source type: article X/Twitter
+- Source URL: https://x.com/raytar/article/2069212188619805179
+- Raw file: raw/assets/Stop Being the Loop. Here's How to Make Claude Work While You Sleep..md (clippé par Obsidian)
+- Pages créées: [[raytar-loop-engineering-claude]], [[raytar]], [[loop-engineering]]
+- Nouveau concept: [[loop-engineering]] — /goal (boucle jusqu'à état final, vérification par 2e instance Claude) + /loop (rythme), charter template complet, LOOP-STATE.md comme héros silencieux
+- Insight clé: "Prompting is doing the work. Loop engineering is managing the worker." (Boris Cherny, Anthropic)
+---

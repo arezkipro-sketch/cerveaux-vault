@@ -2,7 +2,7 @@
 
 Content catalog of the whole wiki. The LLM reads this first on every query and updates it on every ingest. Each entry: link + one-line summary (+ source count where useful).
 
-**Stats:** 242 sources · 482 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · **AI Workflows** · last updated 2026-07-17
+**Stats:** 243 sources · 485 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · **AI Workflows** · last updated 2026-07-17
 
 → Start at [[overview]] for the big picture. See `CLAUDE.md` for the rules, `log.md` for history.
 
@@ -78,6 +78,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 
 ### AI Workflows & Outils
 - [[sairahul1-multi-model-ai-team]] — multi-model AI team : mémoire partagée cross-tools (Claude/ChatGPT/Gemini) via Unibase Memory ; 5 étapes, 4 workflows, gain 40 min/projet *(2026-07-16)*.
+- [[raytar-loop-engineering-claude]] — loop engineering : /goal (boucle jusqu'à l'état final) + /loop (rythme), charter template, LOOP-STATE.md ; "prompting = faire le travail, loop engineering = gérer le travailleur" *(2026-06-23)*.
 
 ### SEO — Parasite SEO (@NicholasDulait)
 - [[nicholasdulait-parasite-seo-guide]] — guide complet Parasite SEO : 5 phases (plateforme DR90+ / requêtes commerciales / format X / indexation forcée / monétisation) ; exemples terrain (Wise position 0 six mois) ; scaling 500-5 000€/mois *(2026-07-10)*.
@@ -368,6 +369,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[persistent-wiki]] — compounding LLM-maintained wiki between you and your sources. *(1 src)*
 - [[retrieval-augmented-generation]] — query-time chunk retrieval; the baseline the wiki improves on. *(1 src)*
 - [[multi-model-ai-workflow]] — assigner des rôles spécialisés à différents AIs (Claude/ChatGPT/Gemini) + couche mémoire partagée externe ; 4 workflows types ; lien avec le vault Cerveaux. *(1 src)*
+- [[loop-engineering]] — boucles autonomes Claude Code : /goal (ligne d'arrivée) + /loop (rythme), 5 temps, charter template, LOOP-STATE.md ; quand NE PAS utiliser une boucle. *(1 src)*
 
 ### Frontend
 - [[utility-first-css]] — styling by composing atomic single-purpose classes in markup. *(1 src)*
@@ -585,6 +587,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[nicholasdulait]] — @NicholasDulait ; entrepreneur digital ; spécialiste parasite SEO et affiliation sans site web ; exemples terrain X + Instagram. *(1 src)*
 - [[vengeonsp]] — @VengeonsP ; fondateur de ChatSEO.app ; auteur du système des 12 agents Claude spécialisés SEO. *(1 src)*
 - [[sairahul1]] — @sairahul1 (Rahul) ; theaibuilders.co ; expert workflows IA multi-modèles et mémoire partagée cross-tools. *(1 src)*
+- [[raytar]] — @Raytar ; vulgarisateur Claude Code et automatisation IA ; a popularisé le loop engineering via Boris Cherny (Anthropic). *(1 src)*
 - [[chatseo-app]] *(stub)* — outil de monitoring de visibilité IA créé par vengeonsp, recommandé dans le guide Parasite SEO. *(1 src)*
 - [[createur2site]] — Stan De Jesus Oliveira, consultant SEO indépendant + site de ressources ; Activateur France Num. *(1 src)*
 - [[julien-ctr]] — @CTRBooster75, consultant SEO FR ; spécialiste CTR, Google Discover, frameworks SEO complets. *(1 src)*
