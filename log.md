@@ -1041,3 +1041,12 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - **Pages orphelines** : 0 (vérifié après création des stubs — chaque nouvelle page reçoit au moins le backlink de sa source citante).
 - **index.md** : 0 fichier manquant après cette passe. Entrées ajoutées : 13 sources déjà présentes sur disque mais non cataloguées (AWAI, Copy Posse ×2, FRW ×7, `jotaro-seo-ia-x-seo`, `tailwind-utility-reference`), 15 concepts + 2 entités correspondant aux stubs créés ci-dessus. Stats mises à jour (241 sources · 479 pages · maj 2026-07-13).
 - Commit + push effectués.
+
+## [2026-07-17] ingest | @sairahul1 — How To Build a Multi-Model AI Team in 2026
+- Source type: article X/Twitter
+- Source URL: https://x.com/sairahul1/article/2077642705686122743
+- Raw file: raw/assets/How To Build a Multi-Model AI Team in 2026.md (déjà clippé par Obsidian)
+- Pages créées: [[sairahul1-multi-model-ai-team]], [[sairahul1]], [[multi-model-ai-workflow]]
+- Nouveau concept: [[multi-model-ai-workflow]] — spécialisation par outil IA + couche mémoire partagée (Unibase Memory) ; lien avec le vault Cerveaux comme mémoire structurée complémentaire
+- Insight clé: "Tu es l'API entre tes propres AIs" — la solution est une infrastructure mémoire externe cross-tools
+---
