@@ -1059,3 +1059,12 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Nouveau concept: [[loop-engineering]] — /goal (boucle jusqu'à état final, vérification par 2e instance Claude) + /loop (rythme), charter template complet, LOOP-STATE.md comme héros silencieux
 - Insight clé: "Prompting is doing the work. Loop engineering is managing the worker." (Boris Cherny, Anthropic)
 ---
+
+## [2026-07-18] ingest | Le jugement de l'usage du système drop shipping et les moyens de régularisation de l'opération (Islam Q&A)
+- Source type: article web (fatwa)
+- Source URL: https://islamqa.info/fr/answers/334744
+- Raw file: raw/assets/Le jugement de l'usage du système dropshipping et les moyens de régularisation de l'opération - Islam en questions et réponses.md (déjà clippé par Obsidian)
+- Pages créées: [[islamqa-dropshipping-regularisation]], [[islamqa]], [[mourabaha]], [[wikala]]
+- Pages mises à jour: [[dropshipping-halal]] (+2 voies de régularisation alternatives au Bay' Salam)
+- Insight clé: confirmation indépendante (école/raisonnement différents, angle possession/qabd) de l'interdit du dropshipping classique déjà documenté via [[bay-salam]] ; 2 alternatives non couvertes jusqu'ici — mourabaha (achat réel + revente à marge) et wikala (mandat de gérance, client ou fournisseur) — utiles si le paiement intégral à l'avance du Salam est trop contraignant pour le flux logistique Wildone
+---

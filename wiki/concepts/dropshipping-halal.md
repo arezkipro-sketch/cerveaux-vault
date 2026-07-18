@@ -3,10 +3,10 @@ type: concept
 title: "Dropshipping Halal (via Bay' Salam)"
 slug: dropshipping-halal
 tags: [islam, ecommerce, dropshipping, bay-salam, finance-islamique, shopify]
-sources: ["[[lameute-bay-salam-ecommerce]]", "[[guide-dropshipping-seo-halal]]", "[[ebook-business-halal]]"]
-source_count: 3
+sources: ["[[lameute-bay-salam-ecommerce]]", "[[guide-dropshipping-seo-halal]]", "[[ebook-business-halal]]", "[[islamqa-dropshipping-regularisation]]"]
+source_count: 4
 status: active
-updated: 2026-06-25
+updated: 2026-07-18
 ---
 
 # Dropshipping Halal via Bay' Salam
@@ -77,6 +77,12 @@ Le [[bay-salam]] est l'exception autorisée par le Prophète ﷺ qui transforme 
 | Images de femmes découvertes / poses attirantes | Interdit |
 | Musique dans les publicités ou le site | Interdit |
 
+## Autres voies de régularisation (au-delà du Bay' Salam)
+
+Une fatwa indépendante ([[islamqa-dropshipping-regularisation]], islamqa.info) confirme l'interdit du dropshipping classique par un raisonnement complémentaire (angle possession/qabd plutôt que gharar) et documente 2 alternatives au Bay' Salam, utiles si le paiement intégral à l'avance s'avère trop contraignant pour le flux logistique :
+- [[mourabaha]] — le vendeur achète réellement le bien avant de le revendre à marge déclarée
+- [[wikala]] — mandat de gérance : soit pour le compte du client (fonds perçus avant achat), soit pour le compte du fournisseur (commission)
+
 ## Relations
 - Source publiée par [[la-meute]], organisme de formation e-commerce/dropshipping halal.
 
@@ -84,3 +90,4 @@ Le [[bay-salam]] est l'exception autorisée par le Prophète ﷺ qui transforme 
 - [[lameute-bay-salam-ecommerce]] — ebook La Meute : conditions Bay' Salam, exemples Shopify, clauses CGV, erreurs à éviter, marketing halal
 - [[guide-dropshipping-seo-halal]] — guide SEO halal : 8 conditions Bay' Salam (case de confirmation + max 3 fournisseurs), setup Shopify/SpeedFly, niche selection, Pinterest Organique
 - [[ebook-business-halal]] — guide co-écrit Adam + Mimine : 3 modèles logistiques, 3 types produits (générique/ODM/OEM), sourcing Alibaba, agent chinois 10 critères, EORI, micro-entreprise, stratégie progression débutant → OEM
+- [[islamqa-dropshipping-regularisation]] — fatwa n°334744 : confirmation indépendante de l'interdit + 2 formes de régularisation supplémentaires (mourabaha, wikala)

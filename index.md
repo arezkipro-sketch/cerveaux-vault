@@ -2,7 +2,7 @@
 
 Content catalog of the whole wiki. The LLM reads this first on every query and updates it on every ingest. Each entry: link + one-line summary (+ source count where useful).
 
-**Stats:** 243 sources · 485 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · **AI Workflows** · last updated 2026-07-17
+**Stats:** 244 sources · 489 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · **AI Workflows** · last updated 2026-07-18
 
 → Start at [[overview]] for the big picture. See `CLAUDE.md` for the rules, `log.md` for history.
 
@@ -352,15 +352,19 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[guide-dropshipping-seo-halal]] — guide SEO dropshipping halal : 8 conditions Bay' Salam, setup Shopify/SpeedFly, 5 techniques niche, pages collection/produit, jus SEO, Pinterest Organique *(mimine-ecom-seo.com, PDF 23p)*.
 - [[mimine-aliexpress-fournisseurs]] — 9 critères fournisseur AliExpress, 8 critères produit, 4 extensions Chrome, piège "choice", règle fournisseur fiable vs non fiable *(mimine-ecom-seo, PDF 10p)*.
 - [[ebook-business-halal]] — guide complet 70p : 3 modèles logistiques, 3 types produits (générique/ODM/OEM), sourcing Alibaba, 10 critères agent chinois, EORI, micro-entreprise, SEO Shopify complet, Linkuma backlinks *(Adam + Mimine, PDF)*.
+- [[islamqa-dropshipping-regularisation]] — fatwa n°334744 : jugement du dropshipping classique (interdit, angle possession/qabd) + 4 formes de régularisation (salam, mourabaha, wikala client, wikala fournisseur) *(islamqa.info, 2022-02-04)*.
 
 ### Concepts
 - [[bay-salam]] — contrat islamique de vente à livraison différée : 5 conditions, clauses CGV, règle linguistique "le/la/les" vs "ce/cette/ces", exemples Shopify. *(1 src)*
-- [[dropshipping-halal]] — checklist de conformité Bay' Salam + marketing halal (interdits : fausse urgence, faux avis, images inappropriées). *(3 src)*
+- [[dropshipping-halal]] — checklist de conformité Bay' Salam + marketing halal (interdits : fausse urgence, faux avis, images inappropriées) + 2 voies alternatives (mourabaha, wikala). *(4 src)*
 - [[gharar]] *(stub)* — incertitude excessive interdite en fiqh islamique ; risque neutralisé par le contrat Bay' Salam. *(1 src)*
+- [[mourabaha]] *(stub)* — vente à marge déclarée après achat/possession réelle du bien ; alternative au Bay' Salam pour le dropshipping. *(1 src)*
+- [[wikala]] — mandat de gérance (côté client ou côté fournisseur) ; le vendeur ne possède jamais le bien, rémunéré en commission. *(1 src)*
 
 ### Entités
 - [[la-meute]] — organisation FR e-commerce islamique, producteur de l'ebook Bay' Salam.
 - [[aliexpress]] *(stub)* — marketplace fournisseur principale en dropshipping halal ; critères de sourcing produit. *(1 src)*
+- [[islamqa]] — site de fatwas (islamqa.info), réponses sourcées Coran/Sunna/4 écoles, section française. *(1 src)*
 
 ---
 
