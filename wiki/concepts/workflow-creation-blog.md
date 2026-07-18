@@ -7,7 +7,7 @@ sources: ["[[sedestral-blog-article-seo-2026]]", "[[semrush-seo-checklist-41]]",
 source_count: 6
 status: active
 updated: 2026-07-17
-version: 23, règle "stat citable IA" ajoutée : chiffre explicite dans le texte, source nommée et phrase autonome quand possible.
+version: 24, règle anti-orphelin ajoutée : tout article (créé ou audité) doit avoir au moins 1 lien entrant depuis un article déjà publié, pas seulement des liens sortants — voir section "Ressources utiles". Version précédente (23) : règle "stat citable IA" ajoutée : chiffre explicite dans le texte, source nommée et phrase autonome quand possible.
 ---
 
 # Workflow de création d'article de blog SEO
@@ -594,6 +594,8 @@ Segmenter par situation concrète. Exemples pour le harnais :
 ```
 
 Minimum 2 liens internes vers d'autres articles + 1 vers une collection. Maillage interne dédié en bas de chaque article.
+
+**Règle anti-orphelin (ajoutée le 2026-07-17) :** les liens sortants ci-dessus ne suffisent pas. Après publication (ou audit d'un article déjà écrit), vérifier qu'**au moins un article déjà publié pointe vers le nouvel article** (lien entrant), sinon il reste orphelin même bien maillé vers l'extérieur. Méthode : chercher `/blogs/news/[handle-du-nouvel-article]` dans le body_html de tous les articles publiés via l'API. Si aucun résultat, ajouter le lien dans la section Ressources de l'article le plus pertinent (le pilier `comment-choisir-harnais-chien` est un bon candidat par défaut, car hub à fort trafic interne). Cette vérification s'applique à **tout article**, qu'il ait été créé via ce workflow ou écrit manuellement par ailleurs et simplement audité.
 
 #### Quiz interactif multi-étapes — HTML (`blog-quiz-multi` + `quiz-multi.js`)
 
