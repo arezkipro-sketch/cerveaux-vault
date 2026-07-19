@@ -2,7 +2,7 @@
 
 Content catalog of the whole wiki. The LLM reads this first on every query and updates it on every ingest. Each entry: link + one-line summary (+ source count where useful).
 
-**Stats:** 244 sources · 489 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · **AI Workflows** · last updated 2026-07-18
+**Stats:** 244 sources · 490 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · **AI Workflows** · last updated 2026-07-19
 
 → Start at [[overview]] for the big picture. See `CLAUDE.md` for the rules, `log.md` for history.
 
@@ -19,6 +19,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[ai-vs-human-writing]] — AI exposes commodity vs strategic writing; demand rising; trust = moat. *(5 src)*
 - [[ma-vanity-naming-audit]] — correction SEO 164 fiches Shopify ma-vanity : seo.title/méta/couleurs/anglais + fusion Miroir Lumineux→LED (301). DoD 100%. *(2026-06-21)*
 - [[synthese-2026-w28]] — synthèse hebdo : Claude Code comme moteur d'automatisation SEO/web (12 agents, freelance sites, Parasite SEO) ; tension autorité propre vs empruntée. *(4 src, 2026-07-12)*
+- [[synthese-2026-w29]] — synthèse hebdo : mémoire externe cross-tools (Unibase) + loop engineering (/goal, /loop) comme même pattern à 2 échelles, écho direct à [[persistent-wiki]] ; fatwa islamqa confirme dropshipping-halal + ajoute mourabaha/wikala. *(3 src, 2026-07-19)*
 
 ## 📄 Sources
 ### SEO — Livres & Références

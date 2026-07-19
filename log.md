@@ -1068,3 +1068,11 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Pages mises à jour: [[dropshipping-halal]] (+2 voies de régularisation alternatives au Bay' Salam)
 - Insight clé: confirmation indépendante (école/raisonnement différents, angle possession/qabd) de l'interdit du dropshipping classique déjà documenté via [[bay-salam]] ; 2 alternatives non couvertes jusqu'ici — mourabaha (achat réel + revente à marge) et wikala (mandat de gérance, client ou fournisseur) — utiles si le paiement intégral à l'avance du Salam est trop contraignant pour le flux logistique Wildone
 ---
+
+## [2026-07-19] synthesis | Synthèse semaine 2026-W29
+- Sources couvertes : [[sairahul1-multi-model-ai-team]], [[raytar-loop-engineering-claude]], [[islamqa-dropshipping-regularisation]]
+- Thèmes : mémoire externe comme goulot d'étranglement réel (Unibase Memory cross-tools vs LOOP-STATE.md intra-boucle), écho direct au [[persistent-wiki]] fondateur du vault ; confirmation fiqh indépendante du dropshipping-halal (angle possession/qabd) + 2 nouvelles voies de régularisation (mourabaha, wikala).
+- Note : [[nicholasdulait-parasite-seo-guide]] (07-12) déjà couvert par [[synthese-2026-w28]] la semaine précédente — exclu de cette synthèse pour éviter le doublon.
+- Tension : divergence ulémas sur la commission variable du mandat fournisseur (Ahmad/Ishaaq vs majorité) — non arbitrée, cf. [[wikala]].
+- Page créée : [[synthese-2026-w29]]. index.md mis à jour (490 pages).
+---
