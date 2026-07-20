@@ -1068,3 +1068,20 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Pages mises à jour: [[dropshipping-halal]] (+2 voies de régularisation alternatives au Bay' Salam)
 - Insight clé: confirmation indépendante (école/raisonnement différents, angle possession/qabd) de l'interdit du dropshipping classique déjà documenté via [[bay-salam]] ; 2 alternatives non couvertes jusqu'ici — mourabaha (achat réel + revente à marge) et wikala (mandat de gérance, client ou fournisseur) — utiles si le paiement intégral à l'avance du Salam est trop contraignant pour le flux logistique Wildone
 ---
+
+## [2026-07-19] synthesis | Synthèse semaine 2026-W29
+- Sources couvertes : [[sairahul1-multi-model-ai-team]], [[raytar-loop-engineering-claude]], [[islamqa-dropshipping-regularisation]]
+- Thèmes : mémoire externe comme goulot d'étranglement réel (Unibase Memory cross-tools vs LOOP-STATE.md intra-boucle), écho direct au [[persistent-wiki]] fondateur du vault ; confirmation fiqh indépendante du dropshipping-halal (angle possession/qabd) + 2 nouvelles voies de régularisation (mourabaha, wikala).
+- Note : [[nicholasdulait-parasite-seo-guide]] (07-12) déjà couvert par [[synthese-2026-w28]] la semaine précédente — exclu de cette synthèse pour éviter le doublon.
+- Tension : divergence ulémas sur la commission variable du mandat fournisseur (Ahmad/Ishaaq vs majorité) — non arbitrée, cf. [[wikala]].
+- Page créée : [[synthese-2026-w29]]. index.md mis à jour (490 pages).
+---
+
+## [2026-07-20] maint | Maintenance hebdo automatisée
+- **Liens cassés** : 0 nouveau. Les 9 cibles non résolues restent le pattern déjà documenté le 2026-07-13 — auto-références dans le champ frontmatter `raw:` vers un titre de fichier `raw/assets/` (5 titres longs, 3 `-x-thread`, `llm-wiki-idea`) ; non touché, conforme à la règle « raw/ jamais édité ». Les ~200 liens `[[raw/assets/...]]` restants suivent le même principe.
+- **Pages orphelines** : 0 réelle. La première passe signalait 10 faux positifs dans `wiki/concepts/` (`content-pruning`, `core-web-vitals`, `navboost`, `omnichannel`, `pinterest-ads`, `reddit-seo`, `search-everywhere-optimization`, `seo-copywriting`, `video-marketing`, `website-redesign`) — vérification manuelle : chacune reçoit en fait plusieurs backlinks externes (5 à 15+), le faux orphelinage venait d'une collision de nom de fichier avec `wiki/sources/<même-slug>.md` (concept et source partagent le même basename), pas d'un manque de liens.
+- **Point d'attention (non corrigé, hors périmètre trivial)** : les 10 paires ci-dessus ont un `slug` identique entre `wiki/concepts/X.md` et `wiki/sources/X.md`. `[[X]]` est donc ambigu — Obsidian ne peut pas distinguer les deux cibles par le seul wikilink. Aucun lien cassé n'en résulte aujourd'hui (résolution par défaut fonctionne), mais ça vaut un futur `maint` ou une passe dédiée pour désambiguïser (ex. renommer les fichiers sources en `<slug>-source.md` ou lier explicitement via chemin complet `[[wiki/sources/X]]`).
+- **index.md** : 0 fichier manquant. Toutes les pages de `wiki/sources/` (244), `wiki/concepts/` (176), `wiki/entities/` (59) et `wiki/topics/` (10) sont référencées. Écart de casse repéré sur `synthese-2026-W28.md` / `synthese-2026-W29.md` (fichiers en `W` majuscule, slug/liens en `w` minuscule) — cosmétique, résolution insensible à la casse fonctionne, non corrigé.
+- **Note CLAUDE.md** : la mention « `wiki/overview.md` n'existe pas » est obsolète — le fichier existe (créé au bootstrap 2026-06-14) et `index.md` le référence correctement en point d'entrée.
+- Rien à corriger cette semaine (vault sain). Aucun stub créé, aucune entrée index.md ajoutée.
+---
