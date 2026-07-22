@@ -1085,3 +1085,13 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - **Note CLAUDE.md** : la mention « `wiki/overview.md` n'existe pas » est obsolète — le fichier existe (créé au bootstrap 2026-06-14) et `index.md` le référence correctement en point d'entrée.
 - Rien à corriger cette semaine (vault sain). Aucun stub créé, aucune entrée index.md ajoutée.
 ---
+
+## [2026-07-22] ingest | Capitalisation SEO — usage réel PushRank/Ubersuggest (harnais-chien-expert.fr)
+- **Pas de source `raw/`** : contenu tiré directement de sessions d'usage (intégration MCP PushRank + Ubersuggest, API Shopify Admin) sur harnais-chien-expert.fr, pas d'article externe ingéré.
+- **Pages entities mises à jour** : [[pushrank]] (sortie de pré-lancement documentée en 2026-06 → outil réellement utilisé ; taxonomie complète des types d'opportunités, bugs outil connus — filtre `severity=low` cassé, statut `ignored` non permanent, écart de comptage overview vs liste ; section "Fiabilité du signal decay" ; journal d'usage réel sur harnais-chien-expert.fr), [[ubersuggest]] (site_audit + seo_opportunities documentés, piège de fraîcheur du cache après correction).
+- **Pages concepts enrichies** : [[meta-description]] (stub → actif : fourchette 150-160 car., piège CTR-vs-mot-clé avec cas vécu, implémentation Shopify metafield), [[keyword-cannibalization]] (cas vécu : check GSC-only insuffisant, SERP-similarity 12pages.com oublié puis validé a posteriori à 80% par l'utilisateur — leçon méthodologique : les deux checks sont désormais systématiques), [[canonical-tag]] (cas Shopify /policies/* vs /pages/* dupliquées + piège de mapping sur pages au contenu obsolète).
+- **Page créée** : [[h1-heading-tag]] (n'existait pas encore) — règles de base H1/hiérarchie, piège Shopify H1 dupliqué (bannière thème + contenu, variante popup cachée), section ouverte sur `heading_hierarchy_skip`/`title_equals_h1` (détectés par Ubersuggest mais pas encore diagnostiqués par URL).
+- **Backlinks** : [[h1-heading-tag]] reçoit ≥3 liens entrants ([[meta-description]], [[pushrank]], et lien sortant vers [[jotaro-seo-keyword-cannibalization]] comme page ancienne) — non orpheline dès sa création.
+- **index.md** : 6 lignes mises à jour ([[canonical-tag]], [[meta-description]], [[keyword-cannibalization]], [[pushrank]], [[ubersuggest]] enrichies + [[h1-heading-tag]] ajoutée), compteur wiki pages 490→491, date last-updated 2026-07-22.
+- **Point ouvert pour une prochaine session** : panneau web PushRank "Santé SEO technique" (pages orphelines, maillage faible, heading hierarchy skip, title=h1) reste une boîte noire côté API/MCP — seule l'interface web permet d'obtenir le détail par URL. À documenter dans [[pushrank]]/[[h1-heading-tag]] dès qu'un export manuel est disponible.
+---

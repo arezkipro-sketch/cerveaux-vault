@@ -6,7 +6,8 @@ tags: [seo, technical-seo, duplicate-content, on-page]
 sources: ["[[jotaro-seo-canonical-tag]]", "[[audreytips-fiche-produit-seo-ia]]"]
 source_count: 2
 status: active
-updated: 2026-06-19
+updated: 2026-07-22
+note: "MAJ 2026-07-22 : cas Shopify policies/pages dupliquées, harnais-chien-expert.fr."
 ---
 
 # Balise Canonique (Canonical Tag)
@@ -32,6 +33,15 @@ updated: 2026-06-19
 ## E-commerce : variantes produit
 - Pour les variantes (taille/couleur), préférer **regrouper sur une fiche** via attributs/sélecteurs ; canonique = **signal de priorité, pas une solution de fond** (corriger d'abord le contenu si identique). Créer une page séparée seulement si l'intention de recherche diffère → [[audreytips-fiche-produit-seo-ia]], [[fiche-produit-seo]].
 
+## Cas Shopify : pages légales dupliquées `/policies/*` vs `/pages/*`
+
+Piège spécifique à Shopify, détecté via un audit [[ubersuggest]] (`have_title_duplicates`) sur harnais-chien-expert.fr (2026-07-22) : Shopify génère automatiquement des pages système à `/policies/{handle}` (confidentialité, CGV, mentions légales, livraison, remboursement...) à partir des réglages légaux de la boutique — **en plus** de toute page `/pages/*` équivalente créée manuellement par le marchand avec le même contenu. Les deux versions coexistent, indexables, avec des titres identiques → duplicate content classique.
+
+**Piège dans le mapping** : ne pas assumer une correspondance 1-pour-1 évidente entre les deux jeux de pages. Sur ce site, deux pages `/pages/livraison-*` existaient (une page "de préparation" au contenu resté provisoire/non mis à jour, une page réellement à jour) — le canonical devait pointer vers la page à jour, pas la première trouvée par similarité de nom. Toujours comparer le **contenu réel** (dates de mise à jour, présence de texte placeholder du type "à compléter") avant de choisir la cible canonique, pas juste le nom du handle.
+
+**Solution appliquée** : ajout d'un bloc conditionnel dans `layout/theme.liquid` (basé sur `request.path`, pas sur un objet `policy.handle` — plus fiable car ne dépend pas de la disponibilité de cet objet dans le contexte Liquid) qui surcharge `canonical_url` uniquement sur les 6 chemins `/policies/*` concernés, pointant chacun vers son équivalent `/pages/*`. Les pages sans équivalent clair (ex: "Terms of service" générique sans page CGV réellement dédiée) sont laissées sans surcharge — mieux vaut une page auto-canonique que forcer un mapping approximatif.
+
 ## Sources
 - [[jotaro-seo-canonical-tag]] — full guide: problem, syntax, implementation, verification.
 - [[audreytips-fiche-produit-seo-ia]] — canonique pour gestion des variantes produit e-commerce (signal de priorité).
+- Usage réel session 2026-07-22 sur harnais-chien-expert.fr (pas de source `raw/` — cas Shopify /policies/* vs /pages/*, via [[ubersuggest]] et l'API Shopify Admin).

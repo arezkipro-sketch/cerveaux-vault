@@ -2,7 +2,7 @@
 
 Content catalog of the whole wiki. The LLM reads this first on every query and updates it on every ingest. Each entry: link + one-line summary (+ source count where useful).
 
-**Stats:** 244 sources · 490 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · **AI Workflows** · last updated 2026-07-19
+**Stats:** 244 sources · 491 wiki pages · domains: Copywriting/CRO · SEO (technical/on-page/off-page/local/AI-search/e-commerce/ranking-method/parasite) · AI/ML · Marketing/tools · Branding · Email/Video/social · Knowledge-mgmt · **E-commerce islamique** · **E-commerce Meta Ads** · **Création de site web** · **AI Workflows** · last updated 2026-07-22
 
 → Start at [[overview]] for the big picture. See `CLAUDE.md` for the rules, `log.md` for history.
 
@@ -387,7 +387,8 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[ttfb]] — Time To First Byte; low TTFB raises crawl rate; CDN/Gzip-Brotli/DB; feeds LCP; causes Shopify (Liquid complexe, nested loops). *(2 src)*
 - [[http-status-codes-seo]] — how 4xx/5xx errors hurt crawling, indexation, UX, and link equity; 503 cuts crawl freq; 410 Gone pour gamme produit arrêtée. *(3 src)*
 - [[301-redirect]] — permanent redirect; preserves link juice across URL changes. *(2 src)*
-- [[canonical-tag]] — deduplication signal; declares primary URL for similar/duplicate content; variantes produit e-commerce. *(2 src)*
+- [[canonical-tag]] — deduplication signal; declares primary URL for similar/duplicate content; variantes produit e-commerce ; cas Shopify /policies vs /pages dupliquées. *(2 src)*
+- [[h1-heading-tag]] — H1 unique/hiérarchie de titres ; piège Shopify H1 dupliqué (bannière thème + contenu, popup cachée). *(0 src, 2026-07-22)*
 - [[donnees-structurees]] — Schema.org/JSON-LD (Product/Offer/AggregateRating/BreadcrumbList); rich snippets, +CTR; aide Google + moteurs IA à interpréter. *(3 src)*
 - [[link-juice]] — authority value a link passes from one page to another. *(2 src)*
 - [[image-seo]] — ALT attributes, WebP format, file naming for crawlability and rankings. *(1 src)*
@@ -399,7 +400,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[duplicate-content]] — même contenu accessible via plusieurs URLs ; dilution de PageRank, résolu par canonical/hreflang/robots. *(1 src)*
 - [[google-algorithmic-filters]] — mises à jour algo Google (Panda, Penguin, EMD…) pénalisant spam/contenu faible, distinctes des actions manuelles. *(1 src)*
 - [[hreflang]] — attribut signalant langue/pays cible d'une page ; évite que les versions linguistiques soient traitées comme doublons. *(1 src)*
-- [[meta-description]] *(stub)* — balise résumant la page dans les SERP ; impacte le CTR, pas le classement direct. *(0 src)*
+- [[meta-description]] — balise résumant la page dans les SERP ; impacte le CTR, pas le classement direct ; fourchette 150-160 car., piège CTR-vs-mot-clé, implémentation Shopify (metafield global.description_tag). *(0 src)*
 - [[technical-seo]] *(stub, hub)* — volet technique du SEO ; regroupe crawl-budget/http-status-codes-seo/xml-sitemap/core-web-vitals. *(1 src)*
 - [[collection-page-seo]] *(stub)* — optimisation SEO des pages de collection/catégorie e-commerce (pendant de fiche-produit-seo). *(1 src)*
 
@@ -415,7 +416,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[url-structure]] — SEO-friendly URLs: hyphens, short, descriptive; no query strings. *(1 src)*
 - [[search-intent]] — 4 intent types (info/nav/commercial/transactional); SERP format analysis. *(4 src)*
 - [[long-tail-keywords]] — targeting niche sub-keywords to bypass competitive primaries. *(1 src)*
-- [[keyword-cannibalization]] — internal keyword competition; 1 keyword = 1 page rule. *(2 src)*
+- [[keyword-cannibalization]] — internal keyword competition; 1 keyword = 1 page rule ; cas vécu où le check GSC-only a manqué le SERP-similarity check (80% overlap trouvé après coup). *(2 src)*
 - [[exact-match-domain]] — domain names matching target keywords; current SEO value and limits. *(1 src)*
 - [[cocon-semantique]] — French SEO content architecture: pages filles → page mère. *(1 src)*
 - [[topic-clusters]] — pillar + cluster pages (hub-and-spoke); EN equivalent of cocon. *(1 src)*
@@ -557,7 +558,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[memex]] — Vannevar Bush's 1945 vision of an associative personal knowledge store. *(1 src)*
 - [[tailwind-css]] — utility-first CSS framework. *(1 src)*
 - [[jotaro-seo]] — French-language SEO educator on X; author of 20 ingested threads. *(20 src)*
-- [[pushrank]] — AI SEO monitoring tool under development by @JotaroSeo; pre-launch. *(3 src)*
+- [[pushrank]] — AI SEO monitoring tool by @JotaroSeo ; sorti de pré-lancement, usage réel via MCP (types d'opportunités, bugs connus, journal harnais-chien-expert.fr). *(3 src)*
 - [[alex-groberman]] — @alexgroberman, AI SEO researcher, seo-stuff.com; introduced citation absorption framework. *(4 src)*
 - [[sarvesh-alventra]] — @bloggersarvesh, Sarvesh, Alventra Marketing; local SEO practitioner; 14 years experience. *(2 src)*
 - [[semrush]] — B2B SEO platform; major AI SEO research publisher; 14 articles ingested; commercial bias noted. *(14 src)*
@@ -570,7 +571,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[natural-net]] — agence webmarketing Bordeaux fondée 2007 ; experte SEO/GEO IA ; 20+ articles de fond LLM. *(1 src)*
 - [[sedestral]] — outil SaaS FR de content/SEO ; blog de référence sur rédaction SEO et stratégie éditoriale. *(1 src)*
 - [[np-digital]] — Neil Patel's marketing agency; publisher of neilpatel.com; parent of Ubersuggest. *(1 src)*
-- [[ubersuggest]] — Neil Patel's SEO/keyword-research tool; Semrush competitor. *(1 src)*
+- [[ubersuggest]] — Neil Patel's SEO/keyword-research tool; Semrush competitor ; usage réel MCP (site_audit, seo_opportunities), croisé avec [[pushrank]]. *(1 src)*
 - [[youtube]] — Google's video platform; algorithm + Shorts; visibility via watch time/retention/CTR. *(1 src)*
 - [[chatgpt]] — OpenAI's conversational LLM; output ∝ prompt quality; major AI-search surface. *(1 src)*
 - [[openai]] — AI research company behind ChatGPT / GPT models. *(1 src)*

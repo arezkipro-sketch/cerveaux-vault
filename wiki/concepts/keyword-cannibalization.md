@@ -6,7 +6,8 @@ tags: [seo, on-page, content-strategy, keyword-research]
 sources: ["[[jotaro-seo-keyword-cannibalization]]", "[[jotaro-seo-content-strategy]]", "[[content-pruning]]"]
 source_count: 3
 status: active
-updated: 2026-06-19
+updated: 2026-07-22
+note: "MAJ 2026-07-22 : cas vécu harnais-chien-expert.fr, gap méthodologique GSC-only vs SERP-similarity."
 ---
 
 # Keyword Cannibalization
@@ -26,6 +27,18 @@ updated: 2026-06-19
   - 50-79% → partial overlap → two pages possible but differentiate clearly.
   - < 50% → distinct SERPs → two separate pages with no cannibalization risk → [[jotaro-seo-content-strategy]].
 - **Case study**: fitness blog with "programme musculation débutant" + "programme fitness débutant" → 82% similarity → merged into one → positions immediately improved → [[jotaro-seo-content-strategy]].
+
+## Cas vécu — harnais-chien-expert.fr (2026-07-22) : l'erreur de ne vérifier QUE via GSC
+
+Diagnostic initial fait uniquement via les méthodes 1/3/4 ci-dessus (comparaison des pages qui rankent dans les snapshots [[pushrank]]/GSC) pour "harnais chien" (27 100 rech/mois) vs "harnais pour chien" (4 400 rech/mois). Conclusion à ce stade : aucune cannibalisation, une seule page (`/collections/tous-les-harnais-chien`) captait de la visibilité sur les deux termes.
+
+**Ce qui manquait** : la vérification SERP-similarity (méthode listée plus haut, 12pages.com) n'a pas été faite à cette étape — oubli méthodologique. L'utilisateur l'a faite lui-même de son côté et a trouvé **8/10 résultats communs (80% de similarité)** entre les deux requêtes — pile au seuil de fusion. Ça a permis de confirmer que "harnais chien" et "harnais pour chien" doivent être traités comme **une seule et même intention de recherche** (même page cible), pas deux mots-clés distincts qui auraient pu justifier deux pages séparées.
+
+**Leçon retenue** : la comparaison via GSC/outil de tracking (quelles pages rankent déjà) et la comparaison SERP-similarity (est-ce que Google traite ces mots-clés comme une même intention) répondent à deux questions différentes et complémentaires :
+- GSC/tracking → *"ai-je déjà un problème de cannibalisation actif ?"*
+- SERP-similarity → *"ces mots-clés devraient-ils de toute façon être traités comme un seul, même si aucune page ne cannibalise encore rien ?"*
+
+Sauter la seconde question peut faire conclure à tort "pas de souci" alors que la vraie question (combien de pages cibler) n'a pas été posée. **Les deux checks sont désormais systématiques avant de conclure une analyse de cannibalisation**, même quand la vérification GSC seule semble déjà rassurante.
 
 ## Solutions
 1. **[[maillage-interne]]**: clear internal link hierarchy signals to Google which page is primary → [[jotaro-seo-keyword-cannibalization]].
@@ -48,3 +61,4 @@ updated: 2026-06-19
 - [[jotaro-seo-keyword-cannibalization]] — definition, dangers, detection methods, solutions.
 - [[jotaro-seo-content-strategy]] — 1-keyword/1-page absolute rule; 12pages.com SERP similarity method; merger case study.
 - [[content-pruning]] — cannibalization as a pruning trigger; keep the strongest page.
+- Usage réel session 2026-07-22 sur harnais-chien-expert.fr (pas de source `raw/` — expérience directe, gap méthodologique GSC-only corrigé grâce à une vérification manuelle de l'utilisateur).
