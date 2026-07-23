@@ -62,6 +62,24 @@ Premier gros audit + corrections réalisé sur ce store (voir aussi contexte [[m
 
 **Constat sur les recommandations `ai_recommendation` de type "renforcer le CTR"** : une reformulation orientée accroche (format question, bénéfice) peut faire perdre le mot-clé principal de la meta description si on n'y prête pas attention — corrigé après coup sur l'article guide des tailles. Toujours vérifier qu'une réécriture CTR conserve le mot-clé cible, pas seulement l'accroche.
 
+## Session 2026-07-22 — vague prioritaire HCE
+
+PushRank remonte plusieurs recommandations sur harnais-chien-expert.fr, mais le site ayant environ 2 mois, les signaux `decay` doivent être traités avec prudence. La décision retenue n'est pas de corriger toutes les alertes, mais de prioriser les pages à intention commerciale directe : collections Spitz, Golden Retriever, Cavalier King Charles, Accessoires, Anti-Traction, puis l'article support "chien qui tire en laisse".
+
+**Règle appliquée** : chaque suggestion PushRank est documentée avec 4 éléments : signal détecté, décision prise, raison SEO/business, changement appliqué. Cette règle évite d'obéir mécaniquement à l'outil : PushRank sert de déclencheur d'analyse, pas de pilote automatique.
+
+| Page | Signal détecté | Décision prise | Raison SEO/business | Changement appliqué |
+| --- | --- | --- | --- | --- |
+| Collection Spitz | `decay` et `quick_win` sur `harnais spitz`, `harnais spitz nain`, `harnais pour spitz`, `harnais pour spitz allemand` | Traité | Plusieurs signaux sur une même money page + intention d'achat claire | Contenu race/taille déjà présent ; title/meta renforcés sur `Spitz nain` et `Spitz allemand`, sans dupliquer les blocs existants |
+| Collection Golden Retriever | `decay` sur `harnais pour golden retriever` et variantes | Traité | Page collection commerciale proche d'une opportunité page 1, mais CTR faible/nul | Contenu choix/taille/anti-traction déjà présent ; title SEO ajouté et meta description renforcée pour rassurer l'achat |
+| Collection Cavalier King Charles | `decay` + opportunité mesurée sur l'intention race | Traité | Requêtes proches de la page 1, intention d'achat spécifique | Contenu race/cou/FAQ déjà présent ; title/meta alignés sur la requête exacte et le guide taille |
+| Collection Accessoires | `ai_recommendation` : contenu insuffisant | Traité | Page collection trop générique, peut soutenir l'écosystème harnais | Ajout de sections usages/conseils, FAQ 4 questions, liens vers harnais, poignée et anti-traction, title/meta renforcés |
+| Collection Anti-Traction | `decay` sur `harnais pour chien qui tire` | Traité en optimisation légère | Intention transactionnelle forte, mais pas besoin de refonte complète | Contenu éducatif/FAQ déjà riche ; title/meta renforcés sur `chien qui tire` et lien depuis l'article conservé |
+| Article chien qui tire en laisse | `decay` sur requête informationnelle | Traité comme support, pas money page | Potentiel informationnel utile pour pousser vers la collection Anti-Traction | Article déjà doté d'une transition et d'un CTA interne ; summary, title tag et description tag renforcés vers le choix du harnais anti-traction |
+| Pages secondaires | Alertes moyennes isolées | Reporter sauf correction légère évidente | Site jeune + risque de dispersion | Pas de grosse réécriture sur Berger Australien, Bouledogue Français, Chiot, Handicapé, Tactique |
+
+Leçon associée : sur un jeune site e-commerce, l'ordre de correction doit combiner [[pushrank]], volume/impressions GSC, [[search-intent]], rôle commercial et [[maillage-interne]]. Une alerte `decay` seule ne suffit pas.
+
 ## Relations
 - Built by [[jotaro-seo]].
 - Complements the strategies taught in [[jotaro-seo-ia-x-seo]] (AI SEO monitoring) and [[jotaro-seo-content-strategy]].
@@ -78,3 +96,6 @@ Premier gros audit + corrections réalisé sur ce store (voir aussi contexte [[m
 - [[jotaro-seo-content-strategy]] — fullest description of planned features.
 - [[jotaro-seo-chatgpt-sales]] — mentioned in context of SEO automation.
 - Usage réel session 2026-07-21/22 sur harnais-chien-expert.fr (pas de source `raw/` — expérience directe via l'intégration MCP).
+
+
+Note d'exécution : toutes les opportunités PushRank de cette vague ont été passées en `done` après vérification Shopify. Les alertes non prioritaires (Berger Australien, Bouledogue Français, Chiot, Handicapé, Tactique, backlinks) restent hors périmètre.

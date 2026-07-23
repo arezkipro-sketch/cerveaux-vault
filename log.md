@@ -1095,3 +1095,18 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - **index.md** : 6 lignes mises à jour ([[canonical-tag]], [[meta-description]], [[keyword-cannibalization]], [[pushrank]], [[ubersuggest]] enrichies + [[h1-heading-tag]] ajoutée), compteur wiki pages 490→491, date last-updated 2026-07-22.
 - **Point ouvert pour une prochaine session** : panneau web PushRank "Santé SEO technique" (pages orphelines, maillage faible, heading hierarchy skip, title=h1) reste une boîte noire côté API/MCP — seule l'interface web permet d'obtenir le détail par URL. À documenter dans [[pushrank]]/[[h1-heading-tag]] dès qu'un export manuel est disponible.
 ---
+
+## [2026-07-22] synthesis | Documentation corrections PushRank HCE
+- Documentation préalable à la vague prioritaire PushRank sur harnais-chien-expert.fr, avant modifications Shopify.
+- [[pushrank]] enrichi avec une table signal → décision → raison SEO/business → changement appliqué pour les collections Spitz, Golden Retriever, Cavalier King Charles, Accessoires, Anti-Traction et l'article support "chien qui tire en laisse".
+- [[collection-page-seo]] enrichi : règle jeune site Shopify, ne pas traiter un `decay` isolé comme une urgence ; prioriser les pages collection quand l'intention d'achat, les impressions réelles ou le rôle dans le [[maillage-interne]] le justifient.
+- Décision méthodologique : pas de grosse réécriture sur Berger Australien, Bouledogue Français, Chiot, Handicapé, Tactique dans cette vague.
+---
+
+## [2026-07-22] update | Corrections PushRank appliquées sur Shopify
+
+- Shopify mis à jour pour la vague prioritaire HCE : Spitz, Golden Retriever, Cavalier King Charles, Accessoires, Anti-Traction et article "chien qui tire en laisse".
+- Décision d'exécution : ne pas dupliquer les blocs déjà présents sur les collections race et anti-traction ; renforcer surtout title/meta quand le contenu utile existe déjà.
+- Collection Accessoires enrichie avec sections usages/conseils, FAQ visible et liens internes vers les collections harnais, poignée et anti-traction.
+- Article "chien qui tire en laisse" gardé comme support informationnel : summary et balises globales title/description alignés vers le choix du harnais anti-traction.
+- 13 opportunités PushRank liées à cette vague ont été passées en `done` après vérification Shopify.
