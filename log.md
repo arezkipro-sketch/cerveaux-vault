@@ -1110,3 +1110,10 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Collection Accessoires enrichie avec sections usages/conseils, FAQ visible et liens internes vers les collections harnais, poignée et anti-traction.
 - Article "chien qui tire en laisse" gardé comme support informationnel : summary et balises globales title/description alignés vers le choix du harnais anti-traction.
 - 13 opportunités PushRank liées à cette vague ont été passées en `done` après vérification Shopify.
+
+## [2026-07-25] update | Mapping PushRank content_creation HCE
+
+- PushRank : 6 opportunités `content_creation` déjà couvertes par des collections Shopify existantes passées en `ignored` (`harnais chien`, `harnais canicross`, `harnais en Y`, `harnais chien voiture`, `harnais chiot`, `harnais teckel`).
+- `ceinture chien voiture` reste en `todo`, car l'intention peut être distincte de la collection harnais voiture si une vraie offre ceinture/attache existe.
+- [[pushrank]] enrichi avec le mapping mot-clé → collection cible → décision → raison SEO/business → statut.
+- [[keyword-cannibalization]] enrichi : règle apprise, une recommandation `content_creation` doit déclencher un mapping et non une création automatique quand une collection canonique existe déjà.

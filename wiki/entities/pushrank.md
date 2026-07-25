@@ -80,6 +80,25 @@ PushRank remonte plusieurs recommandations sur harnais-chien-expert.fr, mais le 
 
 Leçon associée : sur un jeune site e-commerce, l'ordre de correction doit combiner [[pushrank]], volume/impressions GSC, [[search-intent]], rôle commercial et [[maillage-interne]]. Une alerte `decay` seule ne suffit pas.
 
+
+## Session 2026-07-25 — `content_creation` déjà couvert et mapping canonique HCE
+
+PushRank a remonté 7 opportunités `content_creation` issues de `keyword_strategy`. Après vérification Shopify, 6 ne nécessitent pas de création de page : les collections existent déjà et doivent rester les pages cibles. Le signal ne veut donc pas dire "page absente", mais plutôt "PushRank n'a pas associé automatiquement ce mot-clé à une page canonique" (`primaryArticle: null`, statut keyword `candidate`).
+
+**Règle appliquée** : avant de créer une page suite à une recommandation PushRank `content_creation`, vérifier les collections/pages existantes, le mapping d'intention et le risque de [[keyword-cannibalization]]. Si une page collection existe déjà, ne pas créer de doublon : optimiser ou mapper la page existante.
+
+| Mot-clé PushRank | Page cible existante | Décision prise | Raison SEO/business | Statut PushRank |
+| --- | --- | --- | --- | --- |
+| `harnais chien` | `/collections/tous-les-harnais-chien` | Ne pas créer de page | Collection mère déjà dédiée à l'intention catalogue/achat | `ignored` |
+| `harnais canicross` | `/collections/harnais-canicross` | Ne pas créer de page | Collection dédiée existante avec produits | `ignored` |
+| `harnais en Y` | `/collections/harnais-chien-y` | Ne pas créer de page | Collection dédiée existante ; créer une page concurrente brouillerait l'intention | `ignored` |
+| `harnais chien voiture` | `/collections/harnais-chien-voiture` | Ne pas créer de page | Collection dédiée existante ; priorité à renforcer la page si besoin | `ignored` |
+| `harnais chiot` | `/collections/harnais-chiot` | Ne pas créer de page | Collection dédiée existante ; éviter doublon article/collection sur intention achat | `ignored` |
+| `harnais teckel` | `/collections/harnais-teckel` | Ne pas créer de page | Collection race dédiée existante | `ignored` |
+| `ceinture chien voiture` | À clarifier, proche de `/collections/harnais-chien-voiture` | Garder ouvert | Intention possiblement différente : accessoire ceinture/attache voiture. À traiter seulement si produit ou angle dédié réel | `todo` |
+
+Contrôle cannibalisation associé : PushRank ne remonte aucune opportunité `cannibalization`. Les données GSC montrent surtout des chevauchements normaux article/collection (article = support informationnel, collection = intention achat). Les URLs produits Shopify en forme `/collections/.../products/...` canonisent bien vers `/products/...`, donc pas de cannibalisation technique constatée sur ce point.
+
 ## Relations
 - Built by [[jotaro-seo]].
 - Complements the strategies taught in [[jotaro-seo-ia-x-seo]] (AI SEO monitoring) and [[jotaro-seo-content-strategy]].

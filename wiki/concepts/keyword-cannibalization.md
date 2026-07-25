@@ -6,8 +6,8 @@ tags: [seo, on-page, content-strategy, keyword-research]
 sources: ["[[jotaro-seo-keyword-cannibalization]]", "[[jotaro-seo-content-strategy]]", "[[content-pruning]]"]
 source_count: 3
 status: active
-updated: 2026-07-22
-note: "MAJ 2026-07-22 : cas vécu harnais-chien-expert.fr, gap méthodologique GSC-only vs SERP-similarity."
+updated: 2026-07-25
+note: "MAJ 2026-07-25 : PushRank content_creation peut être un faux positif si une collection Shopify canonique existe déjà."
 ---
 
 # Keyword Cannibalization
@@ -39,6 +39,17 @@ Diagnostic initial fait uniquement via les méthodes 1/3/4 ci-dessus (comparaiso
 - SERP-similarity → *"ces mots-clés devraient-ils de toute façon être traités comme un seul, même si aucune page ne cannibalise encore rien ?"*
 
 Sauter la seconde question peut faire conclure à tort "pas de souci" alors que la vraie question (combien de pages cibler) n'a pas été posée. **Les deux checks sont désormais systématiques avant de conclure une analyse de cannibalisation**, même quand la vérification GSC seule semble déjà rassurante.
+
+
+## Cas vécu — PushRank `content_creation` vs collections Shopify existantes (2026-07-25)
+
+Sur harnais-chien-expert.fr, PushRank a recommandé de créer des pages dédiées pour `harnais chien`, `harnais canicross`, `harnais en Y`, `harnais chien voiture`, `harnais chiot` et `harnais teckel`. Vérification Shopify : chaque requête avait déjà une collection dédiée. Le problème n'était donc pas l'absence de page, mais l'absence de mapping reconnu par PushRank (`primaryArticle: null`, keywords en statut `candidate`).
+
+Décision : ne pas créer de nouvelles pages. Les opportunités ont été passées en `ignored`, car créer une seconde URL sur la même intention aurait augmenté le risque de cannibalisation. La bonne action est de conserver la collection existante comme page canonique, puis d'optimiser title/meta/contenu/maillage si les signaux GSC le justifient.
+
+Exception maintenue ouverte : `ceinture chien voiture`. Cette intention peut être distincte de `harnais chien voiture` si le site vend une ceinture ou attache voiture dédiée. Tant que l'offre produit n'est pas claire, la recommandation reste en `todo` plutôt que d'être ignorée.
+
+**Règle apprise** : une recommandation `content_creation` d'un outil SEO doit déclencher un mapping, pas une création automatique. Avant de créer : vérifier les collections existantes, la page cible GSC, la similarité SERP, le maillage interne et l'intention business. Si une collection transactionnelle existe déjà, elle doit rester la page cible.
 
 ## Solutions
 1. **[[maillage-interne]]**: clear internal link hierarchy signals to Google which page is primary → [[jotaro-seo-keyword-cannibalization]].
