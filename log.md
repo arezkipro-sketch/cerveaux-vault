@@ -1134,3 +1134,9 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 
 ## [2026-07-26] maint | PushRank HCE — ordre résumé IA guide taille
 - Ajustement demandé après publication : le bloc `Résumer cet article avec` a été remis avant le quiz principal, tout en gardant la réponse SEO `taille harnais chien` en premier et le second quiz supprimé.
+
+## [2026-07-26] synthesis | Synthèse semaine 2026-W30
+- Sources couvertes : [[pushrank]], [[ubersuggest]], [[meta-description]], [[keyword-cannibalization]], [[canonical-tag]], [[h1-heading-tag]]
+- Thèmes : outil SEO comme déclencheur d'audit (pas pilote automatique) sur signaux `decay`/`content_creation` PushRank ; double-check GSC + SERP-similarity désormais systématique pour la cannibalisation ; pattern Shopify récurrent (metafield SEO manquant → repli par défaut dégradé) observé sur 3 pages distinctes (meta-description, h1-heading-tag, canonical-tag) ; croisement PushRank/Ubersuggest utile mais frictions opérationnelles propres à chaque outil.
+- Point ouvert (hors SEO) : entrées `log.md` de la semaine avec op `update`, absent de la taxonomie `CLAUDE.md` — à trancher au prochain `maint`.
+- Page créée : [[synthese-2026-w30]]. index.md mis à jour (492 pages).
