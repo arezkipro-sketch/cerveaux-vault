@@ -17,7 +17,7 @@ sources:
   - "[[jotaro-seo-chatgpt-sales]]"
 source_count: 3
 status: active
-updated: 2026-07-22
+updated: 2026-07-26
 note: "MAJ 2026-07-22 : sorti de pré-lancement, usage réel confirmé sur harnais-chien-expert.fr via intégration MCP Claude Code. Voir section Usage réel."
 ---
 
@@ -98,6 +98,37 @@ PushRank a remonté 7 opportunités `content_creation` issues de `keyword_strate
 | `ceinture chien voiture` | À clarifier, proche de `/collections/harnais-chien-voiture` | Garder ouvert | Intention possiblement différente : accessoire ceinture/attache voiture. À traiter seulement si produit ou angle dédié réel | `todo` |
 
 Contrôle cannibalisation associé : PushRank ne remonte aucune opportunité `cannibalization`. Les données GSC montrent surtout des chevauchements normaux article/collection (article = support informationnel, collection = intention achat). Les URLs produits Shopify en forme `/collections/.../products/...` canonisent bien vers `/products/...`, donc pas de cannibalisation technique constatée sur ce point.
+
+
+## Session 2026-07-25 — santé SEO technique HCE
+
+PushRank a remonté dans le panneau web "Santé SEO technique" plusieurs alertes sur harnais-chien-expert.fr : pages orphelines, meta descriptions manquantes, liens internes cassés, pages faiblement liées, liens produits insuffisants et canonical 404. Le détail complet n'est pas exposé par le MCP PushRank : l'interface donne les compteurs, mais pas toujours une liste exploitable par action.
+
+**Décision méthodologique** : séparer les signaux sûrs des signaux de crawl potentiellement bruités. Les alertes massives `broken internal link` et `canonical 404` ne doivent pas déclencher une correction en bloc tant que les URLs ne sont pas confirmées en vraie 404. Un audit indépendant a montré surtout des réponses `429` lors de contrôles rapides, ce qui indique probablement un rate-limit/crawl limit plutôt qu'un vrai lien cassé. Voir aussi [[site-health]], [[http-status-codes-seo]], [[crawl-budget]] et [[maillage-interne]].
+
+| Signal PushRank | Décision prise | Raison SEO/business | Changement appliqué |
+| --- | --- | --- | --- |
+| `meta description manquante` / titres SEO produits | Traité sur les produits clairement identifiés | Les fiches produits indexables ont une intention commerciale directe ; corriger le title/meta est peu risqué | Titres SEO ajoutés/normalisés sur `harnais-tactique-chien-pochettes`, `harnais-chiot-respirant-multicolore`, `laisse-tactique-amortissante-double-poignee` |
+| Articles avec résumé Shopify vide ou nul | Traité | Le résumé aide les extraits, les cartes de blog et la compréhension de la page sans toucher au HTML complet | Résumés ajoutés sur guide taille, chien handicapé, chien en laisse en forêt, Husky, avion, chien réactif, train, anti-fugue, Golden Retriever, voiture |
+| `Page orpheline` / `Page faiblement liée` | Partiellement traité, maillage complet à planifier | Le vrai correctif doit être un lien entrant contextuel depuis une page pertinente, pas un lien artificiel dans un menu au hasard | Pas de modification massive des articles HTML ; prochaine passe recommandée : ajouter 1 lien éditorial par page orpheline/faiblement liée confirmée |
+| `broken internal link` x volume élevé | À confirmer avant correction | Le volume est incompatible avec l'état réel du site et les URLs clés semblaient surtout renvoyer `429` sous crawl rapide | Aucune correction en bloc ; demander/exporter la liste des URLs réellement en 404 avant action |
+| `canonical 404` | À confirmer avant correction | `429` peut être confondu avec un échec de crawl par certains outils ; modifier les canonicals sans preuve peut créer un vrai problème | Aucune modification canonique ; vérifier lentement quelques URLs avant d'agir |
+| `insufficient product links` | À traiter au cas par cas | Ajouter des liens produits doit servir l'intention de la page, pas seulement satisfaire un compteur | Pas de liens artificiels ajoutés dans cette session ; priorité future aux articles commerciaux ou guides proches d'une collection |
+
+**Leçon apprise** : sur un site Shopify jeune, le panneau santé technique PushRank doit être lu comme un déclencheur d'audit, pas comme une to-do list automatique. Corriger immédiatement les champs SEO sûrs ; vérifier les gros volumes techniques avec statuts HTTP réels ; traiter le maillage par liens contextuels, page par page.
+
+
+## Session 2026-07-26 — correction ciblée guide taille HCE
+
+PushRank a remonté un signal `decay` prioritaire sur l'article `/blogs/news/blogs-guide-taille-harnais-chien`, requête `taille harnais chien` (score 72). Après vérification, la page avait déjà un contenu riche, un title SEO et une meta description cohérents. Le problème retenu n'était donc pas un manque de contenu, mais un ordre de lecture trop bruité : gros quiz de recommandation, bloc de résumé IA et second quiz apparaissaient avant la réponse directe.
+
+**Décision prise** : correction légère de structure, sans réécriture massive. Sur un site jeune, ne pas traiter le `decay` comme une preuve de chute définitive ; agir seulement sur une friction claire pour l'utilisateur et pour Google.
+
+| Signal détecté | Décision prise | Raison SEO/business | Changement appliqué |
+| --- | --- | --- | --- |
+| `decay` PushRank sur `taille harnais chien` | Traiter en optimisation légère | L'utilisateur qui cherche une taille veut d'abord savoir où mesurer et quelle taille choisir ; Google doit voir rapidement l'intention principale de la page | Ajout de deux phrases d'introduction ciblées, suppression du second quiz `blog-quiz`, maintien de la réponse SEO en premier, puis bloc résumé IA avant le quiz principal `blog-quiz-multi` |
+
+**À surveiller** : cette correction ne prouve pas que la baisse vient uniquement de l'ordre des blocs. Elle réduit une friction évidente. La performance doit être relue dans GSC/PushRank après nouveau crawl et accumulation de données. Le statut PushRank n'a pas pu être passé en `done` pendant la session car l'OAuth MCP a redemandé une autorisation.
 
 ## Relations
 - Built by [[jotaro-seo]].

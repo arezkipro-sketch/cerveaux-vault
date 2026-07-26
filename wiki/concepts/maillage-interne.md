@@ -6,7 +6,7 @@ tags: [seo, internal-linking, architecture, crawling]
 sources: ["[[jotaro-seo-google-bots]]", "[[jotaro-seo-content-strategy]]", "[[jotaro-seo-keyword-cannibalization]]", "[[jotaro-seo-4-months-textile]]", "[[jotaro-seo-301-redirects]]", "[[crawl-budget-guide]]", "[[semrush-seo-checklist-41]]", "[[jotaro-seo-strategie-ecommerce-2026]]", "[[vengeonsp-12-agents-seo-ia]]"]
 source_count: 9
 status: active
-updated: 2026-07-07
+updated: 2026-07-25
 ---
 
 # Maillage Interne (Internal Linking)
@@ -43,6 +43,15 @@ Semrush Audit de site → Problèmes → "pages orphelines" (nécessite Google A
 **Règle anti-orpheline = fermer l'anneau.** Une chaîne produit→produit non bouclée casse en segments : les « têtes » de segment ont 0 lien entrant. Un **anneau fermé** (1→2→…→N→1) garantit mathématiquement ≥1 entrée par nœud. Vérifier après coup : `inbound[chaque produit] ≥ 1`.
 
 **Piège du produit ajouté après coup :** un SKU créé après la mise en place de la chaîne n'y est pas inséré automatiquement → il devient faiblement lié. À chaque nouveau produit : lui donner 1 lien entrant depuis un voisin **de la même collection** (thématique, pas ordre de catalogue arbitraire) + son lien vers la collection mère.
+
+
+## Session HCE 2026-07-25 — pages orphelines/faiblement liées PushRank
+
+PushRank a signalé des pages orphelines et faiblement liées sur harnais-chien-expert.fr. L'audit local a fait ressortir quelques candidats stricts (`chien-saute-sur-les-gens`, `meilleur-harnais-chien`) et plusieurs pages avec peu d'inlinks (`chien-canicule-comment-le-proteger`, `comment-attacher-son-chien-en-voiture-loi-equipements-et-conseils-2026`, `comment-laver-harnais-chien`, `harnais-bouledogue-francais`, `harnais-pour-golden-retriever-quel-modele-choisir-guide-2026`, `voyager-avion-chien`). Le compteur PushRank exact reste à confirmer car le panneau web n'expose pas la liste complète via MCP.
+
+Décision : ne pas corriger ce signal par ajout massif en menu/footer. Le bon correctif est un lien entrant éditorial depuis une page réellement proche : guide taille → meilleur harnais, chien qui tire → chien saute / chien réactif, voiture → voyager avion/train, collection Golden → guide Golden, etc. Un lien de navigation générique peut aider au crawl mais transmet moins de contexte qu'une ancre éditoriale descriptive.
+
+Règle pratique : chaque page orpheline confirmée doit recevoir au moins 1 lien entrant contextuel ; chaque page faiblement liée prioritaire doit recevoir 1-2 liens depuis des pages déjà crawlées et thématiquement proches. Les ancres doivent décrire la destination, sans `cliquez ici`.
 
 ## Structure en silo (3 niveaux) — appliqué e-commerce
 

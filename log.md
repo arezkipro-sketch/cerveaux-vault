@@ -1117,3 +1117,20 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - `ceinture chien voiture` reste en `todo`, car l'intention peut être distincte de la collection harnais voiture si une vraie offre ceinture/attache existe.
 - [[pushrank]] enrichi avec le mapping mot-clé → collection cible → décision → raison SEO/business → statut.
 - [[keyword-cannibalization]] enrichi : règle apprise, une recommandation `content_creation` doit déclencher un mapping et non une création automatique quand une collection canonique existe déjà.
+
+## [2026-07-25] update | Corrections santé SEO technique PushRank HCE
+
+- Shopify : titres SEO produits corrigés sur `harnais-tactique-chien-pochettes`, `harnais-chiot-respirant-multicolore`, `laisse-tactique-amortissante-double-poignee`.
+- Shopify : résumés ajoutés aux articles qui avaient un summary vide/nul côté admin : guide taille, chien handicapé, chien en laisse en forêt, Husky, avion, chien réactif, train, anti-fugue, Golden Retriever, voiture.
+- PushRank : panneau web santé technique documenté dans [[pushrank]]. Le MCP PushRank était en OAuth expiré (`invalid_request`), donc les opportunités n'ont pas pu être re-listées ni passées en `done`.
+- Décision : ne pas corriger en bloc les alertes `broken internal link` et `canonical 404` tant que les vraies 404 ne sont pas confirmées. Les tests rapides indiquent surtout un risque de faux positif par `429`/rate limit.
+- Concepts enrichis : [[site-health]] (règle rate-limit/faux positifs) et [[maillage-interne]] (méthode HCE pour traiter pages orphelines/faiblement liées).
+
+## [2026-07-26] maint | PushRank HCE — correction guide taille
+- Signal PushRank traité : `decay` prioritaire sur `taille harnais chien`, article `/blogs/news/blogs-guide-taille-harnais-chien`.
+- Décision : correction légère de structure, pas de réécriture massive sur jeune site.
+- Changement Shopify : réponse taille placée en premier, second quiz supprimé, quiz principal déplacé après la réponse rapide, bloc résumé IA descendu après le quiz.
+- Note : action PushRank non marquée `done` côté MCP à cause d'une autorisation OAuth à renouveler.
+
+## [2026-07-26] maint | PushRank HCE — ordre résumé IA guide taille
+- Ajustement demandé après publication : le bloc `Résumer cet article avec` a été remis avant le quiz principal, tout en gardant la réponse SEO `taille harnais chien` en premier et le second quiz supprimé.
