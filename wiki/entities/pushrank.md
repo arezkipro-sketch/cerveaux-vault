@@ -130,6 +130,17 @@ PushRank a remonté un signal `decay` prioritaire sur l'article `/blogs/news/blo
 
 **À surveiller** : cette correction ne prouve pas que la baisse vient uniquement de l'ordre des blocs. Elle réduit une friction évidente. La performance doit être relue dans GSC/PushRank après nouveau crawl et accumulation de données. Le statut PushRank n'a pas pu être passé en `done` pendant la session car l'OAuth MCP a redemandé une autorisation.
 
+
+## Session 2026-07-26 — test title/meta Anti-Traction HCE
+
+| Signal détecté | Décision prise | Raison SEO/business | Changement appliqué |
+| --- | --- | --- | --- |
+| PushRank `decay` / optimisation légère sur la collection `/collections/harnais-anti-traction-chien`, requête `harnais chien anti traction` + règle title/meta HCE | Traité en test contrôlé | Page collection commerciale à intention forte ; persona principal = maître au bras arraché ; objectif : garder le mot-clé, la marque rendue automatiquement et améliorer le CTR sans surpromettre | SEO title Shopify passé à `Harnais Anti-Traction Chien Qui Tire` ; rendu public vérifié : `Harnais Anti-Traction Chien Qui Tire – Harnais chien expert` (59 caractères). Meta finale passée à 155 caractères : `Harnais anti-traction pour chien qui tire fort : tension répartie, gorge libre, attache frontale et sorties moins éprouvantes sans forcer le cou en balade.` H1 public inchangé et unique. |
+
+Leçon associée : quand le thème Shopify ajoute automatiquement `– Harnais chien expert`, ne pas inclure la marque dans le champ SEO si cela crée un doublon. Optimiser le champ saisi pour que le rendu public complet reste sous 60 caractères.
+
+Leçon copy associée : la douleur primaire du persona n'est pas `bras tendu`, mais `chien qui tire fort`. En meta description, partir du problème que le client exprime lui-même, puis ajouter une promesse crédible et non absolue : tension répartie, gorge libre, sorties moins éprouvantes.
+
 ## Relations
 - Built by [[jotaro-seo]].
 - Complements the strategies taught in [[jotaro-seo-ia-x-seo]] (AI SEO monitoring) and [[jotaro-seo-content-strategy]].
@@ -149,3 +160,27 @@ PushRank a remonté un signal `decay` prioritaire sur l'article `/blogs/news/blo
 
 
 Note d'exécution : toutes les opportunités PushRank de cette vague ont été passées en `done` après vérification Shopify. Les alertes non prioritaires (Berger Australien, Bouledogue Français, Chiot, Handicapé, Tactique, backlinks) restent hors périmètre.
+
+## Session 2026-07-27 — batch 1 title/meta collections HCE avec GSC direct
+
+Batch publié sur Shopify après validation utilisateur, en croisant trois sources : audit public title/meta, recommandations PushRank précédentes et export Google Search Console direct `harnais-chien-expert.fr-Performance-on-Search-2026-07-27.zip`.
+
+Méthode appliquée : les pages ont été classées par opportunité GSC réelle avant publication. L'export GSC contenait les dimensions `Pages` et `Requêtes` séparées, pas un export croisé `page + requête`. Décision : utiliser `Pages.csv` pour prioriser les URL, `Requêtes.csv` pour ajuster les formulations, et PushRank seulement en appoint lorsqu'une requête devait être reliée à une page.
+
+| Page | Signal détecté | Décision prise | Raison SEO/business | Changement appliqué |
+| --- | --- | --- | --- | --- |
+| `/collections/harnais-grand-chien` | GSC direct : 290 impressions, 0 clic, position 23.87 ; requêtes fortes `harnais gros chien`, `harnais grand chien`, `harnais chien xxl` | Traité en priorité haute | Beaucoup d'impressions sans clic ; intention commerciale claire sur grand/gros chien | SEO title : `Harnais Gros Chien | Grand & XXL` ; meta 153 caractères centrée gros chien, grand chien, XXL, maintien et contrôle |
+| `/collections/harnais-bouledogue-francais` | GSC direct : 248 impressions, 0 clic, position 23.96 ; requêtes `harnais bouledogue français`, `harnais chien bouledogue francais`, `harnais anti traction bouledogue français` | Traité en priorité haute | Volume élevé sans clic ; title public trop long avant correction | SEO title : `Harnais Bouledogue Français` ; meta 151 caractères avec anti-traction, cou dégagé et gorge libre |
+| `/collections/harnais-cavalier-king-charles` | GSC direct : 165 impressions, 2 clics, position 11.48 ; requête `harnais pour cavalier king charles` | Traité | Page proche de la page 1, faible CTR ; intention race claire | SEO title : `Harnais pour Cavalier King Charles` ; meta 157 caractères sur légèreté, poitrail, cou libre, chiot/adulte |
+| `/collections/harnais-spitz` | GSC direct : 131 impressions, 2 clics, position 13.16 ; requêtes `harnais spitz`, `harnais spitz nain`, `harnais pour spitz allemand` | Traité | Page proche page 1/2 ; PushRank avait déjà signalé l'opportunité race | SEO title : `Harnais Spitz | Nain & Allemand` ; meta 154 caractères sur poitrail fourni, cou sensible et pelage |
+| `/collections/harnais-golden-retriever` | GSC direct : 85 impressions, 1 clic, position 19.33 ; requêtes `harnais golden retriever`, `harnais pour golden retriever` | Traité | Intention commerciale race ; besoin d'aligner le title sur la formulation GSC `harnais pour...` | SEO title : `Harnais pour Golden Retriever` ; meta 153 caractères sur maintien, épaules libres, chien qui tire |
+| `/collections/harnais-chiot` | GSC direct : 61 impressions, 1 clic, position 31.49 ; requête notable `harnais chiot 2 mois` | Traité | Requête spécifique utile pour primo-maître ; title/meta auparavant trop génériques | SEO title : `Harnais Chiot | Dès 2 Mois` ; meta 154 caractères sur premières sorties, cou libre, croissance |
+| `/collections/tous-les-harnais-chien` | GSC direct : 44 impressions, 1 clic, position 21.82 ; requête générique `harnais chien` faible mais collection mère stratégique | Traité léger | Page hub commerciale, utile pour l'architecture et le maillage | SEO title : `Harnais Chien | Tous les Modèles` ; meta 151 caractères par taille, usage et morphologie |
+| `/collections/harnais-petit-chien` | GSC direct : 34 impressions, 0 clic, position 48.65 ; requêtes `harnais chien petite taille`, `harnais pour petit chien` | Traité | Faible maturité mais intention commerciale claire ; améliorer le match `petite taille` | SEO title : `Harnais Petit Chien | Petite Taille` ; meta 152 caractères sur petits gabarits sensibles |
+| `/collections/harnais-chien-voiture` | GSC direct : 19 impressions, 0 clic, position 37.16 ; requêtes `harnais chien voiture`, `harnais pour chien en voiture` ; collection contenant surtout des ceintures/attaches | Traité | Ne pas abandonner `harnais` car GSC le remonte, mais intégrer `ceinture` car c'est l'offre réelle | SEO title : `Harnais & Ceinture Chien Voiture` ; meta 152 caractères sur chien à sa place et pas d'attache au collier |
+| `/collections/accessoires` | GSC direct : 5 impressions, 0 clic, position 22.4 ; audit public : title trop long, meta courte | Traité léger | Page faible en données GSC mais utile pour soutenir les accessoires et la promenade | SEO title : `Accessoires Chien | Promenade Sûre` ; meta 153 caractères sur promenade, sécurité, contrôle et gabarit |
+
+Vérification post-publication : les 10 pages servent bien un title public sous 60 caractères avec `– Harnais chien expert` ajouté par le thème, des metas entre 151 et 157 caractères, et un H1 unique.
+
+Leçon : avant de publier un batch title/meta, croiser l'audit technique avec l'export GSC direct quand il est disponible. PushRank reste utile pour détecter et structurer, mais l'export GSC complet priorise mieux les pages à fort potentiel de CTR.
+

@@ -1134,3 +1134,18 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 
 ## [2026-07-26] maint | PushRank HCE — ordre résumé IA guide taille
 - Ajustement demandé après publication : le bloc `Résumer cet article avec` a été remis avant le quiz principal, tout en gardant la réponse SEO `taille harnais chien` en premier et le second quiz supprimé.
+
+## [2026-07-26] update | PushRank HCE — test title/meta Anti-Traction
+- Signal traité : collection `/collections/harnais-anti-traction-chien`, optimisation title/meta issue des recommandations PushRank + règle personas HCE.
+- Changement Shopify : `seo.title` = `Harnais Anti-Traction Chien Qui Tire`; `seo.description` finale = 155 caractères orientés persona : chien qui tire fort, tension répartie, gorge libre, attache frontale, sorties moins éprouvantes sans forcer le cou.
+- Vérification publique : title rendu `Harnais Anti-Traction Chien Qui Tire – Harnais chien expert` = 59 caractères, meta = 155 caractères, H1 unique.
+- Leçon : ne pas mettre la marque dans le champ SEO quand Shopify/thème l’ajoute déjà au rendu public ; raisonner sur le title final rendu, pas seulement sur le champ saisi.
+- Leçon copy : ne pas déplacer la douleur vers `bras tendu` ; le persona formule d’abord `chien qui tire fort`. La meta doit partir du problème exprimé, puis rassurer avec des bénéfices crédibles.
+
+## [2026-07-27] maint | HCE batch 1 SEO titles/metas publié avec GSC direct
+
+- Publié 10 corrections Shopify sur les collections : grand chien, bouledogue français, Cavalier King Charles, Spitz, Golden Retriever, chiot, tous les harnais, petit chien, voiture, accessoires.
+- Source décisionnelle : audit public title/meta + PushRank + export GSC direct `harnais-chien-expert.fr-Performance-on-Search-2026-07-27.zip`.
+- Vérification post-publication : titles publics 48-58 caractères, metas 151-157 caractères, H1 unique sur les 10 pages.
+- Leçon : l'export GSC direct peut changer l'ordre de priorité et les formulations. Exemple : `Grand chien` prioritaire à cause de 290 impressions / 0 clic ; `Petit chien` doit intégrer `petite taille` ; `Voiture` doit garder `harnais` tout en ajoutant `ceinture`.
+
