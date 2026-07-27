@@ -18,9 +18,9 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[persuasive-writing]] — 15 techniques; persuasion = skill not gift; copywriting = its sales application. *(1 src)*
 - [[ai-vs-human-writing]] — AI exposes commodity vs strategic writing; demand rising; trust = moat. *(5 src)*
 - [[ma-vanity-naming-audit]] — correction SEO 164 fiches Shopify ma-vanity : seo.title/méta/couleurs/anglais + fusion Miroir Lumineux→LED (301). DoD 100%. *(2026-06-21)*
-- [[synthese-2026-w28]] — synthèse hebdo : Claude Code comme moteur d'automatisation SEO/web (12 agents, freelance sites, Parasite SEO) ; tension autorité propre vs empruntée. *(4 src, 2026-07-12)*
-- [[synthese-2026-w29]] — synthèse hebdo : mémoire externe cross-tools (Unibase) + loop engineering (/goal, /loop) comme même pattern à 2 échelles, écho direct à [[persistent-wiki]] ; fatwa islamqa confirme dropshipping-halal + ajoute mourabaha/wikala. *(3 src, 2026-07-19)*
-- [[synthese-2026-w30]] — synthèse hebdo : usage réel PushRank/Ubersuggest sur harnais-chien-expert.fr — outil SEO comme déclencheur d'audit pas pilote automatique, double-check GSC+SERP-similarity pour cannibalisation, pattern Shopify récurrent (metafield SEO manquant → repli dégradé). *(1 src, 2026-07-26)*
+- [[synthese-2026-W28]] — synthèse hebdo : Claude Code comme moteur d'automatisation SEO/web (12 agents, freelance sites, Parasite SEO) ; tension autorité propre vs empruntée. *(4 src, 2026-07-12)*
+- [[synthese-2026-W29]] — synthèse hebdo : mémoire externe cross-tools (Unibase) + loop engineering (/goal, /loop) comme même pattern à 2 échelles, écho direct à [[persistent-wiki]] ; fatwa islamqa confirme dropshipping-halal + ajoute mourabaha/wikala. *(3 src, 2026-07-19)*
+- [[synthese-2026-W30]] — synthèse hebdo : usage réel PushRank/Ubersuggest sur harnais-chien-expert.fr — outil SEO comme déclencheur d'audit pas pilote automatique, double-check GSC+SERP-similarity pour cannibalisation, pattern Shopify récurrent (metafield SEO manquant → repli dégradé). *(1 src, 2026-07-26)*
 
 ## 📄 Sources
 ### SEO — Livres & Références
