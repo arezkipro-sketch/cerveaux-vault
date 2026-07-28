@@ -1149,3 +1149,31 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - Vérification post-publication : titles publics 48-58 caractères, metas 151-157 caractères, H1 unique sur les 10 pages.
 - Leçon : l'export GSC direct peut changer l'ordre de priorité et les formulations. Exemple : `Grand chien` prioritaire à cause de 290 impressions / 0 clic ; `Petit chien` doit intégrer `petite taille` ; `Voiture` doit garder `harnais` tout en ajoutant `ceinture`.
 
+
+
+## [2026-07-27] maint | HCE batch 2 SEO titles/metas publié avec GSC direct
+
+- Publié 10 corrections Shopify sur les collections : Cocker, Border Collie, Chien handicapé, Labrador, Malinois, Harnais en Y, Berger Allemand, Teckel, Tactique, À poignée.
+- Source décisionnelle : export GSC direct `harnais-chien-expert.fr-Performance-on-Search-2026-07-27.zip` + audit public title/meta + règles PushRank/personas HCE.
+- Ajustement copy demandé avant publication : garder le mot-clé GSC à gauche, puis utiliser à droite une douleur ou un bénéfice client plus fort que des mots génériques. Exemples : `Chien Qui Tire`, `Chien Puissant`, `Soutien`, `Dos & Confort`, `Épaules Libres`, `Contrôle`.
+- Shopify admin vérifié après mutation : les 10 champs SEO sont enregistrés sans erreur. La vérification publique peut être relancée après propagation/cache Shopify.
+
+Vérification publique ajoutée : les 10 pages affichent bien les metas publiées. Les titles publics décodés avec `– Harnais chien expert` restent entre 53 et 57 caractères ; l'entité HTML `&ndash;` peut gonfler artificiellement le comptage brut si elle n'est pas décodée.
+
+## [2026-07-27] maint | HCE batch 3 SEO titles/metas articles + Beagle
+
+- Publié 10 corrections Shopify : 8 articles, 1 page guide des tailles et la collection Beagle.
+- Source décisionnelle : export GSC direct `harnais-chien-expert.fr-Performance-on-Search-2026-07-27.zip`, audit title/meta public, puis contrôle PushRank page par page.
+- PushRank : 6 opportunités passées en `done` après publication et vérification : Golden Retriever, Cocker, Bouledogue Français, Berger Australien, et 2 actions Beagle.
+- Non traité volontairement : l'alerte `slug trop long` du guide taille reste ouverte, car changer une URL récente demande un plan de redirect et une vérification de cannibalisation.
+- Vérification publique : les 10 URLs répondent en 200 ; titles publics 50-59 caractères marque comprise ; metas 150-159 caractères.
+- Leçon : sur Shopify, les articles/pages n'ont pas le même champ SEO natif que les collections. Les articles/pages passent par les métadonnées globales `title_tag` et `description_tag`; les collections utilisent `seo.title` / `seo.description`.
+
+## [2026-07-27] maint | HCE batch 4 SEO titles/metas publié
+
+- Publié 10 corrections Shopify : articles Train/SNCF, Anti-Fugue, Y-H-T, Voiture, Cavalier King Charles, Chiot, Chien handicapé, Berger Allemand, plus pages Contact et FAQ.
+- Source décisionnelle : export GSC direct, audit public title/meta, et PushRank pour les pages avec actions `decay` visibles.
+- Vérification publique : les 10 URLs répondent en 200 ; titles publics 47-56 caractères marque comprise ; metas 150-158 caractères.
+- Correction notable : la page Contact affichait un SEO title de FAQ ; elle a maintenant un title/meta de contact cohérent. La page FAQ n'avait pas de champs SEO spécifiques ; ils ont été créés.
+- PushRank : 6 actions étaient couvertes par ce batch, mais le connecteur PushRank n'était plus disponible au moment de les passer en `done`. À retenter dans une prochaine passe.
+
