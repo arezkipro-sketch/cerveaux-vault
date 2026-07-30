@@ -6,8 +6,8 @@ tags: [seo, blog, copywriting, workflow, shopify, images, schema-org]
 sources: ["[[sedestral-blog-article-seo-2026]]", "[[semrush-seo-checklist-41]]", "[[francenum-guide-debutant-seo]]", "[[natural-net-geo-guide-2026]]", "[[minddex-geo-2026]]", "[[jotaro-seo-sans-backlinks]]"]
 source_count: 6
 status: active
-updated: 2026-07-17
-version: 24, règle anti-orphelin ajoutée : tout article (créé ou audité) doit avoir au moins 1 lien entrant depuis un article déjà publié, pas seulement des liens sortants — voir section "Ressources utiles". Version précédente (23) : règle "stat citable IA" ajoutée : chiffre explicite dans le texte, source nommée et phrase autonome quand possible.
+updated: 2026-07-30
+version: 25, méthode alternative "Google Suggest + PAA" ajoutée à l'étape 0b (sans Ubersuggest, seuil de décision ≥50% de blogs sur la SERP) ; règle titre vs positionnement produit ajoutée (ne pas titrer un article comme un aveu que le produit phare ne marche pas) ; règle anti-doublon cover/corps ajoutée aux images ; règle anti-fausse-source ajoutée (ne jamais reprendre une étude invérifiable citée par un concurrent). Version précédente (24) : règle anti-orphelin ajoutée : tout article (créé ou audité) doit avoir au moins 1 lien entrant depuis un article déjà publié, pas seulement des liens sortants — voir section "Ressources utiles". Version précédente (23) : règle "stat citable IA" ajoutée : chiffre explicite dans le texte, source nommée et phrase autonome quand possible.
 ---
 
 # Workflow de création d'article de blog SEO
@@ -133,6 +133,50 @@ Ces formats génèrent backlinks + trafic + notoriété + E-E-A-T simultanément
 1. `domain_keywords` → liste des mots-clés rankés par le site (positions + volume + SD + intent)
 2. Filtrer : **intent Informationnel** + **SD < 20** + **positions 11-50** (quick wins)
 3. `keyword_overview` sur les candidats retenus pour confirmer le volume et l'intent
+
+> **Piège Ubersuggest** : le `search_intent` renvoyé n'est pas fiable, et le volume peut afficher **0** même quand la demande réelle existe (visible via forums/blogs) — c'est fréquent sur les requêtes comportementales longue traîne ("chien a peur du harnais", "chien mâchouille son harnais"). Ne pas rejeter un sujet uniquement sur un volume Ubersuggest à 0 : toujours croiser avec l'étape 5 ci-dessous.
+
+### 5. Trouver le sujet via Google Suggest + PAA (méthode alternative, sans Ubersuggest)
+
+Validée en session sur 4 articles consécutifs (chien-a-peur-du-harnais, harnais-chien-deconseille, chien-tire-harnais-anti-traction, harnais-beagle). Utile quand Ubersuggest ne renvoie rien d'exploitable, ou pour trouver des angles comportementaux/mythes que les outils de volume ne captent pas.
+
+**a) Autocomplete Google en boucle** — génère 15-26 requêtes réelles en quelques secondes :
+
+```bash
+for letter in a b c d e f g h i j k l m n o p q r s t u v w x y z; do
+  curl -s -A "Mozilla/5.0" "https://www.google.com/complete/search?client=chrome&hl=fr&gl=fr&q=harnais%20chien%20${letter}" | python3 -c "
+import json,sys
+d = json.load(sys.stdin)
+print('${letter}:', d[1])
+"
+done
+```
+
+Varier le seed selon l'angle recherché : "harnais chien", "pourquoi mon chien", "comment habituer chien", "mon chien tire toujours avec"...
+
+**b) Test SERP direct** sur les candidats intéressants via navigation Google (`google.com/search?q=...&hl=fr&gl=fr`), puis extraction JS des questions "People Also Ask" et des résultats organiques :
+
+```js
+() => {
+  const candidates = [];
+  document.querySelectorAll('div, span').forEach(el => {
+    if (el.children.length === 0) {
+      const t = el.textContent.trim();
+      if (t.endsWith('?') && t.length > 8 && t.length < 150) candidates.push(t);
+    }
+  });
+  const results = [];
+  document.querySelectorAll('#search a h3').forEach(h3 => {
+    const a = h3.closest('a');
+    if (a && a.href) results.push({title: h3.textContent, url: a.href});
+  });
+  return JSON.stringify({paa: Array.from(new Set(candidates)), results: results.slice(0,10)}, null, 2);
+}
+```
+
+Le sélecteur générique (`div, span` finissant par "?") capture plus de PAA que `[role="heading"]` seul, car Google n'expose pas toujours les PAA en heading ARIA.
+
+**c) Règle de décision — seuil des 50% de blogs** : compter les domaines uniques du top 10 organique. Ne retenir le sujet que si **≥50% sont de vrais blogs/articles éditoriaux** — les blogs de marques e-commerce (`/blogs/news/...` chez un concurrent) comptent comme éditorial, pas les pages produit/collection, forums (Reddit, Wamiz, Facebook groups) ni réseaux sociaux. Un sujet à 40-49% est **borderline** : retester avec une reformulation de la requête avant d'abandonner (ex. "harnais chien ostéopathe" à 44% → retester "harnais chien ostéopathie" ou "harnais chien dos").
 
 ## Étape 1 — Recherche de mots-clés
 
@@ -850,6 +894,8 @@ Format : `<h2 id="ancre">🎯 Comment choisir un harnais pour chien ?</h2>`
 - Densité mot-clé principal : 1-2 %
 - **1 lien externe** vers source fiable (vétérinaire, institution, étude) → signal E-E-A-T
 - **1 statistique sourcée minimum, formulée comme contenu chiffré citable** — format exact à respecter : *"Selon [organisme], [chiffre/fait contextualisé]."* Quand c'est possible, intégrer le chiffre directement dans une phrase autonome du corps de l'article, pas seulement dans une source ou une note. Exemple : *"Selon la Société Centrale Canine, 63 % des chiens tirent excessivement en laisse avant 18 mois."* Objectif : produire une phrase factuelle que ChatGPT, Perplexity ou Google AI Overviews peuvent reprendre telle quelle comme preuve sourcée.
+- **Ne jamais reprendre une statistique/étude trouvée chez un concurrent sans pouvoir la vérifier** : certains blogs concurrents (ex. goofygoldens.com) citent des "études" chiffrées invérifiables (université, association vétérinaire) pour donner un vernis scientifique à leur argumentaire. Ne jamais recopier ce type de source dans un article HCE. Ne citer que des organismes réels et vérifiables (Société Centrale Canine, 30 Millions d'Amis, AFVAC…), sans invention de chiffre.
+- **⚠️ Titre vs positionnement produit** : si le sujet vient d'une requête "diagnostic/plainte" qui pourrait sembler critiquer un produit phare du catalogue (ex. "mon chien tire toujours avec son harnais anti-traction" sur un site qui vend surtout de l'anti-traction), ne pas reprendre cette formulation telle quelle en H1/titre. Reformuler vers la promesse/solution positive (ex. *"le point d'attache qui change tout"* plutôt que *"pourquoi et que faire"*), en gardant la phrase diagnostique exacte en H2 et dans la FAQ pour le référencement — Google matche sur la pertinence sémantique globale de la page, pas sur l'exactitude du H1. Test rapide avant de figer un titre : *« ce titre, lu seul, donnerait-il envie de ne pas acheter le produit ? »*
 - **2-3 liens internes** : 1 vers le blog précédent uniquement + 1 vers une page commerciale/collection dans le corps du texte + 1 CTA en conclusion vers la même collection (le CTA ne passe pas de jus supplémentaire mais sert la conversion — Google consolide les signaux d'une même URL). **Mécanisme du jus SEO : un article de blog qui génère du trafic et linke vers une page collection rend cette collection plus forte sans y toucher directement** — c'est pourquoi le lien vers la collection doit être dans le corps (pas seulement en conclusion). Ancre = toujours le sujet de la page de destination, jamais "cliquez ici" ni "en savoir plus". → [[jotaro-seo-sans-backlinks]]
 - **Cible du lien commercial : jamais `/collections/all`** (collection auto Shopify, sans H1/description SEO, se canonicalise sur elle-même → dilue le jus). Toujours pointer vers la collection SEO dédiée : `/collections/tous-les-harnais-chien` pour le générique, ou la collection précise du sujet (anti-traction, chiot, husky…). Vérifier aussi que la cible correspond au **sujet** de l'article (session 2026-07-07 : un article anti-fugue pointait à tort vers `/collections/harnais-anti-traction-chien` → re-ciblé vers `/collections/harnais-anti-fugue-chien`).
 - **Ajouter 1 lien vers une fiche PRODUIT best-seller** en plus du lien collection (Jotaro étape 3.5 : pousser le jus vers les *money pages*, pas seulement les collections). Levier sous-exploité : sur les 15 articles du store, 1 seul pointait vers un produit. Ancre = nom/mot-clé du produit.
@@ -867,6 +913,8 @@ Format : `<h2 id="ancre">🎯 Comment choisir un harnais pour chien ?</h2>`
   2. Produit en contexte (harnais sur un chien, chien en balade avec équipement)
   3. Morphologie ou cas particulier si mentionné dans l'article (lévrier, chiot, grand chien)
 - **Publication possible sans images de corps** — l'article peut être publié et indexé sans elles ; les ajouter ensuite ne dégrade pas le SEO. En revanche, **l'image principale (featured image) doit être uploadée avant publication** — elle alimente le schema Article et le partage social.
+- **4 images distinctes obligatoires (1 cover + 3 corps), jamais de doublon** : avant de créer l'article, `grep` le `body_html` final sur le nom de fichier de l'image de couverture pour vérifier qu'elle n'a pas été réutilisée par erreur dans une `<figure>` du corps. Erreur commise 2 fois de suite en session (articles gros-chien et chien-tire-harnais-anti-traction), à chaque fois repérée et corrigée avant publication grâce à cette vérification systématique.
+- **Vérifier le contenu réel de la photo, pas seulement l'alt text Pexels** : l'alt text généré par Pexels peut être trompeur (ex. une photo taguée "chihuahua" qui montre en réalité un Jack Russell/Fox Terrier). Toujours ouvrir l'image (Read) avant de la retenir, pas seulement lire sa légende.
 
 ### Source des images — ordre de priorité obligatoire
 

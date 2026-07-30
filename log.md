@@ -1177,3 +1177,12 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - Correction notable : la page Contact affichait un SEO title de FAQ ; elle a maintenant un title/meta de contact cohérent. La page FAQ n'avait pas de champs SEO spécifiques ; ils ont été créés.
 - PushRank : 6 actions étaient couvertes par ce batch, mais le connecteur PushRank n'était plus disponible au moment de les passer en `done`. À retenter dans une prochaine passe.
 
+
+## [2026-07-30] schema | Mise à jour workflow-creation-blog.md (v25)
+
+- 4 nouveaux articles créés cette session sur harnais-chien-expert.fr : harnais-beagle, chien-a-peur-du-harnais, harnais-chien-deconseille, chien-tire-harnais-anti-traction (tous en brouillon, en attente de validation Arezki). Un 5e article, harnais-gros-chien, a été rédigé par Arezki lui-même, audité/complété selon le workflow, puis publié directement sur son instruction explicite (sujet SEO non viable en soi, SERP commerciale à 80%+, traité comme page produit/maillage interne).
+- Méthode de découverte de sujet enrichie : ajout de l'approche "Google Suggest + PAA" (autocomplete Google en boucle + test SERP direct via Playwright + seuil de décision ≥50% de blogs sur le top 10) comme alternative à Ubersuggest, qui renvoyait 0 volume sur plusieurs requêtes comportementales pourtant viables (confirmé par la présence de vrais blogs/forums sur ces requêtes).
+- Règle ajoutée : ne jamais titrer un article d'une façon qui sonne comme un aveu que le produit phare du catalogue ne fonctionne pas (cas concret : "mon chien tire toujours avec son harnais anti-traction" reformulé en "le point d'attache qui change tout").
+- Règle ajoutée : toujours vérifier par `grep` que l'image de couverture n'a pas été réutilisée par erreur dans le corps de l'article (erreur commise 2 fois cette session, corrigée avant publication à chaque fois).
+- Règle ajoutée : ne jamais reprendre une statistique/étude invérifiable citée par un concurrent (cas rencontré : goofygoldens.com cite des études chiffrées non vérifiables).
+- Fichier `wiki/concepts/workflow-creation-blog.md` passé en version 25.
