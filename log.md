@@ -1146,3 +1146,7 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 - **Pages orphelines repérées** : 0. Les faux positifs déjà documentés (10 paires `wiki/concepts/X.md` / `wiki/sources/X.md` au même slug, ex. `content-pruning`, `core-web-vitals`, `navboost`, `omnichannel`, `pinterest-ads`, `reddit-seo`, `search-everywhere-optimization`, `seo-copywriting`, `video-marketing`, `website-redesign`) reçoivent toujours des backlinks réels ; ambiguïté de résolution `[[X]]` toujours non tranchée (point ouvert récurrent, hors périmètre trivial).
 - **Entrées index.md ajoutées** : 0 fichier manquant. `index.md` référence bien les 244 `wiki/sources/`, 177 `wiki/concepts/`, 59 `wiki/entities/` et 11 `wiki/topics/` (+ `overview.md` = 492 pages, cohérent avec le compteur `Stats:`).
 - Vault globalement sain ; seule la correction de casse ci-dessus était nécessaire cette semaine.
+
+## [2026-08-02] synthesis | Rien à synthétiser cette semaine
+- Fenêtre vérifiée : 2026-07-26 → 2026-08-02. Aucune entrée `ingest` dans `log.md` sur cette période (dernier `ingest` : 2026-07-22 « Capitalisation SEO — usage réel PushRank/Ubersuggest »). Seules des entrées `update`/`maint`/`synthesis` sont présentes.
+- Pas de page `wiki/topics/synthese-*` créée cette semaine.
