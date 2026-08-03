@@ -1150,3 +1150,10 @@ Quick view of recent activity: `grep "^## \[" log.md | tail -5`
 ## [2026-08-02] synthesis | Rien à synthétiser cette semaine
 - Fenêtre vérifiée : 2026-07-26 → 2026-08-02. Aucune entrée `ingest` dans `log.md` sur cette période (dernier `ingest` : 2026-07-22 « Capitalisation SEO — usage réel PushRank/Ubersuggest »). Seules des entrées `update`/`maint`/`synthesis` sont présentes.
 - Pas de page `wiki/topics/synthese-*` créée cette semaine.
+
+## [2026-08-03] maint | Maintenance hebdo automatisée
+- **Liens cassés trouvés/corrigés** : 0. Tous les wikilinks internes à `wiki/` (490+ cibles distinctes) résolvent vers un fichier existant. Les ~209 wikilinks du champ frontmatter `raw:` pointant vers `raw/assets/` restent hors périmètre de ce contrôle (par design, cf. `CLAUDE.md`) ; parmi eux, 22 pointent vers un fichier `raw/assets/` introuvable sur disque (ex. `crawl-budget-guide.md`, `video-marketing.md`, `omnichannel.md`, `core-web-vitals.md`, `navboost.md`, `seo-copywriting.md`, `website-redesign.md`, `reddit-seo.md`, liste complète dans l'historique de session) — probablement des titres avec espaces doubles/apostrophes typographiques désynchronisés de l'ingestion d'origine. Non corrigé : fabriquer un fichier `raw/` violerait la règle "couche géologique, jamais éditée/inventée" ; à traiter manuellement si les sources originales sont retrouvées.
+- **Pages orphelines repérées** : 0 dans `wiki/concepts/` et `wiki/entities/` (backlinks entrants vérifiés sur les 177 + 59 pages).
+- **Entrées index.md ajoutées** : 0. `index.md` référence bien les 244 `wiki/sources/`, 177 `wiki/concepts/`, 59 `wiki/entities/`, 11 `wiki/topics/` + `overview.md` = 492 pages, cohérent avec le compteur `Stats:`.
+- Point récurrent déjà documenté (non trivial, non retouché) : 10 paires de slugs identiques entre `wiki/concepts/` et `wiki/sources/` (`content-pruning`, `core-web-vitals`, `navboost`, `omnichannel`, `pinterest-ads`, `reddit-seo`, `search-everywhere-optimization`, `seo-copywriting`, `video-marketing`, `website-redesign`) — ambiguïté de résolution `[[X]]` toujours non tranchée.
+- Vault sain cette semaine, rien à signaler de plus.
