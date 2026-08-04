@@ -1222,3 +1222,12 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - Live "Recherche de niche approfondie" (200) transcrite dans la source mais non minée en profondeur, faute de temps — à reprendre si besoin plutôt que traitée superficiellement.
 - Incident en cours de session : un token Shopify Admin API a été collé par erreur dans la conversation ; signalé à l'utilisateur, non utilisé, non stocké nulle part dans ce vault.
 - Le dossier source `~/Downloads/Obsidian Google/` avait disparu en cours de session (cause inconnue) ; re-extrait depuis le zip WeTransfer original pour terminer le travail, sur confirmation de l'utilisateur.
+
+## [2026-08-04] ingest | Extension fusion cerveau Obsidian Google — sourcing + corpus SEO complet
+
+- Suite de l'ingest précédent : l'utilisateur a explicitement demandé d'ajouter le sourcing fournisseurs (jugé "99% plus complet" que l'existant) et l'ensemble du SEO, malgré le chevauchement avec le corpus existant identifié plus tôt.
+- Pages créées (10) : `wiki/concepts/sourcing-fournisseurs-lameute.md`, `fondations-seo-lameute.md`, `seo-on-site-lameute.md`, `maillage-interne-cocon-lameute.md`, `blogs-redaction-seo-lameute.md`, `e-e-a-t-jus-seo-lameute.md`, `recherche-mots-cles-lameute.md`, `netlinking-lameute.md`, `pbn-domaines-expires-lameute.md`, `search-console-lameute.md`, `seo-et-ia-geo-lameute.md`.
+- Convention adoptée : suffixe `-lameute` pour toutes les pages issues de cette source, afin de ne pas fusionner in-place dans les pages existantes (what-is-seo, technical-seo, keyword-research, e-e-a-t, pbn, backlinks...) et de garder la traçabilité de la source côté La Meute distincte du corpus déjà validé. Chaque nouvelle page lie explicitement vers son équivalent générique existant en section Relations.
+- Volets à risque (netlinking payant, PBN/domaines expirés) importés avec les mêmes avertissements que dans le cerveau d'origine — documentés, non recommandés, cohérents avec [[black-hat-seo]] déjà tranché dans ce vault.
+- `index.md` mis à jour avec les 11 nouvelles entrées de concepts. `wiki/sources/lameute-google-ads-influence-2026.md` mis à jour pour refléter le périmètre étendu.
+- Reste volontairement non importé (non demandé) : écosystème La Meute/mindset, IA pour e-commerce, build in public, persona/angle marketing, copywriting/positionnement, boutique Shopify/branding, page produit qui convertit, offre et panier, exploitation boutique, email marketing, passage en stock, détail fiqh (déjà couvert). Live 200 toujours non miné en profondeur.

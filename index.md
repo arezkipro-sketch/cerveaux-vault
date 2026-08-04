@@ -354,11 +354,24 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 
 ### Concepts
 - [[google-ads-ecom]] — équation de validation CPC×visiteurs<marge, campagne Shopping 80% budget, règle Merchant Center (cohérence littérale), ROAS break-even, ratio testing/scaling 20/80. *(1 src)*
+- [[merchant-center-conformite]] — cohérence littérale site↔Merchant Center, motif de suspension "misrepresentation", checklist délais/adresse/CGV. *(1 src)*
+- [[retargeting]] — reciblage Meta/TikTok du trafic Google (97-99% non converti), 6 types de créas, adaptation par plateforme. *(1 src)*
 - [[marketing-influence-affiliation]] — micro-influenceurs 100% affiliation via GoAffPro, commission 10-20%, séquence de contact 3 mails, 3 non-négociables contenu. *(1 src)*
 - [[recherche-produit-ia-claude]] — prompt Claude en 3 étapes (problèmes → solutions multiples → produits), refuser le pré-filtrage IA, croiser Reddit/TikTok. *(1 src)*
 - [[recherche-de-niche-lameute]] — 7 critères + seuils (volume/KD/prix), nuances des lives (KD peu fiable <35-40, multiplicateur sémantique ×4-6, Amazon top-1 = signal positif). *(1 src)*
 - [[mega-menu-collections-shopify]] — collections mère/fille par volume décroissant, application Shopify du [[cocon-semantique]], piège thème Dawn. *(1 src)*
 - [[footprints-seo-concurrence]] — grille feu vert/rouge (backlinks vs trafic), remontée de réseaux concurrents par empreinte textuelle, Google Ads Transparency Center. *(1 src)*
+- [[sourcing-fournisseurs-lameute]] — AliExpress/Alibaba/DSers, MOQ, 4 méthodes d'import, conformité CE/REACH, template de contact usine, blind shipping. *(1 src)*
+- [[fondations-seo-lameute]] — 3 piliers (intention/authority score/contenu), impact AI Overview sur le format de contenu, repères CTR par position. *(1 src)*
+- [[seo-on-site-lameute]] — domaine EMD, images WebP, fiches collection/produit Shopify, structure HTML, SEO Variants. *(1 src)*
+- [[maillage-interne-cocon-lameute]] — 5 principes, cocon sémantique accueil→collections→produits, 2 liens/fiche produit, sitemap XML/HTML. *(1 src)*
+- [[blogs-redaction-seo-lameute]] — entonnoir PAA/Suggest, structure d'article ≥2000 mots, "le lien interne = le vrai objectif", constance 1/jour. *(1 src)*
+- [[e-e-a-t-jus-seo-lameute]] — Expertise comme lettre décisive, mécanique chiffrée du jus SEO (dilution par lien), zones chaudes du Googlebot. *(1 src)*
+- [[recherche-mots-cles-lameute]] — 3 traînes, 4 intentions, mapping collection/produit/blog, piège cannibalisation, fautes d'orthographe. *(1 src)*
+- [[netlinking-lameute]] — ratio d'ancres 5/2-3/reste, rythme 10 liens/mois, grille de risque achat de liens (documenté, non recommandé). *(1 src)*
+- [[pbn-domaines-expires-lameute]] — méthode PBN/domaines expirés enseignée + tableau contradictoire formation vs réalité (non recommandé). *(1 src)*
+- [[search-console-lameute]] — mise en place TXT/sitemap, exploitation Requêtes/Pages, nettoyage 404/non-indexées. *(1 src)*
+- [[seo-et-ia-geo-lameute]] — thèse "bon SEO = bon GEO", position zéro (table des matières, listes numérotées), US vs Europe AI Overview. *(1 src)*
 
 ---
 
