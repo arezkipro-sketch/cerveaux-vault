@@ -16,7 +16,7 @@ updated: 2026-07-19
 - [[raytar-loop-engineering-claude]] (07-17) — paradigme `/goal` / `/loop` pour faire tourner Claude en autonomie
 - [[islamqa-dropshipping-regularisation]] (07-18) — fatwa confirmant l'interdit du dropshipping classique + 2 nouvelles voies de régularisation
 
-*(Note : [[nicholasdulait-parasite-seo-guide]], ingéré le 07-12, a déjà été couvert par [[synthese-2026-w28]] — non repris ici pour éviter le doublon.)*
+*(Note : [[nicholasdulait-parasite-seo-guide]], ingéré le 07-12, a déjà été couvert par [[synthese-2026-W28]] — non repris ici pour éviter le doublon.)*
 
 ## Thèmes récurrents
 
@@ -43,7 +43,7 @@ Une divergence interne au corpus fiqh, documentée dans [[wikala]] : sur la **co
 
 - `/goal` et `/loop` sont des fonctionnalités Claude Code récentes (juin 2026, cf. [[loop-engineering]]) — non encore vérifiées dans ce vault en usage réel pour le skill `/ingest` ou `/maint`.
 - Unibase Memory est un outil tiers avec sync décentralisé — la question de confiance (données business/stratégie) posée dans [[multi-model-ai-workflow]] reste ouverte et n'a pas d'équivalent tranché pour l'usage de ce vault.
-- Le domaine **Création de site web** (ouvert la semaine dernière, cf. [[synthese-2026-w28]]) reste mono-source — aucun nouvel apport cette semaine.
+- Le domaine **Création de site web** (ouvert la semaine dernière, cf. [[synthese-2026-W28]]) reste mono-source — aucun nouvel apport cette semaine.
 - La mourabahah dans [[islamqa-dropshipping-regularisation]] est citée sans détail de ses propres conditions (renvoi à une réponse antérieure non citée) — la page [[mourabaha]] reste un stub à enrichir si une source dédiée apparaît.
 
 ## Sources couvertes

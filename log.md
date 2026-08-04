@@ -1187,6 +1187,29 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - Règle ajoutée : ne jamais reprendre une statistique/étude invérifiable citée par un concurrent (cas rencontré : goofygoldens.com cite des études chiffrées non vérifiables).
 - Fichier `wiki/concepts/workflow-creation-blog.md` passé en version 25.
 
+## [2026-07-26] synthesis | Synthèse semaine 2026-W30
+- Sources couvertes : [[pushrank]], [[ubersuggest]], [[meta-description]], [[keyword-cannibalization]], [[canonical-tag]], [[h1-heading-tag]]
+- Thèmes : outil SEO comme déclencheur d'audit (pas pilote automatique) sur signaux `decay`/`content_creation` PushRank ; double-check GSC + SERP-similarity désormais systématique pour la cannibalisation ; pattern Shopify récurrent (metafield SEO manquant → repli par défaut dégradé) observé sur 3 pages distinctes (meta-description, h1-heading-tag, canonical-tag) ; croisement PushRank/Ubersuggest utile mais frictions opérationnelles propres à chaque outil.
+- Point ouvert (hors SEO) : entrées `log.md` de la semaine avec op `update`, absent de la taxonomie `CLAUDE.md` — à trancher au prochain `maint`.
+- Page créée : [[synthese-2026-w30]]. index.md mis à jour (492 pages).
+
+## [2026-07-27] maint | Maintenance hebdo automatisée
+- **Liens cassés trouvés/corrigés** : 1 réel — écart de casse `[[synthese-2026-w28]]`/`[[synthese-2026-w29]]` (minuscule) vs fichiers `synthese-2026-W28.md`/`synthese-2026-W30.md` (majuscule), signalé sans correction lors des `maint` du 07-13 et du 07-20. Corrigé cette fois : 2 occurrences dans `wiki/topics/synthese-2026-W29.md` + 3 occurrences dans `index.md` (dont `synthese-2026-w30` qui avait le même écart) réalignées sur la casse réelle des fichiers. Les références historiques dans `log.md` (append-only, non modifié) gardent la casse minuscule d'origine. Les ~209 wikilinks du champ frontmatter `raw:` pointant vers `raw/assets/` (hors périmètre wiki/) ne sont pas concernés par ce contrôle.
+- **Pages orphelines repérées** : 0. Les faux positifs déjà documentés (10 paires `wiki/concepts/X.md` / `wiki/sources/X.md` au même slug, ex. `content-pruning`, `core-web-vitals`, `navboost`, `omnichannel`, `pinterest-ads`, `reddit-seo`, `search-everywhere-optimization`, `seo-copywriting`, `video-marketing`, `website-redesign`) reçoivent toujours des backlinks réels ; ambiguïté de résolution `[[X]]` toujours non tranchée (point ouvert récurrent, hors périmètre trivial).
+- **Entrées index.md ajoutées** : 0 fichier manquant. `index.md` référence bien les 244 `wiki/sources/`, 177 `wiki/concepts/`, 59 `wiki/entities/` et 11 `wiki/topics/` (+ `overview.md` = 492 pages, cohérent avec le compteur `Stats:`).
+- Vault globalement sain ; seule la correction de casse ci-dessus était nécessaire cette semaine.
+
+## [2026-08-02] synthesis | Rien à synthétiser cette semaine
+- Fenêtre vérifiée : 2026-07-26 → 2026-08-02. Aucune entrée `ingest` dans `log.md` sur cette période (dernier `ingest` : 2026-07-22 « Capitalisation SEO — usage réel PushRank/Ubersuggest »). Seules des entrées `update`/`maint`/`synthesis` sont présentes.
+- Pas de page `wiki/topics/synthese-*` créée cette semaine.
+
+## [2026-08-03] maint | Maintenance hebdo automatisée
+- **Liens cassés trouvés/corrigés** : 0. Tous les wikilinks internes à `wiki/` (490+ cibles distinctes) résolvent vers un fichier existant. Les ~209 wikilinks du champ frontmatter `raw:` pointant vers `raw/assets/` restent hors périmètre de ce contrôle (par design, cf. `CLAUDE.md`) ; parmi eux, 22 pointent vers un fichier `raw/assets/` introuvable sur disque (ex. `crawl-budget-guide.md`, `video-marketing.md`, `omnichannel.md`, `core-web-vitals.md`, `navboost.md`, `seo-copywriting.md`, `website-redesign.md`, `reddit-seo.md`, liste complète dans l'historique de session) — probablement des titres avec espaces doubles/apostrophes typographiques désynchronisés de l'ingestion d'origine. Non corrigé : fabriquer un fichier `raw/` violerait la règle "couche géologique, jamais éditée/inventée" ; à traiter manuellement si les sources originales sont retrouvées.
+- **Pages orphelines repérées** : 0 dans `wiki/concepts/` et `wiki/entities/` (backlinks entrants vérifiés sur les 177 + 59 pages).
+- **Entrées index.md ajoutées** : 0. `index.md` référence bien les 244 `wiki/sources/`, 177 `wiki/concepts/`, 59 `wiki/entities/`, 11 `wiki/topics/` + `overview.md` = 492 pages, cohérent avec le compteur `Stats:`.
+- Point récurrent déjà documenté (non trivial, non retouché) : 10 paires de slugs identiques entre `wiki/concepts/` et `wiki/sources/` (`content-pruning`, `core-web-vitals`, `navboost`, `omnichannel`, `pinterest-ads`, `reddit-seo`, `search-everywhere-optimization`, `seo-copywriting`, `video-marketing`, `website-redesign`) — ambiguïté de résolution `[[X]]` toujours non tranchée.
+- Vault sain cette semaine, rien à signaler de plus.
+
 ## [2026-08-04] ingest | Fusion cerveau Obsidian Google d'un ami (Google Ads + Marketing d'influence)
 
 - Source : vault Obsidian "Google" (SEO + Ads) d'un ami, reçu par WeTransfer, lui-même construit sur la formation payante "La Meute | E-Commerce" (Skool, 338 vidéos transcrites). Périmètre décidé avec l'utilisateur après discussion : importer uniquement ce qui est absent de ce vault + trier les deltas du corpus SEO qui fait doublon, sans dupliquer le socle déjà couvert (491 pages existantes) ni le détail fiqh déjà présent côté Business Halal.
