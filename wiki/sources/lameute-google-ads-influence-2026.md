@@ -26,11 +26,17 @@ status: active
 - [[fondations-seo-lameute]], [[seo-on-site-lameute]], [[maillage-interne-cocon-lameute]], [[blogs-redaction-seo-lameute]], [[e-e-a-t-jus-seo-lameute]], [[recherche-mots-cles-lameute]], [[search-console-lameute]], [[seo-et-ia-geo-lameute]] — corpus SEO complet du module 5/9/10/11, en pages `-lameute` distinctes du corpus existant (pas de fusion in-place) pour préserver la traçabilité de la source et éviter d'altérer les pages déjà validées.
 - [[netlinking-lameute]], [[pbn-domaines-expires-lameute]] — volets à risque (achat de liens, PBN/domaines expirés), documentés avec les mêmes avertissements que dans le cerveau d'origine (non recommandés, cohérent avec [[black-hat-seo]] déjà présent).
 
-## Ce qui reste volontairement laissé de côté
-- Mindset/organisation générique, fiscalité (structuration LLC US — déjà écartée comme risquée par le cerveau ami lui-même).
-- Détail fiqh riba/ijara/istisna/zakat — déjà couvert par [[bay-salam]], [[dropshipping-halal]], [[gharar]], [[mourabaha]], [[wikala]] dans ce vault.
-- Écosystème La Meute (parcours de formation), mindset/organisation, IA pour e-commerce (workflow outils), build in public, persona/angle marketing, copywriting/positionnement, boutique Shopify/branding, page produit qui convertit, offre et panier, exploitation boutique, email marketing, passage en stock — non demandés explicitement, non importés à ce stade.
-- **Live 200 "Recherche de niche approfondie"** (1h12) : transcrite mais non minée en profondeur faute de temps — signalé pour une passe future si besoin.
+## Troisième passe (2026-08-05, "il faut que tu prennes tout") — corpus intégral
+Sur demande explicite de l'utilisateur, la totalité du cerveau ami a été ingérée. 20 pages supplémentaires créées, toutes suffixées `-lameute` :
+- **Fiqh/halal spécifique** (nouveau dans ce vault) : [[regles-islamiques-commerce-lameute]], [[riba-financement-lameute]], [[ijara-lameute]], [[istisna-zakat-lameute]], [[bay-as-salam-lameute]] (fatwas complémentaires à [[dropshipping-halal]]/[[bay-salam]] déjà présents : Salam Hâl, avis importés = tadlis, influenceuses dévoilées interdites).
+- **Mindset/écosystème** : [[ecosysteme-lameute-parcours]], [[mindset-organisation-lameute]].
+- **Fiscalité** : [[fiscalite-structuration-lameute]] — importée avec l'avertissement 🔴🔴 intact (montage LLC US documenté comme fraude fiscale, non recommandé).
+- **CRO/branding/copywriting** : [[boutique-shopify-branding-lameute]], [[persona-angle-marketing-lameute]], [[copywriting-positionnement-lameute]], [[page-produit-conversion-lameute]], [[offre-panier-lameute]] — tous les 🔴 "techniques à écarter" (faux avis, prix barrés fictifs, compteurs de stock factices) conservés tels quels.
+- **Opérationnel** : [[ia-claude-ecommerce-lameute]], [[exploitation-boutique-lameute]], [[email-marketing-lameute]], [[passage-stock-supply-chain-lameute]].
+- **Cas pratiques** : [[build-in-public-audits-lameute]], [[brand-system-complements-lameute]], [[tactiques-avancees-lives-lameute]].
+- **Live 200 "Recherche de niche approfondie"** : minée (600/2850 lignes, partie structurée) et intégrée en complément dans [[recherche-de-niche-lameute]].
+
+Aucune omission volontaire ne subsiste : les 42 pages wiki + le PLAYBOOK du cerveau ami sont désormais représentés dans ce vault, sous forme de deltas sourcés (`-lameute`) plutôt que de duplication brute des pages déjà existantes.
 
 ## Fiabilité
 Contenu `cited` côté formation (vidéos structurées, module 13/16) et `asserted` côté lives Q&R (opinions d'intervenants, chiffres non sourcés, parfois contradictoires entre eux — les contradictions sont documentées telles quelles dans les pages concernées plutôt que lissées).

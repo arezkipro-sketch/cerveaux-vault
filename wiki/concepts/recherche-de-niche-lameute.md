@@ -47,6 +47,13 @@ Marché (grand ensemble de besoins) → niche (segment précis) → sous-niche (
 ## Confirmation avant de lancer
 Assez de mots-clés de collection (hors haram/saisonnier/marques) · Google Trends stable/croissant · analyse concurrence sur 10 pages de SERP · fournisseurs et marge vérifiés. Règle : 1 point négatif → on coupe en général (jugement au cas par cas).
 
+## Complément (live "recherche de niche approfondie", 17/05/26)
+- **Ne jamais se limiter à un seul outil** : mixer Claude, Reddit, TrendTrack, TikTok Shop, veille internationale (US/DE/IT/ES) systématiquement, pas un seul canal à la fois.
+- **TrendTrack jugé non saturé** (contrairement à des outils mainstream type Copify de Yumi Denzel) : >2 millions de produits référencés, data ajoutée en continu — le praticien tient une liste personnelle de "~40 niches intéressantes" trouvées en creusant au-delà des filtres basiques que tout le monde applique (d'où l'effet "tout le monde tombe sur les mêmes produits").
+- **Face à une concurrence jugée trop forte** : ne pas fuir automatiquement — analyser chaque concurrent un à un (CA estimé, best-sellers, positionnement, persona ciblé) pour trouver une **faille d'angle ou de persona non couverte**. Alternative simple : basculer sur un marché moins disputé (DE/IT/ES) — le pouvoir d'achat plus faible n'empêche pas des praticiens cités de bien y réussir.
+- **Regarder les produits qui marchent déjà à l'étranger** (US notamment) mais pas encore bien marketés en France — gisement de niches sous-exploitées.
+- Relativiser la peur de la concurrence : gratter 0,5-1% d'un marché à plusieurs milliards suffit largement à un lancement.
+
 ## Relations
 - Contrepartie orientée produit/Meta : [[winning-product]] (marge x4.5, demande 3 mois, TTM, contenu disponible) — les deux logiques sont complémentaires : une bonne niche SEO n'est pas forcément un bon produit Meta et inversement.
 - Alimente directement [[mega-menu-collections-shopify]] (les mots-clés de collection triés ici deviennent l'arborescence) et [[google-ads-ecom]] (volume + intention transactionnelle = prérequis Ads).
@@ -54,4 +61,4 @@ Assez de mots-clés de collection (hors haram/saisonnier/marques) · Google Tren
 - Rejoint les seuils déjà documentés côté mots-clés longue traîne → [[long-tail-keywords]].
 
 ## Sources
-- [[lameute-google-ads-influence-2026]] — formation La Meute module 5 + lives niche/audit (207, 209, 210, 214), via cerveau Obsidian Google d'un ami.
+- [[lameute-google-ads-influence-2026]] — formation La Meute module 5 + lives niche/audit (199, 200, 207, 209, 210, 214), via cerveau Obsidian Google d'un ami.
