@@ -347,6 +347,20 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 
 ---
 
+## 🎯 E-commerce — Méthode Google Ads & Influence (La Meute)
+### Sources
+- [[lameute-google-ads-influence-2026]] — Google Ads complet + marketing d'influence + deltas SEO triés, extraits du cerveau Obsidian Google d'un ami (lui-même issu de la formation La Meute | E-Commerce, Skool) *(fusionné 2026-08-04)*.
+
+### Concepts
+- [[google-ads-ecom]] — équation de validation CPC×visiteurs<marge, campagne Shopping 80% budget, règle Merchant Center (cohérence littérale), ROAS break-even, ratio testing/scaling 20/80. *(1 src)*
+- [[marketing-influence-affiliation]] — micro-influenceurs 100% affiliation via GoAffPro, commission 10-20%, séquence de contact 3 mails, 3 non-négociables contenu. *(1 src)*
+- [[recherche-produit-ia-claude]] — prompt Claude en 3 étapes (problèmes → solutions multiples → produits), refuser le pré-filtrage IA, croiser Reddit/TikTok. *(1 src)*
+- [[recherche-de-niche-lameute]] — 7 critères + seuils (volume/KD/prix), nuances des lives (KD peu fiable <35-40, multiplicateur sémantique ×4-6, Amazon top-1 = signal positif). *(1 src)*
+- [[mega-menu-collections-shopify]] — collections mère/fille par volume décroissant, application Shopify du [[cocon-semantique]], piège thème Dawn. *(1 src)*
+- [[footprints-seo-concurrence]] — grille feu vert/rouge (backlinks vs trafic), remontée de réseaux concurrents par empreinte textuelle, Google Ads Transparency Center. *(1 src)*
+
+---
+
 ## 🕌 E-commerce islamique
 ### Sources
 - [[lameute-bay-salam-ecommerce]] — Bay' Salam en e-commerce : pourquoi le dropshipping classique est haram (gharar, ribâ, absence de damân) + solution licite + clauses CGV Shopify *(La Meute, PDF)*.

@@ -2,7 +2,7 @@
 
 Méthode issue de la formation **La Meute | E-Commerce** (Skool), module 13 (fondamentaux/prérequis/setup/campagnes/pilotage) + live avancé Yassfox (05/02/26, ~10 ans d'e-commerce, 80% de son CA via Google Ads). Complémentaire à [[07 - Méthode e-com Meta/00 - Vue d'ensemble — Méthode e-com Meta|Méthode e-com Meta]] : Meta crée la demande (interruption), **Google capte une demande déjà exprimée** (intention).
 
-Contenu source détaillé (analyse critique, chiffres non sourcés flagués) : → [[google-ads-fondamentaux]], [[google-ads-prerequis-et-equation]], [[google-ads-setup-et-shopping]], [[google-ads-campagnes]], [[google-ads-pilotage-et-scaling]], [[merchant-center-conformite]], [[retargeting]].
+Résumé synthétique côté wiki (entrée rapide) : → [[google-ads-ecom]]. Détail des deux sujets traités séparément : → [[merchant-center-conformite]], [[retargeting]].
 
 ---
 
@@ -195,4 +195,4 @@ Recibler les **97-99% de visiteurs Google Ads/SEO qui ne convertissent pas** au 
 ---
 
 ## Sources
-Formation La Meute | E-Commerce (Skool), module 13 + live Yassfox 05/02/26 — transcrite et synthétisée dans le cerveau Obsidian Google d'un ami (2026-07-22/23), fusionnée dans ce vault le 2026-08-04. Détail critique complet : → [[google-ads-fondamentaux]], [[google-ads-prerequis-et-equation]], [[google-ads-setup-et-shopping]], [[google-ads-campagnes]], [[google-ads-pilotage-et-scaling]], [[merchant-center-conformite]], [[retargeting]].
+Formation La Meute | E-Commerce (Skool), module 13 + live Yassfox 05/02/26 — transcrite et synthétisée dans le cerveau Obsidian Google d'un ami (2026-07-22/23), fusionnée dans ce vault le 2026-08-04. Entrée wiki et détail : → [[google-ads-ecom]], [[merchant-center-conformite]], [[retargeting]], [[lameute-google-ads-influence-2026]].

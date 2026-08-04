@@ -1186,3 +1186,16 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - Règle ajoutée : toujours vérifier par `grep` que l'image de couverture n'a pas été réutilisée par erreur dans le corps de l'article (erreur commise 2 fois cette session, corrigée avant publication à chaque fois).
 - Règle ajoutée : ne jamais reprendre une statistique/étude invérifiable citée par un concurrent (cas rencontré : goofygoldens.com cite des études chiffrées non vérifiables).
 - Fichier `wiki/concepts/workflow-creation-blog.md` passé en version 25.
+
+## [2026-08-04] ingest | Fusion cerveau Obsidian Google d'un ami (Google Ads + Marketing d'influence)
+
+- Source : vault Obsidian "Google" (SEO + Ads) d'un ami, reçu par WeTransfer, lui-même construit sur la formation payante "La Meute | E-Commerce" (Skool, 338 vidéos transcrites). Périmètre décidé avec l'utilisateur après discussion : importer uniquement ce qui est absent de ce vault + trier les deltas du corpus SEO qui fait doublon, sans dupliquer le socle déjà couvert (491 pages existantes) ni le détail fiqh déjà présent côté Business Halal.
+- Pages créées :
+  - `09 - Méthode e-com Google Ads/00 - Vue d'ensemble — Méthode e-com Google Ads.md` — miroir du dossier `07 - Méthode e-com Meta`, méthode complète (équation de validation, setup/Shopping/tracking, campagnes complémentaires, pilotage kill-scale/scaling, Merchant Center, retargeting).
+  - `wiki/sources/lameute-google-ads-influence-2026.md` — page source de provenance, documente explicitement ce qui a été importé vs volontairement laissé de côté.
+  - `wiki/concepts/google-ads-ecom.md`, `marketing-influence-affiliation.md`, `recherche-produit-ia-claude.md`, `recherche-de-niche-lameute.md`, `mega-menu-collections-shopify.md`, `footprints-seo-concurrence.md`.
+- Pages mises à jour : `index.md` (nouvelle section "🎯 E-commerce — Méthode Google Ads & Influence").
+- Sourcing fournisseurs (AliExpress/Alibaba/DSers) évalué et **non réimporté** : redondant à ~90% avec `ebook-business-halal` et `mimine-aliexpress-fournisseurs` déjà présents.
+- Live "Recherche de niche approfondie" (200) transcrite dans la source mais non minée en profondeur, faute de temps — à reprendre si besoin plutôt que traitée superficiellement.
+- Incident en cours de session : un token Shopify Admin API a été collé par erreur dans la conversation ; signalé à l'utilisateur, non utilisé, non stocké nulle part dans ce vault.
+- Le dossier source `~/Downloads/Obsidian Google/` avait disparu en cours de session (cause inconnue) ; re-extrait depuis le zip WeTransfer original pour terminer le travail, sur confirmation de l'utilisateur.
