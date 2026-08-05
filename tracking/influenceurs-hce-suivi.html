@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Suivi influenceurs — Harnais Chien Expert</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #f7f6f3;
+    --card: #ffffff;
+    --text: #1f1c18;
+    --muted: #6b665e;
+    --border: #e4e0d8;
+    --accent: #8a5a2b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17140f;
+      --card: #211d17;
+      --text: #f0ece3;
+      --muted: #a89d8c;
+      --border: #3a352b;
+      --accent: #d59a5c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1.5rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  h1 { font-size: 1.4rem; margin: 0 0 .25rem; }
+  .sub { color: var(--muted); margin: 0 0 1.5rem; font-size: .9rem; }
+  .toolbar {
+    display: flex; gap: .75rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap;
+  }
+  #filter, #statusFilter {
+    padding: .5rem .75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card);
+    color: var(--text);
+    font-size: .9rem;
+  }
+  #filter { flex: 1; min-width: 200px; }
+  .count { color: var(--muted); font-size: .85rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: .87rem; }
+  thead th {
+    text-align: left;
+    padding: .65rem .75rem;
+    background: var(--border);
+    color: var(--text);
+    font-weight: 600;
+    white-space: nowrap;
+    position: sticky; top: 0;
+  }
+  tbody td {
+    padding: .6rem .75rem;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:hover { background: color-mix(in srgb, var(--border) 40%, transparent); }
+  .handle { font-weight: 600; }
+  .platform { color: var(--muted); font-size: .8rem; }
+  .badge {
+    display: inline-block;
+    padding: .15rem .55rem;
+    border-radius: 999px;
+    font-size: .75rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .badge-a-valider   { background: #e4e0d8; color: #4a463d; }
+  .badge-contacte    { background: #cfe3f5; color: #1c4c73; }
+  .badge-relance     { background: #f7ddb0; color: #7a4e0b; }
+  .badge-repondu     { background: #ded0f5; color: #4b2c85; }
+  .badge-accepte     { background: #cdeccb; color: #1e5c1c; }
+  .badge-refuse      { background: #f5cfcf; color: #7a1c1c; }
+  .badge-sans-reponse{ background: #e4e0d8; color: #8a857a; }
+  @media (prefers-color-scheme: dark) {
+    .badge-a-valider   { background: #3a352b; color: #cfc8b8; }
+    .badge-contacte    { background: #1c3a52; color: #a9d3f5; }
+    .badge-relance     { background: #4a3410; color: #f0c584; }
+    .badge-repondu     { background: #33224d; color: #cbb3f0; }
+    .badge-accepte     { background: #1c3a1c; color: #a9e3a5; }
+    .badge-refuse      { background: #4a1c1c; color: #f0a5a5; }
+    .badge-sans-reponse{ background: #3a352b; color: #a89d8c; }
+  }
+  .empty { padding: 2rem; text-align: center; color: var(--muted); }
+  .drafts h2 { font-size: 1.1rem; margin: 0 0 .75rem; }
+  .draft {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .draft-meta { color: var(--muted); font-size: .8rem; margin-bottom: .5rem; }
+  .draft-body { white-space: pre-wrap; font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Suivi influenceurs — Harnais Chien Expert</h1>
+<p class="sub">Micro-influenceurs chien (FR) — critères formation : TikTok 30-100k abonnés / Instagram 10-50k, ≥10k vues moyennes sur les 10 dernières vidéos. Dédoublonnage par handle pour ne jamais recontacter deux fois la même personne. Aucun envoi automatique — statuts mis à jour manuellement après action.</p>
+<p class="sub">Dernière recherche : 2026-08-04 (2 rounds, ~105 comptes vérifiés individuellement) — 6 dans le gabarit (dont @walou.frenchy, très solide), 2 borderline à confirmer. Rendement en forte baisse au round 2 (1 nouveau candidat sur ~70 comptes) : le marché francophone semble largement mappé pour ces critères précis à ce jour.</p>
+
+<div class="toolbar">
+  <input id="filter" type="text" placeholder="Filtrer par nom, plateforme, statut...">
+  <select id="statusFilter">
+    <option value="">Tous les statuts</option>
+    <option value="badge-a-valider">À valider</option>
+    <option value="badge-contacte">Contacté</option>
+    <option value="badge-relance">Relance</option>
+    <option value="badge-repondu">Répondu</option>
+    <option value="badge-accepte">Accepté</option>
+    <option value="badge-refuse">Refusé</option>
+    <option value="badge-sans-reponse">Sans réponse</option>
+  </select>
+  <span class="count" id="rowCount"></span>
+</div>
+
+<div class="card">
+  <table id="trackTable">
+    <thead>
+      <tr>
+        <th>Date ajout</th>
+        <th>Handle</th>
+        <th>Plateforme</th>
+        <th>Abonnés</th>
+        <th>Vues moy.</th>
+        <th>Contact</th>
+        <th>Statut</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <!-- Nouvelle ligne : ajouter un <tr> avant </tbody>, dédupliquer par handle avant tout ajout -->
+    <tbody id="trackBody">
+      <tr>
+        <td>2026-08-04</td>
+        <td class="handle">@oscar.cocker.spaniel</td>
+        <td class="platform">Instagram</td>
+        <td>46K</td>
+        <td>non vérifiable (IG)</td>
+        <td>justinealbi17@hotmail.fr</td>
+        <td><span class="badge badge-a-valider">À valider</span></td>
+        <td>Cocker spaniel, compte "voix du chien" (Franche-Comté). Bon fit, dans le gabarit. Brouillon email prêt ci-dessous.</td>
+      </tr>
+      <tr>
+        <td>2026-08-04</td>
+        <td class="handle">@petit.loup.francais</td>
+        <td class="platform">Instagram</td>
+        <td>30K</td>
+        <td>non vérifiable (IG)</td>
+        <td>petit.loup.francais@gmail.com</td>
+        <td><span class="badge badge-a-valider">À valider</span></td>
+        <td>2 huskies, Lyon. Dans le gabarit. Compte géré via une agence (mypetagency) → probable non-affiliation pure, à négocier. Brouillon prêt ci-dessous.</td>
+      </tr>
+      <tr>
+        <td>2026-08-04</td>
+        <td class="handle">@mr.marley_cocker</td>
+        <td class="platform">Instagram</td>
+        <td>24K</td>
+        <td>non vérifiable (IG)</td>
+        <td>Pas d'email → DM uniquement</td>
+        <td><span class="badge badge-a-valider">À valider</span></td>
+        <td>Cocker anglais. Dans le gabarit. A déjà un code affilié actif avec Edgard Cooper → bon signal d'expérience affiliation. Brouillon DM ci-dessous (interagir avant d'envoyer).</td>
+      </tr>
+      <tr>
+        <td>2026-08-04</td>
+        <td class="handle">@oslothechow</td>
+        <td class="platform">Instagram</td>
+        <td>28K</td>
+        <td>non vérifiable (IG)</td>
+        <td>Pas de contact visible → DM</td>
+        <td><span class="badge badge-a-valider">À valider</span></td>
+        <td>Chow-chow, Paris. Dans le gabarit, activité à confirmer. Brouillon DM ci-dessous (interagir avant d'envoyer).</td>
+      </tr>
+      <tr>
+        <td>2026-08-04</td>
+        <td class="handle">@sayko_the_wolfdog</td>
+        <td class="platform">Instagram</td>
+        <td>69K</td>
+        <td>non vérifiable (IG)</td>
+        <td>saykothewolfdog@gmail.com</td>
+        <td><span class="badge badge-a-valider">À valider (taille)</span></td>
+        <td>⚠️ Au-dessus du repère indicatif (10-50K). Chien-loup outdoor/rando, très bon fit thématique pour harnais outdoor, a déjà des partenariats ("Bons plans"). Pas de brouillon envoyé — à confirmer avant de contacter vu la taille.</td>
+      </tr>
+      <tr>
+        <td>2026-08-04</td>
+        <td class="handle">@walou.frenchy</td>
+        <td class="platform">TikTok</td>
+        <td>69,2K</td>
+        <td>≈408K vues moy. (10 dernières hors épinglées : 15,9K/63,6K/286K/99,5K/637K/148K/195K/952K/82,7K/1,6M)</td>
+        <td>walou.collaboration@gmail.com</td>
+        <td><span class="badge badge-a-valider">À valider</span></td>
+        <td>Bouledogue français, 100% chien, humour/quotidien, forte proximité communauté FR. Très largement au-dessus du seuil de vues — meilleur candidat trouvé à ce jour. A aussi un compte Instagram (18,6K, dans le gabarit) mais vues non vérifiables (IG n'affiche pas les vues des reels d'un compte tiers). Brouillon prêt ci-dessous.</td>
+      </tr>
+      <tr>
+        <td>2026-08-04</td>
+        <td class="handle">@sam_woof</td>
+        <td class="platform">TikTok</td>
+        <td>138,9K</td>
+        <td>≈10 400 vues moy. (très instable : 500-7000 + 2 pics à 24K/57K)</td>
+        <td>Pas d'email → DM via IG @Sam_woof_official</td>
+        <td><span class="badge badge-a-valider">À valider (taille)</span></td>
+        <td>⚠️ Au-dessus du repère (30-100K) et performance très inégale. Pas prioritaire. Pas de brouillon envoyé — à confirmer avant tout contact.</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="empty" id="emptyState">Aucun candidat pour l'instant — en attente des résultats de la recherche du jour.</div>
+</div>
+
+<div class="drafts">
+  <h2>Brouillons de contact (à valider avant envoi)</h2>
+  <div id="draftsList">
+    <div class="draft">
+      <div class="draft-meta">2026-08-04 — @oscar.cocker.spaniel — Email → justinealbi17@hotmail.fr — Objet : Une petite collab autour d'Oscar 🐾</div>
+      <div class="draft-body">Bonjour Justine,
+
+Je m'appelle [Prénom], je m'occupe de Harnais Chien Expert, une boutique spécialisée dans les harnais et accessoires pour chiens. J'ai découvert le compte d'Oscar et j'ai adoré la proximité que vous avez avec votre communauté autour de "la voix du chien".
+
+On aimerait lui offrir un de nos harnais (sans engagement de votre côté) et, si le contenu vous plaît, mettre en place un code promo avec commission sur les ventes qu'il génère (pas de minimum, pas de fixe).
+
+Ça vous tente ? Je vous envoie les détails avec plaisir.
+
+Belle journée,
+[Signature] — Harnais Chien Expert</div>
+    </div>
+    <div class="draft">
+      <div class="draft-meta">2026-08-04 — @petit.loup.francais — Email → petit.loup.francais@gmail.com — Objet : Collab harnais pour vos 2 huskies 🐺</div>
+      <div class="draft-body">Bonjour,
+
+Je gère Harnais Chien Expert, une boutique de harnais et accessoires pour chiens. Le compte de vos 2 huskies m'a tapé dans l'œil, le format colle parfaitement à nos produits outdoor.
+
+On propose une collab en affiliation : un harnais offert, puis un code promo avec commission sur les ventes générées (pas de fixe au départ). Je vois que le compte passe par une agence, dites-moi si c'est le bon interlocuteur pour ce type de partenariat.
+
+Au plaisir d'échanger,
+[Signature] — Harnais Chien Expert</div>
+    </div>
+    <div class="draft">
+      <div class="draft-meta">2026-08-04 — @mr.marley_cocker — DM Instagram (interagir 2-3 posts avant d'envoyer, ne pas arriver "en pirate")</div>
+      <div class="draft-body">Salut ! Je gère Harnais Chien Expert 🐾 votre compte colle très bien avec nos harnais. Je vois que vous faites déjà de l'affiliation (le code Edgard Cooper) donc je me permets : ça vous dirait qu'on vous envoie un harnais offert avec un code promo commissionné ? Dites-moi si ça vous intéresse, je vous partage les détails avec plaisir.</div>
+    </div>
+    <div class="draft">
+      <div class="draft-meta">2026-08-04 — @oslothechow — DM Instagram (interagir 2-3 posts avant d'envoyer, ne pas arriver "en pirate")</div>
+      <div class="draft-body">Salut ! Je m'occupe de Harnais Chien Expert, une boutique de harnais/accessoires pour chiens 🐾 Le compte d'Oslo est top, ça vous dirait une petite collab (harnais offert + code promo commissionné, sans engagement) ? Dites-moi si ça vous parle.</div>
+    </div>
+    <div class="draft">
+      <div class="draft-meta">2026-08-04 — @walou.frenchy — Email → walou.collaboration@gmail.com — Objet : Collab harnais pour Walou 🐾</div>
+      <div class="draft-body">Bonjour,
+
+Je m'appelle [Prénom], je gère Harnais Chien Expert, une boutique spécialisée dans les harnais et accessoires pour chiens. Je suis tombé sur le compte de Walou et j'adore le ton et la proximité avec votre communauté.
+
+On aimerait vous envoyer un de nos harnais offert, sans engagement, et si le contenu vous plaît, mettre en place un code promo avec commission sur les ventes générées (pas de fixe au départ, pas de minimum).
+
+Dites-moi si ça vous tente, je vous envoie les détails avec plaisir.
+
+Belle journée,
+[Signature] — Harnais Chien Expert</div>
+    </div>
+  </div>
+  <div class="empty" id="draftsEmpty">Aucun brouillon pour l'instant.</div>
+</div>
+
+<div class="drafts">
+  <h2>Écartés (à ne pas re-proposer)</h2>
+  <div class="card">
+    <table>
+      <thead>
+        <tr><th>Handle</th><th>Plateforme</th><th>Raison</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="handle">@lapattenchantee</td><td class="platform">TikTok</td><td>886K abonnés — trop gros (macro), déjà en collabs payantes (Virbac, Tractive, Citroën)</td></tr>
+        <tr><td class="handle">@nicowithdog</td><td class="platform">Instagram</td><td>205K — trop gros</td></tr>
+        <tr><td class="handle">@pumba.thelion</td><td class="platform">Instagram</td><td>267K — trop gros</td></tr>
+        <tr><td class="handle">@albertschrei</td><td class="platform">Instagram</td><td>121K — trop gros</td></tr>
+        <tr><td class="handle">@ausskylouva</td><td class="platform">Instagram</td><td>119K — trop gros, compte lifestyle/voyage plus que chien pur</td></tr>
+        <tr><td class="handle">@sons_wolfpack</td><td class="platform">Instagram / TikTok</td><td>99K IG / 525K TikTok — trop gros</td></tr>
+        <tr><td class="handle">@redmalinois31</td><td class="platform">Instagram / TikTok</td><td>423K IG / 1,7M TikTok — conflit d'intérêt, possède déjà sa propre marque d'accessoires canins (redog.fr)</td></tr>
+        <tr><td class="handle">@cestlinfirmiere, @itsvanelia, @styleto</td><td class="platform">—</td><td>Faux positifs niche (pas centrés chien)</td></tr>
+        <tr><td class="handle">@berger_australien_love</td><td class="platform">—</td><td>Page repost/agrégateur, pas un vrai créateur</td></tr>
+        <tr><td class="handle">@lecoledelameute, @laurie.chihuahua, @espritdog</td><td class="platform">—</td><td>Structures business (école d'éducateurs, élevage commercial, vente de formations) plutôt que créateurs perso</td></tr>
+        <tr><td class="handle">@kaila_malinois, @pimstheaussie, @vendome.le.dalmatien, @gibbsgoldenlife, @vogue.mygolden, @thea.buirette</td><td class="platform">TikTok</td><td>Critère vues non rempli — moyenne faussée par un pic viral isolé (600-14K abonnés, flux réel à 500-2000 vues)</td></tr>
+        <tr><td class="handle">@raya_the.aussie, @lauriane_naya, @lanaladog, @le_chien_gout_oreo, @mrtz_dogslife, @otonechienloup, @gioiagoldenretriever, @meiko.chienchien</td><td class="platform">—</td><td>Introuvables, comptes supprimés/renommés, ou quasi inactifs</td></tr>
+        <tr><td class="handle">@yuzutheaussie, @kelly_bove</td><td class="platform">—</td><td>Hors langue/pays (anglophones)</td></tr>
+        <tr><td colspan="3" style="color:var(--muted);font-size:.8rem;padding-top:.9rem;">— Round 2 (2026-08-04, fin d'après-midi) —</td></tr>
+        <tr><td class="handle">@brigittefrenchy, @jackson_le_boubou, @toupet.et.barbich, @pet_au_casque, @boubou_exotique, @dogtavio.fr, @millou.lmoustique, @siraikothejack, @marleychihuahuafrance, @tsuki.aussie, @the.dog.coach.france, @crocskaizen, @aspen_berger_australien, @bartlecorgi, @antoinette_lecorgi, @brioche_corgi, @yeti.le.samoyede, @oscar.lepagneul, @billie.la.glue, @mia_la_bordercollie, @albuslemagichien, @les_aventures_de_hunter, @charly.le.breton, @toutou.zinzin, @vaia.shiba, @maia.berger.australien, @k9inaction, @compote_de_fruits, @ledomainedesmalins</td><td class="platform">TikTok</td><td>Trop petits (abonnés très en dessous de 30K)</td></tr>
+        <tr><td class="handle">@lavie.animale, @labouledoguerie, @roikamalinois, @k9__core, @vasco_le_bamm, @lemondedemoka</td><td class="platform">TikTok</td><td>Abonnés dans le gabarit mais critère vues non rempli (moyenne sous 10K hors pics) ou élevage/généraliste</td></tr>
+        <tr><td class="handle">@the.lab.woody, @werwolf.k9_france, @tactique.knine, @chamseddinee, @lemonlecorgi, @seven_et_tom, @ilovemydogfrance, @labohybride</td><td class="platform">TikTok</td><td>Trop gros (100K+), ou compte de compilation/pension plutôt que créateur perso</td></tr>
+        <tr><td class="handle">@univers.chihuahua</td><td class="platform">TikTok</td><td>Spam vente de chiots</td></tr>
+        <tr><td class="handle">@anaellechretienoff</td><td class="platform">Instagram</td><td>Généraliste lifestyle (ex-Miss Normandie), chien = accessoire de contenu, pas centré chien</td></tr>
+        <tr><td class="handle">@itsmealto, @cookie.le.pomsky, @lesdogmomsdusud, @emiehelven</td><td class="platform">Instagram</td><td>Trop petits ou compte communautaire/inactif</td></tr>
+        <tr><td class="handle">@atchoum_bergeraustralien, @athena_berger_australien, @lipton_le_labrador_heureux, @lagoldie.dari, @olya_huskyfrance, @staffie_france_pp (et variantes), et dizaines d'autres via recherche IG par race</td><td class="platform">Instagram</td><td>Tous sous la barre des 10K abonnés</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  function updateView() {
+    const q = document.getElementById('filter').value.toLowerCase();
+    const statusFilter = document.getElementById('statusFilter').value;
+    const rows = document.querySelectorAll('#trackBody tr');
+    let visible = 0;
+    rows.forEach(row => {
+      const text = row.textContent.toLowerCase();
+      const badge = row.querySelector('.badge');
+      const badgeClass = badge ? [...badge.classList].find(c => c.startsWith('badge-') && c !== 'badge') : '';
+      const matchesText = !q || text.includes(q);
+      const matchesStatus = !statusFilter || badgeClass === statusFilter;
+      const show = matchesText && matchesStatus;
+      row.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    document.getElementById('rowCount').textContent = rows.length ? `${visible} / ${rows.length} candidats` : '';
+    document.getElementById('emptyState').style.display = rows.length ? 'none' : 'block';
+    document.getElementById('draftsEmpty').style.display = document.querySelectorAll('#draftsList .draft').length ? 'none' : 'block';
+  }
+  document.getElementById('filter').addEventListener('input', updateView);
+  document.getElementById('statusFilter').addEventListener('change', updateView);
+  updateView();
+</script>
+
+</body>
+</html>
