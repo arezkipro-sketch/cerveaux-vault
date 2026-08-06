@@ -241,6 +241,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 ### SEO — GEO & IA
 - [[natural-net-geo-guide-2026]] — guide complet GEO 2026 : chiffres McKinsey/Gartner/IDC, taux de conversion par LLM (ChatGPT 15,9 %, Perplexity 10,5 %), 5 piliers, plan 7 étapes, GEO local *(Natural-Net, 2026-03-26)*.
 - [[minddex-geo-2026]] — GEO 2026 : longueur de réponse par plateforme IA, soumission OpenAI, Wikipedia/Wikidata, IndexNow, contenu Q&R, avis clients ; plan 7 étapes *(Thibaut Fitoussi / Minddex, 2026-02-25)* ⚠️ biais commercial fort.
+- [[jotaro-bing-ai-citations-2026]] — étude de cas 86 400 citations Bing/Copilot en 7 mois : Bing sous-coté (19 % desktop US avec Yahoo/DuckDuckGo), stratégie concurrentielle = driver n°1 de citations IA (20-24,5 % de part de citation sur un nom de marque), répartition 70/20/10, best-of 43,8 % des pages citées ChatGPT, règle des 3 phrases *(@JotaroSEO, 2026-08-05)*.
 
 ### Neil Patel / NP Digital (neilpatel.com FR)
 - [[apercu-ia-guide]] — beginner AI overview: ML/DL/NLP umbrella; marketing/health/e-comm/industry apps; benefits/limits; 2025 trends (SGE, IPA) *(2025-10-10)*.
@@ -493,7 +494,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[sem]] — search engine marketing = paid ads + organic SEO; keyword/intent driven. *(1 src)*
 - [[sxo]] *(stub)* — Search Experience Optimization ; fait correspondre format de page et intention réelle, pas juste les mots-clés. *(1 src)*
 - [[longue-traine]] — mots-clés 3+ mots, faible volume individuel, 70%+ du trafic total ; meilleure conversion (intention précise). *(1 src)*
-- [[strategie-concurrentielle-seo]] — se positionner sur le nom d'un concurrent ("avis"/"alternative") pour intercepter ses prospects hésitants. *(1 src)*
+- [[strategie-concurrentielle-seo]] — se positionner sur le nom d'un concurrent (avis/alternative/tarifs/comparatif) pour intercepter ses prospects hésitants — devenu aussi le driver n°1 de citations IA observé (20-24,5 % de part de citation). *(2 src)*
 - [[google-discover]] — flux de contenu personnalisé (Chrome mobile/app Google), sans requête ; 5 leviers d'activation via angles chauds + titres. *(1 src)*
 - [[ga4-setup-harnais-chien]] — cas réel d'installation GA4/GSC sur une boutique Shopify (harnais-chien-expert.fr) ; socle mesure + indexation. *(3 src)*
 - [[workflow-creation-blog]] — processus complet de création d'article de blog SEO, de la recherche mot-clé à la publication ; validé sur harnais-chien-expert.fr. *(6 src)*
@@ -515,7 +516,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[e-e-a-t]] — Experience, Expertise, Authority, Trust; now applied by LLMs; Google official: write from experience; « montré dans la page » sur 4 niveaux + auto-scoring. *(6 src)*
 - [[citation-absorption]] — citation selection vs. absorption; content types that drive AI influence (stats/code/definitions). *(4 src)*
 - [[geo-tools]] — AI-search visibility tools; Top-5 comparison; LLM mentions, AI share-of-voice, competitor compare. *(2 src)*
-- [[generative-engine-optimization]] — GEO: optimize to be cited by generative engines (ChatGPT/Perplexity/SGE). *(1 src)*
+- [[generative-engine-optimization]] — GEO: optimize to be cited by generative engines (ChatGPT/Perplexity/SGE) ; +Bing/Copilot, répartition 70/20/10, best-of 43,8 %, règle des 3 phrases. *(4 src)*
 - [[ai-search-engines]] — Google/ChatGPT/Perplexity/Bing; AI search platforms compared. *(2 src)*
 - [[reddit-seo]] — Reddit ranks on Google + drives AI citations; research lab, ethical off-page, brand monitoring. *(1 src)*
 - [[search-everywhere-optimization]] — "new SEO" across all platforms; 5 categories; algorithm resilience; E-E-A-T everywhere. *(1 src)*
@@ -605,7 +606,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[boutique-vanity-persona]] — buyer persona for puwww1-vg store: femme 30-50, déclencheur voyage, motivation organisation/gain de temps. *(owner-provided)*
 - [[memex]] — Vannevar Bush's 1945 vision of an associative personal knowledge store. *(1 src)*
 - [[tailwind-css]] — utility-first CSS framework. *(1 src)*
-- [[jotaro-seo]] — French-language SEO educator on X; author of 20 ingested threads. *(20 src)*
+- [[jotaro-seo]] — French-language SEO educator on X; author of 21 ingested threads. *(21 src)*
 - [[pushrank]] — AI SEO monitoring tool by @JotaroSeo ; sorti de pré-lancement, usage réel via MCP (types d'opportunités, bugs connus, journal harnais-chien-expert.fr). *(3 src)*
 - [[alex-groberman]] — @alexgroberman, AI SEO researcher, seo-stuff.com; introduced citation absorption framework. *(4 src)*
 - [[sarvesh-alventra]] — @bloggersarvesh, Sarvesh, Alventra Marketing; local SEO practitioner; 14 years experience. *(2 src)*

@@ -13,9 +13,10 @@ sources:
   - "[[jotaro-seo-4-months-textile]]"
   - "[[jotaro-seo-strategie-ecommerce-2026]]"
   - "[[jotaro-seo-sans-backlinks]]"
-source_count: 8
+  - "[[jotaro-bing-ai-citations-2026]]"
+source_count: 9
 status: active
-updated: 2026-07-06
+updated: 2026-08-07
 ---
 
 # JotaroSEO (@JotaroSEO)
@@ -66,6 +67,7 @@ updated: 2026-07-06
 
 **Articles longs (X/Notion) :**
 - [[jotaro-seo-sans-backlinks]] — méthode complète SEO sans backlinks (6 étapes : angles produit, KW research, silo, contenu, marketing 360, régularité + GSC)
+- [[jotaro-bing-ai-citations-2026]] — étude de cas 86 400 citations IA Bing/Copilot (2026-08) : Bing/Copilot sous-cotés, répartition 70/20/10, stratégie concurrentielle = driver n°1 de citations, best-of 43,8%, règle des 3 phrases
 
 **Threads X — Black Hat / Avancé :**
 - [[jotaro-seo-black-hat-cloaking]] — cloaking black hat

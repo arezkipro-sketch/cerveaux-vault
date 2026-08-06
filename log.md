@@ -1240,3 +1240,12 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - Vigilance particulière conservée sur les contenus à risque : `fiscalite-structuration-lameute.md` garde l'avertissement 🔴🔴 intact (montage LLC US = fraude fiscale documentée, non recommandé) ; `page-produit-conversion-lameute.md` et `offre-panier-lameute.md` gardent leurs 🔴 "techniques à écarter" (faux avis, prix barrés fictifs, compte à rebours factice) sans les édulcorer.
 - Corpus du cerveau ami désormais intégralement représenté dans ce vault (42 pages sources + PLAYBOOK), sous forme de pages `-lameute` distinctes du corpus existant plutôt que de fusion in-place, pour préserver la traçabilité et ne pas altérer les pages déjà validées.
 - `index.md` mis à jour avec les 22 nouvelles entrées (20 pages + complément recherche-de-niche + note bilan). `wiki/sources/lameute-google-ads-influence-2026.md` mis à jour pour refléter le périmètre désormais complet.
+
+## [2026-08-07] ingest | Étude de cas @JotaroSEO — 86 400 citations IA Bing/Copilot
+
+- Source : clipping déjà présent dans `raw/assets/` (article X de @JotaroSEO, 2026-08-05), signalé par l'utilisateur.
+- Context pack vérifié avant écriture : la stratégie "articles navigationnels concurrents" décrite dans la source existait déjà dans ce vault sous [[strategie-concurrentielle-seo]] (issue de [[jotaro-seo-strategie-ecommerce-2026]]) — **mise à jour in-place** plutôt que création d'une page dupliquée : ajout de l'angle citations IA, 2 types d'articles supplémentaires (tarifs, comparatif), méthode de priorisation par audience.
+- Page créée : `wiki/sources/jotaro-bing-ai-citations-2026.md`.
+- Pages mises à jour : `wiki/concepts/strategie-concurrentielle-seo.md` (angle citations IA + 2 types d'articles), `wiki/concepts/generative-engine-optimization.md` (Bing/Copilot, répartition 70/20/10, best-of 43,8 %, règle des 3 phrases, variation de formats, 3 données de fiabilité cross-plateforme), `wiki/entities/jotaro-seo.md` (9ème source).
+- `index.md` mis à jour (nouvelle entrée GEO & IA + comptes de sources actualisés sur 3 pages).
+- Aucun lien cassé, règle des 3 backlinks respectée sur la nouvelle page source.

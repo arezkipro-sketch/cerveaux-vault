@@ -3,10 +3,10 @@ type: concept
 title: "Generative Engine Optimization (GEO)"
 slug: generative-engine-optimization
 tags: [ai-seo, geo, ai-search, generative-search, llm, zero-click]
-sources: ["[[apercu-ia-guide]]", "[[search-everywhere-optimization]]", "[[natural-net-geo-guide-2026]]"]
-source_count: 3
+sources: ["[[apercu-ia-guide]]", "[[search-everywhere-optimization]]", "[[natural-net-geo-guide-2026]]", "[[jotaro-bing-ai-citations-2026]]"]
+source_count: 4
 status: active
-updated: 2026-06-19
+updated: 2026-08-07
 ---
 
 # Generative Engine Optimization (GEO)
@@ -106,6 +106,27 @@ Deux étapes séquentielles :
 
 → from [[natural-net-geo-guide-2026]]
 
+## Bing/Copilot — le moteur sous-coté (étude de cas @JotaroSEO, 2026-08)
+86 400 citations obtenues sur les surfaces IA Microsoft (Bing + Copilot) en 7 mois pour un client, avec effet mesuré équivalent sur AI Overview et ChatGPT/Claude — même contenu, plusieurs surfaces. Pourquoi Bing compte : part de marché **desktop** (pas tous appareils confondus) ~9% mondial / ~14% US, ~19% avec Yahoo+DuckDuckGo (sur l'index Bing) ; audience CSP+/B2B (moitié des utilisateurs dans les 25% de foyers les plus aisés) ; **Copilot est branché directement sur l'index Bing** et diffusé dans tout Microsoft 365. Effet cumulé : le trafic Bing réel est vu par Google (crawl, engagement) → green flag pour le SEO classique. → [[jotaro-bing-ai-citations-2026]]
+
+## Répartition de contenu qui maximise les citations IA (2026-08)
+**70% informationnel** (guides/tutos orientés business — résolvent un problème que le produit adresse) · **20% commercial hybride** (guides d'achat, comparatifs avec offre) · **10% transactionnel pur**. Donnée clé : **99,9% des Aperçus IA apparaissent sur des requêtes informationnelles, contre 3,2% sur du transactionnel pur** — une stratégie limitée aux pages produit/landing est quasi invisible pour les IA. Le driver de citations le plus puissant identifié reste les **articles navigationnels ciblant les concurrents** (avis/tarifs/alternatives/comparatif) → détaillé dans [[strategie-concurrentielle-seo]]. → [[jotaro-bing-ai-citations-2026]]
+
+## Format le plus cité : les listes "Meilleurs X"
+**43,8% de tous les types de pages citées par ChatGPT sont des listes "Meilleurs X"** — largement le format le plus cité, car structurellement adapté aux questions de recommandation (majorité des requêtes posées à un assistant). Prioriser : "Les X meilleurs [produit] en [année]", "A vs B", "Top X pour [persona]" — **datés et mis à jour** (les IA favorisent le contenu récent). → [[jotaro-bing-ai-citations-2026]]
+
+## Règles d'écriture pour la citation (2026-08)
+- **Variation de formats à l'intérieur d'un article, sans forcer** : liste à puces (énumération) · liste numérotée (étapes ordonnées) · tableau (comparaison/avantages-inconvénients) · H2→H3 (argumentation longue). Un tableau/une liste = contenu pré-découpé, facile à extraire par une IA. Ne pas ajouter un format qui n'apporte rien au lecteur (un article de définition peut très bien fonctionner en paragraphes + Hn classique).
+- **Répondre dans les 3 premières phrases sous chaque H2** : la première phrase doit être la définition/réponse directe, pas une intro — les IA extraient le H2 + les phrases immédiatement suivantes.
+- **Densité factuelle et champ lexical du domaine** = signal principal d'expertise pour une IA (qui lit le contenu directement, contrairement à Google qui peut inférer l'autorité via des signaux externes) : données chiffrées précises > généralités, sources explicites citées, exemples réels, prise de position claire.
+→ [[jotaro-bing-ai-citations-2026]]
+
+## Trois données de fiabilité cross-plateforme (2026-08)
+- **28,3% des pages les plus citées par ChatGPT n'ont aucune visibilité organique sur Google** — la position 1 Google ne protège de rien côté IA.
+- **Google Mode IA et Aperçus IA arrivent aux mêmes conclusions 86% du temps, mais ne citent les mêmes sources que 13,7% du temps** — optimiser pour Google IA ne garantit pas les citations Bing/Copilot.
+- **ChatGPT récupère des dizaines de pages par requête mais n'en cite qu'environ la moitié** — être crawlé ≠ être cité ; question clé = "pourquoi une IA me citerait plutôt que mon concurrent" plutôt que la seule crawlabilité.
+→ [[jotaro-bing-ai-citations-2026]]
+
 ## GEO local
 
 Les entreprises de proximité sont aussi concernées : une IA citée sur "meilleure agence web à Bordeaux" s'appuie sur la fiche GBP, les avis clients, les annuaires locaux, et le contenu géolocalisé → [[google-business-profile]], [[local-citations]].
@@ -115,6 +136,7 @@ Les entreprises de proximité sont aussi concernées : une IA citée sur "meille
 - Measurement via [[geo-tools]]; implementation framework = [[search-everywhere-optimization]].
 - Mechanism: [[citation-absorption]] (which content types get cited); [[e-e-a-t]] (trust signals).
 - Technical foundation: [[robots-txt]], [[crawl-budget]], [[xml-sitemap]].
+- Driver de citations n°1 observé en pratique : [[strategie-concurrentielle-seo]] (articles navigationnels concurrents) → [[jotaro-bing-ai-citations-2026]].
 
 ## Tensions / open questions
 - GEO résultats lents (3–6 mois) — difficulté de justification court-terme.
@@ -133,3 +155,4 @@ Les entreprises de proximité sont aussi concernées : une IA citée sur "meille
 - [[search-everywhere-optimization]] — concrete LLM-optimization checklist (structured content, FAQ, schema, indexation).
 - [[natural-net-geo-guide-2026]] — guide complet FR : chiffres McKinsey/Gartner/IDC, taux de conversion par LLM, 5 piliers, plan d'action 7 étapes, GEO local.
 - [[minddex-geo-2026]] — longueur de réponse par plateforme IA, soumission OpenAI, Wikipedia/Wikidata, IndexNow, plan 7 étapes *(biais : auteur = co-fondateur Minddex)*.
+- [[jotaro-bing-ai-citations-2026]] — étude de cas 86 400 citations Bing/Copilot ; répartition 70/20/10, format best-of 43,8%, règle des 3 phrases, variation de formats, densité factuelle.
