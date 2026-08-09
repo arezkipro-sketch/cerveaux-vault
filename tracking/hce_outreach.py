@@ -21,6 +21,10 @@ Usage :
   python3 hce_outreach.py list
       Affiche l'etat actuel de toutes les cartes (rien n'est modifie).
 
+  python3 hce_outreach.py list-folders
+      Liste les vrais noms de dossiers IMAP du compte (diagnostic, en cas
+      de souci pour retrouver les emails envoyes dans le dossier Envoyes).
+
 Le mot de passe est demande a chaque lancement (getpass, jamais stocke,
 jamais dans l'historique du terminal).
 """
@@ -110,14 +114,45 @@ def send_mail(smtp, to_addr, subject, body):
     return raw
 
 
+SENT_FOLDER_CANDIDATES = ["Sent", "INBOX.Sent", "Sent Items", "INBOX.Sent Items", "INBOX/Sent"]
+
+
 def append_to_sent(password, raw_message):
     try:
         imap = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
         imap.login(SENDER, password)
-        imap.append("Sent", "", imaplib.Time2Internaldate(datetime.datetime.now().timestamp()), raw_message)
-        imap.logout()
     except Exception as ex:
-        print(f"  (avertissement : copie dans le dossier Sent impossible : {ex})", file=sys.stderr)
+        print(f"  (avertissement : connexion IMAP impossible, pas de copie dans Envoyes : {ex})", file=sys.stderr)
+        return
+    ok = False
+    for folder in SENT_FOLDER_CANDIDATES:
+        try:
+            typ, _ = imap.append(folder, "", imaplib.Time2Internaldate(datetime.datetime.now().timestamp()), raw_message)
+            if typ == "OK":
+                ok = True
+                break
+        except Exception:
+            continue
+    imap.logout()
+    if not ok:
+        print(f"  (avertissement : aucun dossier Envoyes reconnu parmi {SENT_FOLDER_CANDIDATES} — lance 'python3 hce_outreach.py list-folders' pour voir les vrais noms)", file=sys.stderr)
+
+
+def cmd_list_folders():
+    password = getpass.getpass(f"Mot de passe pour {SENDER} : ")
+    try:
+        imap = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
+        imap.login(SENDER, password)
+        typ, folders = imap.list()
+        imap.logout()
+        if typ != "OK":
+            print("Impossible de lister les dossiers.")
+            return
+        print("Dossiers IMAP disponibles :")
+        for f in folders:
+            print(" ", f.decode(errors="replace"))
+    except Exception as ex:
+        print(f"Connexion IMAP impossible : {ex}", file=sys.stderr)
 
 
 def cmd_send():
@@ -241,6 +276,8 @@ def main():
         cmd_mark_status(sys.argv[2], sys.argv[3])
     elif cmd == "list":
         cmd_list()
+    elif cmd == "list-folders":
+        cmd_list_folders()
     else:
         print(__doc__)
         sys.exit(1)
