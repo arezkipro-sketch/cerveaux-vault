@@ -21,6 +21,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[synthese-2026-W28]] — synthèse hebdo : Claude Code comme moteur d'automatisation SEO/web (12 agents, freelance sites, Parasite SEO) ; tension autorité propre vs empruntée. *(4 src, 2026-07-12)*
 - [[synthese-2026-W29]] — synthèse hebdo : mémoire externe cross-tools (Unibase) + loop engineering (/goal, /loop) comme même pattern à 2 échelles, écho direct à [[persistent-wiki]] ; fatwa islamqa confirme dropshipping-halal + ajoute mourabaha/wikala. *(3 src, 2026-07-19)*
 - [[synthese-2026-W30]] — synthèse hebdo : usage réel PushRank/Ubersuggest sur harnais-chien-expert.fr — outil SEO comme déclencheur d'audit pas pilote automatique, double-check GSC+SERP-similarity pour cannibalisation, pattern Shopify récurrent (metafield SEO manquant → repli dégradé). *(1 src, 2026-07-26)*
+- [[synthese-2026-W32]] — synthèse hebdo : fusion intégrale du cerveau Obsidian "La Meute" (Google Ads, SEO, fiqh, CRO — 36 pages `-lameute`) + étude de cas JotaroSEO citations IA Bing/Copilot ; tension convention `-lameute` (paires proches non fusionnées) vs mise à jour in-place côté Jotaro, fiqh importé = 2e autorité doctrinale à côté de Qamar. *(2 src, 2026-08-07)*
 
 ## 📄 Sources
 ### SEO — Livres & Références
