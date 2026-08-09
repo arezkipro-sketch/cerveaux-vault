@@ -38,7 +38,7 @@ from email.header import Header
 from pathlib import Path
 
 TRACK_FILE = Path(__file__).resolve().parent / "influenceurs-hce-suivi.html"
-SENDER = "contact@harnais-chien-expert.com"
+SENDER = "contact@harnais-chien-expert.fr"
 SMTP_HOST, SMTP_PORT = "smtp.hostinger.com", 465
 IMAP_HOST, IMAP_PORT = "imap.hostinger.com", 993
 
