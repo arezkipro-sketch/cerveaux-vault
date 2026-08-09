@@ -187,7 +187,8 @@
 <body>
 
 <h1>Suivi influenceurs — Harnais Chien Expert</h1>
-<p class="sub">Micro-influenceurs chien (FR) — critères formation : TikTok 30-100k abonnés / Instagram 10-50k, ≥10k vues moyennes sur les 10 dernières vidéos. Dédoublonnage par handle pour ne jamais recontacter deux fois la même personne. Aucun envoi automatique — statuts mis à jour manuellement après action.</p>
+<p class="sub">Micro-influenceurs chien (FR) — critères formation : TikTok 30-100k abonnés / Instagram 10-50k, ≥10k vues moyennes sur les 10 dernières vidéos. Dédoublonnage par handle pour ne jamais recontacter deux fois la même personne.</p>
+<p class="sub">Envoi des emails : script local <code>hce_outreach.py</code> lancé manuellement (jamais automatique/cloud). Il envoie tout ce qui est badge "À valider" avec un email, et met à jour les statuts tout seul. Les DM Instagram/TikTok restent 100% manuels (copier-coller), jamais envoyés par script — marquer avec <code>mark-dm</code> après envoi.</p>
 <p class="sub">Dernière recherche : 2026-08-04 (2 rounds, ~105 comptes vérifiés individuellement) — 6 dans le gabarit dont @walou.frenchy (très solide), 2 borderline à trancher.</p>
 
 <div class="toolbar">
@@ -208,6 +209,7 @@
 <h2>🟢 Prêts à contacter — message rédigé</h2>
 <div class="grid" id="readyGrid">
 
+<!-- CARD handle="@oscar.cocker.spaniel" contact="email" address="justinealbi17@hotmail.fr" subject="Une petite collab autour d'Oscar 🐾" count="0" last-sent="" -->
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@oscar.cocker.spaniel</span><br><span class="platform-pill">INSTAGRAM</span></div>
@@ -227,17 +229,19 @@
       <summary>Voir le message</summary>
       <div class="draft-body">Bonjour Justine,
 
-Je m'appelle [Prénom], je m'occupe de Harnais Chien Expert, une boutique spécialisée dans les harnais et accessoires pour chiens. J'ai découvert le compte d'Oscar et j'ai adoré la proximité que vous avez avec votre communauté autour de "la voix du chien".
+Je m'appelle Arezki, je m'occupe de Harnais Chien Expert, une boutique spécialisée dans les harnais et accessoires pour chiens. J'ai découvert le compte d'Oscar et j'ai adoré la proximité que vous avez avec votre communauté autour de "la voix du chien".
 
 On aimerait lui offrir un de nos harnais (sans engagement de votre côté) et, si le contenu vous plaît, mettre en place un code promo avec commission sur les ventes qu'il génère (pas de minimum, pas de fixe).
 
 Ça vous tente ? Je vous envoie les détails avec plaisir.
 
 Belle journée,
-[Signature] — Harnais Chien Expert</div>
+Arezki — Harnais Chien Expert</div>
     </details>
   </div>
+<!-- /CARD -->
 
+<!-- CARD handle="@petit.loup.francais" contact="email" address="petit.loup.francais@gmail.com" subject="Collab harnais pour vos 2 huskies 🐺" count="0" last-sent="" -->
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@petit.loup.francais</span><br><span class="platform-pill">INSTAGRAM</span></div>
@@ -262,10 +266,12 @@ Je gère Harnais Chien Expert, une boutique de harnais et accessoires pour chien
 On propose une collab en affiliation : un harnais offert, puis un code promo avec commission sur les ventes générées (pas de fixe au départ). Je vois que le compte passe par une agence, dites-moi si c'est le bon interlocuteur pour ce type de partenariat.
 
 Au plaisir d'échanger,
-[Signature] — Harnais Chien Expert</div>
+Arezki — Harnais Chien Expert</div>
     </details>
   </div>
+<!-- /CARD -->
 
+<!-- CARD handle="@mr.marley_cocker" contact="dm" address="" subject="" count="0" last-sent="" -->
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@mr.marley_cocker</span><br><span class="platform-pill">INSTAGRAM</span></div>
@@ -276,7 +282,7 @@ Au plaisir d'échanger,
       <span class="stat-chip">vues non vérifiables (IG)</span>
     </div>
     <div class="notes">Cocker anglais. Dans le gabarit. <b>Déjà un code affilié actif avec Edgard Cooper</b> → bon signal d'expérience affiliation.</div>
-    <div class="contact-line"><span class="label">💬 Contact :</span> pas d'email → DM Instagram. Interagir sur 2-3 posts avant d'envoyer (pas de DM "en pirate").</div>
+    <div class="contact-line"><span class="label">💬 Contact :</span> pas d'email → DM Instagram. Interagir sur 2-3 posts avant d'envoyer (pas de DM "en pirate"). Marquer avec <code>mark-dm</code> une fois envoyé toi-même.</div>
     <div class="actions">
       <button class="copy-btn" onclick="copyDraft(this)">Copier le texte</button>
     </div>
@@ -285,7 +291,9 @@ Au plaisir d'échanger,
       <div class="draft-body">Salut ! Je gère Harnais Chien Expert 🐾 votre compte colle très bien avec nos harnais. Je vois que vous faites déjà de l'affiliation (le code Edgard Cooper) donc je me permets : ça vous dirait qu'on vous envoie un harnais offert avec un code promo commissionné ? Dites-moi si ça vous intéresse, je vous partage les détails avec plaisir.</div>
     </details>
   </div>
+<!-- /CARD -->
 
+<!-- CARD handle="@oslothechow" contact="dm" address="" subject="" count="0" last-sent="" -->
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@oslothechow</span><br><span class="platform-pill">INSTAGRAM</span></div>
@@ -296,7 +304,7 @@ Au plaisir d'échanger,
       <span class="stat-chip">vues non vérifiables (IG)</span>
     </div>
     <div class="notes">Chow-chow, Paris. Dans le gabarit, activité à confirmer.</div>
-    <div class="contact-line"><span class="label">💬 Contact :</span> pas de contact visible → DM Instagram. Interagir sur 2-3 posts avant d'envoyer.</div>
+    <div class="contact-line"><span class="label">💬 Contact :</span> pas de contact visible → DM Instagram. Interagir sur 2-3 posts avant d'envoyer. Marquer avec <code>mark-dm</code> une fois envoyé toi-même.</div>
     <div class="actions">
       <button class="copy-btn" onclick="copyDraft(this)">Copier le texte</button>
     </div>
@@ -305,7 +313,9 @@ Au plaisir d'échanger,
       <div class="draft-body">Salut ! Je m'occupe de Harnais Chien Expert, une boutique de harnais/accessoires pour chiens 🐾 Le compte d'Oslo est top, ça vous dirait une petite collab (harnais offert + code promo commissionné, sans engagement) ? Dites-moi si ça vous parle.</div>
     </details>
   </div>
+<!-- /CARD -->
 
+<!-- CARD handle="@walou.frenchy" contact="email" address="walou.collaboration@gmail.com" subject="Collab harnais pour Walou 🐾" count="0" last-sent="" -->
   <div class="candidate-card tiktok">
     <div class="card-head">
       <div><span class="handle">@walou.frenchy</span><br><span class="platform-pill">TIKTOK</span> · <span class="platform-pill" style="color:var(--insta)">+ Instagram 18,6K</span></div>
@@ -325,23 +335,25 @@ Au plaisir d'échanger,
       <summary>Voir le message</summary>
       <div class="draft-body">Bonjour,
 
-Je m'appelle [Prénom], je gère Harnais Chien Expert, une boutique spécialisée dans les harnais et accessoires pour chiens. Je suis tombé sur le compte de Walou et j'adore le ton et la proximité avec votre communauté.
+Je m'appelle Arezki, je gère Harnais Chien Expert, une boutique spécialisée dans les harnais et accessoires pour chiens. Je suis tombé sur le compte de Walou et j'adore le ton et la proximité avec votre communauté.
 
 On aimerait vous envoyer un de nos harnais offert, sans engagement, et si le contenu vous plaît, mettre en place un code promo avec commission sur les ventes générées (pas de fixe au départ, pas de minimum).
 
 Dites-moi si ça vous tente, je vous envoie les détails avec plaisir.
 
 Belle journée,
-[Signature] — Harnais Chien Expert</div>
+Arezki — Harnais Chien Expert</div>
     </details>
   </div>
+<!-- /CARD -->
 
-  <!-- Nouveau candidat prêt : dupliquer une .candidate-card ci-dessus, dédupliquer par handle avant tout ajout -->
+  <!-- Nouveau candidat pret : dupliquer une .candidate-card ci-dessus en gardant ses marqueurs CARD et fermeture CARD (voir cartes existantes), dedupliquer par handle avant tout ajout -->
 </div>
 
 <h2>🟠 À trancher avant de rédiger — taille au-dessus du repère</h2>
 <div class="grid" id="pendingGrid">
 
+<!-- CARD handle="@sayko_the_wolfdog" contact="email" address="saykothewolfdog@gmail.com" subject="" count="0" last-sent="" -->
   <div class="candidate-card instagram pending">
     <div class="card-head">
       <div><span class="handle">@sayko_the_wolfdog</span><br><span class="platform-pill">INSTAGRAM</span></div>
@@ -355,7 +367,9 @@ Belle journée,
     <div class="contact-line"><span class="label">✉️ Email :</span> saykothewolfdog@gmail.com</div>
     <div class="pending-note">⚠️ Au-dessus du repère indicatif Instagram (10-50K). Pas de brouillon rédigé — à confirmer avant de contacter vu la taille.</div>
   </div>
+<!-- /CARD -->
 
+<!-- CARD handle="@sam_woof" contact="dm" address="" subject="" count="0" last-sent="" -->
   <div class="candidate-card tiktok pending">
     <div class="card-head">
       <div><span class="handle">@sam_woof</span><br><span class="platform-pill">TIKTOK</span></div>
@@ -369,6 +383,7 @@ Belle journée,
     <div class="contact-line"><span class="label">💬 Contact :</span> pas d'email → DM via IG @Sam_woof_official</div>
     <div class="pending-note">⚠️ Au-dessus du repère TikTok (30-100K) et vues instables. Pas prioritaire. Pas de brouillon rédigé.</div>
   </div>
+<!-- /CARD -->
 
 </div>
 
