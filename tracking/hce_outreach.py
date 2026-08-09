@@ -25,6 +25,13 @@ Usage :
       Liste les vrais noms de dossiers IMAP du compte (diagnostic, en cas
       de souci pour retrouver les emails envoyes dans le dossier Envoyes).
 
+  python3 hce_outreach.py check-inbox
+      Lecture seule (ne marque rien comme lu, n'envoie rien). Liste les
+      emails recus depuis 14 jours et signale ceux dont l'expediteur
+      correspond a un email connu du fichier de suivi. Sert juste a
+      reperer une reponse, la mise a jour du statut reste manuelle
+      (mark-status) une fois que tu as lu le contenu.
+
 Le mot de passe est demande a chaque lancement (getpass, jamais stocke,
 jamais dans l'historique du terminal).
 """
@@ -155,6 +162,52 @@ def cmd_list_folders():
         print(f"Connexion IMAP impossible : {ex}", file=sys.stderr)
 
 
+def cmd_check_inbox():
+    text = load()
+    cards = get_cards(text)
+    known = {
+        c["attrs"]["address"].strip().lower(): c["attrs"].get("handle", "?")
+        for c in cards
+        if c["attrs"].get("address")
+    }
+    password = getpass.getpass(f"Mot de passe pour {SENDER} : ")
+    try:
+        imap = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
+        imap.login(SENDER, password)
+        imap.select("INBOX", readonly=True)
+        since_date = (datetime.date.today() - datetime.timedelta(days=14)).strftime("%d-%b-%Y")
+        typ, data = imap.search(None, f"(SINCE {since_date})")
+        if typ != "OK":
+            print("Recherche impossible.")
+            imap.logout()
+            return
+        ids = data[0].split()
+        if not ids:
+            print(f"Aucun email recu depuis {since_date}.")
+            imap.logout()
+            return
+        print(f"{len(ids)} email(s) recus depuis {since_date} (plus recent en premier) :\n")
+        for eid in reversed(ids):
+            typ, msg_data = imap.fetch(eid, "(BODY.PEEK[HEADER.FIELDS (FROM SUBJECT DATE)])")
+            if typ != "OK" or not msg_data or not msg_data[0]:
+                continue
+            header = msg_data[0][1].decode(errors="replace")
+            from_m = re.search(r"From:\s*(.*)", header)
+            subj_m = re.search(r"Subject:\s*(.*)", header)
+            date_m = re.search(r"Date:\s*(.*)", header)
+            from_addr = (from_m.group(1).strip() if from_m else "?")
+            subject = (subj_m.group(1).strip() if subj_m else "?")
+            date = (date_m.group(1).strip() if date_m else "?")
+            match_handle = next((h for addr, h in known.items() if addr in from_addr.lower()), None)
+            tag = f"   <-- reponse possible de {match_handle}" if match_handle else ""
+            print(f"[{date}] {from_addr} — {subject}{tag}")
+        imap.logout()
+        print("\nRien n'a ete marque comme lu. Une fois que tu as identifie une reponse, lis-la dans ta boite puis :")
+        print('  python3 hce_outreach.py mark-status "@handle" repondu|accepte|refuse')
+    except Exception as ex:
+        print(f"Connexion IMAP impossible : {ex}", file=sys.stderr)
+
+
 def cmd_send():
     text = load()
     cards = get_cards(text)
@@ -278,6 +331,8 @@ def main():
         cmd_list()
     elif cmd == "list-folders":
         cmd_list_folders()
+    elif cmd == "check-inbox":
+        cmd_check_inbox()
     else:
         print(__doc__)
         sys.exit(1)
