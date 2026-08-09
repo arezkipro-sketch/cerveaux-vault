@@ -5,3 +5,5 @@
 # Binaires volumineux : le contenu extrait vit dans wiki/sources/, le PDF brut reste local uniquement
 raw/*.pdf
 .git-sync.sh
+__pycache__/
+*.pyc
