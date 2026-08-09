@@ -37,7 +37,9 @@ note: "MAJ 2026-07-22 : sorti de pré-lancement, usage réel confirmé sur harna
   - `ai_recommendation` — audits variés générés par IA (title trop long/court, meta hors fourchette, mot-clé absent du title, contenu insuffisant, CTR à améliorer). Le plus utile en pratique mais le moins prévisible dans son format (`pageUrl` parfois `null`).
   - `cannibalization`, `indexation`, `sitemap`, `internal_linking`, `content_creation`, `site_drop`, `trending_query`, `low_ctr` — types listés dans le schéma mais peu vus en usage réel.
 - **Workflow de statut** : `todo` → `in_progress` / `done` / `ignored`. **Piège découvert** : un item marqué `ignored` peut être remis en `todo` automatiquement si PushRank le re-détecte lors d'un scan ultérieur — le statut "ignoré" n'est pas permanent, il faut le re-fermer à chaque réapparition.
-- **Bug outil connu** : le paramètre `severity=low` (et `priority=low/high/medium`) de l'outil de listing renvoie systématiquement 0 résultat quel que soit le `status`, alors que le compteur global (`get_project_overview`) affiche bien des dizaines d'items en `low`. Aucun contournement trouvé via les paramètres disponibles — les items priorité basse restent inaccessibles par l'API/MCP, consultables seulement dans l'interface web.
+- **Bug outil désormais résolu (confirmé 2026-08-09)** : le paramètre `severity=low` de `list_seo_opportunities` renvoyait systématiquement 0 résultat au 22/07 ; au 09/08, il retourne bien des items (25 `todo` par ex.). Ne plus supposer ce bug actif sans re-tester.
+- **`severity` ≠ `priorityScore`, à ne jamais confondre** : un item `severity: "low"` peut avoir un `priorityScore` (81) supérieur à des items `severity: "high"` (61 max observé) ou `severity: "medium"` (59 max observé) sur ce projet. Trier/filtrer par `severity` seul peut faire manquer de vraies priorités. **Règle candidate** : pour prioriser réellement, trier par `priorityScore` toutes sévérités confondues plutôt que de traiter `high` puis `medium` puis `low` en silos étanches — via le paramètre `priorityMin` de `list_seo_opportunities`.
+- **Mais `priorityScore` seul reste aussi trompeur sur petit volume** : le item `low_ctr` le plus prioritaire du projet au 2026-08-09 (score 81, le plus haut score todo restant) portait sur une page à 10 impressions/90 jours, 0 clic. Un CTR de 0/10 est du bruit statistique, pas un signal — même règle de seuil que pour `decay` (~30-40 impressions minimum avant d'agir). **Aucun score PushRank (priorité ou sévérité) ne dispense de vérifier le volume GSC réel avant d'agir.**
 - **Écart de comptage** : le total affiché par `get_project_overview` peut largement dépasser ce que `list_seo_opportunities` peut effectivement énumérer (ex: 136 annoncés vs 25 récupérables) — probablement des doublons d'historique de (re-)détection côté PushRank, pas un vrai delta d'items uniques.
 - Panneau web **"Santé SEO technique"** (pages orphelines, meta trop longues, maillage insuffisant, heading hierarchy skip, title=H1...) — **non exposé** par les outils MCP disponibles ; consultation uniquement via l'interface web, aucun outil pour lister les URLs concernées par ce biais.
 - Aucun outil MCP pour **relancer un crawl/audit manuellement** — tous les outils disponibles sont en lecture (ou changent un statut). Le rescan semble automatique/périodique côté PushRank (nouvelles opportunités observées apparaître spontanément entre deux sessions).
@@ -141,6 +143,31 @@ Leçon associée : quand le thème Shopify ajoute automatiquement `– Harnais c
 
 Leçon copy associée : la douleur primaire du persona n'est pas `bras tendu`, mais `chien qui tire fort`. En meta description, partir du problème que le client exprime lui-même, puis ajouter une promesse crédible et non absolue : tension répartie, gorge libre, sorties moins éprouvantes.
 
+## EXP-2026-08-09 — position du quiz interactif (avant vs après la réponse rapide) sur les articles race/besoin
+
+**Hypothèse** : sur les articles générés depuis le template "guide race/besoin", placer le bloc quiz interactif avant la section "Réponse rapide" (plutôt qu'après) nuit à l'engagement lecteur et/ou à la performance SEO — cause probable derrière plusieurs alertes `decay` PushRank.
+
+**Ampleur découverte en creusant cette hypothèse** : 43 articles sur 53 (81% du blog) ont ce pattern quiz-en-tout-premier (`blog-quiz` en position <100 caractères du body). Un seul article (`blogs-guide-taille-harnais-chien`) a déjà été corrigé le 2026-07-26, mais **sans suivi de résultat enregistré depuis** — première leçon : ne pas refaire cette erreur, toujours poser une baseline datée avant tout changement destiné à être mesuré.
+
+**Décision** : ne pas généraliser le correctif aux 43 articles d'un coup (changement de structure en masse, catégorie sensible du protocole, hypothèse non encore prouvée). Traiter comme une expérience contrôlée sur les 4 articles ayant un vrai signal `decay` + volume GSC confirmé, mesurer, puis seulement ensuite statuer sur un déploiement plus large.
+
+**Baseline (données GSC 90 jours, cache PushRank au 2026-08-08, avant changement)**
+
+| Page | Impressions/90j | Clics | Position | Requête principale |
+|---|---|---|---|---|
+| `/blogs/news/harnais-border-collie` | 133 | 4 | 10.02 | harnais border collie |
+| `/blogs/news/harnais-berger-allemand` | 104 | 2 | 8.81 | harnais pour chien berger allemand |
+| `/blogs/news/harnais-cavalier-king-charles` | 90 | 4 | 7.1 | harnais pour cavalier king charles |
+| `/blogs/news/harnais-anti-fugue-pour-chien-...` | 36 | 3 | 8.28 | (query non précisée par PushRank) |
+
+**Action** : déplacement du bloc quiz interactif pour qu'il apparaisse après la section "Réponse rapide" (aucun contenu supprimé ni réécrit, uniquement réordonné), sur ces 4 pages uniquement.
+
+**Date du changement** : 2026-08-09.
+
+**Suivi prévu** : J+14 (2026-08-23), J+28 (2026-09-06), J+56 (2026-10-04) — comparer clics/impressions/position via `get_gsc_snapshot` sur ces 4 URLs. Si amélioration nette et cohérente sur les 4, envisager un déploiement progressif au reste des 43 articles (par lots, pas d'un coup). Si aucun effet mesurable, invalider l'hypothèse et ne pas toucher aux 39 articles restants.
+
+**Rétroactif — `blogs-guide-taille-harnais-chien`** : même changement appliqué le 2026-07-26, jamais suivi. À vérifier en même temps que les 4 ci-dessus (données déjà à J+14 au moment de cette expérience).
+
 ## Relations
 - Built by [[jotaro-seo]].
 - Complements the strategies taught in [[jotaro-seo-ia-x-seo]] (AI SEO monitoring) and [[jotaro-seo-content-strategy]].
@@ -233,6 +260,32 @@ Règle appliquée : pour les articles et pages Shopify, les SEO title/meta sont 
 Vérification post-publication : les 10 URLs répondent en 200. Les titles publics décodés avec `– Harnais chien expert` font 50 à 59 caractères. Les metas font 150 à 159 caractères. Les actions PushRank liées à Golden, Cocker, Bouledogue Français, Berger Australien et Beagle ne ressortent plus en todo.
 
 Point laissé ouvert : l'alerte PushRank `slug trop long` du guide taille reste volontairement en todo. Une modification d'URL doit être traitée à part avec analyse de risque, redirect 301 et contrôle de cannibalisation.
+
+## Session 2026-08-08 — premier lot via [[project_seo_harnais_workspace]], titres produits (faux positif) + template meta description policies
+
+Premier lot exécuté depuis le nouveau workspace `~/seo-harnais`. 8 opportunités `high` priority traitées.
+
+**Titre Google manquant (3 produits, faux positif PushRank)** : `laisse-tactique-amortissante-double-poignee`, `harnais-chiot-respirant-multicolore`, `harnais-tactique-chien-pochettes` avaient déjà un `seo.title`/`seo.description` correct en admin ET publiés (vérifié en direct). Confirme le pattern déjà noté en session 2026-07-27 batch 4 : une correction faite pendant une session où le connecteur PushRank devient indisponible reste en `todo` côté PushRank tant que le statut n'est pas repassé manuellement. **Règle renforcée** : avant de "corriger" un `quick_win` de type titre/meta manquant, toujours vérifier l'état admin réel — si déjà correct, fermer l'opportunité sans y retoucher plutôt que de la retraiter.
+
+**Résumé Google manquant (5 pages `/policies/*`)** : contrairement à l'hypothèse initiale ("juste un champ à remplir"), Shopify n'expose **aucun champ SEO description sur l'objet `ShopPolicy`** (GraphQL Admin API) et le thème (`wildone-final-theme`, live) n'affichait strictement aucune balise `<meta name="description">` sur le template `policy` (`request.page_type == 'policy'`), quel que soit le contenu du `body` de la policy. Root cause = template, pas contenu.
+
+**Correction appliquée** : ajout dans `layout/theme.liquid` d'un fallback `page_description` par `case request.path` pour les 5 policies (`privacy-policy`, `refund-policy`, `terms-of-service`, `terms-of-sale`, `legal-notice`), avec des descriptions rédigées à la main — pas d'auto-troncature du `body`. Sauvegarde de l'asset original dans `seo-harnais/reports/backups/2026-08-08_theme-liquid_AVANT_meta-policy.liquid` avant déploiement.
+
+**Pourquoi rédigé à la main plutôt qu'auto-généré depuis le `body`** : en prévisualisant une troncature automatique du `body` de chaque policy, le texte obtenu exposait du contenu non finalisé directement dans le body Shopify — voir alerte séparée ci-dessous. Une auto-génération aurait publié ce contenu cassé dans le snippet Google.
+
+**Vérification** : 3/5 pages (`refund-policy`, `terms-of-service`, `legal-notice`) ont affiché la nouvelle meta immédiatement après déploiement de l'asset. 2/5 (`privacy-policy`, `terms-of-sale`) sont restées sur l'ancien rendu (`meta` absente) plusieurs dizaines de secondes après — cause identifiée via l'en-tête `etag: page_cache:...:PolicyDetailsController:...` : Shopify a une couche de cache serveur propre au contrôleur des pages policy, indépendante du déploiement de thème (qui lui-même n'a pas de cache côté Cloudflare, `cf-cache-status: DYNAMIC`). **Règle candidate** : sur les pages `/policies/*` spécifiquement, prévoir un délai de propagation plus long que pour collections/produits/articles avant de valider visuellement une correction de thème. Confiance 70% (observé une seule fois, à confirmer sur un futur déploiement theme.liquid touchant ces pages).
+
+**Suite du lot, même session** : le reste des opportunités `high` todo (9 restantes après le premier passage) a révélé le même pattern de faux positifs à plus grande échelle — sur les 3 produits déjà corrigés (titre+meta), PushRank avait aussi des opportunités séparées "H1 manquant" et "résumé manquant" non fermées, alors que H1 et meta étaient déjà corrects en production (vérifié en direct). **Règle renforcée** : PushRank crée une opportunité distincte par type de champ (title/meta/H1) même sur la même URL ; corriger une URL ne ferme pas automatiquement les autres opportunités liées à cette même URL — bien vérifier `pageUrl` en filtrant plutôt que de supposer qu'une correction couvre tout.
+
+**`content_creation` "ceinture chien voiture" — résolu par évolution du catalogue, mais H1 collection à corriger (catch d'Arezki)** : en session 2026-07-25 cette opportunité était volontairement laissée `todo` faute d'angle produit dédié. Au 2026-08-09, deux produits actifs existent désormais (`ceinture-chien-voiture-elastique`, `ceinture-chien-voiture-2-en-1`, H1 exact-match confirmés), et la collection `harnais-chien-voiture` a déjà un `seo.title` optimisé "Harnais & Ceinture Chien Voiture" (batch 1, session 2026-07-27). Fermé sans créer de nouvelle page — décision maintenue.
+
+Mais Arezki a repéré que le **H1 réellement affiché** sur cette collection restait "Harnais chien voiture" (le `seo.title` ne concerne que le `<title>`, pas le H1 visible) : `collection.title` est utilisé en dur pour le H1 dans `sections/collection-seo-test-intro.liquid`, sans override possible — contrairement au texte d'intro qui a déjà un mécanisme de metafield (`custom.intro_text`). **Correction appliquée** : ajout du même pattern d'override pour le H1 (`collection.metafields.custom.seo_heading | default: collection.title`), 100% rétrocompatible (aucun changement si le metafield n'est pas défini). Metafield posé sur cette collection avec la valeur "Harnais & Ceinture Chien Voiture" (alignée sur le `seo.title` existant). **Ce mécanisme est réutilisable sur toute autre collection utilisant cette section** si un futur écart H1/intention de recherche est détecté.
+
+**Leçon générale** : une opportunité `content_creation` laissée ouverte doit être revérifiée périodiquement — le catalogue évolue plus vite que le nettoyage des opportunités PushRank. Et surtout : `seo.title`/`seo.description` corrigés ne garantissent pas que le **H1 visible** suit — toujours vérifier le rendu réel de la page, pas seulement les champs SEO admin, avant de considérer un écart de mot-clé comme résolu.
+
+**`/cart` — recommandation PushRank écartée (erreur de pertinence)** : PushRank recommande une meta description sur `/cart`. Décision : `ignored`, pas traité. Une page panier n'a pas de contenu unique justifiant une meta description marketing, et `/cart` (sans slash final) n'est même pas couverte par le `Disallow: /cart/` du robots.txt actuel — donc théoriquement indexable, ce qui est le vrai problème sous-jacent (elle ne devrait probablement pas être indexable du tout). Un `noindex` serait le correctif pertinent, mais c'est une opération sensible (catégorie "modification d'indexation", validation utilisateur requise avant d'agir) — non traité de façon autonome, à proposer explicitement si le sujet revient.
+
+**Piège Shopify découvert au passage** : la mutation `shopPolicyUpdate` (GraphQL Admin API) peut être refusée avec `userErrors: "Automatic management for Privacy Policy must be turned off in order to make changes."`. La Politique de confidentialité peut avoir une case "gestion automatique" activée (Réglages > Politiques côté admin UI) qui bloque toute écriture via API tant qu'elle est active — et ce toggle n'est pas exposé comme champ dans le type `ShopPolicy` (`body/title/type/url/translations` seulement, rien pour le lire ou le changer via GraphQL). Si cette erreur apparaît, la seule solution est que le marchand désactive la gestion automatique dans l'UI admin avant toute correction API.
 
 ## Session 2026-07-27 — batch 4 title/meta articles et pages HCE
 
