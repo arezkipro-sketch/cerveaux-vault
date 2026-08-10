@@ -32,6 +32,10 @@ Usage :
       reperer une reponse, la mise a jour du statut reste manuelle
       (mark-status) une fois que tu as lu le contenu.
 
+  python3 hce_outreach.py read "@handle"
+      Affiche le texte complet du dernier email recu de ce candidat
+      (lecture seule). Pratique pour coller le contenu ici a Claude.
+
 Le mot de passe est demande a chaque lancement (getpass, jamais stocke,
 jamais dans l'historique du terminal).
 """
@@ -45,7 +49,8 @@ import getpass
 import datetime
 import html
 from email.mime.text import MIMEText
-from email.header import Header
+from email.header import Header, decode_header
+import email as email_lib
 from pathlib import Path
 
 TRACK_FILE = Path(__file__).resolve().parent / "influenceurs-hce-suivi.html"
@@ -208,6 +213,71 @@ def cmd_check_inbox():
         print(f"Connexion IMAP impossible : {ex}", file=sys.stderr)
 
 
+def decode_mime_header(value):
+    if not value:
+        return ""
+    parts = decode_header(value)
+    out = []
+    for text, enc in parts:
+        if isinstance(text, bytes):
+            out.append(text.decode(enc or "utf-8", errors="replace"))
+        else:
+            out.append(text)
+    return "".join(out)
+
+
+def extract_plain_text(msg):
+    if msg.is_multipart():
+        for part in msg.walk():
+            if part.get_content_type() == "text/plain" and "attachment" not in str(part.get("Content-Disposition", "")):
+                charset = part.get_content_charset() or "utf-8"
+                return part.get_payload(decode=True).decode(charset, errors="replace")
+        for part in msg.walk():
+            if part.get_content_type() == "text/html" and "attachment" not in str(part.get("Content-Disposition", "")):
+                charset = part.get_content_charset() or "utf-8"
+                raw = part.get_payload(decode=True).decode(charset, errors="replace")
+                return re.sub(r"<[^>]+>", " ", raw)
+        return "(pas de contenu texte trouve dans ce message)"
+    else:
+        charset = msg.get_content_charset() or "utf-8"
+        payload = msg.get_payload(decode=True)
+        return payload.decode(charset, errors="replace") if payload else msg.get_payload()
+
+
+def cmd_read(handle):
+    text = load()
+    cards = get_cards(text)
+    target = next((c for c in cards if c["attrs"].get("handle") == handle), None)
+    if not target or not target["attrs"].get("address"):
+        print(f"Pas d'adresse email connue pour {handle}.")
+        return
+    address = target["attrs"]["address"]
+    password = getpass.getpass(f"Mot de passe pour {SENDER} : ")
+    try:
+        imap = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
+        imap.login(SENDER, password)
+        imap.select("INBOX", readonly=True)
+        typ, data = imap.search(None, f'(FROM "{address}")')
+        if typ != "OK" or not data[0]:
+            print(f"Aucun email trouve de {address}.")
+            imap.logout()
+            return
+        last_id = data[0].split()[-1]
+        typ, msg_data = imap.fetch(last_id, "(BODY.PEEK[])")
+        imap.logout()
+        if typ != "OK" or not msg_data or not msg_data[0]:
+            print("Impossible de recuperer le message.")
+            return
+        msg = email_lib.message_from_bytes(msg_data[0][1])
+        print(f"De : {decode_mime_header(msg.get('From'))}")
+        print(f"Objet : {decode_mime_header(msg.get('Subject'))}")
+        print(f"Date : {msg.get('Date')}")
+        print("-" * 40)
+        print(extract_plain_text(msg).strip())
+    except Exception as ex:
+        print(f"Connexion IMAP impossible : {ex}", file=sys.stderr)
+
+
 def cmd_send():
     text = load()
     cards = get_cards(text)
@@ -333,6 +403,8 @@ def main():
         cmd_list_folders()
     elif cmd == "check-inbox":
         cmd_check_inbox()
+    elif cmd == "read" and len(sys.argv) == 3:
+        cmd_read(sys.argv[2])
     else:
         print(__doc__)
         sys.exit(1)
