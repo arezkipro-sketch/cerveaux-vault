@@ -580,6 +580,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[direct-response-copywriting]] *(stub)* — style visant une action immédiate mesurable plutôt que la notoriété de marque. *(1 src)*
 - [[benefits-over-features]] *(stub)* — vendre ce que le produit fait pour le lecteur plutôt que ses caractéristiques. *(1 src)*
 - [[creative-brief]] *(stub)* — document de cadrage d'un projet de copywriting freelance avant rédaction. *(1 src)*
+- [[personas-harnais-chien-expert]] — voice-of-customer pour harnais-chien-expert.fr : 5 personas opérationnels (bras arraché / primo-maître chiot / conducteur inquiet / sportif canicross / chien qui recule), vocabulaire client sourcé de 12 forums, règles de copy Wildone. *(2026-07-26)*
 
 ### Marketing & Tools
 - [[marketing-tactics]] — goal/strategy/tactic; tactics execute strategy; 12 examples. *(1 src)*
