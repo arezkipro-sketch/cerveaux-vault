@@ -51,6 +51,16 @@ Exception maintenue ouverte : `ceinture chien voiture`. Cette intention peut êt
 
 **Règle apprise** : une recommandation `content_creation` d'un outil SEO doit déclencher un mapping, pas une création automatique. Avant de créer : vérifier les collections existantes, la page cible GSC, la similarité SERP, le maillage interne et l'intention business. Si une collection transactionnelle existe déjà, elle doit rester la page cible.
 
+## Cas vécu — fausse alerte sur "harnais anti traction chien" (2026-08-09)
+
+Sur `/collections/harnais-anti-traction-chien` (position 55-94 sur toutes les variantes "anti traction", 0 clic malgré ~130 impressions/90j), conclusion initiale erronée : cannibalisation avec 12 fiches produits nommées "Harnais Chien Anti Traction [variante]" + la collection `harnais-grand-chien` (SEO title incluant aussi "Anti-Traction"). Cette conclusion était basée **uniquement sur la similarité des titres entre pages**, sans vérification SERP — exactement l'erreur méthodologique déjà documentée dans le cas du 22/07 ci-dessus.
+
+**Rappel de la méthode correcte (Arezki)** : pour confirmer une cannibalisation, il faut taper les mots-clés candidats dans la SERP (Google réel, pas seulement `site:`) et vérifier si les résultats se recoupent à plus de 50% — c'est le test SERP-similarity déjà listé plus haut, pas une comparaison de titres.
+
+Vérification faite a posteriori (GSC `query_page` sans filtre de page + recherche `site:`) : aucun des 12 produits n'apparaît en concurrence avec la collection sur les mêmes requêtes GSC — les produits ne rankent tout simplement pas sur ces termes, contrairement à la collection qui y apparaît (mal classée, mais présente). Pas de cannibalisation démontrable. Cause plus probable : "harnais anti traction chien" (8100 rech/mois) est un terme concurrentiel dominé par des sites établis (comparatifs), un jeune site n'y est pas encore compétitif — problème d'autorité, pas de cannibalisation interne.
+
+**Leçon renforcée** : la similarité de titres/mots-clés entre deux pages du même site est un signal d'alerte à investiguer, jamais une preuve. Toujours appliquer le test SERP (méthode 2 ou 4 ci-dessus au minimum, SERP-similarity si deux mots-clés distincts sont en jeu) avant de proposer une action corrective.
+
 ## Solutions
 1. **[[maillage-interne]]**: clear internal link hierarchy signals to Google which page is primary → [[jotaro-seo-keyword-cannibalization]].
 2. **[[cocon-semantique]]**: thematic grouping with explicit page mère/pages filles hierarchy prevents targeting conflicts → [[jotaro-seo-keyword-cannibalization]].
