@@ -189,7 +189,7 @@
 <h1>Suivi influenceurs — Harnais Chien Expert</h1>
 <p class="sub">Micro-influenceurs chien (FR) — critères formation : TikTok 30-100k abonnés / Instagram 10-50k, ≥10k vues moyennes sur les 10 dernières vidéos. Dédoublonnage par handle pour ne jamais recontacter deux fois la même personne.</p>
 <p class="sub">Envoi des emails : script local <code>hce_outreach.py</code> lancé manuellement (jamais automatique/cloud). Il envoie tout ce qui est badge "À valider" avec un email, et met à jour les statuts tout seul. Les DM Instagram/TikTok restent 100% manuels (copier-coller), jamais envoyés par script — marquer avec <code>mark-dm</code> après envoi.</p>
-<p class="sub">Dernière recherche : 2026-08-10 (3 rounds cumulés, ~180 comptes vérifiés) — 8 candidats dans le gabarit (dont @walou.frenchy, accepté), 2 borderline à trancher. Round 3 vérifié en direct via Playwright connecté (Instagram bloque la navigation anonyme, mais n'affiche toujours pas les vues des reels d'un compte tiers même connecté).</p>
+<p class="sub">Dernière recherche : 2026-08-11 (routine automatisée, 0 compte vérifiable) — 9 candidats dans readyGrid (dont @walou.frenchy, accepté), 1 borderline en pendingGrid. Sourcing du jour bloqué : `WebFetch` renvoie `EGRESS_BLOCKED` sur tous les domaines testés (Instagram, findly.co, woo.paris), `WebSearch` seul disponible mais ne donne que des résumés indirects sans handle/abonnés/vues vérifiables — 0 nouveau candidat ajouté (règle anti-fabrication). 2 relances rédigées (@oscar.cocker.spaniel, @petit.loup.francais, 2 jours sans réponse). Précédente recherche complète : 2026-08-10 (3 rounds cumulés, ~180 comptes vérifiés via Playwright interactif).</p>
 
 <div class="toolbar">
   <input id="filter" type="text" placeholder="Filtrer par nom, plateforme, statut...">
@@ -213,13 +213,13 @@
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@oscar.cocker.spaniel</span><br><span class="platform-pill">INSTAGRAM</span></div>
-      <span class="badge badge-contacte">Contacté</span>
+      <span class="badge badge-a-valider">À valider</span>
     </div>
     <div class="stats">
       <span class="stat-chip"><strong>46K</strong> abonnés</span>
       <span class="stat-chip">vues non vérifiables (IG)</span>
     </div>
-    <div class="notes">Cocker spaniel, compte "voix du chien" (Franche-Comté). Bon fit, dans le gabarit. — Contacté le 2026-08-09</div>
+    <div class="notes">Cocker spaniel, compte "voix du chien" (Franche-Comté). Bon fit, dans le gabarit. — Contacté le 2026-08-09, relance 1 prête (2 jours sans réponse)</div>
     <div class="contact-line"><span class="label">✉️ Email :</span> justinealbi17@hotmail.fr</div>
     <div class="actions">
       <button class="mailto-btn" onclick="openMail(this, 'justinealbi17@hotmail.fr', 'Une petite collab autour d\'Oscar 🐾')">✉️ Ouvrir dans Mail</button>
@@ -229,11 +229,9 @@
       <summary>Voir le message</summary>
       <div class="draft-body">Bonjour Justine,
 
-Je m'appelle Arezki, je m'occupe de Harnais Chien Expert, une boutique spécialisée dans les harnais et accessoires pour chiens. J'ai découvert le compte d'Oscar et j'ai adoré la proximité que vous avez avec votre communauté autour de "la voix du chien".
+Je me permets de revenir vers vous — je vous avais écrit il y a quelques jours au sujet d'une petite collab autour d'Oscar (un harnais offert, sans engagement, puis un code promo commissionné si le contenu vous plaît).
 
-On aimerait lui offrir un de nos harnais (sans engagement de votre côté) et, si le contenu vous plaît, mettre en place un code promo avec commission sur les ventes qu'il génère (pas de minimum, pas de fixe).
-
-Ça vous tente ? Je vous envoie les détails avec plaisir.
+Si ça vous tente toujours, dites-moi et je vous envoie les détails avec plaisir. Sinon aucun souci, bonne continuation à vous deux !
 
 Belle journée,
 Arezki — Harnais Chien Expert</div>
@@ -245,13 +243,13 @@ Arezki — Harnais Chien Expert</div>
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@petit.loup.francais</span><br><span class="platform-pill">INSTAGRAM</span></div>
-      <span class="badge badge-contacte">Contacté</span>
+      <span class="badge badge-a-valider">À valider</span>
     </div>
     <div class="stats">
       <span class="stat-chip"><strong>30K</strong> abonnés</span>
       <span class="stat-chip">vues non vérifiables (IG)</span>
     </div>
-    <div class="notes">2 huskies, Lyon. Dans le gabarit. Compte géré via une agence (mypetagency) → probable non-affiliation pure, à négocier. — Contacté le 2026-08-09</div>
+    <div class="notes">2 huskies, Lyon. Dans le gabarit. Compte géré via une agence (mypetagency) → probable non-affiliation pure, à négocier. — Contacté le 2026-08-09, relance 1 prête (2 jours sans réponse)</div>
     <div class="contact-line"><span class="label">✉️ Email :</span> petit.loup.francais@gmail.com</div>
     <div class="actions">
       <button class="mailto-btn" onclick="openMail(this, 'petit.loup.francais@gmail.com', 'Collab harnais pour vos 2 huskies 🐺')">✉️ Ouvrir dans Mail</button>
@@ -261,11 +259,11 @@ Arezki — Harnais Chien Expert</div>
       <summary>Voir le message</summary>
       <div class="draft-body">Bonjour,
 
-Je gère Harnais Chien Expert, une boutique de harnais et accessoires pour chiens. Le compte de vos 2 huskies m'a tapé dans l'œil, le format colle parfaitement à nos produits outdoor.
+Je reviens vers vous suite à mon message d'il y a quelques jours au sujet d'une collab pour vos 2 huskies (harnais offert, sans engagement, puis un code promo commissionné sur les ventes générées).
 
-On propose une collab en affiliation : un harnais offert, puis un code promo avec commission sur les ventes générées (pas de fixe au départ). Je vois que le compte passe par une agence, dites-moi si c'est le bon interlocuteur pour ce type de partenariat.
+Si le sujet vous intéresse — ou si c'est vous/l'agence qu'il faut relancer côté logistique — n'hésitez pas à me le faire savoir.
 
-Au plaisir d'échanger,
+Belle journée,
 Arezki — Harnais Chien Expert</div>
     </details>
   </div>
