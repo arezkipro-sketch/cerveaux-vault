@@ -69,6 +69,7 @@
   .badge-accepte     { background: #cdeccb; color: #1e5c1c; }
   .badge-refuse      { background: #f5cfcf; color: #7a1c1c; }
   .badge-sans-reponse{ background: #e4e0d8; color: #8a857a; }
+  .badge-en-pause    { background: #f7ddb0; color: #7a4e0b; }
   @media (prefers-color-scheme: dark) {
     .badge-a-valider   { background: #3a352b; color: #cfc8b8; }
     .badge-contacte    { background: #1c3a52; color: #a9d3f5; }
@@ -77,6 +78,7 @@
     .badge-accepte     { background: #1c3a1c; color: #a9e3a5; }
     .badge-refuse      { background: #4a1c1c; color: #f0a5a5; }
     .badge-sans-reponse{ background: #3a352b; color: #a89d8c; }
+    .badge-en-pause    { background: #4a3410; color: #f0c584; }
   }
 
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
@@ -211,6 +213,7 @@
     <option value="badge-accepte">Accepté</option>
     <option value="badge-refuse">Refusé</option>
     <option value="badge-sans-reponse">Sans réponse</option>
+    <option value="badge-en-pause">En pause</option>
   </select>
   <span class="count" id="rowCount"></span>
 </div>
@@ -383,13 +386,13 @@ Arezki — Harnais Chien Expert</div>
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@nyastiel</span><br><span class="platform-pill">INSTAGRAM</span></div>
-      <span class="badge badge-a-valider">À valider</span>
+      <span class="badge badge-en-pause">En pause</span>
     </div>
     <div class="stats">
       <span class="stat-chip"><strong>11,2K</strong> abonnés (vérifié en direct)</span>
       <span class="stat-chip">vues non vérifiables (IG)</span>
     </div>
-    <div class="notes">Border collie + éducation canine (site cynotopia.online lié en bio). Dans le gabarit, contenu mêle dressage/comportement.</div>
+    <div class="notes">Border collie + éducation canine (site cynotopia.online lié en bio). Dans le gabarit, contenu mêle dressage/comportement. — Educateur canin — souvent reticent a ce type de harnais (philosophie de dressage), mis en pause plutot que contacte au hasard.</div>
     <div class="contact-line"><span class="label">💬 Contact :</span> pas d'email visible en bio → DM Instagram. Interagir sur 2-3 posts avant d'envoyer. Marquer avec <code>mark-dm</code> une fois envoyé toi-même.</div>
     <div class="actions">
       <a class="profile-btn" href="https://www.instagram.com/nyastiel/" target="_blank" rel="noopener">📸 Ouvrir Instagram</a>
@@ -438,13 +441,13 @@ Arezki — Harnais Chien Expert</div>
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@pawsup_education</span><br><span class="platform-pill">INSTAGRAM</span></div>
-      <span class="badge badge-a-valider">À valider</span>
+      <span class="badge badge-en-pause">En pause</span>
     </div>
     <div class="stats">
       <span class="stat-chip"><strong>9 632</strong> abonnés (vérifié en direct)</span>
       <span class="stat-chip">vues non vérifiables (IG)</span>
     </div>
-    <div class="notes">Éducateur canin (Florian, Lille). Légèrement sous le repère (368 abonnés d'écart) mais validé, profil cohérent avec meiko_malinois/nyastiel déjà acceptés.</div>
+    <div class="notes">Éducateur canin (Florian, Lille). Légèrement sous le repère (368 abonnés d'écart) mais validé, profil cohérent avec meiko_malinois/nyastiel déjà acceptés. — Educateur canin — souvent reticent a ce type de harnais (philosophie de dressage), mis en pause plutot que contacte au hasard.</div>
     <div class="contact-line"><span class="label">💬 Contact :</span> pas d'email visible en bio → DM Instagram. Interagir sur 2-3 posts avant d'envoyer. Marquer avec <code>mark-dm</code> une fois envoyé toi-même.</div>
     <div class="actions">
       <a class="profile-btn" href="https://www.instagram.com/pawsup_education/" target="_blank" rel="noopener">📸 Ouvrir Instagram</a>
@@ -581,7 +584,8 @@ Arezki — Harnais Chien Expert</div>
       'badge-repondu': 'Répondu (à traiter)',
       'badge-accepte': 'Accepté',
       'badge-refuse': 'Refusé',
-      'badge-sans-reponse': 'Sans réponse'
+      'badge-sans-reponse': 'Sans réponse',
+      'badge-en-pause': 'En pause'
     };
     const counts = {};
     document.querySelectorAll('#readyGrid .badge, #pendingGrid .badge').forEach(b => {

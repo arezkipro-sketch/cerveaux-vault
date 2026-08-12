@@ -361,6 +361,7 @@ def cmd_mark_status(handle, status):
         "accepte": ("badge-accepte", "Accepté"),
         "refuse": ("badge-refuse", "Refusé"),
         "sans-reponse": ("badge-sans-reponse", "Sans réponse"),
+        "en-pause": ("badge-en-pause", "En pause"),
     }
     if status not in mapping:
         print(f"Statut inconnu : {status}. Choix possibles : {', '.join(mapping)}")
