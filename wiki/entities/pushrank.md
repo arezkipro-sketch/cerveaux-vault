@@ -383,3 +383,11 @@ Les 2 restantes (`garanties-legales`, `retours-remboursements`) avaient un vrai 
 **Nouvelle vague de decay/quick_win autour de cavalier king charles** (article + collection, detectés 2026-08-10) et 3 autres pages isolées (`harnais-petit-chien`, `harnais-chien-deconseille`, collection `harnais-husky`). Vérification volume réel : cavalier king charles (article et collection) ont un CTR déjà correct pour leur position (3.7-4% à la position ~7.2-7.7, dans la norme) — pas de vrai problème, juste une re-détection PushRank sur des pages déjà traitées en batch 3. `harnais-petit-chien` et la collection `harnais-husky` ne sont même pas dans le top 20 pages par clics : volume trop faible pour être un signal fiable. `harnais-chien-deconseille` a un CTR correct (5.1% à la position 9.3). **Décision : aucune action sur cette vague**, cohérent avec le choix de ne pas ouvrir un 4e chantier alors que l'expérience quiz (8+1 articles) et le lot d'hier (beagle/hernie discale) sont déjà en cours.
 
 Prochain suivi : idem hier, J+14 = 23/08 pour les 8 articles originaux, suivi propre pour hernie discale à partir du 10/08.
+
+## Session 2026-08-12 — ajout "adulte" au title beagle
+
+Arezki a repéré la nouvelle opportunité `low_ctr` sur la requête "harnais pour beagle adulte" (`/blogs/news/harnais-beagle`, position 1,7, 10 impressions/1 clic sur 28j). Volume trop faible pour juger le CTR de façon fiable (règle habituelle), mais la position en tête est déjà une bonne nouvelle — probablement l'effet du changement de title du 2026-08-10. Le title de cette date-là ("Harnais Beagle | Quel Modèle Choisir") ne mentionnait pas "adulte" alors que c'est précisément l'angle de la requête qui a le mieux progressé.
+
+Décision (à la demande d'Arezki, sans attendre plus de volume) : ajouter "Adulte" au title. Nouveau title_tag : `Harnais Beagle Adulte | Quel Modèle` (58 car. public). Meta ajustée en conséquence (143 car.). Publié et vérifié en direct.
+
+Referme l'item "en attente" noté en clôture du 2026-08-10 ("CTR beagle adulte à revérifier après propagation du nouveau snippet") — le nouveau snippet est maintenant en ligne, prochain contrôle à faire dans 2-3 semaines quand le volume aura eu le temps de s'accumuler.
