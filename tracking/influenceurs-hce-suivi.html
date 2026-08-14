@@ -197,7 +197,7 @@
 <h1>Suivi influenceurs — Harnais Chien Expert</h1>
 <p class="sub">Micro-influenceurs chien (FR) — critères formation : TikTok 30-100k abonnés / Instagram 10-50k, ≥10k vues moyennes sur les 10 dernières vidéos. Dédoublonnage par handle pour ne jamais recontacter deux fois la même personne.</p>
 <p class="sub">Envoi des emails : script local <code>hce_outreach.py</code> lancé manuellement (jamais automatique/cloud). Il envoie tout ce qui est badge "À valider" avec un email, et met à jour les statuts tout seul. Les DM Instagram/TikTok restent 100% manuels (copier-coller), jamais envoyés par script — marquer avec <code>mark-dm</code> après envoi.</p>
-<p class="sub">Dernière recherche : 2026-08-13 (routine automatisée, 0 compte vérifiable) — 9 candidats dans readyGrid (dont @walou.frenchy et @sayko_the_wolfdog, acceptés), 1 borderline en pendingGrid. Sourcing du jour bloqué : `WebFetch` renvoie `EGRESS_BLOCKED` (testé sur instagram.com), `WebSearch` seul disponible mais ne donne que des agrégats indirects (ex. "194 créateurs pet FR, médiane 8 699 abonnés") sans handle/abonnés/vues individuels vérifiables — 0 nouveau candidat ajouté (règle anti-fabrication). 4e jour consécutif de ce blocage (voir 2026-08-10, 11, 12). Aucune relance due aujourd'hui : @oscar.cocker.spaniel et @petit.loup.francais sont à count="2"/last-sent="2026-08-12" (1 jour d'écart, seuil de 2 jours pour la relance 2 non atteint). Précédente recherche complète : 2026-08-10 (3 rounds cumulés, ~180 comptes vérifiés via Playwright interactif).</p>
+<p class="sub">Dernière recherche : 2026-08-14 (routine automatisée, 0 compte vérifiable) — 9 candidats dans readyGrid (dont @walou.frenchy et @sayko_the_wolfdog, acceptés), 1 borderline en pendingGrid. Sourcing du jour bloqué : `WebFetch` renvoie toujours `EGRESS_BLOCKED` (testé aujourd'hui sur instagram.com ET en.wikipedia.org, confirmant un blocage général), `WebSearch` seul disponible mais ne donne que des agrégats indirects sans handle/abonnés/vues individuels vérifiables — 0 nouveau candidat ajouté (règle anti-fabrication). 5e jour consécutif de ce blocage (voir 2026-08-10 à 13). 2 relances rédigées aujourd'hui : @oscar.cocker.spaniel et @petit.loup.francais (count="2", last-sent="2026-08-12", 2 jours d'écart atteint) — relance 2 (dernière avant "Sans réponse"), badges repassés à "À valider" pour envoi manuel via `hce_outreach.py`. Précédente recherche complète : 2026-08-10 (3 rounds cumulés, ~180 comptes vérifiés via Playwright interactif).</p>
 
 <h2 style="margin-top:1rem;">📊 Avancement</h2>
 <div class="dashboard" id="dashboard"></div>
@@ -225,13 +225,13 @@
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@oscar.cocker.spaniel</span><br><span class="platform-pill">INSTAGRAM</span></div>
-      <span class="badge badge-contacte">Contacté</span>
+      <span class="badge badge-a-valider">À valider</span>
     </div>
     <div class="stats">
       <span class="stat-chip"><strong>46K</strong> abonnés</span>
       <span class="stat-chip">vues non vérifiables (IG)</span>
     </div>
-    <div class="notes">Cocker spaniel, compte "voix du chien" (Franche-Comté). Bon fit, dans le gabarit. — Contacté le 2026-08-09, relance 1 prête (2 jours sans réponse) — Contacté le 2026-08-12</div>
+    <div class="notes">Cocker spaniel, compte "voix du chien" (Franche-Comté). Bon fit, dans le gabarit. — Contacté le 2026-08-09 — Relancé le 2026-08-12 — Relance 2 (dernière) prête le 2026-08-14, aucune réponse à ce jour</div>
     <div class="contact-line"><span class="label">✉️ Email :</span> justinealbi17@hotmail.fr</div>
     <div class="actions">
       <button class="mailto-btn" onclick="openMail(this, 'justinealbi17@hotmail.fr', 'Une petite collab autour d\'Oscar 🐾')">✉️ Ouvrir dans Mail</button>
@@ -241,11 +241,11 @@
       <summary>Voir le message</summary>
       <div class="draft-body">Bonjour Justine,
 
-Je me permets de revenir vers vous — je vous avais écrit il y a quelques jours au sujet d'une petite collab autour d'Oscar (un harnais offert, sans engagement, puis un code promo commissionné si le contenu vous plaît).
+Je me permets un tout dernier petit mot à ce sujet — je comprends que le moment n'est peut-être pas le bon, donc pas d'insistance de ma part après celui-ci !
 
-Si ça vous tente toujours, dites-moi et je vous envoie les détails avec plaisir. Sinon aucun souci, bonne continuation à vous deux !
+Si jamais l'idée d'un harnais offert pour Oscar (sans engagement, puis code promo commissionné si ça vous plaît) vous tente un jour, la porte reste ouverte, il suffit de me faire signe.
 
-Belle journée,
+Belle journée à vous deux,
 Arezki — Harnais Chien Expert</div>
     </details>
   </div>
@@ -255,13 +255,13 @@ Arezki — Harnais Chien Expert</div>
   <div class="candidate-card instagram">
     <div class="card-head">
       <div><span class="handle">@petit.loup.francais</span><br><span class="platform-pill">INSTAGRAM</span></div>
-      <span class="badge badge-contacte">Contacté</span>
+      <span class="badge badge-a-valider">À valider</span>
     </div>
     <div class="stats">
       <span class="stat-chip"><strong>30K</strong> abonnés</span>
       <span class="stat-chip">vues non vérifiables (IG)</span>
     </div>
-    <div class="notes">2 huskies, Lyon. Dans le gabarit. Compte géré via une agence (mypetagency) → probable non-affiliation pure, à négocier. — Contacté le 2026-08-09, relance 1 prête (2 jours sans réponse) — Contacté le 2026-08-12</div>
+    <div class="notes">2 huskies, Lyon. Dans le gabarit. Compte géré via une agence (mypetagency) → probable non-affiliation pure, à négocier. — Contacté le 2026-08-09 — Relancé le 2026-08-12 — Relance 2 (dernière) prête le 2026-08-14, aucune réponse à ce jour</div>
     <div class="contact-line"><span class="label">✉️ Email :</span> petit.loup.francais@gmail.com</div>
     <div class="actions">
       <button class="mailto-btn" onclick="openMail(this, 'petit.loup.francais@gmail.com', 'Collab harnais pour vos 2 huskies 🐺')">✉️ Ouvrir dans Mail</button>
@@ -271,9 +271,9 @@ Arezki — Harnais Chien Expert</div>
       <summary>Voir le message</summary>
       <div class="draft-body">Bonjour,
 
-Je reviens vers vous suite à mon message d'il y a quelques jours au sujet d'une collab pour vos 2 huskies (harnais offert, sans engagement, puis un code promo commissionné sur les ventes générées).
+Je me permets un tout dernier message à ce sujet, sans vouloir insister davantage après celui-ci.
 
-Si le sujet vous intéresse — ou si c'est vous/l'agence qu'il faut relancer côté logistique — n'hésitez pas à me le faire savoir.
+Si l'idée d'une collab pour vos 2 huskies (harnais offert, sans engagement, puis code promo commissionné) vous intéresse un jour — vous ou l'agence — n'hésitez pas à revenir vers moi.
 
 Belle journée,
 Arezki — Harnais Chien Expert</div>
