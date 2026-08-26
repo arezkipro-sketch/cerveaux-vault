@@ -197,7 +197,7 @@
 <h1>Suivi influenceurs — Harnais Chien Expert</h1>
 <p class="sub">Micro-influenceurs chien (FR) — critères formation : TikTok 30-100k abonnés / Instagram 10-50k, ≥10k vues moyennes sur les 10 dernières vidéos. Dédoublonnage par handle pour ne jamais recontacter deux fois la même personne.</p>
 <p class="sub">Envoi des emails : script local <code>hce_outreach.py</code> lancé manuellement (jamais automatique/cloud). Il envoie tout ce qui est badge "À valider" avec un email, et met à jour les statuts tout seul. Les DM Instagram/TikTok restent 100% manuels (copier-coller), jamais envoyés par script — marquer avec <code>mark-dm</code> après envoi.</p>
-<p class="sub">Dernière recherche : 2026-08-25 (routine automatisée, 0 compte vérifiable) — 9 candidats dans readyGrid (dont @walou.frenchy et @sayko_the_wolfdog, acceptés), 1 borderline en pendingGrid. Sourcing du jour bloqué : `WebFetch` toujours `EGRESS_BLOCKED`, testé aujourd'hui sur www.instagram.com/walou.frenchy — même un profil individuel déjà connu reste inaccessible. `WebSearch` seul disponible et fonctionnel (4 requêtes distinctes : influenceurs chien TikTok face caméra 2026, comptes IG ~20K abonnés portrait quotidien, codes promo influenceur chien France 2026) mais ne remonte que des agrégats génériques (woo.paris, lessie.ai, findly.co, chien-chien.com, utopix.com, community.skeepers.io) sans handle+abonnés+vues individuels vérifiables dans le gabarit ; comptes cités soit trop gros et déjà connus (Léa ~900K TikTok, Tom/Seven 2,6M), soit sans handle exploitable (@naya_the_chihuahua cité à 10K mais donnée non vérifiable/probablement datée, sous le seuil IG de toute façon) → **0 nouveau candidat ajouté** (règle anti-fabrication). 16e jour consécutif de ce blocage réseau (2026-08-10 à 2026-08-25, 2 semaines + 2 jours). Relances (étape 3) : aucune carte au badge "Contacté" actuellement — @oscar.cocker.spaniel et @petit.loup.francais restent au badge "À valider" (relance 2 rédigée le 2026-08-14, `count`="2"/`last-sent`="2026-08-12" inchangés, envoi manuel via `hce_outreach.py` toujours en attente côté humain) → rien à rédiger aujourd'hui. Précédente recherche complète : 2026-08-10 (3 rounds cumulés, ~180 comptes vérifiés via Playwright interactif).</p>
+<p class="sub">Dernière recherche : 2026-08-26 (routine automatisée) — 10 candidats dans readyGrid (dont @walou.frenchy et @sayko_the_wolfdog, acceptés), 1 borderline en pendingGrid. `WebFetch` toujours `EGRESS_BLOCKED` (testé aujourd'hui sur www.instagram.com/sayko_the_wolfdog et metricool.com), 17e jour consécutif (2026-08-10 à 2026-08-26). `WebSearch` a permis de trouver **1 nouveau candidat vérifiable indirectement** : @akita_thereallife (IG, 19K abonnés, handle et follower count corroborés par plusieurs sources indépendantes — Instagram lui-même, articles Santévet — malgré l'absence d'accès direct), ajouté en readyGrid avec DM rédigé. Une 2e piste ("Malou et Wapi", ~18K abonnés, chiens des Pyrénées) trouvée via plusieurs listicles mais **pas de handle Instagram exploitable retrouvé après recherche ciblée** → non ajoutée, pas de handle inventé (règle anti-fabrication). Autres requêtes (comptes similaires niche harnais, TikTok ~40K quotidien race) : uniquement agrégats génériques déjà vus (woo.paris, community.skeepers.io, dogami.fr) ou comptes hors gabarit déjà écartés. Relances (étape 3) : aucune carte au badge "Contacté" actuellement — @oscar.cocker.spaniel et @petit.loup.francais restent au badge "À valider" (relance 2 rédigée le 2026-08-14, `count`="2"/`last-sent`="2026-08-12" inchangés, envoi manuel via `hce_outreach.py` toujours en attente côté humain) → rien à rédiger aujourd'hui. Précédente recherche complète : 2026-08-10 (3 rounds cumulés, ~180 comptes vérifiés via Playwright interactif).</p>
 
 <h2 style="margin-top:1rem;">📊 Avancement</h2>
 <div class="dashboard" id="dashboard"></div>
@@ -456,6 +456,29 @@ Arezki — Harnais Chien Expert</div>
     <details class="draft-toggle">
       <summary>Voir le message</summary>
       <div class="draft-body">Salut ! Je gère Harnais Chien Expert, une boutique de harnais et accessoires pour chiens 🐾 Votre contenu autour de l'éducation canine colle bien avec ce qu'on propose. Ça vous dirait une petite collab (harnais offert + code promo commissionné, sans engagement) ? Dites-moi si ça vous parle.</div>
+    </details>
+  </div>
+<!-- /CARD -->
+
+<!-- CARD handle="@akita_thereallife" contact="dm" address="" subject="" count="0" last-sent="" -->
+  <div class="candidate-card instagram">
+    <div class="card-head">
+      <div><span class="handle">@akita_thereallife</span><br><span class="platform-pill">INSTAGRAM</span></div>
+      <span class="badge badge-a-valider">À valider</span>
+    </div>
+    <div class="stats">
+      <span class="stat-chip"><strong>19K</strong> abonnés</span>
+      <span class="stat-chip">vues non vérifiables (IG)</span>
+    </div>
+    <div class="notes">Laetitia (Bordeaux), 2 Akita — Yuki (Akita Inu) et Yume (Akita américain), contenu quotidien + éducatif sur la race. Dans le gabarit IG. Couverture presse (interviews Santévet) → bon signal de sérieux/crédibilité. Compte également actif sur TikTok (même handle) mais abonnés/vues non retrouvés, non pris en compte dans le gabarit.</div>
+    <div class="contact-line"><span class="label">💬 Contact :</span> pas d'email trouvé → DM Instagram. Interagir sur 2-3 posts avant d'envoyer (pas de DM "en pirate"). Marquer avec <code>mark-dm</code> une fois envoyé toi-même.</div>
+    <div class="actions">
+      <a class="profile-btn" href="https://www.instagram.com/akita_thereallife/" target="_blank" rel="noopener">📸 Ouvrir Instagram</a>
+      <button class="copy-btn" onclick="copyDraft(this)">Copier le texte</button>
+    </div>
+    <details class="draft-toggle">
+      <summary>Voir le message</summary>
+      <div class="draft-body">Salut ! Je gère Harnais Chien Expert 🐾 Yuki et Yume sont superbes, et j'aime beaucoup le côté éducatif que vous apportez sur les Akita, ça change des comptes purement lifestyle. Ça vous dirait qu'on vous envoie un harnais offert (sans engagement), puis un code promo commissionné si l'idée vous plaît ? Dites-moi si ça vous intéresse, je vous partage les détails avec plaisir.</div>
     </details>
   </div>
 <!-- /CARD -->
