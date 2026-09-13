@@ -1570,3 +1570,6 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - **Relances (étape 3)** : aucune carte au badge "Contacté" actuellement — @oscar.cocker.spaniel et @petit.loup.francais restent au badge "À valider" (relance 2/dernière déjà rédigée le 2026-08-14, `count`="2"/`last-sent`="2026-08-12" inchangés, envoi manuel via `hce_outreach.py` toujours en attente côté humain). Rien à rédiger aujourd'hui. Cartes aux badges Accepté/Répondu/En pause non touchées, conforme à la règle.
 - **Fichier mis à jour** : ligne "Dernière recherche" seulement. Aucune carte ready/pending/écartée ajoutée aujourd'hui.
 - **Blocage réseau** : 36e jour, toujours actif. Checkpoint 1 mois déjà notifié le 2026-09-07 — pas de nouvelle notification aujourd'hui, prochain checkpoint naturel à 5 semaines le 2026-09-14 (demain) si le blocage persiste toujours. Recommandation inchangée : élargir l'allowlist réseau de l'environnement de la routine (instagram.com, tiktok.com au minimum), ou basculer cette tâche en mode interactif/manuel.
+
+## [2026-09-13] synthesis | Rien à synthétiser cette semaine
+- Fenêtre vérifiée : 2026-09-06 → 2026-09-13. Aucune entrée `ingest` dans `log.md` sur cette période (dernières entrées : `outreach` quotidien, `maint` du 2026-09-07). Dernier `ingest` réel remonte au 2026-08-07.
