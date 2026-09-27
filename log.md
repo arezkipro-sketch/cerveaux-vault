@@ -1719,3 +1719,6 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - **Fichier mis à jour** : ligne "Dernière recherche" + 2 nouvelles lignes dans la table des écartés (@banda_balou, @helly_and_the_mountains). Aucune carte ready/pending ajoutée aujourd'hui (15 cartes actives, inchangé).
 - **Gate halal** : rien de nouveau à évaluer côté candidats actifs (les 2 pistes du jour sont des écartés, pas de contenu à valider).
 - **Blocage réseau** : 50e jour, toujours actif. Dernier checkpoint (6 semaines) atteint le 2026-09-20/21 — prochain palier naturel à 7 semaines vers le 2026-09-28, soit demain si le blocage persiste. Recommandation inchangée : élargir l'allowlist réseau de l'environnement de la routine (instagram.com, tiktok.com au minimum, socialblade.com), ou basculer cette tâche en mode interactif/manuel.
+
+## [2026-09-27] synthesis | Rien à synthétiser cette semaine
+- Fenêtre vérifiée : 2026-09-20 → 2026-09-27. Aucune entrée `## [YYYY-MM-DD] ingest | ...` dans cette fenêtre (dernier ingest réel : 2026-08-07 — étude de cas @JotaroSEO citations IA Bing/Copilot). Les entrées de la semaine sont uniquement `outreach` (sourcing influenceurs HCE, hors périmètre synthèse) et `maint` du 2026-09-21.
