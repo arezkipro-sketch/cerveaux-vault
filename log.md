@@ -1805,3 +1805,6 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - Mise à jour de la ligne "Dernière recherche" dans `tracking/influenceurs-hce-suivi.html` (date, méthodologie du jour). Aucune carte ajoutée/modifiée dans `readyGrid`/`pendingGrid`, aucune ligne ajoutée à la table des écartés — marqueurs CARD re-vérifiés intacts après édition (15/15, aucun handle dupliqué).
 - Gate halal : rien de nouveau à évaluer côté candidats actifs (aucun ajout aujourd'hui).
 - Pas de nouvelle notification envoyée aujourd'hui : le blocage réseau est le même problème déjà escaladé le 2026-09-29, sans changement d'état — re-notifier quotidiennement pour un blocage inchangé serait du bruit. Recommandation inchangée, en attente d'une action utilisateur (élargir l'allowlist réseau ou repasser la tâche en mode interactif).
+
+## [2026-10-04] synthesis | Rien à synthétiser cette semaine
+- Fenêtre vérifiée : 2026-09-27 → 2026-10-04. Aucune entrée `## [YYYY-MM-DD] ingest | ...` dans cette fenêtre (dernier ingest réel : 2026-08-07 — étude de cas @JotaroSEO citations IA Bing/Copilot). Les entrées de la semaine sont uniquement `outreach` (sourcing influenceurs HCE, hors périmètre synthèse) et `maint` du 2026-09-28.
