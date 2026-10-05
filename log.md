@@ -1830,3 +1830,9 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 - Gate halal : rien de nouveau à évaluer côté candidats actifs (aucun ajout aujourd'hui).
 - Pas de nouvelle notification envoyée aujourd'hui : le blocage réseau est le même problème déjà escaladé le 2026-09-29, sans changement d'état — re-notifier quotidiennement pour un blocage inchangé serait du bruit. Recommandation inchangée, en attente d'une action utilisateur (élargir l'allowlist réseau ou repasser la tâche en mode interactif).
 - **Infra — HEAD au démarrage** : session démarrée en `HEAD detached from refs/heads/main` sur f080901 (dernier commit déjà présent sur `origin/main`), branche locale `main` à jour mais non checked-out. Corrigé via `git checkout main && git merge --ff-only origin/main`, fast-forward propre, aucune perte de données.
+
+## [2026-10-05] query | Analyse prix d'achat / marges catalogue Harnais Chien Expert
+- Livrable : `tracking/analyse-prix-aliexpress-2026-10-05.xlsx` (onglets Analyse prix / Résumé / Méthode), script de génération `tracking/analyse_prix_aliexpress.py`.
+- Catalogue lu en lecture seule via l'API Admin Shopify (76 produits actifs hors PDF offert). Aucun prix modifié sur la boutique.
+- fr.aliexpress.com et harnais-chien-expert.fr bloqués par l'egress proxy (`EGRESS_BLOCKED`) → recherche par image AliExpress impossible. Prix d'achat = « coût par article » Shopify (variante M ou taille médiane), marqué NON VÉRIFIÉ dans le fichier ; liens AliExpress = recherches par mots-clés à contrôler.
+- Résultat : coef. moyen actuel 3,37 → 2,98 après recommandation ; 47 à baisser, 8 à garder, 6 à augmenter, 10 à marge faible (sacoches, canicross+laisse, sécurité, tactique pochettes, laisse tactique), 5 à retirer/changer de fournisseur (ergonomique, cuir, 2 laisses réfléchissantes, distributeur).
