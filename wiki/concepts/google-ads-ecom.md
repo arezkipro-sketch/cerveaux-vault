@@ -38,7 +38,7 @@ CPC manuel réglé sur le CPC **moyen** (jamais le bas — cause n°1 d'une camp
 - Complémentaire à [[meta-ads-ecom]] : Meta = intention froide/création de demande, Google = intention chaude/capture de demande. Beaucoup de praticiens lancent Google Ads 1-2 mois après avoir validé le SEO ([[seo-roadmap]]), le site étant trop jeune pour le Merchant Center sinon.
 - Mots-clés transactionnels courts/moyens visés en Search Acquisition rejoignent la logique [[long-tail-keywords]] côté SEO (longue traîne = fiches produit, traîne moyenne/courte = Search Ads).
 - Convergence gate qualité : ce que Google sanctionne sur Merchant Center (faux avis, fausse urgence) recoupe exactement les signaux de pénalité déjà documentés côté SEO → [[black-hat-seo]].
-- Détail opérationnel complet (setup, campagnes, pilotage, checklist) → [[09 - Méthode e-com Google Ads/00 - Vue d'ensemble — Méthode e-com Google Ads]].
+- Détail opérationnel complet (setup, campagnes, pilotage, checklist) → [[methode-ecom-google-ads]].
 
 ## Sources
 - [[lameute-google-ads-influence-2026]] — formation La Meute module 13 + live Yassfox, via cerveau Obsidian Google d'un ami.

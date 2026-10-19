@@ -306,7 +306,7 @@ Vérification post-publication : les 10 URLs répondent en 200. Les titles publi
 
 Point laissé ouvert : l'alerte PushRank `slug trop long` du guide taille reste volontairement en todo. Une modification d'URL doit être traitée à part avec analyse de risque, redirect 301 et contrôle de cannibalisation.
 
-## Session 2026-08-08 — premier lot via [[project_seo_harnais_workspace]], titres produits (faux positif) + template meta description policies
+## Session 2026-08-08 — premier lot via [[project-seo-harnais-workspace]], titres produits (faux positif) + template meta description policies
 
 Premier lot exécuté depuis le nouveau workspace `~/seo-harnais`. 8 opportunités `high` priority traitées.
 

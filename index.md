@@ -356,6 +356,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 
 ### Concepts
 - [[google-ads-ecom]] — équation de validation CPC×visiteurs<marge, campagne Shopping 80% budget, règle Merchant Center (cohérence littérale), ROAS break-even, ratio testing/scaling 20/80. *(1 src)*
+- [[methode-ecom-google-ads]] *(stub)* — point d'entrée créé en maintenance pour le module opérationnel Google Ads (setup/campagnes/pilotage/checklist) jamais ingéré comme page distincte ; voir [[google-ads-ecom]] pour le résumé.
 - [[merchant-center-conformite]] — cohérence littérale site↔Merchant Center, motif de suspension "misrepresentation", checklist délais/adresse/CGV. *(1 src)*
 - [[retargeting]] — reciblage Meta/TikTok du trafic Google (97-99% non converti), 6 types de créas, adaptation par plateforme. *(1 src)*
 - [[marketing-influence-affiliation]] — micro-influenceurs 100% affiliation via GoAffPro, commission 10-20%, séquence de contact 3 mails, 3 non-négociables contenu. *(1 src)*
@@ -610,6 +611,7 @@ Content catalog of the whole wiki. The LLM reads this first on every query and u
 - [[tailwind-css]] — utility-first CSS framework. *(1 src)*
 - [[jotaro-seo]] — French-language SEO educator on X; author of 21 ingested threads. *(21 src)*
 - [[pushrank]] — AI SEO monitoring tool by @JotaroSeo ; sorti de pré-lancement, usage réel via MCP (types d'opportunités, bugs connus, journal harnais-chien-expert.fr). *(3 src)*
+- [[project-seo-harnais-workspace]] *(stub)* — workspace local `~/seo-harnais` utilisé pour traiter les opportunités [[pushrank]] du site harnais-chien-expert.fr.
 - [[alex-groberman]] — @alexgroberman, AI SEO researcher, seo-stuff.com; introduced citation absorption framework. *(4 src)*
 - [[sarvesh-alventra]] — @bloggersarvesh, Sarvesh, Alventra Marketing; local SEO practitioner; 14 years experience. *(2 src)*
 - [[semrush]] — B2B SEO platform; major AI SEO research publisher; 14 articles ingested; commercial bias noted. *(14 src)*
