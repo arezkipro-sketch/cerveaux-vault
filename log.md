@@ -2439,3 +2439,10 @@ Vérification publique ajoutée : les 10 pages affichent bien les metas publiée
 ## [2026-11-15] synthesis | Rien à synthétiser cette semaine
 - Fenêtre vérifiée : entrées `log.md` du 2026-11-08 au 2026-11-15.
 - Aucune entrée `ingest` dans cette fenêtre (uniquement des entrées `outreach` et `maint` — dernier `ingest` remonte au 2026-08-07). Rien à synthétiser.
+
+## [2026-11-16] maint | Maintenance hebdo automatisée — rien à signaler
+- Wikilinks vérifiés : `grep -rohE '\[\[[^]]+\]\]' wiki/ | sort -u` → 735 cibles brutes, résolues par script contre tous les fichiers `wiki/**/*.md` (nom normalisé kebab-case, alias `|` et ancres `#` ignorés).
+- **Liens cassés trouvés/corrigés : 0 lien wiki-vers-wiki réellement cassé.** Les ~209 cibles non résolues sont toutes des pointeurs `raw:` en frontmatter de `wiki/sources/*.md` (titres originaux cités entre doubles crochets comme convention de citation, hors périmètre — `raw/` est la couche géologique immuable, aucun stub créé) + 1 faux positif déjà connu (`[[X]]` exemple littéral dans `wiki/topics/synthese-2026-W32.md`). Identique en substance aux relevés des semaines précédentes.
+- **Pages orphelines repérées : 1, déjà connue.** `wiki/concepts/personas-harnais-chien-expert.md` reste sans backlink entrant depuis `wiki/`. Aucun nouvel orphelin dans `wiki/entities/` (0/60).
+- **Entrées index.md ajoutées : 0.** Vérification exhaustive : tous les fichiers de `wiki/sources/` (246), `wiki/concepts/` (218), `wiki/entities/` (60) et `wiki/topics/` (12) sont déjà référencés dans `index.md` — aucun nouveau fichier créé depuis le dernier `maint` (toujours pas d'`ingest` cette semaine).
+- Note en passant (hors périmètre, non modifiée) : la note `CLAUDE.md` « `wiki/overview.md` n'existe pas » reste obsolète — le fichier existe depuis 2026-07-11.
