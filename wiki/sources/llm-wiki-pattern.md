@@ -2,7 +2,7 @@
 type: source
 title: LLM Wiki — A Pattern for Personal Knowledge Bases
 slug: llm-wiki-pattern
-raw: "[[llm-wiki-idea]]"
+raw: "[[raw/assets/llm-wiki-idea.md]]"
 source-url: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
 source-type: gist
 author: Andrej Karpathy

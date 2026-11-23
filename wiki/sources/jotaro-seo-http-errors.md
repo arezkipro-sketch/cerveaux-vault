@@ -2,7 +2,7 @@
 type: source
 title: HTTP Errors and SEO Impact — X Thread
 slug: jotaro-seo-http-errors
-raw: "[[jotaro-seo-http-errors-x-thread]]"
+raw: "[[raw/assets/jotaro-seo-http-errors-x-thread.md]]"
 source-url: https://x.com/JotaroSeo/status/1695874054735982687
 source-type: tweet-thread
 author: "@JotaroSeo"

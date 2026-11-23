@@ -2,7 +2,7 @@
 type: source
 title: Long-Tail Keyword Strategy and Cocon Sémantique — X Thread
 slug: jotaro-seo-long-tail-strategy
-raw: "[[jotaro-seo-long-tail-strategy-x-thread]]"
+raw: "[[raw/assets/jotaro-seo-long-tail-strategy-x-thread.md]]"
 source-url: https://x.com/JotaroSeo/status/1704180315529367915
 source-type: tweet-thread
 author: "@JotaroSeo"

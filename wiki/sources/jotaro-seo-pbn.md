@@ -2,7 +2,7 @@
 type: source
 title: "Qu'est-ce qu'un PBN ? Sa puissance dans le SEO"
 slug: jotaro-seo-pbn
-raw: "[[Qu’est-ce qu’un PBN]]"
+raw: "[[raw/assets/Qu’est-ce qu’un PBN.md]]"
 source_url: "https://x.com/JotaroSeo/status/1741162519681511878"
 source_type: x-thread
 author: "[[jotaro-seo]]"

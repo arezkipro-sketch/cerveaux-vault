@@ -2,7 +2,7 @@
 type: source
 title: Exact Match Domains (EMD) — X Thread
 slug: jotaro-seo-exact-match-domain
-raw: "[[jotaro-seo-exact-match-domain-x-thread]]"
+raw: "[[raw/assets/jotaro-seo-exact-match-domain-x-thread.md]]"
 source-url: https://x.com/JotaroSeo/status/1700911646284116216
 source-type: tweet-thread
 author: "@JotaroSeo"
